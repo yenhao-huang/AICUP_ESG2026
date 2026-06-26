@@ -5,7 +5,7 @@
 #   bash scripts/data/get_ensemble_model_data_for_stage1.sh
 #
 # Pipeline:
-#   data/synthesis_data/stage1/*.json
+#   data/synthesis_data/stage1/a3_b1_add_val.json
 #     -> core/service/data/split_train_val_by_class.py per seed
 #     -> data/ensemble_data/stage1/<dataset>/seed<S>/
 
@@ -20,7 +20,7 @@ VAL_RATIO="${VAL_RATIO:-0.2}"
 LABEL_KEY="${LABEL_KEY:-promise_status}"
 INPUT_DIR="${INPUT_DIR:-data/synthesis_data/stage1}"
 OUTPUT_DIR="${OUTPUT_DIR:-data/ensemble_data/stage1}"
-INPUT_GLOB="${INPUT_GLOB:-*.json}"
+INPUT_FILE="${INPUT_FILE:-a3_b1_add_val.json}"
 PYTHON="${PYTHON:-.venv/bin/python}"
 SPLITTER="${SPLITTER:-core/service/data/split_train_val_by_class.py}"
 # =============================================================================
@@ -32,36 +32,29 @@ fi
 [ -d "$INPUT_DIR" ] || { echo "[error] missing input dir: $INPUT_DIR" >&2; exit 1; }
 [ -f "$SPLITTER" ] || { echo "[error] missing splitter: $SPLITTER" >&2; exit 1; }
 
-shopt -s nullglob
-INPUTS=("$INPUT_DIR"/$INPUT_GLOB)
-shopt -u nullglob
+INPUT="$INPUT_DIR/$INPUT_FILE"
 
-[ "${#INPUTS[@]}" -gt 0 ] || {
-  echo "[error] no inputs matched: $INPUT_DIR/$INPUT_GLOB" >&2
-  exit 1
-}
+[ -f "$INPUT" ] || { echo "[error] missing input file: $INPUT" >&2; exit 1; }
 
 echo "### stage1 ensemble data"
-echo "input_dir=$INPUT_DIR output_dir=$OUTPUT_DIR splitter=$SPLITTER"
+echo "input=$INPUT output_dir=$OUTPUT_DIR splitter=$SPLITTER"
 echo "seeds=[${SEEDS[*]}] val_ratio=$VAL_RATIO label=$LABEL_KEY"
 
-for input in "${INPUTS[@]}"; do
-  dataset="$(basename "$input" .json)"
-  echo "=== [dataset=$dataset] input=$input ==="
+dataset="$(basename "$INPUT" .json)"
+echo "=== [dataset=$dataset] input=$INPUT ==="
 
-  for seed in "${SEEDS[@]}"; do
-    out="$OUTPUT_DIR/$dataset/seed${seed}"
-    mkdir -p "$out"
-    echo "--- [dataset=$dataset seed=$seed] -> $out ---"
+for seed in "${SEEDS[@]}"; do
+  out="$OUTPUT_DIR/$dataset/seed${seed}"
+  mkdir -p "$out"
+  echo "--- [dataset=$dataset seed=$seed] -> $out ---"
 
-    "$PYTHON" "$SPLITTER" \
-      --input "$input" \
-      --train-out "$out/${dataset}.train.json" \
-      --val-out "$out/${dataset}.val.json" \
-      --label-key "$LABEL_KEY" \
-      --val-ratio "$VAL_RATIO" \
-      --seed "$seed"
-  done
+  "$PYTHON" "$SPLITTER" \
+    --input "$INPUT" \
+    --train-out "$out/${dataset}.train.json" \
+    --val-out "$out/${dataset}.val.json" \
+    --label-key "$LABEL_KEY" \
+    --val-ratio "$VAL_RATIO" \
+    --seed "$seed"
 done
 
 echo "### stage1 ensemble data DONE"
