@@ -27,16 +27,9 @@ Use `init.sh` as the checklist for agent handoff.
 
 ```mermaid
 flowchart TD
-    A[Start agent work] --> B[Run ./init.sh start]
-    B --> C[Read Task.md]
-    C --> D[Read Progress.md]
-    D --> E[Read Decisions.md]
-    E --> F[Inspect git status]
-    F --> G[Do the assigned work]
-    G --> H[Run relevant validation]
-    H --> I[Run ./init.sh finish]
-    I --> J[Update Progress.md]
-    J --> K[Record major decisions in Decisions.md]
-    K --> L[Inspect git status]
-    L --> M[Create checkpoint commit when appropriate]
+    A[Run ./init.sh start<br/>Read Task.md, Progress.md, Decisions.md<br/>Inspect git status]
+    A --> B[Do assigned work]
+    B --> C[Run validation]
+    C --> D[Run ./init.sh finish<br/>Update Progress.md and Decisions.md<br/>Inspect git status]
+    D --> E[Create checkpoint commit when appropriate]
 ```
