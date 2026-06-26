@@ -1,0 +1,64 @@
+train_path: /tmp2/howard/side_project/esg_contest/data/train.json
+
+models:
+  baseline:
+    pretrain_model: hfl/chinese-roberta-wwm-ext
+    model_dir: /tmp2/howard/side_project/esg_contest/models/baseline
+    batch_size: 16
+    grad_accum: 1
+    lr: 2e-5
+  large:
+    pretrain_model: hfl/chinese-roberta-wwm-ext-large
+    model_dir: /tmp2/howard/side_project/esg_contest/models/large
+    batch_size: 8
+    grad_accum: 2
+    lr: 1e-5
+  modernbert_base:
+    pretrain_model: /models/answerdotai-ModernBERT-base
+    model_dir: /workspace/esg_contest/models/exp31_modernbert_base
+    batch_size: 16
+    grad_accum: 1
+    lr: 2e-5
+  zhinao_modernbert:
+    pretrain_model: /models/qihoo360-Zhinao-ChineseModernBert-Embedding
+    model_dir: /workspace/esg_contest/models/exp31_zhinao_modernbert
+    batch_size: 8
+    grad_accum: 2
+    lr: 2e-5
+  zhinao_base:
+    pretrain_model: /models/Zhinao-ChineseModernBert
+    model_dir: /workspace/esg_contest/models/exp35_zhinao_base
+    batch_size: 16
+    grad_accum: 1
+    lr: 2e-5
+  bert_base_chinese:
+    pretrain_model: /models/google-bert-base-chinese
+    model_dir: /workspace/esg_contest/models/exp31_bert_base_chinese
+    batch_size: 16
+    grad_accum: 1
+    lr: 2e-5
+  modernbert_large:
+    pretrain_model: /models/AI-ModelScope-ModernBERT-large
+    model_dir: /workspace/esg_contest/models/exp31_modernbert_large
+    batch_size: 4
+    grad_accum: 4
+    lr: 1e-5
+
+  esg_mlm_large:
+    pretrain_model: /models/esg_mlm_pretrain_cont/final/
+    model_dir: /models/esg_contest/esg_mlm_large_st1
+    batch_size: 8
+    grad_accum: 2
+    lr: 1e-5
+
+  esg_mlm_ep15:
+    pretrain_model: /models/esg_mlm_pretrain_ep15/final/
+    model_dir: /models/esg_contest/esg_mlm_ep15_st1
+    batch_size: 4
+    grad_accum: 4
+    lr: 1e-5
+
+seed: 42
+max_len: 512
+epochs: 5
+model: large

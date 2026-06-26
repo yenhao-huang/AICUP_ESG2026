@@ -10,6 +10,8 @@
 #
 # Results:
 #   results/train/ensemble/<dataset>/seed<S>/
+# Model checkpoints:
+#   models/ensemble_models/stage1/<dataset>/seed<S>/<loss_tag>/
 
 set -euo pipefail
 
@@ -20,6 +22,7 @@ cd "$ROOT"
 SEEDS=(${SEEDS:-42 7 123 2024 31337})
 INPUT_DIR="${INPUT_DIR:-data/ensemble_data/stage1}"
 RESULTS_DIR="${RESULTS_DIR:-results/train/ensemble}"
+MODELS_DIR="${MODELS_DIR:-models/ensemble_models/stage1}"
 TRAINER="${TRAINER:-core/service/train/train_bert.py}"
 PYTHON="${PYTHON:-.venv/bin/python}"
 GPU="${GPU:-1}"
@@ -55,7 +58,7 @@ shopt -u nullglob
 }
 
 echo "### ensemble train $STAGE"
-echo "input_dir=$INPUT_DIR results_dir=$RESULTS_DIR trainer=$TRAINER"
+echo "input_dir=$INPUT_DIR results_dir=$RESULTS_DIR models_dir=$MODELS_DIR trainer=$TRAINER"
 echo "datasets=${#DATASET_DIRS[@]} seeds=[${SEEDS[*]}] loss=$LOSS($LOSS_TAG) cw=$CLASS_WEIGHTS gamma=$FOCAL_GAMMA GPU=$CUDA_VISIBLE_DEVICES"
 
 for dataset_dir in "${DATASET_DIRS[@]}"; do
@@ -75,7 +78,7 @@ for dataset_dir in "${DATASET_DIRS[@]}"; do
     done
 
     member_results="$RESULTS_DIR/$dataset/seed${seed}"
-    model_dir="$member_results/models/${LOSS_TAG}"
+    model_dir="$MODELS_DIR/$dataset/seed${seed}/${LOSS_TAG}"
     output="$member_results/${dataset}_${LOSS_TAG}_seed${seed}.json"
     log="$member_results/${LOSS_TAG}_seed${seed}.log"
     mkdir -p "$member_results" "$model_dir"

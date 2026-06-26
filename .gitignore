@@ -1,5 +1,10 @@
 # Models / binaries
 /models/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
 *.gguf
 *.bin
 *.safetensors
@@ -15,11 +20,20 @@
 !.env.example
 .venv/
 venv/
+env/
 
 # Logs / outputs / experiments
 /logs/
 /results/
 /exp/
+*.log
+*.out
+*.err
+
+# Local agent / assistant workspaces
+.agents/
+.claude/
+.codex/
 
 # Python
 __pycache__/
@@ -46,6 +60,10 @@ coverage/
 
 # Notebooks
 .ipynb_checkpoints/
+
+# Generated check artifacts
+docs/check/check_submit_model_consistent/submit/
+docs/check/check_submit_model_consistent/submission_12/
 
 # Editors / OS
 .DS_Store

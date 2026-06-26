@@ -1,0 +1,50 @@
+# QLoRA SFT config for retraining the gemma-4-12b ST1+ST2 JSON head on the
+# train+val mix (stratified by evidence_status).
+# Input = raw `data` only; completion = one JSON object with
+#   {promise_status, promise_str, evidence_status, evidence_str}.
+# promise_string / evidence_string are SFT targets only, never model input.
+# Trains on the .train split of the train+val mix (evidence_status-stratified);
+# eval is run separately on the .val split (see run.sh). LoRA / quant settings
+# mirror configs/train/gemma4_st12.yml; the optimization schedule is tuned for
+# the larger set: epochs 3->4, grad_accum 16->8 (effective batch 8, more
+# frequent updates), lr 2e-4->1.5e-4 (scaled down with the smaller batch).
+# .train split is 1601 rows (80%) -> ~200 steps/epoch / ~800 updates;
+# val_path .val (399 rows, 20%) is evaluated each epoch during training.
+# output_dir is under models/gemma/ so Gemma adapters are grouped together.
+
+model_path: models/gemma/base/unsloth-gemma-4-12b
+train_path: data/gemma_data/stage12/vpesg4k_train_val_mix_2000.train.json
+val_path: data/gemma_data/stage12/vpesg4k_train_val_mix_2000.val.json
+output_dir: models/gemma/gemma4_st12_mix
+device: cuda:0
+
+epochs: 4
+batch_size: 1
+grad_accum: 8
+lr: 1.5e-4
+warmup_ratio: 0.03
+weight_decay: 0.0
+logging_steps: 10
+save_strategy: epoch
+max_len: 1024
+bf16: true
+seed: 42
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+quant:
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
