@@ -1,13 +1,13 @@
 # Models / binaries
-models/
+/models/
 *.gguf
 *.bin
 *.safetensors
 *.onnx
 
 # Data
-data/
-datasets/
+/data/
+/datasets/
 
 # Environment / secrets
 .env
@@ -17,9 +17,9 @@ datasets/
 venv/
 
 # Logs / outputs / experiments
-logs/
-results/
-exp/
+/logs/
+/results/
+/exp/
 
 # Python
 __pycache__/
