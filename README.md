@@ -6,6 +6,8 @@ Project initialized with the standard project tree.
 
 - `core/service/`: business logic and pipelines
 - `core/api/`: API, CLI, routes, and adapters
+- `data/raw_data/`: user-provided raw data
+- `data/externel_data/`: simulated or external generated data
 - `lib/`: shared utilities
 - `test/`: tests
 - `configs/`: config files and environment templates
