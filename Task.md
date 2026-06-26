@@ -1,23 +1,25 @@
 # Task
 
-Human-authored instructions for the next agent run.
+Human-authored instructions for agent runs.
 
-## Request
+Copy the template below and append a new task whenever you want to hand work to an agent.
+
+## Tasks
+
+### template
+
+#### Requirements
 
 - Describe the task to perform.
 
-## Constraints
+#### Constraints
 
 - List constraints, required tools, files, deadlines, or scope limits.
 
-## Acceptance Criteria
+#### Goals
 
 - Define what must be true for the task to be complete.
 
-## Priority
+#### Notes
 
-- Normal.
-
-## Notes
-
-- Add context, references, or handoff details.
+- Add context, references, priority, or handoff details.
