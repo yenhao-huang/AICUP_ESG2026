@@ -4,9 +4,10 @@ set -euo pipefail
 case "${1:-start}" in
   start)
     echo "Agent start checklist"
-    echo "1. Read Progress.md"
-    echo "2. Read Decisions.md"
-    echo "3. Inspect git status"
+    echo "1. Read Task.md"
+    echo "2. Read Progress.md"
+    echo "3. Read Decisions.md"
+    echo "4. Inspect git status"
     ;;
   finish)
     echo "Agent finish checklist"
