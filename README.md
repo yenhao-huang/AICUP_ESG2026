@@ -8,6 +8,7 @@ Project initialized with the standard project tree.
 - `core/api/`: API, CLI, routes, and adapters
 - `data/raw_data/`: user-provided raw data
 - `data/externel_data/`: simulated or external generated data
+- `data/synthesis_data/`: synthetic data
 - `lib/`: shared utilities
 - `test/`: tests
 - `configs/`: config files and environment templates
