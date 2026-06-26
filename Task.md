@@ -4,6 +4,12 @@ Human-authored instructions for agent runs.
 
 Copy the template below and append a new task whenever you want to hand work to an agent.
 
+## Priority Queue
+
+- P0:
+- P1:
+- P2:
+
 ## Tasks
 
 ### template
