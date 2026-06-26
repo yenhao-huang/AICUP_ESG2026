@@ -15,3 +15,28 @@ Project initialized with the standard project tree.
 - `logs/`: runtime logs
 - `external/`: third-party service wiring
 - `docs/`: project documentation
+
+## Agent Workflow
+
+Use `init.sh` as the checklist for agent handoff.
+
+```bash
+./init.sh start
+./init.sh finish
+```
+
+```mermaid
+flowchart TD
+    A[Start agent work] --> B[Run ./init.sh start]
+    B --> C[Read Task.md]
+    C --> D[Read Progress.md]
+    D --> E[Read Decisions.md]
+    E --> F[Inspect git status]
+    F --> G[Do the assigned work]
+    G --> H[Run relevant validation]
+    H --> I[Run ./init.sh finish]
+    I --> J[Update Progress.md]
+    J --> K[Record major decisions in Decisions.md]
+    K --> L[Inspect git status]
+    L --> M[Create checkpoint commit when appropriate]
+```
