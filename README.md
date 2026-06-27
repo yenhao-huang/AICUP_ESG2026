@@ -26,14 +26,126 @@ pip install -r requirements.txt
 
 ## Architectures
 
-stage1
-bert -> gemma4
+### Predict
 
-stage2
-bert -> gemma4
+#### Stage 1
 
-stage3
-multitaskbert
+```mermaid
+flowchart TD
+    Input["Input ESG Report Text"] --> BertMembers["BERT Ensemble Members"]
+    BertMembers --> SoftVote["Soft Voting"]
+    SoftVote --> PrimaryLabel["Promise Status Prediction"]
+    PrimaryLabel --> FallbackModule["Fallback Module<br/>(conf < k)"]
+
+    Input --> LLM["LLM"]
+    LLM --> FallbackLabel["Promise Status Prediction"]
+    FallbackLabel --> FallbackModule
+
+    FallbackModule --> Final["Stage 1 Output"]
+```
+
+#### Stage 2
+
+```mermaid
+flowchart TD
+    Input["Input ESG Report Text"] --> BertMembers["BERT Ensemble Members"]
+    BertMembers --> SoftVote["Soft Voting"]
+    SoftVote --> PrimaryLabel["Evidence Status Prediction"]
+    PrimaryLabel --> FallbackModule["Fallback Module<br/>(conf < k)"]
+
+    Input --> LLM["LLM"]
+    LLM --> FallbackLabel["Evidence Status Prediction"]
+    FallbackLabel --> FallbackModule
+
+    FallbackModule --> Final["Stage 2 Output"]
+```
+
+#### Stage 3
+
+```mermaid
+flowchart TD
+    Input["Input ESG Report Text"] --> MultitaskBert["MultitaskBERT Components"]
+    MultitaskBert --> PromiseStatus["Promise Status"]
+    MultitaskBert --> EvidenceStatus["Evidence Status"]
+    MultitaskBert --> EvidenceQuality["Evidence Quality"]
+    EvidenceQuality --> Stage1Gate["Stage 1 Gate Filter"]
+    Stage1Gate --> Stage2Gate["Stage 2 Gate Filter"]
+    Stage2Gate --> Final["Stage 3 Output"]
+```
+
+#### Stage 4
+
+```mermaid
+flowchart TD
+    Input["Input ESG Report Text"] --> PromptBuilder["Prompt Builder"]
+    Prompt["Prompt<br/>(e.g., Boundary Rules)"] --> PromptBuilder
+    PromptBuilder --> Reasoner["GPT 5.5"]
+    Reasoner --> Candidate["Stage 4 Candidate Output"]
+    Candidate --> Gate["Stage 1 Gate Filter"]
+    Gate --> Final["Stage 4 Output"]
+```
+
+### Train
+
+#### Stage 1
+
+```mermaid
+flowchart TD
+    Raw["Stage 1 Training Data"] --> Subsampling["Subsampling"]
+    Subsampling --> Data1["Ensemble Data 1"]
+    Subsampling --> Data2["Ensemble Data 2"]
+    Subsampling --> Data3["Ensemble Data 3"]
+    Subsampling --> Data4["Ensemble Data 4"]
+    Subsampling --> Data5["Ensemble Data 5"]
+    Data1 --> Train1["BERT Training 1"]
+    Data2 --> Train2["BERT Training 2"]
+    Data3 --> Train3["BERT Training 3"]
+    Data4 --> Train4["BERT Training 4"]
+    Data5 --> Train5["BERT Training 5"]
+    Train1 --> Ensemble["BERT Ensemble Members"]
+    Train2 --> Ensemble
+    Train3 --> Ensemble
+    Train4 --> Ensemble
+    Train5 --> Ensemble
+```
+
+#### Stage 2
+
+```mermaid
+flowchart TD
+    Raw["Stage 2 Training Data"] --> Subsampling["Subsampling"]
+    Subsampling --> Data1["Ensemble Data 1"]
+    Subsampling --> Data2["Ensemble Data 2"]
+    Subsampling --> Data3["Ensemble Data 3"]
+    Subsampling --> Data4["Ensemble Data 4"]
+    Subsampling --> Data5["Ensemble Data 5"]
+    Data1 --> Train1["BERT Training 1"]
+    Data2 --> Train2["BERT Training 2"]
+    Data3 --> Train3["BERT Training 3"]
+    Data4 --> Train4["BERT Training 4"]
+    Data5 --> Train5["BERT Training 5"]
+    Train1 --> Ensemble["BERT Ensemble Members"]
+    Train2 --> Ensemble
+    Train3 --> Ensemble
+    Train4 --> Ensemble
+    Train5 --> Ensemble
+```
+
+#### Stage 3
+
+```mermaid
+flowchart TD
+    Raw["Stage 3 Training Data"] --> Encoder["Shared BERT Encoder"]
+    Encoder --> Classifier["Different Classifier"]
+```
+
+#### Fallback Model
+
+```mermaid
+flowchart TD
+    InstructionData["Stage 1 / 2 Instruction Data"] --> Finetune["Finetune LLM QLoRA"]
+    Finetune --> Adapter["LLM Adapter"]
+```
 
 ## Methodologies
 
@@ -100,7 +212,7 @@ bash scripts/predict/predict_codex_for_stage4.sh
 ```
 
 
-### Fallback Model
+### Fallback Model: Gemma4
 
 **Ensemble Data Collection**
 ```bash
@@ -116,6 +228,8 @@ bash scripts/train/train_gemma_for_stage12.sh
 ```bash
 bash scripts/predict/predict_gemma_fallback_model.sh
 ```
+
+### Fallback Model: GPT5.5
 
 
 ## Which insights does the agent generate?
