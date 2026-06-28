@@ -19,6 +19,7 @@ import shlex
 import subprocess
 import sys
 import tempfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 
@@ -256,6 +257,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--data-col", default="data")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--timeout", type=int, default=300)
+    parser.add_argument("--workers", type=int, default=8, help="Number of concurrent Codex predictions.")
     parser.add_argument("--run-id", default=None)
     parser.add_argument("--raw-output-dir", type=Path, default=DEFAULT_RAW_OUTPUT_DIR)
     parser.add_argument("--token-usage-output", type=Path, default=DEFAULT_TOKEN_USAGE_OUTPUT)
@@ -273,6 +275,80 @@ def run_single_question(args: argparse.Namespace) -> None:
     print(label)
     if error:
         print(f"[warning] {error}", flush=True)
+
+
+def output_row(
+    rid: str,
+    label: str,
+    promise_str: str,
+    filtered: str,
+    raw_timeline: str,
+    error: str,
+) -> dict[str, str]:
+    return {
+        "id": rid,
+        "verification_timeline": label,
+        "stage4_flow": FLOW_NAME,
+        "stage1_promise_str": promise_str,
+        "stage4_filtered": filtered,
+        "stage4_raw_timeline": raw_timeline,
+        "stage4_postprocess_rule": "",
+        "stage4_error": error,
+    }
+
+
+def predict_row(
+    index: int,
+    row_count: int,
+    row: dict[str, Any],
+    rid: str,
+    promise_str: str,
+    args: argparse.Namespace,
+    system_prompt: str,
+    prompt_path: Path,
+    raw_output_dir: Path,
+    run_id: str,
+) -> dict[str, Any]:
+    raw = ""
+    metadata: dict[str, Any] = {}
+    error = ""
+    try:
+        prompt = build_prompt(system_prompt, str(row.get(args.data_col, "")))
+        raw, metadata = predict_one(args.codex_bin, args.model, prompt, args.timeout)
+        label, error = normalize_timeline(raw)
+    except Exception as exc:  # Keep row alignment even when Codex fails.
+        label = "N/A"
+        error = f"codex_error:{type(exc).__name__}"
+        metadata = {"error": str(exc)}
+
+    raw_output_path = raw_output_dir / f"{index:04d}_{safe_file_part(rid)}.json"
+    raw_record = {
+        "id": rid,
+        "raw_prediction": raw,
+        "metadata": metadata,
+        "run_id": run_id,
+        "prompt_path": str(prompt_path),
+    }
+    usage_row = {
+        "index": index,
+        "id": rid,
+        "model": args.model,
+        "prompt_path": str(prompt_path),
+        "raw_output_path": str(raw_output_path),
+        "run_id": run_id,
+        **extract_usage(metadata.get("events", [])),
+    }
+    return {
+        "index": index,
+        "row_count": row_count,
+        "rid": rid,
+        "label": label,
+        "error": error,
+        "raw_output_path": raw_output_path,
+        "raw_record": raw_record,
+        "usage_row": usage_row,
+        "output_row": output_row(rid, label, promise_str, "no", label, error),
+    }
 
 
 def main() -> None:
@@ -299,26 +375,17 @@ def main() -> None:
         token_usage_output.unlink()
     raw_output_dir.mkdir(parents=True, exist_ok=True)
     run_id = args.run_id or f"stage4_codex_{args.model}_{prompt_path.stem}"
+    workers = max(1, args.workers)
 
-    output_rows: list[dict[str, str]] = []
+    output_rows_by_index: dict[int, dict[str, str]] = {}
+    prediction_tasks: list[tuple[int, dict[str, Any], str, str]] = []
     predicted_count = 0
     error_count = 0
     for index, row in enumerate(rows, start=1):
         rid = str(row.get("id", index)).strip()
         promise_str = stage1.get(rid, "")
         if stage1 and not passes_stage1(promise_str):
-            output_rows.append(
-                {
-                    "id": rid,
-                    "verification_timeline": "N/A",
-                    "stage4_flow": FLOW_NAME,
-                    "stage1_promise_str": promise_str,
-                    "stage4_filtered": "yes",
-                    "stage4_raw_timeline": "N/A",
-                    "stage4_postprocess_rule": "",
-                    "stage4_error": "",
-                }
-            )
+            output_rows_by_index[index] = output_row(rid, "N/A", promise_str, "yes", "N/A", "")
             if index >= start_from:
                 print(f"[{index}/{len(rows)}] {rid} -> N/A (filtered)", flush=True)
             continue
@@ -334,17 +401,13 @@ def main() -> None:
                     recovered_label, recovered_error = normalize_timeline(raw_data.get("raw_prediction", ""))
             except Exception:
                 pass
-            output_rows.append(
-                {
-                    "id": rid,
-                    "verification_timeline": recovered_label,
-                    "stage4_flow": FLOW_NAME,
-                    "stage1_promise_str": promise_str,
-                    "stage4_filtered": "no",
-                    "stage4_raw_timeline": recovered_label,
-                    "stage4_postprocess_rule": "",
-                    "stage4_error": recovered_error,
-                }
+            output_rows_by_index[index] = output_row(
+                rid,
+                recovered_label,
+                promise_str,
+                "no",
+                recovered_label,
+                recovered_error,
             )
             if recovered_error:
                 error_count += 1
@@ -352,60 +415,52 @@ def main() -> None:
                 predicted_count += 1
             continue
 
-        raw = ""
-        metadata: dict[str, Any] = {}
-        error = ""
-        try:
-            prompt = build_prompt(system_prompt, str(row.get(args.data_col, "")))
-            raw, metadata = predict_one(args.codex_bin, args.model, prompt, args.timeout)
-            label, error = normalize_timeline(raw)
-        except Exception as exc:  # Keep row alignment even when Codex fails.
-            label = "N/A"
-            error = f"codex_error:{type(exc).__name__}"
-            metadata = {"error": str(exc)}
-        if error:
-            error_count += 1
-        else:
-            predicted_count += 1
+        prediction_tasks.append((index, row, rid, promise_str))
 
-        raw_output_path = raw_output_dir / f"{index:04d}_{safe_file_part(rid)}.json"
-        write_json(
-            raw_output_path,
-            {
-                "id": rid,
-                "raw_prediction": raw,
-                "metadata": metadata,
-                "run_id": run_id,
-                "prompt_path": str(prompt_path),
-            },
-        )
-        append_jsonl(
-            token_usage_output,
-            {
-                "index": index,
-                "id": rid,
-                "model": args.model,
-                "prompt_path": str(prompt_path),
-                "raw_output_path": str(raw_output_path),
-                "run_id": run_id,
-                **extract_usage(metadata.get("events", [])),
-            },
-        )
-        output_rows.append(
-            {
-                "id": rid,
-                "verification_timeline": label,
-                "stage4_flow": FLOW_NAME,
-                "stage1_promise_str": promise_str,
-                "stage4_filtered": "no",
-                "stage4_raw_timeline": label,
-                "stage4_postprocess_rule": "",
-                "stage4_error": error,
-            }
-        )
-        print(f"[{index}/{len(rows)}] {rid} -> {label}", flush=True)
+    if workers == 1:
+        for index, row, rid, promise_str in prediction_tasks:
+            result = predict_row(
+                index, len(rows), row, rid, promise_str, args, system_prompt, prompt_path, raw_output_dir, run_id
+            )
+            write_json(result["raw_output_path"], result["raw_record"])
+            append_jsonl(token_usage_output, result["usage_row"])
+            output_rows_by_index[index] = result["output_row"]
+            if result["error"]:
+                error_count += 1
+            else:
+                predicted_count += 1
+            print(f"[{index}/{len(rows)}] {rid} -> {result['label']}", flush=True)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [
+                executor.submit(
+                    predict_row,
+                    index,
+                    len(rows),
+                    row,
+                    rid,
+                    promise_str,
+                    args,
+                    system_prompt,
+                    prompt_path,
+                    raw_output_dir,
+                    run_id,
+                )
+                for index, row, rid, promise_str in prediction_tasks
+            ]
+            for future in as_completed(futures):
+                result = future.result()
+                write_json(result["raw_output_path"], result["raw_record"])
+                append_jsonl(token_usage_output, result["usage_row"])
+                output_rows_by_index[result["index"]] = result["output_row"]
+                if result["error"]:
+                    error_count += 1
+                else:
+                    predicted_count += 1
+                print(f"[{result['index']}/{len(rows)}] {result['rid']} -> {result['label']}", flush=True)
 
     output = resolve_path(args.output)
+    output_rows = [output_rows_by_index[index] for index in range(1, len(rows) + 1)]
     write_csv(str(output), output_rows)
     summary = {
         "output": str(output),

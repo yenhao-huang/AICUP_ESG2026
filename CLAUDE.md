@@ -2,6 +2,8 @@
 
 Follow `AGENT.md` and the standard project convention for all file placement.
 
+Before creating, moving, or deleting files, read `docs/file_tree_spec.md` and follow its placement rules. If a requested path conflicts with that spec, state the conflict and use the closest compliant location unless the user explicitly overrides the spec.
+
 ## Environment
 
 - Use the project-local `.venv/` for all Python commands.

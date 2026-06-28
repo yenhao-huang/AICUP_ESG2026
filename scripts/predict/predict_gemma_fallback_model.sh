@@ -18,7 +18,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$ROOT"
 
 # ===== PARAMETER SPACE (override with env vars) ===============================
-MODE="${MODE:-submit}"
+MODE="${MODE:-local}"
 STAGE="${STAGE:-all}"
 DATA="${DATA:-data/raw_data/vpesg4k_test_2000.json}"
 PYTHON="${PYTHON:-.venv/bin/python}"

@@ -8,6 +8,23 @@ and final label statistics.
 
 LLM synthesis model: `qwen3.6-35b-a3b.gguf` with Q4 quantization.
 
+Canonical synthesis scripts from `exp/agent_loop/claude/20260608T152150/loops/loops001`:
+
+```bash
+python3 core/service/data/synthesis/synthesize_st1_data_only.py
+python3 core/service/data/synthesis/synthesize_st1_a2_promise.py
+python3 core/service/data/synthesis/build_synth_st1_a4_pdf.py
+python3 core/service/data/synthesis/synthesize_st2_evidence.py
+```
+
+These scripts reproduce the agent-loop synthesis methods: A1 data-only
+paraphrase, A3 data+promise positive generation, A2 promise-string-derived
+positive generation, A4 deterministic PDF/data-derived hard negatives, and
+Stage 2 supported/unsupported evidence synthesis.
+Synthetic generation outputs are written under `results/data_synthesis/`.
+The final submit datasets under `data/synthesis_data/` are selected/frozen
+outputs built from these synthesis sources plus real train/validation rows.
+
 | Stage | Target | Final training pool | Main idea |
 | --- | --- | ---: | --- |
 | Stage 1 | `promise_status` | 2,500 rows | Combine real train data, real validation data, and synthetic positive commitment examples. |

@@ -1,10 +1,13 @@
 # Agent Instructions
 
+Before creating, moving, or deleting files, read `docs/file_tree_spec.md` and follow its placement rules. If a requested path conflicts with that spec, state the conflict and use the closest compliant location unless the user explicitly overrides the spec.
 
 Follow the standard project convention:
 
 - Keep application logic in `core/service/`.
 - Keep API, CLI, routes, and adapters in `core/api/`.
+- Keep data materialization, synthesis, and transformation logic in `core/service/data/`.
+- Keep `scripts/` for thin shell wrappers or orchestration entrypoints only.
 - Keep shared utilities in `lib/`.
 - Keep tests in `test/`.
 - Keep configs in `configs/`.

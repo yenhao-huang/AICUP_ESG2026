@@ -39,7 +39,32 @@ STAGES = {
             "evidence_quality_reason",
         ),
     },
+    "stage4": {
+        "check": "docs/check/check_submit_model_consistent/submit/stage4/stage4_codex_predictions_fixed.csv",
+        "results": "results/predict/stage4/codex/all_rows/20260627_123651/stage4_codex_predictions.csv",
+        "prediction_columns": (
+            "verification_timeline",
+            "stage4_flow",
+            "stage1_promise_str",
+            "stage4_filtered",
+            "stage4_raw_timeline",
+            "stage4_postprocess_rule",
+            "stage4_error",
+        ),
+    },
+    "submission": {
+        "check": "docs/check/check_submit_model_consistent/submit/all/submission.csv",
+        "results": "results/submit/submission.csv",
+        "prediction_columns": (
+            "promise_status",
+            "verification_timeline",
+            "evidence_status",
+            "evidence_quality",
+        ),
+    },
 }
+
+DEFAULT_ALL_STAGES = ("stage1", "stage2", "stage3", "stage4")
 
 
 def read_csv(path: Path) -> tuple[list[str], dict[str, dict[str, str]]]:
@@ -119,7 +144,7 @@ def main() -> int:
     parser.add_argument("--max-examples", type=int, default=5)
     args = parser.parse_args()
 
-    stages = list(STAGES) if args.stage == "all" else [args.stage]
+    stages = list(DEFAULT_ALL_STAGES) if args.stage == "all" else [args.stage]
     results = [compare_stage(stage, args.max_examples) for stage in stages]
     print(json.dumps(results if args.stage == "all" else results[0], ensure_ascii=False, indent=2))
     return 0 if all(result["prediction_aligned"] for result in results) else 1

@@ -9,6 +9,7 @@
 #   DATA            Input JSON/CSV rows (default: data/raw_data/vpesg4k_test_2000.json)
 #   CODEX_MODEL     Codex model name (default: gpt-5.5)
 #   CODEX_TIMEOUT   Per-row timeout in seconds (default: 300)
+#   WORKERS         Concurrent Codex predictions (default: 8)
 #   STAGE4_PROMPT   Prompt file path
 #   START_FROM      Resume from this 1-based row index (default: 1)
 #   RUN_ID          Run identifier (default: timestamp)
@@ -27,6 +28,7 @@ PREDICTOR="${PREDICTOR:-core/service/predict/stage4/pred_by_codex.py}"
 DATA="${DATA:-data/raw_data/vpesg4k_test_2000.json}"
 CODEX_MODEL="${CODEX_MODEL:-gpt-5.5}"
 CODEX_TIMEOUT="${CODEX_TIMEOUT:-300}"
+WORKERS="${WORKERS:-8}"
 STAGE4_PROMPT="${STAGE4_PROMPT:-configs/prompts/stage4/boundary_rules_v4.txt}"
 START_FROM="${START_FROM:-1}"
 RUN_ID="${RUN_ID:-$(date +%Y%m%d_%H%M%S)}"
@@ -56,6 +58,7 @@ cmd=(
   --model "$CODEX_MODEL"
   --prompt-path "$STAGE4_PROMPT"
   --timeout "$CODEX_TIMEOUT"
+  --workers "$WORKERS"
   --start-from "$START_FROM"
   --run-id "${RUN_ID}_stage4"
   --raw-output-dir "$RAW_OUTPUT_DIR"
@@ -69,7 +72,7 @@ fi
 echo "### predict stage4 by Codex: all rows"
 echo "data=$DATA"
 echo "predictor=$PREDICTOR"
-echo "codex_model=$CODEX_MODEL timeout=$CODEX_TIMEOUT"
+echo "codex_model=$CODEX_MODEL timeout=$CODEX_TIMEOUT workers=$WORKERS"
 echo "prompt=$STAGE4_PROMPT"
 echo "start_from=$START_FROM limit=${LIMIT:-all}"
 echo "output_csv=$OUTPUT_CSV"
