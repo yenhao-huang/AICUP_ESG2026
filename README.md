@@ -6,6 +6,26 @@
 pip install -r requirements.txt
 ```
 
+Download the prepared data and model artifacts from Google Drive, then move
+their contents into the project `data/` and `models/` directories:
+
+```bash
+export DATA_GOOGLE_DRIVE_ID="<data-file-id>"
+export MODELS_GOOGLE_DRIVE_ID="<models-file-id>"
+
+mkdir -p data models .download
+gdown "https://drive.google.com/uc?id=${DATA_GOOGLE_DRIVE_ID}" -O .download/data.zip
+gdown "https://drive.google.com/uc?id=${MODELS_GOOGLE_DRIVE_ID}" -O .download/models.zip
+
+unzip -q .download/data.zip -d .download/data
+unzip -q .download/models.zip -d .download/models
+
+shopt -s dotglob
+mv .download/data/* data/
+mv .download/models/* models/
+shopt -u dotglob
+```
+
 ## Directory
 
 ```text
@@ -17,15 +37,12 @@ AICUP_ESG2026/
 │   ├── raw_data/                 # User-provided raw data
 │   ├── externel_data/            # Simulated or external generated data
 │   └── synthesis_data/           # Synthetic data
-├── lib/                          # Shared utilities
 ├── test/                         # Tests
+├── models/                         # Tests
 ├── configs/                      # Config files and environment templates
-├── ui/                           # Frontend or interface code
 ├── exp/                          # Experiments and research notes
 │   └── agent_loop/               # Workspace agent run experiments
 ├── results/                      # Evaluation outputs
-├── logs/                         # Runtime logs
-├── external/                     # Third-party service wiring
 └── docs/                         # Project documentation
     ├── check_methodoloies/       # Check methodology notes
     └── check_submit_model_consistent/ # Submit consistency reports and supporting CSVs
@@ -178,150 +195,6 @@ produces:
 
 ```text
 results/submit/<RUN_ID>/submission.csv
-```
-
-To inspect the commands without running models:
-
-```bash
-DRY_RUN=1 RUN_ID=dryrun bash scripts/submit.sh
-```
-
-### Stage 1
-
-Architecture flow:
-
-```text
-BERT ensemble -> Gemma fallback on low-confidence rows -> confidence merge -> stage1 final
-```
-
-Pipeline steps:
-
-```bash
-MODE=submit OUTPUT=results/submit/<RUN_ID>/stage1/bert_softvote.csv \
-  bash scripts/predict/predict_ensemble_model_for_stage1.sh
-
-MODE=submit STAGE=stage1 STAGE1_OUTPUT=results/submit/<RUN_ID>/stage1/gemma.csv \
-  bash scripts/predict/predict_gemma_fallback_model.sh
-
-python3 core/service/utils/submit_pipeline.py merge-stage1 \
-  --bert results/submit/<RUN_ID>/stage1/bert_softvote.csv \
-  --gemma results/submit/<RUN_ID>/stage1/gemma.csv \
-  --output results/submit/<RUN_ID>/stage1/final.csv \
-  --threshold 0.6 \
-  --run-id submit_stage1 \
-  --bert-source bert
-```
-
-Core code paths:
-- BERT prediction: `core/service/predict/stage1/soft_vote.py`
-- Gemma prediction: `core/service/predict/stage1/pred_by_gemma.py`
-- Confidence merge: `core/service/utils/submit_pipeline.py`
-- Output schema: `core/service/predict/stage1/schema.py`
-
-### Stage 2
-
-Architecture flow:
-
-```text
-BERT ensemble -> Gemma fallback on low-confidence rows -> confidence merge -> Stage 1 gate -> stage2 final
-```
-
-Pipeline steps:
-
-```bash
-MODE=submit OUTPUT=results/submit/<RUN_ID>/stage2/bert_softvote.csv \
-  bash scripts/predict/predict_ensemble_model_for_stage2.sh
-
-MODE=submit STAGE=stage2 STAGE2_OUTPUT=results/submit/<RUN_ID>/stage2/gemma.csv \
-  bash scripts/predict/predict_gemma_fallback_model.sh
-
-python3 core/service/utils/submit_pipeline.py merge-stage2 \
-  --bert results/submit/<RUN_ID>/stage2/bert_softvote.csv \
-  --gemma results/submit/<RUN_ID>/stage2/gemma.csv \
-  --output results/submit/<RUN_ID>/stage2/bert_gemma_raw.csv \
-  --threshold 0.7
-
-python3 core/service/utils/submit_pipeline.py gate-stage2 \
-  --stage1 results/submit/<RUN_ID>/stage1/final.csv \
-  --stage2 results/submit/<RUN_ID>/stage2/bert_gemma_raw.csv \
-  --output results/submit/<RUN_ID>/stage2/final.csv
-```
-
-Core code paths:
-- BERT prediction: `core/service/predict/stage2/soft_vote.py`
-- Gemma prediction: `core/service/predict/stage2/pred_by_gemma.py`
-- Confidence merge and Stage 1 gate: `core/service/utils/submit_pipeline.py`
-- Output schema: `core/service/predict/stage2/schema.py`
-
-### Stage 3
-
-Architecture flow:
-
-```text
-MultitaskBERT -> GPT fallback -> Stage 1/2 gate -> stage3 final
-```
-
-Pipeline steps:
-
-```bash
-MODE=submit OUTPUT=results/submit/<RUN_ID>/stage3/raw.csv \
-  bash scripts/predict/predict_multitaskbert_for_stage3.sh
-
-python3 core/service/utils/submit_pipeline.py gate-stage3 \
-  --stage1 results/submit/<RUN_ID>/stage1/final.csv \
-  --stage2 results/submit/<RUN_ID>/stage2/final.csv \
-  --stage3 results/submit/<RUN_ID>/stage3/raw.csv \
-  --output results/submit/<RUN_ID>/stage3/final.csv
-```
-
-Core code paths:
-- MultitaskBERT prediction: `core/service/predict/stage3/pred_by_multitask.py`
-- GPT fallback prediction: `core/service/predict/stage3/vlm_pred.py`
-- Page context helper: `core/service/predict/stage3/vlm/page_context.py`
-- Stage 1/2 gate: `core/service/utils/submit_pipeline.py`
-- Output schemas: `core/service/predict/stage3/schema.py`, `core/service/predict/stage3/vlm_schema.py`
-
-### Stage 4
-
-Architecture flow:
-
-```text
-Prompt builder -> GPT/Codex reasoner -> Stage 1 gate -> stage4 final
-```
-
-Pipeline steps:
-
-```bash
-DATA=data/raw_data/vpesg4k_test_2000.json OUT_DIR=results/submit/<RUN_ID>/stage4/codex_raw \
-  bash scripts/predict/predict_codex_for_stage4.sh
-
-python3 core/service/utils/submit_pipeline.py gate-stage4 \
-  --stage1 results/submit/<RUN_ID>/stage1/final.csv \
-  --stage4 results/submit/<RUN_ID>/stage4/codex_raw/stage4_codex_predictions.csv \
-  --output results/submit/<RUN_ID>/stage4/final.csv
-```
-
-Core code paths:
-- GPT/Codex prediction: `core/service/predict/stage4/pred_by_codex.py`
-- Prompt config: `configs/prompts/stage4/boundary_rules_v4.txt`
-- Stage 1 gate: `core/service/utils/submit_pipeline.py`
-- Output schema: `core/service/predict/stage4/schema.py`
-
-### Build Final Submission
-
-```bash
-python3 core/service/utils/submit_pipeline.py build-submission \
-  --stage1 results/submit/<RUN_ID>/stage1/final.csv \
-  --stage2 results/submit/<RUN_ID>/stage2/final.csv \
-  --stage3 results/submit/<RUN_ID>/stage3/final.csv \
-  --stage4 results/submit/<RUN_ID>/stage4/final.csv \
-  --output results/submit/<RUN_ID>/submission.csv
-```
-
-Check against the stored submit target:
-
-```bash
-python3 docs/check/check_submit_model_consistent/check_submit_outputs.py --stage submission
 ```
 
 ## Detailed Methodologies
