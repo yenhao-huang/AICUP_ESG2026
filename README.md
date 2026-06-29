@@ -14,20 +14,17 @@ pip install -r requirements.txt
 
 The final submission pipeline expects the prepared data under `data/` and the
 submission checkpoints under `models/submission/`. These artifacts are stored in
-Google Drive under:
-
-- `AICUP_ESG2026/data/`
-- `AICUP_ESG2026/models_submission/`
-
-Install and configure `rclone` with Google Drive access, then restore the
-artifacts:
+Google Drive and can be restored with the download helper:
 
 ```bash
-mkdir -p data models/submission
-
-rclone copy gdrive:AICUP_ESG2026/data data --progress
-rclone copy gdrive:AICUP_ESG2026/models_submission models/submission --progress
+bash scripts/data/dowanload_data_model.sh
 ```
+
+The helper uses `gdown`, which is included in `requirements.txt`. It downloads
+the shared Google Drive folder, extracts the archive files, and moves the
+restored artifacts into `data/` and `models/`. It refuses to run if either
+`data/` or `models/` already exists, so existing local artifacts are never
+overwritten.
 
 Expected artifact sizes after following symlinks:
 
