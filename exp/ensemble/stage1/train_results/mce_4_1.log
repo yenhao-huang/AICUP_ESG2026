@@ -1,0 +1,56 @@
+Device: cuda:0
+Model: hfl/chinese-roberta-wwm-ext-large
+Batch size: 4 (grad accum: 2, effective: 8)
+Validation: external file exp/integrated_stage_predictions/0614/submit/submit_5/stage1/data/a3_b1_add_val.val.json (ignoring --val-ratio)
+Train records: 2000
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage1/data/a3_b1_add_val.val.json (500 records)
+
+============================================================
+Training subtask: ST1
+============================================================
+Train samples: 2000 | Labels: 2 | Dist: {1: 1702, 0: 298}
+Val samples: 500 | Dist: {1: 425, 0: 75}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 81050.35it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loss: manual_class_split_ce  weights=[4.0, 1.0]
+Epoch 1/5 | Loss: 1.9551 | Val loss: n/a | Val micro-F1: 0.8860 | Val macro-F1: 0.7777
+Saved best model → /models/submit_5_a3_b1_add_val_mce_4_1/best_st1.pt (epoch=1, val_macro_f1=0.7777)
+Epoch 2/5 | Loss: 1.8287 | Val loss: n/a | Val micro-F1: 0.9020 | Val macro-F1: 0.7593
+Epoch 3/5 | Loss: 0.7756 | Val loss: n/a | Val micro-F1: 0.9020 | Val macro-F1: 0.7663
+Epoch 4/5 | Loss: 0.2558 | Val loss: n/a | Val micro-F1: 0.9040 | Val macro-F1: 0.7759
+Epoch 5/5 | Loss: 0.1643 | Val loss: n/a | Val micro-F1: 0.9020 | Val macro-F1: 0.7629
+Loaded best model from epoch 1 for final train metrics
+
+Train Micro-F1: 0.9325
+Train Macro-F1: 0.8696
+              precision    recall  f1-score   support
+
+          No       0.76      0.80      0.78       298
+         Yes       0.96      0.96      0.96      1702
+
+    accuracy                           0.93      2000
+   macro avg       0.86      0.88      0.87      2000
+weighted avg       0.93      0.93      0.93      2000
+
+Best Val Macro-F1: 0.7777 (epoch=1)
+
+============================================================
+Final Results (Train Micro-F1)
+============================================================
+ST1: 0.7777 (weight=0.2)
+
+Partial Weighted Contribution: 0.1555
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage1/train_results/a3_b1_add_val_mce_4_1.json

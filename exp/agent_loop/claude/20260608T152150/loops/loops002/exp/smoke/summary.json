@@ -1,0 +1,41 @@
+{
+  "run_id": "stage1_rag_t0.90_strict_negative_with_certficate_data-only",
+  "output": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/smoke/smoke6_rag_merged.csv",
+  "bert_csv": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/smoke/smoke6_bert_scored.csv",
+  "threshold": 0.9,
+  "model": "/workspace/llm_model",
+  "prompt": "strict_negative_with_certficate",
+  "mode_context": "bert-prediction",
+  "info_mode": "data-only",
+  "top_k": 5,
+  "embedding_model": "/models/qihoo360-Zhinao-ChineseModernBert-Embedding",
+  "embedding_backend": "st",
+  "embedding_base_url": "http://192.168.1.78:3132/v1",
+  "train_data": "data/raw_data/vpesg_4k_train_1000.json",
+  "total_rows": 6,
+  "high_conf_rows": 5,
+  "low_conf_rows": 1,
+  "codex_called": 1,
+  "codex_errors": 0,
+  "changed_by_codex": 1,
+  "codex_results": [
+    {
+      "id": "11896",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.84567869,
+      "retrieved_scores": [
+        0.6927263736724854,
+        0.654321551322937,
+        0.6425887942314148,
+        0.631965160369873,
+        0.6270878314971924
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}

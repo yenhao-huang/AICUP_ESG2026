@@ -1,0 +1,50 @@
+{
+  "id": "11287",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmph1443s2g",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n企業社會責任執行方針  (1) 遵守並符合政府頒定之環保、勞安衛法規及其他國際準則要求，響應全球綠色環保、勞動權益與零災害運動。  (2) 教育並宣導全體員工使其認知保護地球環境與重視生命安全，珍惜自然資源、確保安全與促進身心健康是大家的責任。  (3) 透過資源的減量使用及回收再利用，以達到資源有效使用之目的，同時加強廢棄產品處理的監督與管理，確保廢棄產品被妥善處理，不得被轉賣再使用。  (4) 加強環境污染源與風險管理的監督與改善，同時提昇資源運用效率以降低環境衝擊，並定期揭露環境議題之成果。  (5) 建立良好自主管理，確保防止職業災害並降低職業安全衛生風險，營造健康舒適的工作環境。  (6) 建立企業社會責任與安全衛生管理系統，以組織及管理制度的運作提高環保、商業道德、勞工權益及安全衛生管理績效。  (7) 訂定溫室氣體盤查與減量計畫，建立溫室氣體管理機制，力行溫室氣體減量，以符合國際環保潮流及客戶要求。  (8) 落實能源與資源管理，於設計、採購與使用階段皆以優化能源利用率為主要考量，實現持續改善之目標並提升整體環境績效。  (9) 公開對外承諾，本公司對保護環境、重視勞工權益與提升工作安全的決心，並定期揭露企業社會責任相關資訊以加強與利害關係人的溝通與信任。  (10)遵循商業道德行為守則，謹守誠信廉潔經營、無不正當收益、不得提供或接受賄賂，對於提出意見與揭露不法行為之人之保護其身份，使其無受報復之虞。  (11)重視機會平等，禁止任何形式之騷擾、歧視或以不人道方式對待員工，同時建立雙向的溝通管道及員工諮商、參與的機制，維護良好的勞雇合作關係。  (12)持續關注責任礦產議題，審慎盡職調查負責任礦產原料之來源，採行負責任的採購行為。  (13)盡最大努力要求本公司之供應商共同遵守企業社會責任相關法令及 RBA 行為準則規範，與供應商共同建立永續發展的產業。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmph1443s2g '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n企業社會責任執行方針  (1) 遵守並符合政府頒定之環保、勞安衛法規及其他國際準則要求，響應全球綠色環保、勞動權益與零災害運動。  (2) 教育並宣導全體員工使其認知保護地球環境與重視生命安全，珍惜自然資源、確保安全與促進身心健康是大家的責任。  (3) 透過資源的減量使用及回收再利用，以達到資源有效使用之目的，同時加強廢棄產品處理的監督與管理，確保廢棄產品被妥善處理，不得被轉賣再使用。  (4) 加強環境污染源與風險管理的監督與改善，同時提昇資源運用效率以降低環境衝擊，並定期揭露環境議題之成果。  (5) 建立良好自主管理，確保防止職業災害並降低職業安全衛生風險，營造健康舒適的工作環境。  (6) 建立企業社會責任與安全衛生管理系統，以組織及管理制度的運作提高環保、商業道德、勞工權益及安全衛生管理績效。  (7) 訂定溫室氣體盤查與減量計畫，建立溫室氣體管理機制，力行溫室氣體減量，以符合國際環保潮流及客戶要求。  (8) 落實能源與資源管理，於設計、採購與使用階段皆以優化能源利用率為主要考量，實現持續改善之目標並提升整體環境績效。  (9) 公開對外承諾，本公司對保護環境、重視勞工權益與提升工作安全的決心，並定期揭露企業社會責任相關資訊以加強與利害關係人的溝通與信任。  (10)遵循商業道德行為守則，謹守誠信廉潔經營、無不正當收益、不得提供或接受賄賂，對於提出意見與揭露不法行為之人之保護其身份，使其無受報復之虞。  (11)重視機會平等，禁止任何形式之騷擾、歧視或以不人道方式對待員工，同時建立雙向的溝通管道及員工諮商、參與的機制，維護良好的勞雇合作關係。  (12)持續關注責任礦產議題，審慎盡職調查負責任礦產原料之來源，採行負責任的採購行為。  (13)盡最大努力要求本公司之供應商共同遵守企業社會責任相關法令及 RBA 行為準則規範，與供應商共同建立永續發展的產業。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019eaf13-6b75-76d3-b3f2-a52ba9f8e3a6",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "between_2_and_5_years",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 13696,
+          "input_tokens": 15725,
+          "output_tokens": 58,
+          "reasoning_output_tokens": 44
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019eaf13-6b75-76d3-b3f2-a52ba9f8e3a6\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"between_2_and_5_years\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":15725,\"cached_input_tokens\":13696,\"output_tokens\":58,\"reasoning_output_tokens\":44}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/boundary_rules_v4.txt",
+  "raw_prediction": "between_2_and_5_years",
+  "run_id": "stage4_codex_gpt-5.5_boundary_rules_v4"
+}

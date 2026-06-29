@@ -1,0 +1,22 @@
+[1/10] 10204 -> within_2_years
+[2/10] 10218 -> within_2_years
+[3/10] 10257 -> within_2_years
+[4/10] 10344 -> already
+[5/10] 10346 -> within_2_years
+[6/10] 10380 -> within_2_years
+[7/10] 10493 -> within_2_years
+[8/10] 10526 -> between_2_and_5_years
+[9/10] 10583 -> within_2_years
+[10/10] 10780 -> within_2_years
+{
+  "output": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results_w2y/vanilla_old_anchor2024_system/predictions.csv",
+  "rows": 10,
+  "filtered_rows": 0,
+  "predicted_rows": 10,
+  "errors": 0,
+  "flow": "filter_pred_by_codex",
+  "model": "gpt-5.5",
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/vanilla_old_anchor2024_system.txt",
+  "token_usage_output": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results_w2y/vanilla_old_anchor2024_system/token_usage.jsonl",
+  "raw_output_dir": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results_w2y/vanilla_old_anchor2024_system/raw"
+}

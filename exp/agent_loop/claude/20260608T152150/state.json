@@ -1,0 +1,31 @@
+{
+  "task": "Optimize ESG Stage 1 (Promise Identification, Yes/No, Macro-F1): BERT classifier trained on synthetic + real data, optional low-confidence LLM-RAG fallback added in a later loop. Blind gate: beat baseline ST1 Macro-F1 on data/benchmarks/val_test.json. Runtime input = data only; promise_string allowed offline for synthesis only.",
+  "workspace": "/workspace/esg_contest/exp/agent_loop/claude/20260608T152150",
+  "next_loop": 4,
+  "target_loop": 100,
+  "phase": "plan",
+  "current_loop": null,
+  "last_completed_loop": 3,
+  "last_verdict": "accept",
+  "best_artifact": "models/loop001_st1_a0_real_only/best_st1.pt",
+  "run_mode": "autonomous_to_target",
+  "promoted_st1": {
+    "artifact": "models/loop001_st1_a0_real_only/best_st1.pt",
+    "loop": "loop003 (promotion of loop001 a0)",
+    "val_test_macro_f1": 0.810977,
+    "val_public_macro_f1": 0.803069,
+    "integrated_weighted_val_test": 0.610112,
+    "integrated_weighted_baseline": 0.591591,
+    "external_review": "loops/loops003/reflect/external_claude_review_a0_promote.md (conditional support-promote; all conditions met)"
+  },
+  "base_gate_val_test": 0.802383,
+  "base_val_public": 0.7873,
+  "loop001_candidate": "models/loop001_st1_a3_b1/best_st1.pt (val_test 0.8234, deferred)",
+  "loop001_safe_candidate": "models/loop001_st1_a0_real_only/best_st1.pt (val_test 0.8110, real-only)",
+  "known_issues": [
+    "data/benchmarks/test.json is 100% train-leaked (200/200) — RETIRED as selection split; use val_public.json (clean, disjoint from train and val_test gate).",
+    "synthetic augmentation thesis unproven: real-only ties best synthetic arm on clean val_public; gains likely from canonical-data training recipe, not synthesis."
+  ],
+  "subtasks": [],
+  "updated_at": "2026-06-08T18:55:00Z"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "11002",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpdog5ibpg",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n核心原則：\n- 先看真正完成時間；沒有真正完成時間時，再看承諾的驗證跨度。\n- 報告年份、歷史年份、基準年、法規年份、標準名稱年份不是完成時間。\n- 同一句有多個真正未來目標時，選最遠且最能代表該 promise 的目標。\n\n年份規則：\n- already：真正目標已在 2024 或以前完成，且 DATA 描述的是已完成、已達成、已導入、已實施，當期可驗證完畢。\n- within_2_years：真正目標年份是 2025 或 2026。\n- between_2_and_5_years：真正目標年份是 2027、2028、2029。\n- more_than_5_years：真正目標年份 >= 2030，例如 2030、2032、2040、2050。\n\n無明確年份規則：\n- between_2_and_5_years：有效 promise 但未明示目標完成年份；一般管理制度、供應鏈管理、風險評估、治理維持、法規遵循、人才培育、合作改善、資源管理、營運韌性、低碳轉型、持續精進。\n- more_than_5_years：明確長期淨零、明確長期策略、長期合作機制、長期研發能力建設、長期人才生態系、長期資安/風險/治理監控，且成果需超過 5 年累積驗證。\n\n避免誤判：\n- 「長期」若只是泛稱合作關係、互利共榮、持續精進，沒有明確長期目標，不要自動判 more_than_5_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「培育」、「合作」、「韌性」、「轉型」本身不是 more_than_5_years 的充分條件。\n- 「持續」、「定期」、「每年」、「已啟動」本身不是 already 的充分條件。\n- 文中同時提到 2024 年實績與 2025 年目標時，主要承諾年份是 2025，應判 within_2_years，而非 already。\n\n範例：\n\nDATA: 台達為強化安全衛生關注度，增加員工損失工時職業傷害發生率 (LTIFR) 為 2024 年職業安全衛生關鍵績效指標，實績為 0.38 達成年度目標 0.48，較 2023 年實績 0.60 下降 37%。我們深知員工的安全與健康是企業永續經營的重要基石，因此將持續強化安全衛生控制措施，以降低職業災害發生率，為加強自我管理，設定 2025 年職業安全衛生關鍵績效指標為：\n輸出：within_2_years\n\nDATA: 在永續資訊管理方面，台泥透過明確的組織架構、界定揭露範疇，並委任具公信力之第三方機構協助編製與查證，確保資訊內容符合法規與準則，提升透明度與可信度，作為利害關係人有效的參考依據。自2025年第一季起，台泥將結合電子平台，律定營運總部各單位辦理自我查核，依產業特性逐步將環境永續、公平交易法等面向納入自查作業，以強化自我查核、法遵與風險管理及內部稽核之三道防線。\n輸出：within_2_years\n\nDATA: 2024 年節水計畫含聯電集團全公司所有營運據點，透過新增各項節水措施、多元取水來源，作法包含生產機台製程清洗時間與流量調整改善、廢水增設 RO 回收系統、純水系統排放水再淨化回收、增加回收水備援管路減少自來水補充等。聯電集團減少取水量達 102.3 萬公噸。2025 年也預計透過相關措施，持續降低對自然水資源的汲取。\n輸出：within_2_years\n\nDATA: 自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，以追蹤各營運據點之溫室氣體排放情況，持續積極尋求各項減碳與低碳方案。同時逐步導入子公司盤查作業。2024 年溫室氣體相較前一年度下降 3.2%，並首次進行內部盤查子公司溫室氣體作業。\n輸出：already\n\nDATA: 在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系。核心原則是推動供應鏈的低碳轉型，同時維護人權、保護環境和促進生物多樣性，以建立永續的合作夥伴關係。\n輸出：between_2_and_5_years\n\nDATA: 台達透過產品再設計、低碳材料議合及材料循環利用等措施，積極推動供應鏈範疇三的減碳行動，並依據以下流程，集團在各事業單位內逐步實施年度減碳對策。以 2021 年作為減碳目標的基準年，並依照集團的 SBT 目標，預計至 2030 年，範疇三碳排放將降低 25%。\n輸出：more_than_5_years\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n未來五年企業物聯網市場將持續增長，市場規模至 2027 年將達 5,250 億美元，彼時全球物聯網行業人才需求缺口將超過千萬人。研華身為工業電腦與物聯網國際標竿企業，視物聯網人才培育為企業競爭力及企業永續重要發展重點。因此，我們以普及及深化物聯網教育為願景，推動三大主軸、五項研習專案培育物聯網人才。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpdog5ibpg '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n核心原則：\n- 先看真正完成時間；沒有真正完成時間時，再看承諾的驗證跨度。\n- 報告年份、歷史年份、基準年、法規年份、標準名稱年份不是完成時間。\n- 同一句有多個真正未來目標時，選最遠且最能代表該 promise 的目標。\n\n年份規則：\n- already：真正目標已在 2024 或以前完成，且 DATA 描述的是已完成、已達成、已導入、已實施，當期可驗證完畢。\n- within_2_years：真正目標年份是 2025 或 2026。\n- between_2_and_5_years：真正目標年份是 2027、2028、2029。\n- more_than_5_years：真正目標年份 >= 2030，例如 2030、2032、2040、2050。\n\n無明確年份規則：\n- between_2_and_5_years：有效 promise 但未明示目標完成年份；一般管理制度、供應鏈管理、風險評估、治理維持、法規遵循、人才培育、合作改善、資源管理、營運韌性、低碳轉型、持續精進。\n- more_than_5_years：明確長期淨零、明確長期策略、長期合作機制、長期研發能力建設、長期人才生態系、長期資安/風險/治理監控，且成果需超過 5 年累積驗證。\n\n避免誤判：\n- 「長期」若只是泛稱合作關係、互利共榮、持續精進，沒有明確長期目標，不要自動判 more_than_5_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「培育」、「合作」、「韌性」、「轉型」本身不是 more_than_5_years 的充分條件。\n- 「持續」、「定期」、「每年」、「已啟動」本身不是 already 的充分條件。\n- 文中同時提到 2024 年實績與 2025 年目標時，主要承諾年份是 2025，應判 within_2_years，而非 already。\n\n範例：\n\nDATA: 台達為強化安全衛生關注度，增加員工損失工時職業傷害發生率 (LTIFR) 為 2024 年職業安全衛生關鍵績效指標，實績為 0.38 達成年度目標 0.48，較 2023 年實績 0.60 下降 37%。我們深知員工的安全與健康是企業永續經營的重要基石，因此將持續強化安全衛生控制措施，以降低職業災害發生率，為加強自我管理，設定 2025 年職業安全衛生關鍵績效指標為：\n輸出：within_2_years\n\nDATA: 在永續資訊管理方面，台泥透過明確的組織架構、界定揭露範疇，並委任具公信力之第三方機構協助編製與查證，確保資訊內容符合法規與準則，提升透明度與可信度，作為利害關係人有效的參考依據。自2025年第一季起，台泥將結合電子平台，律定營運總部各單位辦理自我查核，依產業特性逐步將環境永續、公平交易法等面向納入自查作業，以強化自我查核、法遵與風險管理及內部稽核之三道防線。\n輸出：within_2_years\n\nDATA: 2024 年節水計畫含聯電集團全公司所有營運據點，透過新增各項節水措施、多元取水來源，作法包含生產機台製程清洗時間與流量調整改善、廢水增設 RO 回收系統、純水系統排放水再淨化回收、增加回收水備援管路減少自來水補充等。聯電集團減少取水量達 102.3 萬公噸。2025 年也預計透過相關措施，持續降低對自然水資源的汲取。\n輸出：within_2_years\n\nDATA: 自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，以追蹤各營運據點之溫室氣體排放情況，持續積極尋求各項減碳與低碳方案。同時逐步導入子公司盤查作業。2024 年溫室氣體相較前一年度下降 3.2%，並首次進行內部盤查子公司溫室氣體作業。\n輸出：already\n\nDATA: 在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系。核心原則是推動供應鏈的低碳轉型，同時維護人權、保護環境和促進生物多樣性，以建立永續的合作夥伴關係。\n輸出：between_2_and_5_years\n\nDATA: 台達透過產品再設計、低碳材料議合及材料循環利用等措施，積極推動供應鏈範疇三的減碳行動，並依據以下流程，集團在各事業單位內逐步實施年度減碳對策。以 2021 年作為減碳目標的基準年，並依照集團的 SBT 目標，預計至 2030 年，範疇三碳排放將降低 25%。\n輸出：more_than_5_years\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n未來五年企業物聯網市場將持續增長，市場規模至 2027 年將達 5,250 億美元，彼時全球物聯網行業人才需求缺口將超過千萬人。研華身為工業電腦與物聯網國際標竿企業，視物聯網人才培育為企業競爭力及企業永續重要發展重點。因此，我們以普及及深化物聯網教育為願景，推動三大主軸、五項研習專案培育物聯網人才。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019eaf11-429b-7231-86d8-b5a8d5ebfd6d",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "between_2_and_5_years",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 2432,
+          "input_tokens": 16795,
+          "output_tokens": 62,
+          "reasoning_output_tokens": 48
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019eaf11-429b-7231-86d8-b5a8d5ebfd6d\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"between_2_and_5_years\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":16795,\"cached_input_tokens\":2432,\"output_tokens\":62,\"reasoning_output_tokens\":48}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/few_shot_asym_v5.txt",
+  "raw_prediction": "between_2_and_5_years",
+  "run_id": "stage4_codex_gpt-5.5_few_shot_asym_v5"
+}

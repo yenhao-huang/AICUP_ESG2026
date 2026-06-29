@@ -1,0 +1,50 @@
+{
+  "id": "13058",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmprcr1di_s",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n統一超商透過自帶環保杯消費優惠及提供租借循環杯的方式鼓勵消費者力行環保，自 2022 年起整合集團建立「OPEN iECO 循環杯租借系統」，2024 年統一超商循環杯租借服務據點共計 2,531 店，已達全國店數 35% 且優於法規的要求，為單一通路提供規模最大的循環杯租借服務。我們提供更友善且便利的使用方式，2024 年統一超商整合全集團資源，投入資源整合集團物流之關係企業及清洗廠之合作夥伴，並已於 2022 年經環境部審查符合「循環（外借）杯良好服務指引」，統一超商為第一家通過「循環（外借）杯良好服務指引」申請核可的企業，符合六大面向規範：材質及標示、借用及歸還、清洗、檢驗、環保理念溝通、良好服務標誌等。清洗作業流程符合食品安全衛生法規及食品良好衛生規範準則之規範，清洗業者參照食藥署「餐具清洗良好作業指引」，以簡易餐具檢驗試劑，每批次自行檢驗，脂肪、澱粉、蛋白質、洗潔劑之殘留情形，必要時應進行病原性微生物之檢測。至少每半年依循衛生福利部公告或建議檢測方法進行一次委外檢驗（脂肪、澱粉、蛋白質、洗潔劑殘留情形及病原性微生物），確保提供衛生清潔的循環杯，也能於其他關係企業通路借還，如星巴克與 21 世紀風味館等，擴大 A 門市租借使用、B 門市歸還的服務範圍，使消費者能更方便且衛生地使用循環杯服務。「OPEN iECO 循環杯租借系統」結合「OPENPOINT」應用程式中的會員條碼，租借時預付金額，超過期限未歸還，則會自動扣繳預付金額，以確保消費者歸還，使得循環杯服務具有持續性。亦優於環境部法規要求，陸續於特定門市使用「OPEN iECO 循環杯蓋」，拓展更完整的循環杯服務，確保「OPEN iECO 循環杯租借系統」為可持續的循環服務。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmprcr1di_s '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n統一超商透過自帶環保杯消費優惠及提供租借循環杯的方式鼓勵消費者力行環保，自 2022 年起整合集團建立「OPEN iECO 循環杯租借系統」，2024 年統一超商循環杯租借服務據點共計 2,531 店，已達全國店數 35% 且優於法規的要求，為單一通路提供規模最大的循環杯租借服務。我們提供更友善且便利的使用方式，2024 年統一超商整合全集團資源，投入資源整合集團物流之關係企業及清洗廠之合作夥伴，並已於 2022 年經環境部審查符合「循環（外借）杯良好服務指引」，統一超商為第一家通過「循環（外借）杯良好服務指引」申請核可的企業，符合六大面向規範：材質及標示、借用及歸還、清洗、檢驗、環保理念溝通、良好服務標誌等。清洗作業流程符合食品安全衛生法規及食品良好衛生規範準則之規範，清洗業者參照食藥署「餐具清洗良好作業指引」，以簡易餐具檢驗試劑，每批次自行檢驗，脂肪、澱粉、蛋白質、洗潔劑之殘留情形，必要時應進行病原性微生物之檢測。至少每半年依循衛生福利部公告或建議檢測方法進行一次委外檢驗（脂肪、澱粉、蛋白質、洗潔劑殘留情形及病原性微生物），確保提供衛生清潔的循環杯，也能於其他關係企業通路借還，如星巴克與 21 世紀風味館等，擴大 A 門市租借使用、B 門市歸還的服務範圍，使消費者能更方便且衛生地使用循環杯服務。「OPEN iECO 循環杯租借系統」結合「OPENPOINT」應用程式中的會員條碼，租借時預付金額，超過期限未歸還，則會自動扣繳預付金額，以確保消費者歸還，使得循環杯服務具有持續性。亦優於環境部法規要求，陸續於特定門市使用「OPEN iECO 循環杯蓋」，拓展更完整的循環杯服務，確保「OPEN iECO 循環杯租借系統」為可持續的循環服務。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019f0ec7-d621-7f43-bc95-fa7b72f6a124",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "already",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 14720,
+          "input_tokens": 15738,
+          "output_tokens": 5,
+          "reasoning_output_tokens": 0
+        }
+      }
+    ],
+    "raw_stderr": "",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019f0ec7-d621-7f43-bc95-fa7b72f6a124\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"already\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":15738,\"cached_input_tokens\":14720,\"output_tokens\":5,\"reasoning_output_tokens\":0}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/AICUP_ESG2026/configs/prompts/stage4/boundary_rules_v4.txt",
+  "raw_prediction": "already",
+  "run_id": "20260628_144931_stage4"
+}

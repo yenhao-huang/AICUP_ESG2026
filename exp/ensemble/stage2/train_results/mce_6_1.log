@@ -1,0 +1,63 @@
+Device: cuda:0
+Model: hfl/chinese-roberta-wwm-ext-large
+Batch size: 4 (grad accum: 2, effective: 8)
+Validation: external file exp/integrated_stage_predictions/0614/submit/submit_5/stage2/data/mix_a2_b3_add_val.val.json (ignoring --val-ratio)
+Train records: 2039
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage2/data/mix_a2_b3_add_val.val.json (509 records)
+
+============================================================
+Training subtask: ST2
+============================================================
+Train samples: 1740 | Labels: 2 | Dist: {0: 445, 1: 1295}
+Val samples: 435 | Dist: {1: 324, 0: 111}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 62872.75it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loss: manual_class_split_ce  weights=[6.0, 1.0]
+Epoch 1/10 | Loss: 2.3962 | Val loss: n/a | Val micro-F1: 0.8759 | Val macro-F1: 0.8347
+Saved best model → /models/esg_contest/loop001_st2_synth_A2_b3_c1_25_add_val_mce_6_1/best_st2.pt (epoch=1, val_macro_f1=0.8347)
+Epoch 2/10 | Loss: 2.9494 | Val loss: n/a | Val micro-F1: 0.8966 | Val macro-F1: 0.8502
+Saved best model → /models/esg_contest/loop001_st2_synth_A2_b3_c1_25_add_val_mce_6_1/best_st2.pt (epoch=2, val_macro_f1=0.8502)
+Epoch 3/10 | Loss: 1.8497 | Val loss: n/a | Val micro-F1: 0.9103 | Val macro-F1: 0.8764
+Saved best model → /models/esg_contest/loop001_st2_synth_A2_b3_c1_25_add_val_mce_6_1/best_st2.pt (epoch=3, val_macro_f1=0.8764)
+Epoch 4/10 | Loss: 0.9893 | Val loss: n/a | Val micro-F1: 0.8989 | Val macro-F1: 0.8645
+Epoch 5/10 | Loss: 0.2526 | Val loss: n/a | Val micro-F1: 0.8943 | Val macro-F1: 0.8556
+Epoch 6/10 | Loss: 0.1206 | Val loss: n/a | Val micro-F1: 0.8943 | Val macro-F1: 0.8584
+Epoch 7/10 | Loss: 0.0000 | Val loss: n/a | Val micro-F1: 0.9011 | Val macro-F1: 0.8628
+Epoch 8/10 | Loss: 0.0000 | Val loss: n/a | Val micro-F1: 0.8989 | Val macro-F1: 0.8601
+Epoch 9/10 | Loss: 0.0001 | Val loss: n/a | Val micro-F1: 0.8989 | Val macro-F1: 0.8601
+Epoch 10/10 | Loss: 0.0000 | Val loss: n/a | Val micro-F1: 0.8989 | Val macro-F1: 0.8601
+Loaded best model from epoch 3 for final train metrics
+
+Train Micro-F1: 0.9891
+Train Macro-F1: 0.9856
+              precision    recall  f1-score   support
+
+          No       0.99      0.97      0.98       445
+         Yes       0.99      1.00      0.99      1295
+
+    accuracy                           0.99      1740
+   macro avg       0.99      0.98      0.99      1740
+weighted avg       0.99      0.99      0.99      1740
+
+Best Val Macro-F1: 0.8764 (epoch=3)
+
+============================================================
+Final Results (Train Micro-F1)
+============================================================
+ST2: 0.8764 (weight=0.3)
+
+Partial Weighted Contribution: 0.2629
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage2/train_results/mix_a2_b3_add_val_mce_6_1.json

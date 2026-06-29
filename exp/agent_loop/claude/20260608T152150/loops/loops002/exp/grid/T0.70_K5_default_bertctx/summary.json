@@ -1,0 +1,251 @@
+{
+  "run_id": "stage1_rag_t0.70_default_data-only",
+  "output": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/grid/T0.70_K5_default_bertctx/merged.csv",
+  "bert_csv": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/base/a0_val_public_scored.csv",
+  "threshold": 0.7,
+  "model": "/workspace/llm_model",
+  "prompt": "default",
+  "mode_context": "bert-prediction",
+  "info_mode": "data-only",
+  "top_k": 5,
+  "embedding_model": "/models/qihoo360-Zhinao-ChineseModernBert-Embedding",
+  "embedding_backend": "st",
+  "embedding_base_url": "http://192.168.1.78:3132/v1",
+  "train_data": "data/raw_data/vpesg_4k_train_1000.json",
+  "total_rows": 500,
+  "high_conf_rows": 484,
+  "low_conf_rows": 16,
+  "codex_called": 16,
+  "codex_errors": 0,
+  "changed_by_codex": 4,
+  "codex_results": [
+    {
+      "id": "11555",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.61242938,
+      "retrieved_scores": [
+        0.7787336707115173,
+        0.716494083404541,
+        0.680683434009552,
+        0.6455586552619934,
+        0.6319094896316528
+      ]
+    },
+    {
+      "id": "11771",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.613469,
+      "retrieved_scores": [
+        0.7800447940826416,
+        0.7767105102539062,
+        0.7306419610977173,
+        0.6869255304336548,
+        0.6658369302749634
+      ]
+    },
+    {
+      "id": "11429",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.62514096,
+      "retrieved_scores": [
+        0.7241017818450928,
+        0.7060328722000122,
+        0.641578197479248,
+        0.6399863958358765,
+        0.6263011693954468
+      ]
+    },
+    {
+      "id": "11507",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.63149124,
+      "retrieved_scores": [
+        0.6702292561531067,
+        0.5579140186309814,
+        0.46210601925849915,
+        0.41406700015068054,
+        0.4132338762283325
+      ]
+    },
+    {
+      "id": "11935",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.69642472,
+      "retrieved_scores": [
+        0.5281346440315247,
+        0.45246338844299316,
+        0.45135462284088135,
+        0.4479268789291382,
+        0.4408377707004547
+      ]
+    },
+    {
+      "id": "11627",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.63345802,
+      "retrieved_scores": [
+        0.5950191020965576,
+        0.5923668146133423,
+        0.5841963291168213,
+        0.5753074884414673,
+        0.5692467093467712
+      ]
+    },
+    {
+      "id": "11005",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.69179946,
+      "retrieved_scores": [
+        0.6361942887306213,
+        0.6340922713279724,
+        0.629306972026825,
+        0.6280763149261475,
+        0.6255125403404236
+      ]
+    },
+    {
+      "id": "11682",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.5206517,
+      "retrieved_scores": [
+        0.5873507857322693,
+        0.5535441637039185,
+        0.5367462635040283,
+        0.5059623718261719,
+        0.5039651393890381
+      ]
+    },
+    {
+      "id": "11844",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.65638804,
+      "retrieved_scores": [
+        0.7173951268196106,
+        0.6629849076271057,
+        0.6449890732765198,
+        0.6443115472793579,
+        0.633409857749939
+      ]
+    },
+    {
+      "id": "11314",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.63096178,
+      "retrieved_scores": [
+        0.5280218124389648,
+        0.4779980480670929,
+        0.4700184464454651,
+        0.43758004903793335,
+        0.4245010018348694
+      ]
+    },
+    {
+      "id": "11381",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.67616248,
+      "retrieved_scores": [
+        0.6845844984054565,
+        0.6646754741668701,
+        0.660295844078064,
+        0.6581189632415771,
+        0.6477599740028381
+      ]
+    },
+    {
+      "id": "11377",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.57010782,
+      "retrieved_scores": [
+        0.802771806716919,
+        0.706267774105072,
+        0.6836528778076172,
+        0.6588815450668335,
+        0.656583309173584
+      ]
+    },
+    {
+      "id": "11346",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.5065369,
+      "retrieved_scores": [
+        0.8379767537117004,
+        0.7604696750640869,
+        0.7397342920303345,
+        0.7204727530479431,
+        0.6980009078979492
+      ]
+    },
+    {
+      "id": "11187",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.53259647,
+      "retrieved_scores": [
+        0.644341230392456,
+        0.6378071904182434,
+        0.6162457466125488,
+        0.6133400201797485,
+        0.6052819490432739
+      ]
+    },
+    {
+      "id": "11783",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.65770906,
+      "retrieved_scores": [
+        0.5771275162696838,
+        0.5267958641052246,
+        0.4901312291622162,
+        0.48514440655708313,
+        0.47651219367980957
+      ]
+    },
+    {
+      "id": "11432",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.66248709,
+      "retrieved_scores": [
+        0.6392521858215332,
+        0.5481860637664795,
+        0.52634596824646,
+        0.5080743432044983,
+        0.461833119392395
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "task": "Optimize ESG Stage 4 (verification_timeline) Codex prompt to beat baseline ST4 Macro-F1 = 0.5109 on data/benchmarks/val_test.json. Baseline prompt: stage4_balance_rule_v1.txt. Key weaknesses: within_2_years F1=0.222, already F1=0.454. Data-only runtime; no post-processing.",
+  "workspace": "exp/agent_loop/claude/20260609T172829",
+  "next_loop": 1,
+  "target_loop": 3,
+  "phase": "experiment",
+  "current_loop": 1,
+  "last_completed_loop": 0,
+  "last_verdict": "",
+  "best_artifact": "exp/integrated_stage_predictions/best_comb/detail_method/prompts/stage4_balance_rule_v1.txt",
+  "run_mode": "autonomous_to_target",
+  "baseline": {
+    "prompt": "exp/integrated_stage_predictions/best_comb/detail_method/prompts/stage4_balance_rule_v1.txt",
+    "val_test_macro_f1": 0.5109,
+    "per_class": {
+      "already": 0.454,
+      "within_2_years": 0.222,
+      "between_2_and_5_years": 0.575,
+      "more_than_5_years": 0.603,
+      "N/A": 0.701
+    }
+  },
+  "subtasks": [
+    {"id": "A1", "phase": "exp", "description": "val_public run: few_shot_boundary_v1.txt (4-shot direct)"},
+    {"id": "A2", "phase": "exp", "description": "val_public run: few_shot_boundary_v2.txt (8-shot direct)"},
+    {"id": "A3", "phase": "exp", "description": "val_public run: few_shot_cot_v3.txt (4-shot CoT)"},
+    {"id": "A4", "phase": "exp", "description": "val_public run: boundary_rules_v4.txt (rules-only enhanced)"},
+    {"id": "A5", "phase": "exp", "description": "val_public run: few_shot_asym_v5.txt (6-shot within_2y oversampled)"},
+    {"id": "A6", "phase": "exp", "description": "val_public run: few_shot_cot_ext_v6.txt (8-shot CoT)"}
+  ],
+  "updated_at": "2026-06-09T17:45:00Z"
+}

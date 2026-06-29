@@ -1,0 +1,50 @@
+{
+  "id": "12583",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpaykaoks1",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n台光電子為使公司職安衛管理機能確實達成，並預防和減輕與業務相關之職業安全衛生的衝擊，秉持環安衛政策之精神，每年定期辦理危害鑑別風險評估作業，元份考量危害鑑別風險評估結果、內外部安全衛生議題、利害關係人需求與期望、法規與其他要求、技術、財務等議題，建立新年度持續改善目標。由安衛部督導各部門主管，依據公司環安衛政策擬訂安全衛生管理計劃，並將各項計劃明細分別填列在目標計劃表中。凡年度內可完成之計劃視為短期計劃，需跨年度 (2-3 年) 方可達成之計劃視為長期計劃。自 2012 年起台光電子為提升廠區整體安全衛生，由各部門針對其潛在危害風險訂定新年度安全衛生改善目標，2024 年多針對製程現場氣體管線、IQC/IPQC 新增增加活動抽氣裝置及化學倉防爆馬達更新，除了消除作業時的罹災風險，更主動促進人員危害警覺性，2024 持續加強承攬商入廠安全衛生教育訓練，說明各區域作業注意事項，使初次入廠施工人員熟悉作業環境，提升施工人員危害性作業安全衛生意識，確實遵守法規規範，並配合不定期安全衛生稽查，確保皆遵守規範執行作業，預期以降低承攬商職業災害發生風險，打造同仁、承攬商、客戶等所有入廠人員皆能安心作業之場所。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpaykaoks1 '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n台光電子為使公司職安衛管理機能確實達成，並預防和減輕與業務相關之職業安全衛生的衝擊，秉持環安衛政策之精神，每年定期辦理危害鑑別風險評估作業，元份考量危害鑑別風險評估結果、內外部安全衛生議題、利害關係人需求與期望、法規與其他要求、技術、財務等議題，建立新年度持續改善目標。由安衛部督導各部門主管，依據公司環安衛政策擬訂安全衛生管理計劃，並將各項計劃明細分別填列在目標計劃表中。凡年度內可完成之計劃視為短期計劃，需跨年度 (2-3 年) 方可達成之計劃視為長期計劃。自 2012 年起台光電子為提升廠區整體安全衛生，由各部門針對其潛在危害風險訂定新年度安全衛生改善目標，2024 年多針對製程現場氣體管線、IQC/IPQC 新增增加活動抽氣裝置及化學倉防爆馬達更新，除了消除作業時的罹災風險，更主動促進人員危害警覺性，2024 持續加強承攬商入廠安全衛生教育訓練，說明各區域作業注意事項，使初次入廠施工人員熟悉作業環境，提升施工人員危害性作業安全衛生意識，確實遵守法規規範，並配合不定期安全衛生稽查，確保皆遵守規範執行作業，預期以降低承攬商職業災害發生風險，打造同仁、承攬商、客戶等所有入廠人員皆能安心作業之場所。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019f091e-0cfa-72d3-9282-f57019452755",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "already",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 13696,
+          "input_tokens": 15571,
+          "output_tokens": 20,
+          "reasoning_output_tokens": 13
+        }
+      }
+    ],
+    "raw_stderr": "",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019f091e-0cfa-72d3-9282-f57019452755\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"already\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":15571,\"cached_input_tokens\":13696,\"output_tokens\":20,\"reasoning_output_tokens\":13}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/AICUP_ESG2026/configs/prompts/stage4/boundary_rules_v4.txt",
+  "raw_prediction": "already",
+  "run_id": "20260627_123651_stage4"
+}

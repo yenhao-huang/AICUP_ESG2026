@@ -1,0 +1,8 @@
+{
+  "split": "val_public",
+  "macro_f1": 0.817436,
+  "f1_Yes": 0.937198,
+  "f1_No": 0.697674,
+  "escalations": 31,
+  "a0_base": 0.803069
+}

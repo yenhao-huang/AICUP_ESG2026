@@ -1,0 +1,236 @@
+id,evidence_status,evidence_status_raw,filter_passed,prediction_source,postprocess_reason
+12029,Yes,"{""promise_status"":""Yes"",""promise_str"":""期盼能成為台灣邁向淨零排放的助力。"",""evidence_status"":""Yes"",""evidence_str"":""除了企業內部推動淨零行動，日月光投控也透過參與氣候相關行業協會組織，交流最新淨零排放趨勢、進行相關倡議與提供政府制定氣候變遷相關法案參考建議等，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.69976240;score_yes=0.30023760;n_members=5|gemma:local_norag:tau=0.70:conf=0.6998
+12042,Yes,"{""promise_status"":""Yes"",""promise_str"":""促進人才永續，提升企業永續競爭力"",""evidence_status"":""Yes"",""evidence_str"":""強化人力資源管理，導入DEI與TIFD等多元共融指標。  ● 建立人才招募與留任策略，推動永續導向培訓與福祉制度。  ● 將永續文化轉化為員工價值主張 (EVP)，深化組織認同感。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33579901;score_yes=0.66420098;n_members=5|gemma:local_norag:tau=0.70:conf=0.6642
+12045,Yes,"{""promise_status"":""Yes"",""promise_str"":""向「零危害、零污染」的目標邁進。"",""evidence_status"":""Yes"",""evidence_str"":""員工健康與安全是集團的立身之本，集團嚴格遵循各國當地政府的化學品安全相關法規及客戶的限用物質規範要求，以全程監控為基礎，堅持有害物質「不設計、不採購、不流入、不製造、不產出」的五不原則，對生產營運過程中涉及的化學物質分級管控，最大限度的減少、控制和消除有害物質對員工健康及環境的影響，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58313342;score_yes=0.41686661;n_members=5|gemma:local_norag:tau=0.70:conf=0.5831
+12085,Yes,"{""promise_status"":""Yes"",""promise_str"":""未來，我們將更嚴格要求供應商誠實並完整的揭露產品中是否含有使用來自於受衝突影響地區和高風險地區之責任礦產與鈷礦產來源，並透過每年供應商大會持續宣導負責任礦產之相關要求，以達到不直接或間接助益其武裝衝突組織之目的。"",""evidence_status"":""Yes"",""evidence_str"":""近年，和碩積極與客戶配合，以達成100%產品使用的礦產來源皆不來自於衝突地區和高風險地區之目標，以符合客戶的要求，並積極展開鈷礦產調查。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54586587;score_yes=0.45413413;n_members=5|gemma:local_norag:tau=0.70:conf=0.5459
+12095,No,"{""promise_status"":""Yes"",""promise_str"":""針對氣候變遷帶來的風險與機會，萬海將相關因應策略納入年度預算與業務規劃，並監控轉型風險與機會，如法規變動與客戶環保意識提升；同時，針對極端天氣等影響船舶安全及碼頭作業的實體風險，編列預算優化監控系統並購買氣象資料，強化船舶航行安全。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.36895206;score_yes=0.63104791;n_members=5|gemma:local_norag:tau=0.70:conf=0.6310
+12107,Yes,"{""promise_status"":""Yes"",""promise_str"":""並訂定以 2019 為基準年，每年節水 1% 的目標，故 2024 年減量目標為相較 2019 年減量 5%，"",""evidence_status"":""Yes"",""evidence_str"":""2024 年實際用水減量 31%，達成年度目標。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.40644429;score_yes=0.59355570;n_members=5|gemma:local_norag:tau=0.70:conf=0.5936
+12135,Yes,"{""promise_status"":""Yes"",""promise_str"":""為強化董事會多元化目標，未來改選董事時將提高女性董事席次，以增進董事會性別多元化。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年男性年平均薪酬與女性比例為 1 : 1.31。2024 年無發生違反人權相關及性騷擾事件。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.55769511;score_yes=0.44230490;n_members=5|gemma:local_norag:tau=0.70:conf=0.5577
+12142,Yes,"{""promise_status"":""Yes"",""promise_str"":""本公司持續關注社會變遷相關議題，包含人口結構變化、城鄉差異擴大、民眾保險保障觀念待持續提升等，並透過公司資源及人力投入，協助解決社會重要議題，善盡壽險業社會責任。"",""evidence_status"":""Yes"",""evidence_str"":""同時本公司積極參與外部公協會，攜手產官學合作，共同推動壽險業朝永續發展方向不斷邁進（本公司參與之協會，請詳附錄 7、富邦人壽參與之協會）。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34183742;score_yes=0.65816255;n_members=5|gemma:local_norag:tau=0.70:conf=0.6582
+12152,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.46590744;score_yes=0.53409256;n_members=5|gemma:local_norag:tau=0.70:conf=0.5341
+12230,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33210843;score_yes=0.66789156;n_members=5|gemma:local_norag:tau=0.70:conf=0.6679
+12254,No,"{""promise_status"":""Yes"",""promise_str"":""聯發科技以國際性的視野，運籌全球優秀人才資源，以「全球布局、在地實踐」的方式，為世界各地的客戶提供即時且優質的產品及服務，以永續發展的態度持續追求所在產業的領導地位。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.39714849;score_yes=0.60285151;n_members=5|gemma:local_norag:tau=0.70:conf=0.6029
+12281,Yes,"{""promise_status"":""Yes"",""promise_str"":""合庫每年依員工健康檢查、健康管理成效及流行病學等指標，規劃新年度健康管理計畫與活動，"",""evidence_status"":""Yes"",""evidence_str"":""醫師臨場服務、多元主題健康講座、健康運動宣導等，依安全狀況反應通報事件及危害鑑別統計實施風險評估，制定預防代謝症候群、預防員工上下班交通意外、提升職場安全等目標管理方案，並對風險議題設置控制措施、檢討實施成效。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.43098185;score_yes=0.56901817;n_members=5|gemma:local_norag:tau=0.70:conf=0.5690
+12287,Yes,"{""promise_status"":""Yes"",""promise_str"":""公司已強化作業規範與教育訓練，盤查潛在風險作業場域，優化安全機制，研擬防範措施，以降低工安風險，確保員工安全。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年發生 5 起職業傷害，導致工安零災害目標未達標。2 起傷害為被機械設備夾傷，1 起管路維修與高溫接觸傷害，1 起被堆高機碰撞傷害，1 起走路跌倒傷害。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54331490;score_yes=0.45668510;n_members=5|gemma:local_norag:tau=0.70:conf=0.5433
+12301,Yes,"{""promise_status"":""Yes"",""promise_str"":""我們承諾與產業協會合作識別及尋找有害物質的替代品，並持續投入研發資源開發替代方案或逐步汰除有害物質。"",""evidence_status"":""Yes"",""evidence_str"":""2002 年台達建立環境有害物質管理政策與規範，從產品設計到製造產出，包括構成台達產品料號的零件、製程化學品、治具以及包裝材料均納入管理體系，以期達成最全面的管理。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59884917;score_yes=0.40115085;n_members=5|gemma:local_norag:tau=0.70:conf=0.5988
+12332,Yes,"{""promise_status"":""Yes"",""promise_str"":""智邦將持續推動改善措施，並訂定積極目標，以確保持續提升員工的安全與健康保障。"",""evidence_status"":""Yes"",""evidence_str"":""目標為：每年 FR、SR 之數值，相較前一年需分別降低 5%。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54662995;score_yes=0.45337006;n_members=5|gemma:local_norag:tau=0.70:conf=0.5466
+12335,Yes,"{""promise_status"":""Yes"",""promise_str"":""承諾在 2030 年前實現營運活動碳中和、2050 年前實現價值鏈淨零排放。"",""evidence_status"":""Yes"",""evidence_str"":""緯創的科學基礎減碳目標（SBT）已於 2024 年通過官方審核，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.43988583;score_yes=0.56011417;n_members=5|gemma:local_norag:tau=0.70:conf=0.5601
+12357,Yes,"{""promise_status"":""Yes"",""promise_str"":""公司積極提升產能規模，機台自動化程度，以創造獲利成長。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年人才招募管道：人力銀行、校園徵才、員工推薦、政府就服站、就業博覽會、廠外紅布條、獵人頭公司、大學院校合作、線上徵才、內部徵才…等；持續鎖定招募有相關理工背景或是跨領域整合能力的頂尖人才，開發更高階規格鏡頭，加上裝載鏡頭數逐漸增加，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.39464462;score_yes=0.60535538;n_members=5|gemma:local_norag:tau=0.70:conf=0.6054
+12359,Yes,"{""promise_status"":""Yes"",""promise_str"":""透過各界攜手合作，不僅改善河川環境、維護當地生態平衡，更從環境教育著手，從小培養孩子們的環境保育意識。"",""evidence_status"":""Yes"",""evidence_str"":""2024 濁水溪白蛤季的舉辦，不僅吸引在地觀光人潮，更帶動地方經濟成長，讓社區共享發展機會，凝聚在地共識，為未來的環境保護與區域永續發展奠定堅實而穩固的基礎。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.51571144;score_yes=0.48428853;n_members=5|gemma:local_norag:tau=0.70:conf=0.5157
+12394,Yes,"{""promise_status"":""Yes"",""promise_str"":""未來亦將依循營運持續管理之國際標準 ISO 22301 與最佳實務，持續精進與深化營運持續管理體系，及培育相關人才，以期於風險事件發生時能迅速反應、減輕公司損害，維持與回復關鍵業務之營運能力，展現企業韌性以落實永續經營。"",""evidence_status"":""Yes"",""evidence_str"":""本公司基於董事會核定之「營運持續管理政策」所揭示維護人員安全、保障客戶權益的承諾，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34634864;score_yes=0.65365134;n_members=5|gemma:local_norag:tau=0.70:conf=0.6537
+12399,Yes,"{""promise_status"":""Yes"",""promise_str"":""期盼能提升員工對於世代多樣性的認知，並在公司內部營造更緊密的世代聯繫。"",""evidence_status"":""Yes"",""evidence_str"":""2023 年在總部成立— I-Connect (Intergeneration Connect) 跨世代員工社群，旨在搭建一個溝通和學習的平臺，促進不同年齡層員工之間的交流。I-Connect 的成立，不僅體現了我們對世代多樣性的重視，更是推動正向合作與創新的重要一步。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.49233836;score_yes=0.50766164;n_members=5|gemma:local_norag:tau=0.70:conf=0.5077
+12407,Yes,"{""promise_status"":""Yes"",""promise_str"":""為落實與提昇資通安全治理策略，"",""evidence_status"":""Yes"",""evidence_str"":""瑞昱設立資通安全委員會負責檢視資安政策制定與執行成效。資通安全委員會由總經理擔任主席，各單位一級主管擔任當然委員，每年至少舉行一次委員會議，並向董事會報告資安整體執行情形。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.47116525;score_yes=0.52883475;n_members=5|gemma:local_norag:tau=0.70:conf=0.5288
+12452,Yes,"{""promise_status"":""Yes"",""promise_str"":""規劃對未來要投資新建的牧場，給予導入參考建議。"",""evidence_status"":""Yes"",""evidence_str"":""全台首創「發酵循環畜舍」，以泥土地基底，翻土促進廢棄物發酵，轉化為天然睡墊，減少污染並優化牛隻生活環境。目前已有牧場導入此技術，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.49701105;score_yes=0.50298896;n_members=5|gemma:local_norag:tau=0.70:conf=0.5030
+12490,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54627305;score_yes=0.45372695;n_members=5|gemma:local_norag:tau=0.70:conf=0.5463
+12559,No,"{""promise_status"":""Yes"",""promise_str"":""集團確保研發成果的「自由運營(Freedom-to-Operate, FTO)」，配合研發方向與進程，以及產品於各國行銷狀況，儘早與適時申請專利。 ｜ 配合藥證申請與上市行銷規劃，適時申請各國商標註冊，以符合藥監機關之要求。 ｜ 同時，關注市場變化、業務推展、產品使用、創新研發等各方面的反饋，以持續強化相關專利與商標的申請，並監控全球相近技術、產品、商標的發展進度，進行必要之因應措施。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.41565489;score_yes=0.58434510;n_members=5|gemma:local_norag:tau=0.70:conf=0.5843
+12569,Yes,"{""promise_status"":""Yes"",""promise_str"":""玉山期望透過與各利害關係者的持續合作，不僅使瓦拉米計畫邁向個十年，更引領臺灣農業向永續發展的美好未來邁進。"",""evidence_status"":""Yes"",""evidence_str"":""持續展現我們的 ESG 精神，不僅在國內分享這段珍貴的經歷，還在國際舞台上，於紐約氣候週的世界生物多樣性峰會（World Biodiversity Summit）和聯合國氣候變化大會（COP29）上向全球介紹臺灣的美麗與成就。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54756466;score_yes=0.45243533;n_members=5|gemma:local_norag:tau=0.70:conf=0.5476
+12608,No,"{""promise_status"":""Yes"",""promise_str"":""本公司及子公司制訂完整的事故調查流程，即時追蹤、辨識評估到協助支援，確實瞭解事故原因並防止再發生。 ｜ 調查完成後，各事業部指派員工接受專業訓練，提升調查能力，必要時可跨公司或跨廠處協助調查。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.40857948;score_yes=0.59142053;n_members=5|gemma:local_norag:tau=0.70:conf=0.5914
+12626,No,"{""promise_status"":""Yes"",""promise_str"":""一直以「預防管理」的積極態度面對災害風險管理的範疇，也藉由縝謹的風險工程控制、安全規範與基準的落實管理，追求達到半導體產業安全的最高標準。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.67339198;score_yes=0.32660804;n_members=5|gemma:local_norag:tau=0.70:conf=0.6734
+12643,Yes,"{""promise_status"":""Yes"",""promise_str"":""台泥預計自2026年依2025年排碳量繳納碳費，惟若能通過自主減量計畫的核定，則可適用碳洩漏風險係數值，有助於減少碳費財務衝擊。"",""evidence_status"":""Yes"",""evidence_str"":""2023年台灣通過「氣候變遷因應法」，並於2024年 8 月發布「碳費收費辦法」，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.38342235;score_yes=0.61657766;n_members=5|gemma:local_norag:tau=0.70:conf=0.6166
+12646,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58468950;score_yes=0.41531049;n_members=5|gemma:local_norag:tau=0.70:conf=0.5847
+12666,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.48554262;score_yes=0.51445739;n_members=5|gemma:local_norag:tau=0.70:conf=0.5145
+12683,Yes,"{""promise_status"":""Yes"",""promise_str"":""展望未來，儘管地緣政治緊張局勢加劇，國際衝突持續存在，客戶端庫存仍持續朝健康水位發展。公司將密切關注市場供需動態，並對 AI 應用的營運動能與未來展望保持樂觀。"",""evidence_status"":""Yes"",""evidence_str"":""本公司 2024 年全年度合併營收為新臺幣 1,216.67 億元，較去年同期增加 13.1%；稅後合併淨利為新臺幣 193.56 億元，每股稅後盈餘新臺幣 38.13 元。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.30094885;score_yes=0.69905114;n_members=5|gemma:local_norag:tau=0.70:conf=0.6991
+12709,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34780000;score_yes=0.65220001;n_members=5|gemma:local_norag:tau=0.70:conf=0.6522
+12713,Yes,"{""promise_status"":""Yes"",""promise_str"":""已設定以 2023 年為基準年，於 2030 年達成減碳 30%，2050 年依政府及國際規範達成淨零碳排。同前述減碳目標，同步設定以 2023 年為基準年，於 2030 年時綠電減碳應達 25%。"",""evidence_status"":""Yes"",""evidence_str"":""詳細減碳目標與減碳成效請見 4.2.3 減碳目標、行動與成效。有關再生能源使用相關資訊，請見 4.2.1 能源使用與管理。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.52648110;score_yes=0.47351890;n_members=5|gemma:local_norag:tau=0.70:conf=0.5265
+12732,No,"{""promise_status"":""Yes"",""promise_str"":""中華電信將持續強化氣候治理機制，深化並擴展減碳行動。我們將不斷自我提升，成為低碳、綠色發展的領導企業。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.66842558;score_yes=0.33157442;n_members=5|gemma:local_norag:tau=0.70:conf=0.6684
+12733,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34967505;score_yes=0.65032495;n_members=5|gemma:local_norag:tau=0.70:conf=0.6503
+12749,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.40517605;score_yes=0.59482395;n_members=5|gemma:local_norag:tau=0.70:conf=0.5948
+12767,Yes,"{""promise_status"":""Yes"",""promise_str"":""以發展更具成效的永續性政策且具包容性的回應。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年報告書反映出世芯電子已善盡利害關係人的參與，並建立重大永續主題，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42680766;score_yes=0.57319232;n_members=5|gemma:local_norag:tau=0.70:conf=0.5732
+12781,Yes,"{""promise_status"":""Yes"",""promise_str"":""以實現男女同工同酬的目標。"",""evidence_status"":""Yes"",""evidence_str"":""本行所有職務起薪均優於勞動基準法規定之基本工資，不因性別或其他因素而有所差異。同時每年於永續報告書定期揭露性別薪酬指標，並了解金融同業揭露資訊掌握男女薪資差距，推行相關管理措施、拔擢表現優異之女性主管，升任公司管理階層，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.31287768;score_yes=0.68712234;n_members=5|gemma:local_norag:tau=0.70:conf=0.6871
+12816,Yes,"{""promise_status"":""Yes"",""promise_str"":""每年一次由永續發展委員會審議並提報董事會通過後，對外發佈以向利害關係人溝通。"",""evidence_status"":""Yes"",""evidence_str"":""永續發展委員會以總經理室為幕僚作業部門，設有「永續及風險管理工作小組」，由總經理擔任召集人，各機能組分別負責不同職能領域，負責推動公司風險管理、企業社會責任及氣候變遷調適等永續相關工作。工作成果編製彙整於永續報告書，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.41012112;score_yes=0.58987888;n_members=5|gemma:local_norag:tau=0.70:conf=0.5899
+12827,Yes,"{""promise_status"":""Yes"",""promise_str"":""陽明海運長期以來一直致力於推展海洋文化教育與支持在地社區共榮發展，將「提升社會參與，實踐取之社會、用之社會之理念」作為本公司永續發展策略之一，"",""evidence_status"":""Yes"",""evidence_str"":""在本業發展的同時，展現企業人飢己飢的精神，與政府組織、慈善單位、學術單位、NGO 等組織合作，響應人道慈善援助，並重視年青學子教育發展，提供教育補助及產學合作擴充海勤人力資料庫，同時配合政府推廣體育政策，贊助潛力優秀運動員，亦積極經營社區發展，鼓勵在地文化推廣。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59670436;score_yes=0.40329564;n_members=5|gemma:local_norag:tau=0.70:conf=0.5967
+12834,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.60270878;score_yes=0.39729119;n_members=5|gemma:local_norag:tau=0.70:conf=0.6027
+12838,Yes,"{""promise_status"":""Yes"",""promise_str"":""台泥永續承諾：全面氣候承諾，和全面關懷承諾，致力推展低碳建材、綠色能源和資源循環三大核心事業，期提供人類文明與氣候、自然間複雜問題之解決方案。"",""evidence_status"":""Yes"",""evidence_str"":""採減碳增綠策略，從本業減碳，到助人減碳；以人為本，推動多元跨域、跨齡共融，透過四大動能驅動低碳轉型與打造全球競爭力。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.60829051;score_yes=0.39170949;n_members=5|gemma:local_norag:tau=0.70:conf=0.6083
+12842,Yes,"{""promise_status"":""Yes"",""promise_str"":""鴻海供應商與合作夥伴行為準則中，明文規範所有供應商及合作夥伴必須尊重並維護人權，不得使用任何形式的強迫勞動、童工或其他剝削性勞動。應保障其員工享有合理工時與報酬、結社自由及集體談判權，並提供安全健康的工作環境。"",""evidence_status"":""Yes"",""evidence_str"":""任何歧視、騷擾或虐待行為均屬重大違規，一經發現，鴻海將採取零容忍措施，包括暫停合作或終止合約，並要求立即改善，確保供應鏈及協力夥伴網絡中每一位勞動者的基本權利獲得尊重和保護。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.56865471;score_yes=0.43134530;n_members=5|gemma:local_norag:tau=0.70:conf=0.5687
+12844,Yes,"{""promise_status"":""Yes"",""promise_str"":""SBT-NZ 要求每年排放減量 4.2%，預計至 2037 年將僅剩最終殘餘排放，並於 2050 實現淨零。"",""evidence_status"":""Yes"",""evidence_str"":""在以 SBT-NZ 為目標之情境下，碳費支出主要集中於初期階段，並於 2037 達到峰值，2047 年後隨著排放達標，不再面臨相關碳稅風險。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.67813313;score_yes=0.32186687;n_members=5|gemma:local_norag:tau=0.70:conf=0.6781
+12851,No,"{""promise_status"":""Yes"",""promise_str"":""我們根據近年來的永續績效成果，訂定未來五年涵蓋環境面、社會面與治理面的永續發展藍圖，積極透過整合公司各部門資源逐年達成永續目標，發揮公司對於利害關係人的正向影響力。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.61821382;score_yes=0.38178616;n_members=5|gemma:local_norag:tau=0.70:conf=0.6182
+12882,Yes,"{""promise_status"":""Yes"",""promise_str"":""提供各種類學習資源、績效管理措施、雙向職涯會談，及內部轉職制度，積極培養員工能力並主動掌握發展機會。"",""evidence_status"":""Yes"",""evidence_str"":""新進主管開始，提供漸進式的訓練，給予專屬的領導力發展資源，並定期施行評鑑。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.30488054;score_yes=0.69511949;n_members=5|gemma:local_norag:tau=0.70:conf=0.6951
+12911,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.38145638;score_yes=0.61854363;n_members=5|gemma:local_norag:tau=0.70:conf=0.6185
+12927,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54146430;score_yes=0.45853570;n_members=5|gemma:local_norag:tau=0.70:conf=0.5415
+12935,Yes,"{""promise_status"":""Yes"",""promise_str"":""預計於 2025 年起推動盡職調查，涵蓋財務穩定性、法規遵循性、技術能力及永續績效等，"",""evidence_status"":""Yes"",""evidence_str"":""透過實地抽查與報告檢核，確保供應鏈永續發展。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.30956587;score_yes=0.69043414;n_members=5|gemma:local_norag:tau=0.70:conf=0.6904
+12940,Yes,"{""promise_status"":""Yes"",""promise_str"":""遵循相關民航消費法規，提供多元顧客溝通管道，即時妥善處理客訴，重新贏得旅客信任。"",""evidence_status"":""Yes"",""evidence_str"":""經由系統化作業，審慎管理顧客意見，釐清肇因，落實矯正措施。透過定期服務品質管理相關會議檢視各項服務提供狀況、顧客回饋及追蹤顧客滿意度，提供符合顧客需求之服務。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59619683;score_yes=0.40380319;n_members=5|gemma:local_norag:tau=0.70:conf=0.5962
+12961,No,"{""promise_status"":""Yes"",""promise_str"":""定期審議及檢視防制洗錢及打擊資恐執行成效。 ｜ 降低並預防洗錢及資恐風險。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34600089;score_yes=0.65399914;n_members=5|gemma:local_norag:tau=0.70:conf=0.6540
+12991,Yes,"{""promise_status"":""Yes"",""promise_str"":""資訊安全相關政策、計畫、措施及技術規範之研議，以及安全技術之研究及評估相關事項。"",""evidence_status"":""Yes"",""evidence_str"":""資訊安全管理計畫之訂定、執行，及定期評估實施成效。  - 建立資訊安全事件的正式通報程序及管道，並訂定通報之後應採行之行動及措施。  - 資料及資訊系統之安全需求研議、使用管理及保護。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.62047009;score_yes=0.37952991;n_members=5|gemma:local_norag:tau=0.70:conf=0.6205
+13012,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59480604;score_yes=0.40519395;n_members=5|gemma:local_norag:tau=0.70:conf=0.5948
+13027,No,"{""promise_status"":""Yes"",""promise_str"":""本公司願為環保貢獻最大之努力，達到生產零污染的目標，克盡地球公民責任，致力企業永續發展。研華承諾推動綠色經營，實施綠色產品設計、污染預防、廢棄物管理及綠色採購，與客戶、供應商和外包協力廠商合作，共同建立從設計、製造到產品運送與服務之綠色供應鏈，落實節能、減排、資源持續運用與循環經濟。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.37741620;score_yes=0.62258381;n_members=5|gemma:local_norag:tau=0.70:conf=0.6226
+13029,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.30457991;score_yes=0.69542008;n_members=5|gemma:local_norag:tau=0.70:conf=0.6954
+13053,No,"{""promise_status"":""Yes"",""promise_str"":""承諾  01 避免在關鍵生物多樣性鄰近地區進行新營運活動，若為國家基礎建設需要，須於該地區建設電信基礎設施時，將遵守國家相關法規進行環境影響評估，並研擬減緩衝擊對策，保護該關鍵地區生態系統與致力達成無淨損失  ｜ (No  ｜ Net  ｜ Loss)。  02 對現有營運活動逐步展開自然資源使用和生物多樣性風險評估，並努力朝  ｜ 2030  ｜ 年達成受影響地區之生物多樣性的淨正向影響  ｜ (Net  ｜ Positive  ｜ Impact)  ｜ 目標。  03 盤點現行營運活動林木用量，投入資源進行森林復育，以逐步朝向  ｜ 2030  ｜ 年實現無淨毀林  ｜ (No  ｜ Net  ｜ Deforestation)  ｜ 目標。"",""evidence_status"":""Yes"",""evidence_str"":""04  ｜ 提升利害關係人對生物多樣性和森林保育的認識。  05 參與",yes,gemma_low_conf,score_no=0.64923656;score_yes=0.35076345;n_members=5|gemma:local_norag:tau=0.70:conf=0.6492
+13064,Yes,"{""promise_status"":""Yes"",""promise_str"":""未來會帶領復育組同仁持續受訓，希望從採種、育苗到植樹，全面提升復育工作的效率與品質。"",""evidence_status"":""Yes"",""evidence_str"":""透過此次培訓課程，老師不僅指出植種過程中的問題，也提供具體可行的方法，減輕同仁作業負擔。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42001305;score_yes=0.57998696;n_members=5|gemma:local_norag:tau=0.70:conf=0.5800
+13081,No,"{""promise_status"":""Yes"",""promise_str"":""智邦可透過擴大產品市場，帶來營收提升的效益。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.47456224;score_yes=0.52543773;n_members=5|gemma:local_norag:tau=0.70:conf=0.5254
+13137,No,"{""promise_status"":""Yes"",""promise_str"":""秉持「幸福企業」之理念，打造友善健康職場，提供完善薪資福利與良好的職涯發展計畫，透過多元管道吸引優秀人才，建構暢通勞資溝通管道，以減少任何形式的強迫勞動。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58471215;score_yes=0.41528788;n_members=5|gemma:local_norag:tau=0.70:conf=0.5847
+13146,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42928485;score_yes=0.57071515;n_members=5|gemma:local_norag:tau=0.70:conf=0.5707
+13154,Yes,"{""promise_status"":""Yes"",""promise_str"":""秉持「From Zero to Hero」的精神以及永續發展的核心理念，致力將永續價值內化為台新的企業 DNA，打造永續企業文化與發揮社會影響力。"",""evidence_status"":""Yes"",""evidence_str"":""在人才培育方面，秉持多元任用、平等賦能、永續培育三大原則，推動永續專業職能訓練，提升全體員工對於 ESG 的認知度，透過培育更多永續種子人員，為客戶帶來更加全面與專業的金融服務。除了在專業版圖的業務推動外，也秉持「取之於社會，用之於社會」的理念，積極在學術教育、藝文、體育、公益、環境保護等領域持續推動各項共好專案，發揮金融與社會影響力，推動更多創新與永續行動，與關係人攜手共創更具包容性與韌性之未來。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.38872412;score_yes=0.61127589;n_members=5|gemma:local_norag:tau=0.70:conf=0.6113
+13173,No,"{""promise_status"":""Yes"",""promise_str"":""台達從四大面向促進教育及終身學習：推動基礎學科教育；推展能源、水資源與綠建築等環境教育；協助提高開發中國家教育機會；亦於企業內部建立人才培育機制，以邁向終身學習。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.41917846;score_yes=0.58082152;n_members=5|gemma:local_norag:tau=0.70:conf=0.5808
+13208,No,"{""promise_status"":""Yes"",""promise_str"":""本公司以 2050 年為環境永續的階段性目標年，訂定歷年環境永續目標，並將目標納入日常營運管理，包含營運減碳、用電、用水、影印用紙減量及人均廢棄物減量，逐年追蹤目標達成情形。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.67682169;score_yes=0.32317830;n_members=5|gemma:local_norag:tau=0.70:conf=0.6768
+13226,No,"{""promise_status"":""Yes"",""promise_str"":""玉山長期重視環境永續，並響應國際趨勢及國內政策，持續透過綠色授信、永續連結貸款、ESG 產業授信等方式，以實際行動支持企業永續轉型，促進產業邁向淨零目標。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.36814474;score_yes=0.63185526;n_members=5|gemma:local_norag:tau=0.70:conf=0.6319
+13233,No,"{""promise_status"":""Yes"",""promise_str"":""我們不僅專注於投資標的的財務績效表現，更以宏觀角度考量投資標的在ESG上的表現，希冀在追求長期且穩定獲利的同時，也發揮對市場及被投資公司的重大影響力。我們持續關注氣候變遷議題，積極推動綠色金融、關懷社會企業及弱勢族群，致力提升金融包容力。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58261713;score_yes=0.41738288;n_members=5|gemma:local_norag:tau=0.70:conf=0.5826
+13249,Yes,"{""promise_status"":""Yes"",""promise_str"":""已正式承諾將於 2030 年前達成自身營運淨零排放、2050 年前達成資產組合淨零排放；"",""evidence_status"":""Yes"",""evidence_str"":""並定期檢視營運所需能資源之耗用與管理，推動節能減碳，掌握企業營運對環境造成的重大衝擊。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.55682835;score_yes=0.44317165;n_members=5|gemma:local_norag:tau=0.70:conf=0.5568
+13251,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54213128;score_yes=0.45786873;n_members=5|gemma:local_norag:tau=0.70:conf=0.5421
+13269,Yes,"{""promise_status"":""Yes"",""promise_str"":""2024 年目標"",""evidence_status"":""Yes"",""evidence_str"":""• 廢棄物量（可回收再利用）：資源回收率 >30%。  • 廢棄物量（不可回收）：較前 3 年度平均減少 2% 廢棄物，目標為 283.79 公噸。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.68512029;score_yes=0.31487969;n_members=5|gemma:local_norag:tau=0.70:conf=0.6851
+13272,Yes,"{""promise_status"":""Yes"",""promise_str"":""**未來規劃**  持續監控溫室氣體排放趨勢"",""evidence_status"":""Yes"",""evidence_str"":""**2024年成果**  範疇1+2主要排放源為電力(佔98%)；範疇三15項全部盤查""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33250128;score_yes=0.66749869;n_members=5|gemma:local_norag:tau=0.70:conf=0.6675
+13292,Yes,"{""promise_status"":""Yes"",""promise_str"":""緯創邀請每位員工一起珍惜這片土地，與大自然和諧共舞，並共同走在這條永續之路上，為地球創造更美好的未來。"",""evidence_status"":""Yes"",""evidence_str"":""與 REWOOD 合作，緯創將森林永續的理念轉化為日常生活的一部分，將山嵐的韻味與水氣注入每一瓶木酢洗手液和洗碗精中，實現自然與生活的巧妙融合。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.41336587;score_yes=0.58663415;n_members=5|gemma:local_norag:tau=0.70:conf=0.5866
+13307,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.56990321;score_yes=0.43009678;n_members=5|gemma:local_norag:tau=0.70:conf=0.5699
+13315,Yes,"{""promise_status"":""Yes"",""promise_str"":""大立光致力於產品研發與創新、研發專利成果、產品品質管理與法規遵循等，"",""evidence_status"":""Yes"",""evidence_str"":""最近二年的重要目標與績效達成度如下表：""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.36267341;score_yes=0.63732657;n_members=5|gemma:local_norag:tau=0.70:conf=0.6373
+13317,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.32027104;score_yes=0.67972896;n_members=5|gemma:local_norag:tau=0.70:conf=0.6797
+13336,Yes,"{""promise_status"":""Yes"",""promise_str"":""預計在 2026 年前完成清查與汰除。"",""evidence_status"":""Yes"",""evidence_str"":""台達仍在 2024 年將其納入台達環保管制物質清單中，並啟動料件的清查，研發團隊亦積極與客戶溝通討論取代方案，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59378333;score_yes=0.40621664;n_members=5|gemma:local_norag:tau=0.70:conf=0.5938
+13339,Yes,"{""promise_status"":""Yes"",""promise_str"":""每年定期為經理人及員工進行誠信經營相關之教育訓練。"",""evidence_status"":""Yes"",""evidence_str"":""每年確保無發生違反誠信經營相關情事。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59382453;score_yes=0.40617550;n_members=5|gemma:local_norag:tau=0.70:conf=0.5938
+13353,Yes,"{""promise_status"":""Yes"",""promise_str"":""2025 年溫室氣體（範疇一、二）絕對減量目標較基準年（2020 年）減少 20%"",""evidence_status"":""Yes"",""evidence_str"":""● 2024 年溫室氣體範疇一、二排放量經第三公正單位盤查為 755.0 萬噸 CO₂e< ｜ 較 2020 年絕對量減少 108.5 萬噸，減量比例為 12.6%，將持續努力""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42524166;score_yes=0.57475837;n_members=5|gemma:local_norag:tau=0.70:conf=0.5748
+13363,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.60395855;score_yes=0.39604147;n_members=5|gemma:local_norag:tau=0.70:conf=0.6040
+13373,No,"{""promise_status"":""Yes"",""promise_str"":""建立良好之公司治理制度，透明化營運資訊，並建立發言人制度，以維護與各類利害關係人的良好互動及連結。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.52469946;score_yes=0.47530057;n_members=5|gemma:local_norag:tau=0.70:conf=0.5247
+13390,Yes,"{""promise_status"":""Yes"",""promise_str"":""兆豐集團秉持著落實與提升公司治理作為之精神，注重誠信經營、法令遵循、防制洗錢與風險控管，透過董事的專業、多元及獨立性，建立安全良好的經營環境及公開透明的治理制度，提供經營團隊全方位的決策建議。"",""evidence_status"":""Yes"",""evidence_str"":""兆豐金控連續六年入選臺灣證券交易所「公司治理 100 指數」成分股，顯見兆豐集團於公司治理方面持續強化的努力，深獲主管機關肯定。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.54227138;score_yes=0.45772863;n_members=5|gemma:local_norag:tau=0.70:conf=0.5423
+13393,No,"{""promise_status"":""Yes"",""promise_str"":""• 每年持續支持桌球、羽球、棒球等 3 支球隊經費 1.8 億元以上。  • 每年持續舉辦至少 3 場育樂營，至 2030 年累計辦理 15 場。  • 持續為球員生涯提供完整規劃，退役後可轉任教練、顧問職或銀行行員，讓球員無後顧之憂。  • 持續辦理建教合作學校每年約 20 家。  • 至 2030 年支持體育活動達 50 場。  • 每年持續舉辦至少 3 場健康公益活動，至 2030 年累計辦理 15 場。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.39311457;score_yes=0.60688543;n_members=5|gemma:local_norag:tau=0.70:conf=0.6069
+13395,Yes,"{""promise_status"":""Yes"",""promise_str"":""以淨零碳排為目標，執行節能減碳及低碳創新工作"",""evidence_status"":""Yes"",""evidence_str"":""● 通過科學基礎減量目標倡議 (SBTi) 驗證，啟動碳減量行動與轉型規劃。  ● 推動低碳設計、供應商碳管理、製程改善等具體作為。  ● 以碳減量驅動創新，強化全價值鏈與供應鏈永續表現。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.57673604;score_yes=0.42326393;n_members=5|gemma:local_norag:tau=0.70:conf=0.5767
+13407,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.53005806;score_yes=0.46994193;n_members=5|gemma:local_norag:tau=0.70:conf=0.5301
+13409,Yes,"{""promise_status"":""Yes"",""promise_str"":""持續檢視在地生活成本與薪酬結構，以朝「體面勞動」的目標逐步推進。"",""evidence_status"":""Yes"",""evidence_str"":""台泥參考各地物價與生活成本，提出公平薪資理念，並透過公開資料進行分析，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59782955;score_yes=0.40217042;n_members=5|gemma:local_norag:tau=0.70:conf=0.5978
+13426,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42335978;score_yes=0.57664020;n_members=5|gemma:local_norag:tau=0.70:conf=0.5766
+13430,No,"{""promise_status"":""Yes"",""promise_str"":""我們透過前瞻的思維，承諾永續發展的目標，並以創新能力掌握市場商機，願景與永續五大發展策略（擘劃永續治理、智慧永續金融、菁英永續人才、低碳永續環境、共創永續社會）互相呼應，並參考國際倡議、準則，確保各項永續推動方針符合國際規範。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.40653896;score_yes=0.59346100;n_members=5|gemma:local_norag:tau=0.70:conf=0.5935
+13436,No,"{""promise_status"":""Yes"",""promise_str"":""以公司治理 ( 經濟 )、環境、社會 ( 人權 ) 作為供應商 ESG 風險評比的三大面向，並每年統計關鍵供應商取得之認證以進行 ESG 風險評比，確保關鍵供應商皆具有永續經營之理念和實際行動。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34214658;score_yes=0.65785341;n_members=5|gemma:local_norag:tau=0.70:conf=0.6579
+13437,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.68681766;score_yes=0.31318235;n_members=5|gemma:local_norag:tau=0.70:conf=0.6868
+13441,No,"{""promise_status"":""Yes"",""promise_str"":""集團為了因應這些風險，已經將此類項目納入各類管理計畫中。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.35793812;score_yes=0.64206188;n_members=5|gemma:local_norag:tau=0.70:conf=0.6421
+13444,Yes,"{""promise_status"":""Yes"",""promise_str"":""推動 80% 以上關鍵性零組件供應商能支援製造地生產策略。"",""evidence_status"":""Yes"",""evidence_str"":""緯穎科技自 2020 年起，基於供應鏈安全及風險分散考量，啟動全球供應鏈重新布局，以「多地區」及「在地化」成為緯穎科技在推動供應鏈管理的方向，我們鼓勵關鍵性零組件供應商能「去中心化」進行全球產能布局，並藉由持續與客戶的溝通，""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.67248228;score_yes=0.32751771;n_members=5|gemma:local_norag:tau=0.70:conf=0.6725
+13455,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.41002736;score_yes=0.58997265;n_members=5|gemma:local_norag:tau=0.70:conf=0.5900
+13462,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58319527;score_yes=0.41680472;n_members=5|gemma:local_norag:tau=0.70:conf=0.5832
+13475,Yes,"{""promise_status"":""Yes"",""promise_str"":""永續委員會每年進行氣候變遷風險與機會辨識，針對財務及策略重大之風險機會擬定因應策略、設定目標，"",""evidence_status"":""Yes"",""evidence_str"":""由永續委員會轄下綠色製造委員會負責氣候變遷相關行動方案推動執行與 KPI 績效追蹤。綠色製造及環境委員會於永續委員會報告目標達成情形、KPI 現況及行動方案績效。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33468289;score_yes=0.66531710;n_members=5|gemma:local_norag:tau=0.70:conf=0.6653
+13479,Yes,"{""promise_status"":""Yes"",""promise_str"":""本集團以「公司治理」、「金融服務」、「員工培育」、「環境永續」及「社會共好」等 5 個面向，規劃未來 5 年之永續發展目標 (短、中長期目標)。"",""evidence_status"":""Yes"",""evidence_str"":""並透過定期檢視目標執行情形及滾動式調整目標內容，以符合永續發展議題之趨勢，提早布局相關業務和提升企業營運體質。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.37439944;score_yes=0.62560056;n_members=5|gemma:local_norag:tau=0.70:conf=0.6256
+13490,No,"{""promise_status"":""Yes"",""promise_str"":""亦帶動上下游合作夥伴，共同努力實現「巴黎協定」所制定之升溫不超過 1.5° C 的目標。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.47737797;score_yes=0.52262203;n_members=5|gemma:local_norag:tau=0.70:conf=0.5226
+13522,No,"{""promise_status"":""Yes"",""promise_str"":""南亞科技明確宣示對各種職場不法侵害採取「零容忍」態度，禁止工作場所任何有形或無形的歧視騷擾行為，並期望子公司、供應商、合作夥伴皆能一同遵守。 ｜針對所有員工落實反歧視、反騷擾之教育訓練，以建立安全、有尊嚴、零歧視、零騷擾、互相尊重及包容且機會均等之職場文化。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.39585153;score_yes=0.60414845;n_members=5|gemma:local_norag:tau=0.70:conf=0.6041
+13527,Yes,"{""promise_status"":""Yes"",""promise_str"":""緯創透過 AI 強化數據決策，推動營運管理變革並深植 AI-Driven DNA 於企業文化與永續發展。"",""evidence_status"":""Yes"",""evidence_str"":""根據內部統計顯示，超過 50% 員工每週應用 AI 工具，滿意度超過 80%，展現 AI 在企業營運中的深度融入與效益。這項轉型不僅涵蓋硬體製造、軟體開發、業務營運，更延伸至經營管理、脫碳轉型，推動各類 AI 工具提升 ESG 績效，確保 AI 技術真正落地並發揮最大價值。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33958694;score_yes=0.66041305;n_members=5|gemma:local_norag:tau=0.70:conf=0.6604
+13535,No,"{""promise_status"":""Yes"",""promise_str"":""我們將依循各營運據點獨特的法規脈絡與商業實踐，持續深化標準合約的在地化落實。此 ｜ 此一策略不僅是將集團的全球承諾轉化為在地的具體行動，更確保了每一位派遣同仁，無論身在何處，都能獲得一致且堅實的權益保障。我們致力於樹立人權管理的典範，並堅信「以人為本」的永續理念，是驅動企業創造長期價值、邁向卓越運營的核心引擎。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.60845099;score_yes=0.39154903;n_members=5|gemma:local_norag:tau=0.70:conf=0.6085
+13536,Yes,"{""promise_status"":""Yes"",""promise_str"":""因應人工智慧相關應用快速發展，台積公司持續擴充研發動能， ｜ 秉持「技術領先、卓越製造、客戶信任」三大競爭優勢，台積公司除謀求本業最大成就，亦積極履行企業公民責任，"",""evidence_status"":""Yes"",""evidence_str"":""以領先業界的 3 奈米、2 奈米與 16 埃米等先進製程技術，支持客戶需求並實踐創新價值。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.67109031;score_yes=0.32890966;n_members=5|gemma:local_norag:tau=0.70:conf=0.6711
+13539,No,"{""promise_status"":""Yes"",""promise_str"":""每年定期檢視重大議題政策之落實與目標達成率，以優化內部管理方針與定性及定量目標；並於次期重大議題鑑別後比對前後期議題差異性，調查差異原因並報導於報告書中。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.64130460;score_yes=0.35869540;n_members=5|gemma:local_norag:tau=0.70:conf=0.6413
+13547,Yes,"{""promise_status"":""Yes"",""promise_str"":""台達依調適與減緩兩面向因應氣候相關風險，持續開創發氣候變遷商機。"",""evidence_status"":""Yes"",""evidence_str"":""並以「企業自主減碳」、「揭露氣候變遷資訊」、「參與氣候政策」、「轉型電動車與普及充電設施」以及「推動 100% 再生電力」為策略，由內而外展開行動。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.39588452;score_yes=0.60411550;n_members=5|gemma:local_norag:tau=0.70:conf=0.6041
+13571,Yes,"{""promise_status"":""Yes"",""promise_str"":""台光電子深耕台灣，設址於桃園市及新竹縣，並放眼中國大陸設有廠區，始終秉持「在地共榮、永續發展」的理念，致力於促進員工福祉與社區繁榮。 ｜ 我們積極關注所在地的社會、經濟與環境議題，持續評估並因應社區風險與機會，以實際行動推動企業與社區的共同成長。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年，台光電子攜手關係企業、友好團體及異業夥伴，積極參與公益專案與社會影響力活動，期望與社區共創「共融、共好、共享」的環境。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.61773364;score_yes=0.38226635;n_members=5|gemma:local_norag:tau=0.70:conf=0.6177
+13582,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.33058831;score_yes=0.66941170;n_members=5|gemma:local_norag:tau=0.70:conf=0.6694
+13674,No,"{""promise_status"":""Yes"",""promise_str"":""當氣候變遷來臨時，日月光投控不僅自身廠區可能面臨災害導致的營運中斷風險，供應鏈面對氣候災害的衝擊也將威脅日月光投控營運的風險。 ｜ 因此我們同步展開供應商氣候以及自然與生物多樣性之風險評估，全面檢視供應鏈短中長期的潛在災害風險，攜手供應商展開減緩與調適行動，確保營運穩定與提升氣候韌性。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.49303114;score_yes=0.50696886;n_members=5|gemma:local_norag:tau=0.70:conf=0.5070
+13698,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.42648652;score_yes=0.57351346;n_members=5|gemma:local_norag:tau=0.70:conf=0.5735
+13724,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.31538540;score_yes=0.68461459;n_members=5|gemma:local_norag:tau=0.70:conf=0.6846
+13755,No,"{""promise_status"":""Yes"",""promise_str"":""大立光永續經營的目標：良好且穩健的財務績效、創新產品的附加價值、遵守法規與提供客戶良好服務與高滿意度，協助重要供應鏈永續經營，並規劃短、中長期永續經營的目標與工作計畫（如"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.45529519;score_yes=0.54470478;n_members=5|gemma:local_norag:tau=0.70:conf=0.5447
+13757,Yes,"{""promise_status"":""Yes"",""promise_str"":""期盼能促進業界資訊交流並即時掌握產業動態，共同發揮影響力，進而增進產業發展。"",""evidence_status"":""Yes"",""evidence_str"":""藥華醫藥參與生技醫藥業相關之外部機構，於各協會均為繳交會費之會員身分， ｜ 我們也參與公司治理相關的外部組織，強化治理效能以提升競爭力。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.38104904;score_yes=0.61895098;n_members=5|gemma:local_norag:tau=0.70:conf=0.6190
+13766,Yes,"{""promise_status"":""Yes"",""promise_str"":""國巨每年皆會透過第三方專業顧問公司做薪酬檢視，瞭解市場競爭力水平與趨勢，並依下列原則制定薪酬政策："",""evidence_status"":""Yes"",""evidence_str"":""掌握並遵循當地的相關法令，在法律規範內創造和諧勞資關係，進而走向永續經營。  • 依人力市場供求，產品線獲利能力來制定及調整，以期在人力市場上有一定之競爭力。  • 以各專業功能之市場價值及依員工所擔當的職責產生的貢獻為基礎，結合績效管理制度，以支付合適之薪酬，並藉此達到激勵員工之效果。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.59371686;score_yes=0.40628312;n_members=5|gemma:local_norag:tau=0.70:conf=0.5937
+13791,No,"{""promise_status"":""Yes"",""promise_str"":""將新興風險辨識結果及其因應措施陳報「風險管理委員會」，並納入風險資訊陳報董事會。持續蒐集新興風險相關資訊與關注各類風險之影響，定期召開集團新興風險會議，精進風險管理。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.64026936;score_yes=0.35973066;n_members=5|gemma:local_norag:tau=0.70:conf=0.6403
+13829,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.64611281;score_yes=0.35388720;n_members=5|gemma:local_norag:tau=0.70:conf=0.6461
+13835,Yes,"{""promise_status"":""Yes"",""promise_str"":""因應全球環保趨勢及配合國家整體溫室氣體減量策略發展，掌握公司之溫室氣體排放量，擬定氣候變遷之預防措施。"",""evidence_status"":""Yes"",""evidence_str"":""成立《溫室氣體盤查推動小組》，以落實目標與相關改善計畫。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.34788235;score_yes=0.65211761;n_members=5|gemma:local_norag:tau=0.70:conf=0.6521
+13876,No,"{""promise_status"":""Yes"",""promise_str"":""公司相信幸福企業的定義，不僅是提供基本的完善福利，更應該是長足的企圖心、責任感，持續追求卓越與永續發展，提供員工長時間安身、安家，發揮所長，與公司共同成長，更應該協助員工兼顧工作與生活，故推出相對應的彈性措施，以支持員工工作與生活平衡。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.58553724;score_yes=0.41446278;n_members=5|gemma:local_norag:tau=0.70:conf=0.5855
+13880,No,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.40596748;score_yes=0.59403254;n_members=5|gemma:local_norag:tau=0.70:conf=0.5940
+13916,No,"{""promise_status"":""Yes"",""promise_str"":""致力於打造具公平性、包容性與前瞻性的招募與發展體系，從策略規劃、渠道經營到就業保障，全面強化組織韌性與人才競爭力。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.57026487;score_yes=0.42973513;n_members=5|gemma:local_norag:tau=0.70:conf=0.5703
+13935,No,"{""promise_status"":""Yes"",""promise_str"":""於此同時，將持續舉辦癌症篩檢健康促進活動，擴大檢查服務及篩檢時間，以便員工參與，另外也客製化健康管理系統升級至 2.0 版本，增強功能性並提供員工專屬方案。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.35783891;score_yes=0.64216110;n_members=5|gemma:local_norag:tau=0.70:conf=0.6422
+13938,Yes,"{""promise_status"":""Yes"",""promise_str"":""以「公司治理」、「客戶關懷」、「員工照護」、「環境保護」及「社會參與」5 大主軸推動企業社會責任"",""evidence_status"":""Yes"",""evidence_str"":""發行第 1 本 (2011) 企業社會責任報告書  • 以「公司治理」、「客戶關懷」、「員工照護」、「環境保護」及「社會參與」5 大主軸推動企業社會責任  • 以「合庫寶貝 關懷加倍」為主題持續關懷偏鄉學童""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.32344758;score_yes=0.67655241;n_members=5|gemma:local_norag:tau=0.70:conf=0.6766
+13966,Yes,"{""promise_status"":""Yes"",""promise_str"":""未來可持續鑑別與參考更多元且具影響力的資訊來源，結合可查證議進行盡職調查，探尋不同方式交叉驗證，以確保評估結果全面，精度且具前瞻性。"",""evidence_status"":""Yes"",""evidence_str"":""該組織所建立的實質性重大主題涵蓋其流程，已透過報告書揭露該組織對這些重大主題的重視與處理的優先順序。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.60434634;score_yes=0.39565365;n_members=5|gemma:local_norag:tau=0.70:conf=0.6043
+13974,Yes,"{""promise_status"":""Yes"",""promise_str"":""規劃於 2050 年前達成 RE100 目標，"",""evidence_status"":""Yes"",""evidence_str"":""隨著低碳能源比例的提升，碳費成本不僅主要來自於 Scope 1 剩餘排放。由於其他海外廠區未設有排放門檻減免，且所採用的碳稅參數為最嚴格情境，加上 ｜ 加上規劃於 2050 年前達成 RE100 目標，因此其碳稅 / 費風險預估將控制在總營收的 1% 以內。整體而言，採行轉型策略後所產生的碳費支出，將遠低於無作為情境下的潛在成本。""}<end_of_turn>
+<eos>",yes,gemma_low_conf,score_no=0.31204916;score_yes=0.68795084;n_members=5|gemma:local_norag:tau=0.70:conf=0.6880

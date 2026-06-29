@@ -1,0 +1,28 @@
+=== START a1_b1 16:44:56 ===
+=== END   a1_b1 16:50:42 rc=0 ===
+=== START a1_b2 16:50:42 ===
+Terminated
+=== END   a1_b2 16:53:30 rc=0 ===
+=== START a1_b3 16:53:30 ===
+=== END   a1_b3 16:53:35 rc=0 ===
+=== START a2_b1 16:53:35 ===
+exp/agent_loop/claude/20260608T152150/loops/loops001/exp/run_grid.sh: line 12: 248582 Killed                  $PY core/train/train_bert.py --model large --stage st1 --train-path "$mixfile" --model-dir "models/loop001_st1_${arm}" --no-epoch-saves --output "$RES/${arm}.json" "$@" > "$LOG/${arm}.log" 2>&1
+=== END   a2_b1 16:54:20 rc=0 ===
+=== START a2_b2 16:54:20 ===
+=== END   a2_b2 16:54:25 rc=0 ===
+=== START a2_b3 16:54:25 ===
+exp/agent_loop/claude/20260608T152150/loops/loops001/exp/run_grid.sh: line 12: 249320 Killed                  $PY core/train/train_bert.py --model large --stage st1 --train-path "$mixfile" --model-dir "models/loop001_st1_${arm}" --no-epoch-saves --output "$RES/${arm}.json" "$@" > "$LOG/${arm}.log" 2>&1
+=== END   a2_b3 16:55:30 rc=0 ===
+=== START a3_b1 16:55:30 ===
+=== END   a3_b1 16:55:34 rc=0 ===
+=== START a3_b2 16:55:34 ===
+=== END   a3_b2 16:55:41 rc=0 ===
+=== START a3_b3 16:55:41 ===
+=== END   a3_b3 16:55:47 rc=0 ===
+=== START a4_b1 16:55:47 ===
+=== END   a4_b1 16:55:53 rc=0 ===
+=== START a4_b2 16:55:53 ===
+=== END   a4_b2 16:55:59 rc=0 ===
+=== START a4_b3 16:55:59 ===
+=== END   a4_b3 16:56:05 rc=0 ===
+ALL GRID ARMS DONE 16:56:05

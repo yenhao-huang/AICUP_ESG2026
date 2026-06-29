@@ -1,0 +1,31 @@
+Device: cuda:0
+Model: hfl/chinese-roberta-wwm-ext-large
+Batch size: 4 (grad accum: 2, effective: 8)
+Validation: external file exp/integrated_stage_predictions/0615/ensemble/stage1/data/ensemble/seed42/a3_b1_add_val.val.json (ignoring --val-ratio)
+Train records: 2000
+External val: exp/integrated_stage_predictions/0615/ensemble/stage1/data/ensemble/seed42/a3_b1_add_val.val.json (500 records)
+
+============================================================
+Training subtask: ST1
+============================================================
+Train samples: 2000 | Labels: 2 | Dist: {1: 1702, 0: 298}
+Val samples: 500 | Dist: {1: 425, 0: 75}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 40652.76it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loss: weighted CrossEntropyLoss  weights=[3.3557, 0.5875]
+Epoch 1/5 | Loss: 0.5690 | Val loss: 0.5798 | Val micro-F1: 0.8980 | Val macro-F1: 0.7789
+Saved best model → /models/ensemble_st1_a3_b1_seed42/best_st1.pt (epoch=1, val_macro_f1=0.7789)
+Epoch 2/5 | Loss: 0.4255 | Val loss: 1.0230 | Val micro-F1: 0.9060 | Val macro-F1: 0.7619

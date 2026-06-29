@@ -1,0 +1,42 @@
+[1/30] 10777 -> more_than_5_years
+[2/30] 10508 -> more_than_5_years
+[3/30] 10896 -> more_than_5_years
+[4/30] 10923 -> more_than_5_years
+[5/30] 10034 -> already
+[6/30] 10484 -> between_2_and_5_years
+[7/30] 10086 -> already
+[8/30] 10751 -> already
+[9/30] 10355 -> N/A (filtered)
+[10/30] 10524 -> between_2_and_5_years
+[11/30] 10185 -> between_2_and_5_years
+[12/30] 10810 -> already
+[13/30] 10419 -> more_than_5_years
+[14/30] 10616 -> between_2_and_5_years
+[15/30] 10683 -> between_2_and_5_years
+[16/30] 10502 -> more_than_5_years
+[17/30] 10761 -> N/A (filtered)
+[18/30] 10050 -> more_than_5_years
+[19/30] 10733 -> N/A (filtered)
+[20/30] 10337 -> between_2_and_5_years
+[21/30] 10451 -> between_2_and_5_years
+[22/30] 10791 -> between_2_and_5_years
+[23/30] 10351 -> already
+[24/30] 10468 -> already
+[25/30] 10623 -> already
+[26/30] 10477 -> between_2_and_5_years
+[27/30] 10615 -> between_2_and_5_years
+[28/30] 10555 -> more_than_5_years
+[29/30] 10366 -> between_2_and_5_years
+[30/30] 10771 -> between_2_and_5_years
+{
+  "output": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results/A3_cot/predictions.csv",
+  "rows": 30,
+  "filtered_rows": 3,
+  "predicted_rows": 27,
+  "errors": 0,
+  "flow": "filter_pred_by_codex",
+  "model": "gpt-5.5",
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/few_shot_cot_v3.txt",
+  "token_usage_output": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results/A3_cot/token_usage.jsonl",
+  "raw_output_dir": "/workspace/esg_contest/exp/agent_loop/claude/20260609T172829/human_check/results/A3_cot/raw"
+}

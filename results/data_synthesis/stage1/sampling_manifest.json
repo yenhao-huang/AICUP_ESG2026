@@ -1,0 +1,83 @@
+{
+  "input": "data/raw_data/vpesg_4k_train_1000.json",
+  "seed": 42,
+  "pool_cap": 300,
+  "sources": {
+    "a1": {
+      "pool_path": "results/data_synthesis/stage1/pool_a1_data_only.json",
+      "pool_rows": 300,
+      "label_counts": {
+        "Yes": 244,
+        "No": 56
+      },
+      "method_counts": {
+        "llm": 300
+      },
+      "mixes": {
+        "b1": {
+          "path": "results/data_synthesis/stage1/mix_a1_b1.json",
+          "rows": 500,
+          "label_counts": {
+            "Yes": 410,
+            "No": 90
+          },
+          "sample_with_replacement": true
+        },
+        "b2": {
+          "path": "results/data_synthesis/stage1/mix_a1_b2.json",
+          "rows": 1000,
+          "label_counts": {
+            "Yes": 815,
+            "No": 185
+          },
+          "sample_with_replacement": true
+        },
+        "b3": {
+          "path": "results/data_synthesis/stage1/mix_a1_b3.json",
+          "rows": 2000,
+          "label_counts": {
+            "Yes": 1629,
+            "No": 371
+          },
+          "sample_with_replacement": true
+        }
+      }
+    },
+    "a3": {
+      "pool_path": "results/data_synthesis/stage1/pool_a3_data_plus_promise.json",
+      "pool_rows": 300,
+      "label_counts": {
+        "Yes": 300
+      },
+      "method_counts": {
+        "llm": 300
+      },
+      "mixes": {
+        "b1": {
+          "path": "results/data_synthesis/stage1/mix_a3_b1.json",
+          "rows": 500,
+          "label_counts": {
+            "Yes": 500
+          },
+          "sample_with_replacement": true
+        },
+        "b2": {
+          "path": "results/data_synthesis/stage1/mix_a3_b2.json",
+          "rows": 1000,
+          "label_counts": {
+            "Yes": 1000
+          },
+          "sample_with_replacement": true
+        },
+        "b3": {
+          "path": "results/data_synthesis/stage1/mix_a3_b3.json",
+          "rows": 2000,
+          "label_counts": {
+            "Yes": 2000
+          },
+          "sample_with_replacement": true
+        }
+      }
+    }
+  }
+}

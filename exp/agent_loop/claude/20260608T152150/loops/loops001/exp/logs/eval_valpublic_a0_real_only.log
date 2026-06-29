@@ -1,0 +1,39 @@
+Device: cuda:0
+Model variant: large (hfl/chinese-roberta-wwm-ext-large)
+Checkpoint dir: models/loop001_st1_a0_real_only
+Data path: data/benchmarks/val_public.json
+Stage: st1
+Output: exp/agent_loop/claude/20260608T152150/loops/loops001/exp/valpublic_eval/a0_real_only_valpublic.json
+Total records: 500
+
+==================================================
+NO-CASCADE EVALUATION
+==================================================
+
+==================================================
+Stage: ST1 (No Cascade)
+==================================================
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 82889.71it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Macro-F1: 0.8031 (n=500)
+
+==================================================
+FINAL SCORE SUMMARY
+==================================================
+  ST1: 0.8031  weight=0.2
+  Weighted Score: 0.1606
+
+Results saved to: exp/agent_loop/claude/20260608T152150/loops/loops001/exp/valpublic_eval/a0_real_only_valpublic.json

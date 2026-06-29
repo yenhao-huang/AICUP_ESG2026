@@ -1,0 +1,2 @@
+id,evidence_status,evidence_status_raw,filter_passed,prediction_source,postprocess_reason
+12001,Yes,1,yes,soft_vote,score_no=0.00001328;score_yes=0.99998674;n_members=5

@@ -1,0 +1,9 @@
+{
+  "split": "val_test",
+  "macro_f1": 0.811566,
+  "f1_Yes": 0.928395,
+  "f1_No": 0.694737,
+  "escalations": 30,
+  "BASE_GATE": 0.802383,
+  "a0_base": 0.810977
+}

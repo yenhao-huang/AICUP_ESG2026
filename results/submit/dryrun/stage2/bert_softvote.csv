@@ -1,0 +1,11 @@
+id,evidence_status,evidence_status_raw,filter_passed,prediction_source,postprocess_reason
+12001,Yes,1,yes,soft_vote,score_no=0.00001328;score_yes=0.99998674;n_members=5
+12002,Yes,1,yes,soft_vote,score_no=0.00009165;score_yes=0.99990834;n_members=5
+12003,Yes,1,yes,soft_vote,score_no=0.00043331;score_yes=0.99956670;n_members=5
+12004,Yes,1,yes,soft_vote,score_no=0.00003876;score_yes=0.99996123;n_members=5
+12005,Yes,1,yes,soft_vote,score_no=0.00001424;score_yes=0.99998574;n_members=5
+12006,Yes,1,yes,soft_vote,score_no=0.00001256;score_yes=0.99998744;n_members=5
+12007,Yes,1,yes,soft_vote,score_no=0.00009110;score_yes=0.99990886;n_members=5
+12008,Yes,1,yes,soft_vote,score_no=0.00000834;score_yes=0.99999166;n_members=5
+12009,No,0,yes,soft_vote,score_no=0.77385219;score_yes=0.22614780;n_members=5
+12010,Yes,1,yes,soft_vote,score_no=0.00048630;score_yes=0.99951371;n_members=5

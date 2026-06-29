@@ -1,0 +1,6 @@
+id,member,score_no,score_yes,pred
+12001,ensemble_st2_mix_a2_b3_seed123,0.00000899,0.99999106,Yes
+12001,ensemble_st2_mix_a2_b3_seed2024,0.00001466,0.99998534,Yes
+12001,ensemble_st2_mix_a2_b3_seed31337,0.00000692,0.99999309,Yes
+12001,ensemble_st2_mix_a2_b3_seed42,0.00002627,0.99997377,Yes
+12001,ensemble_st2_mix_a2_b3_seed7,0.00000955,0.99999046,Yes

@@ -2,28 +2,45 @@
 
 
 ## Requirements
+
+Use Python 3.12. From the repository root:
+
 ```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -U pip
 pip install -r requirements.txt
 ```
 
-Download the prepared data and model artifacts from Google Drive, then move
-their contents into the project `data/` and `models/` directories:
+The final submission pipeline expects the prepared data under `data/` and the
+submission checkpoints under `models/submission/`. These artifacts are stored in
+Google Drive under:
+
+- `AICUP_ESG2026/data/`
+- `AICUP_ESG2026/models_submission/`
+
+Install and configure `rclone` with Google Drive access, then restore the
+artifacts:
 
 ```bash
-export DATA_GOOGLE_DRIVE_ID="<data-file-id>"
-export MODELS_GOOGLE_DRIVE_ID="<models-file-id>"
+mkdir -p data models/submission
 
-mkdir -p data models .download
-gdown "https://drive.google.com/uc?id=${DATA_GOOGLE_DRIVE_ID}" -O .download/data.zip
-gdown "https://drive.google.com/uc?id=${MODELS_GOOGLE_DRIVE_ID}" -O .download/models.zip
+rclone copy gdrive:AICUP_ESG2026/data data --progress
+rclone copy gdrive:AICUP_ESG2026/models_submission models/submission --progress
+```
 
-unzip -q .download/data.zip -d .download/data
-unzip -q .download/models.zip -d .download/models
+Expected artifact sizes after following symlinks:
 
-shopt -s dotglob
-mv .download/data/* data/
-mv .download/models/* models/
-shopt -u dotglob
+```bash
+find -L data -type f | wc -l        # 8181
+du -shL data                        # ~7.7G
+du -shL models/submission           # ~17G
+```
+
+Stage 3/4 GPT fallback prediction also requires an API key in the environment:
+
+```bash
+export OPENAI_API_KEY="<your-api-key>"
 ```
 
 ## Directory
@@ -35,10 +52,10 @@ AICUP_ESG2026/
 │   └── api/                      # API, CLI, routes, and adapters
 ├── data/                         # Project data
 │   ├── raw_data/                 # User-provided raw data
-│   ├── externel_data/            # Simulated or external generated data
+│   ├── externel_data/            # External generated data
 │   └── synthesis_data/           # Synthetic data
 ├── test/                         # Tests
-├── models/                         # Tests
+├── models/                       # Model checkpoints and submission artifacts
 ├── configs/                      # Config files and environment templates
 ├── exp/                          # Experiments and research notes
 │   └── agent_loop/               # Workspace agent run experiments

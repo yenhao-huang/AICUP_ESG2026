@@ -1,0 +1,2332 @@
+[
+  {
+    "id": "syn_st2_a2no_10002",
+    "data": "我們堅信透過協作共創永續價值。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10002"
+  },
+  {
+    "id": "syn_st2_a2no_10003",
+    "data": "本公司致力於建立長遠的產品危害物質管理願景，以持續提升環境與社會責任表現。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10003"
+  },
+  {
+    "id": "syn_st2_a2no_10010",
+    "data": "我們致力於持續優化職場環境並強化安全管理機制。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10010"
+  },
+  {
+    "id": "syn_st2_a2no_10018",
+    "data": "我們致力於與供應鏈夥伴協作，共同推動全面的低碳管理方針與永續轉型，以達成長期的環境保護目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10018"
+  },
+  {
+    "id": "syn_st2_a2no_10031",
+    "data": "我們致力於推動環境永續發展，積極實踐資源循環與減碳目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10031"
+  },
+  {
+    "id": "syn_st2_a2no_10033",
+    "data": "本公司致力於持續優化氣候風險管理機制。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10033"
+  },
+  {
+    "id": "syn_st2_a2no_10038",
+    "data": "本公司秉持對環境保護的堅定承諾，致力於持續提升營運過程中的永續表現。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10038"
+  },
+  {
+    "id": "syn_st2_a2no_10041",
+    "data": "我們致力於建立完善的協議組織機制，定期溝通並落實安全衛生管理措施，以確保作業環境的安全與人員的健康。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10041"
+  },
+  {
+    "id": "syn_st2_a2no_10047",
+    "data": "我們致力於在環境保護方面持續努力並履行相關承諾。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10047"
+  },
+  {
+    "id": "syn_st2_a2no_10054",
+    "data": "我們致力於推動永續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10054"
+  },
+  {
+    "id": "syn_st2_a2no_10055",
+    "data": "本行致力於透過符合國際標準的金融工具，積極支持具有環境保護或社會效益之投資項目。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10055"
+  },
+  {
+    "id": "syn_st2_a2no_10057",
+    "data": "我們致力於透過全方位的策略與資源投入，促進社會的數位包容性並保障公眾的基本通訊權益。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10057"
+  },
+  {
+    "id": "syn_st2_a2no_10063",
+    "data": "我們致力於透過創新與包容性的策略，全面提升所有客戶群體的金融服務體驗。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10063"
+  },
+  {
+    "id": "syn_st2_a2no_10065",
+    "data": "本公司致力於建立系統化的環境、社會及治理議題管理機制，以持續提升營運的永續性與長期價值創造能力。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10065"
+  },
+  {
+    "id": "syn_st2_a2no_10083",
+    "data": "我們承諾將持續優化環境、社會及治理實踐，以促進長遠的可持續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10083"
+  },
+  {
+    "id": "syn_st2_a2no_10085",
+    "data": "我們致力於推動環境永續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10085"
+  },
+  {
+    "id": "syn_st2_a2no_10087",
+    "data": "我們致力於提升供應鏈的氣候變遷意識，並持續推動環境永續目標之實現。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10087"
+  },
+  {
+    "id": "syn_st2_a2no_10088",
+    "data": "我們致力於推動組織學習與人才發展，以確保團隊能力能持續契合企業長遠戰略目標之演進需求。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10088"
+  },
+  {
+    "id": "syn_st2_a2no_10092",
+    "data": "本公司致力於支持當地教育發展並獎勵優秀學子。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10092"
+  },
+  {
+    "id": "syn_st2_a2no_10095",
+    "data": "我們堅守誠信原則，嚴格遵循所有適用的反貪腐與反賄賂規範。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10095"
+  },
+  {
+    "id": "syn_st2_a2no_10096",
+    "data": "我們致力於透過完善的治理架構與持續的承諾，積極履行社會責任並推動企業的永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10096"
+  },
+  {
+    "id": "syn_st2_a2no_10100",
+    "data": "本公司致力於建立完善的治理機制以持續優化營運實踐並降低潛在風險。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10100"
+  },
+  {
+    "id": "syn_st2_a2no_10101",
+    "data": "我們致力於透過高層級的治理架構來強化永續供應鏈的管理效能。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10101"
+  },
+  {
+    "id": "syn_st2_a2no_10105",
+    "data": "我們致力於透過創新策略與多方協作，推動環境復育、社區賦能及文化教育平台的永續發展。",
+    "esg_type": "E;S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10105"
+  },
+  {
+    "id": "syn_st2_a2no_10108",
+    "data": "我們致力於持續優化工作環境以保障員工福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10108"
+  },
+  {
+    "id": "syn_st2_a2no_10110",
+    "data": "我們致力於建構包容且平等的金融生態系統，確保所有群體皆能享有無障礙的服務體驗與發展機會。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10110"
+  },
+  {
+    "id": "syn_st2_a2no_10112",
+    "data": "本公司致力於營造開放透明的溝通文化，積極傾聽並回應利害關係人的意見與建議。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10112"
+  },
+  {
+    "id": "syn_st2_a2no_10114",
+    "data": "我們致力於營造一個健康且安全的工作環境。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10114"
+  },
+  {
+    "id": "syn_st2_a2no_10119",
+    "data": "我們致力於營造一個充滿關懷與正向能量的工作環境，讓每一位成員都能在和諧的氛圍中發揮所長並持續成長。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10119"
+  },
+  {
+    "id": "syn_st2_a2no_10122",
+    "data": "我們承諾致力於環境永續發展，積極推動綠色轉型並承擔社會責任。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10122"
+  },
+  {
+    "id": "syn_st2_a2no_10140",
+    "data": "研華將持續致力於推動環境保護與社會責任的永續發展願景。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10140"
+  },
+  {
+    "id": "syn_st2_a2no_10141",
+    "data": "我們致力於透過科技創新與人文關懷的深度融合，建構具備包容性與永續性的未來生態體系。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10141"
+  },
+  {
+    "id": "syn_st2_a2no_10144",
+    "data": "我們致力於推動可持續發展並積極承擔企業社會責任。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10144"
+  },
+  {
+    "id": "syn_st2_a2no_10156",
+    "data": "我們致力於實現環境可持續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10156"
+  },
+  {
+    "id": "syn_st2_a2no_10159",
+    "data": "我們致力於在環境保護與社會責任方面不斷追求卓越。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10159"
+  },
+  {
+    "id": "syn_st2_a2no_10161",
+    "data": "我們致力於深化與利害關係人的互動，以確保企業決策能充分反映各方期望並創造長期價值。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10161"
+  },
+  {
+    "id": "syn_st2_a2no_10165",
+    "data": "我們致力於透過創新技術優化能源管理，以促進環境的永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10165"
+  },
+  {
+    "id": "syn_st2_a2no_10176",
+    "data": "我們致力於推動可持續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10176"
+  },
+  {
+    "id": "syn_st2_a2no_10185",
+    "data": "我們致力於透過持續的外部創新協作來推動可持續發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10185"
+  },
+  {
+    "id": "syn_st2_a2no_10192",
+    "data": "我們致力於透過推動綠色建築標準與能源效率提升策略，引導自有及投資不動產實現永續轉型，以共同邁向淨零碳排的未來願景。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10192"
+  },
+  {
+    "id": "syn_st2_a2no_10196",
+    "data": "本公司致力於透過持續優化營運流程與提升資源使用效率，實現長期的環境永續發展目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10196"
+  },
+  {
+    "id": "syn_st2_a2no_10197",
+    "data": "我們致力於實現環境永續與社會責任的長期願景。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10197"
+  },
+  {
+    "id": "syn_st2_a2no_10199",
+    "data": "我們致力於建立完善的供應鏈治理框架，以確保商業夥伴共同遵守國際標準與道德規範。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10199"
+  },
+  {
+    "id": "syn_st2_a2no_10202",
+    "data": "我們致力於營造一個充滿尊重與多元共融的工作環境，讓每一位成員都能在此安心發展並實現自我價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10202"
+  },
+  {
+    "id": "syn_st2_a2no_10204",
+    "data": "我們致力於推動環境永續發展，並持續優化相關管理機制以回應利害關係人的期待。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10204"
+  },
+  {
+    "id": "syn_st2_a2no_10207",
+    "data": "我們致力於透過多元化的綠色金融服務，持續支持環境永續發展與低碳經濟轉型。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10207"
+  },
+  {
+    "id": "syn_st2_a2no_10208",
+    "data": "本公司致力於實現長遠的氣候變遷減量目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10208"
+  },
+  {
+    "id": "syn_st2_a2no_10211",
+    "data": "我們致力於建立包容多元的職場環境，以促進員工的全面發展與組織的長期永續經營。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10211"
+  },
+  {
+    "id": "syn_st2_a2no_10218",
+    "data": "我們致力於透過持續的供應商審查機制，深化夥伴關係並推動整體供應鏈的永續發展實踐。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10218"
+  },
+  {
+    "id": "syn_st2_a2no_10222",
+    "data": "我們致力於打造包容且具成長性的工作環境，以促進員工的長期職業發展與組織凝聚力。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10222"
+  },
+  {
+    "id": "syn_st2_a2no_10225",
+    "data": "我們致力於制定並推動高標準的治理與永續發展承諾，以確立行業領先的實踐典範。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10225"
+  },
+  {
+    "id": "syn_st2_a2no_10226",
+    "data": "我們致力於透過跨部門協作與資源整合，長期支持偏遠地區的原住民兒童藝術發展計畫。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10226"
+  },
+  {
+    "id": "syn_st2_a2no_10230",
+    "data": "我們承諾透過持續的創新與技術累積，致力於推動可持續發展的綠色製造流程。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10230"
+  },
+  {
+    "id": "syn_st2_a2no_10237",
+    "data": "我們致力於建立前瞻性的治理框架，以靈活應對不斷演變的永續發展挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10237"
+  },
+  {
+    "id": "syn_st2_a2no_10238",
+    "data": "本公司承諾致力於生態環境保護並推動供應鏈共同參與生物多樣性保育。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10238"
+  },
+  {
+    "id": "syn_st2_a2no_10243",
+    "data": "本公司承諾將持續遵循內部規範以識別並管理勞工及道德相關風險。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10243"
+  },
+  {
+    "id": "syn_st2_a2no_10244",
+    "data": "我們致力於推動產品生命週期的永續發展與綠色生產模式。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10244"
+  },
+  {
+    "id": "syn_st2_a2no_10245",
+    "data": "我們承諾秉持尊重與公平的核心價值，致力於營造和諧共融的環境，以確保所有利益相關者的尊嚴與權益獲得充分保障。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10245"
+  },
+  {
+    "id": "syn_st2_a2no_10246",
+    "data": "我們致力於持續關注並支持弱勢群體的教育機會與發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10246"
+  },
+  {
+    "id": "syn_st2_a2no_10249",
+    "data": "我們致力於透過創新解決方案實現環境永續與經濟效益的雙贏目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10249"
+  },
+  {
+    "id": "syn_st2_a2no_10254",
+    "data": "本公司致力於建立並維持董事會的獨立性與客觀性，以確保治理效能。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10254"
+  },
+  {
+    "id": "syn_st2_a2no_10261",
+    "data": "我們致力於建立完善的供應鏈管理機制以促進永續發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10261"
+  },
+  {
+    "id": "syn_st2_a2no_10267",
+    "data": "我們致力於透過尊重自然且無害環境的實踐，營造安全的生態體驗空間，促進公眾對海洋生物的親近與認知，從而深化對海洋永續發展的承諾。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10267"
+  },
+  {
+    "id": "syn_st2_a2no_10270",
+    "data": "我們承諾持續優化環境、社會及治理的整體策略框架，以促進長期的可持續發展價值。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10270"
+  },
+  {
+    "id": "syn_st2_a2no_10271",
+    "data": "本公司致力於維護資訊安全與合規經營，以確保業務之穩健運作。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10271"
+  },
+  {
+    "id": "syn_st2_a2no_10273",
+    "data": "本公司堅守誠信經營之核心價值，並對任何形式的貪腐與賄賂行為維持零容忍之堅定立場。",
+    "esg_type": "S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10273"
+  },
+  {
+    "id": "syn_st2_a2no_10275",
+    "data": "我們致力於建立一個充滿活力的工作環境，以激發團隊的積極性並促進卓越表現。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10275"
+  },
+  {
+    "id": "syn_st2_a2no_10278",
+    "data": "本公司致力於推動環境永續發展並積極實踐社會責任。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10278"
+  },
+  {
+    "id": "syn_st2_a2no_10283",
+    "data": "我們致力於促進合作夥伴在環境、社會及治理方面的持續進步。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10283"
+  },
+  {
+    "id": "syn_st2_a2no_10285",
+    "data": "我們致力於推動環境永續發展，持續優化資源管理並降低營運對生態的影響。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10285"
+  },
+  {
+    "id": "syn_st2_a2no_10287",
+    "data": "我們致力於透過創新材料應用推動產品的環境永續性。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10287"
+  },
+  {
+    "id": "syn_st2_a2no_10290",
+    "data": "我們致力於推動全面的永續發展，以應對日益複雜的全球挑戰。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10290"
+  },
+  {
+    "id": "syn_st2_a2no_10295",
+    "data": "我們致力於持續優化供應鏈的永續管理實踐。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10295"
+  },
+  {
+    "id": "syn_st2_a2no_10299",
+    "data": "本公司致力於建立完善的治理機制並定期檢視各功能性委員會之運作效能，以確保企業永續經營之目標得以落實。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10299"
+  },
+  {
+    "id": "syn_st2_a2no_10300",
+    "data": "我們致力於透過多元包容的職場環境，積極培育具備創新思維的女性科技研發人才，以促進產業的永續發展與社會共榮。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10300"
+  },
+  {
+    "id": "syn_st2_a2no_10303",
+    "data": "我們堅信秉持誠信與責任是實現長期永續發展的關鍵基石。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10303"
+  },
+  {
+    "id": "syn_st2_a2no_10306",
+    "data": "我們致力於建構堅韌的營運韌性以應對潛在風險。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10306"
+  },
+  {
+    "id": "syn_st2_a2no_10316",
+    "data": "本公司致力於提供完善的員工福利保障體系，以關懷員工福祉並促進職場和諧。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10316"
+  },
+  {
+    "id": "syn_st2_a2no_10319",
+    "data": "我們承諾持續關注國際減塑趨勢並積極回應利害關係人對永續包裝的期待，致力於推動環境保護與資源循環。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10319"
+  },
+  {
+    "id": "syn_st2_a2no_10320",
+    "data": "我們致力於持續優化營運實踐，以促進環境、社會及治理績效的長期提升。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10320"
+  },
+  {
+    "id": "syn_st2_a2no_10326",
+    "data": "我們致力於持續優化數位包容性，確保所有客戶皆能平等享受便捷高效的金融服務體驗。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10326"
+  },
+  {
+    "id": "syn_st2_a2no_10331",
+    "data": "我們致力於維持高標準的商業道德與合規操守。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10331"
+  },
+  {
+    "id": "syn_st2_a2no_10334",
+    "data": "我們致力於提升應對氣候變遷挑戰的整體韌性，以確保企業的長遠可持續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10334"
+  },
+  {
+    "id": "syn_st2_a2no_10337",
+    "data": "我們致力於建立完善的職業安全衛生管理體系，以持續優化員工的工作環境與福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10337"
+  },
+  {
+    "id": "syn_st2_a2no_10341",
+    "data": "我們承諾致力於環境永續發展，並積極推動各項綠色轉型措施以實現長遠的生態保護目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10341"
+  },
+  {
+    "id": "syn_st2_a2no_10348",
+    "data": "我們致力於推動環境、社會及治理的卓越表現。",
+    "esg_type": "E;S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10348"
+  },
+  {
+    "id": "syn_st2_a2no_10351",
+    "data": "我們致力於推動供應鏈的永續發展，並持續提升相關利害關係人對環境與社會議題的關注。",
+    "esg_type": "E;S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10351"
+  },
+  {
+    "id": "syn_st2_a2no_10356",
+    "data": "我們堅守環境保護的承諾，持續優化資源循環與廢棄物處理機制，以實踐對地球生態的長期責任。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10356"
+  },
+  {
+    "id": "syn_st2_a2no_10364",
+    "data": "我們致力於在未來實現全面的環境永續轉型。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10364"
+  },
+  {
+    "id": "syn_st2_a2no_10366",
+    "data": "我們致力於構建包容多元的職場環境，以促進員工的全面發展與組織的長期永續價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10366"
+  },
+  {
+    "id": "syn_st2_a2no_10367",
+    "data": "我們致力於持續優化環境、社會及治理方面的整體表現。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10367"
+  },
+  {
+    "id": "syn_st2_a2no_10368",
+    "data": "本公司致力於持續優化治理架構並深化對環境與社會議題之承諾，以推動全面且長遠的永續發展目標。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10368"
+  },
+  {
+    "id": "syn_st2_a2no_10383",
+    "data": "我們致力於推動環境永續發展，以實現長期的生態平衡與氣候韌性。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10383"
+  },
+  {
+    "id": "syn_st2_a2no_10385",
+    "data": "我們致力於在嚴格的國際法規與激烈的市場競爭中，持續推動符合全球環保趨勢的永續發展策略。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10385"
+  },
+  {
+    "id": "syn_st2_a2no_10391",
+    "data": "本公司致力於透過系統性的策略規劃與跨部門協作，積極推動環境保護與生物多樣性保育工作。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10391"
+  },
+  {
+    "id": "syn_st2_a2no_10392",
+    "data": "我們秉持誠信負責的態度，積極回應社會期望並追求永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10392"
+  },
+  {
+    "id": "syn_st2_a2no_10395",
+    "data": "本公司致力於持續優化治理架構以確保決策效能。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10395"
+  },
+  {
+    "id": "syn_st2_a2no_10402",
+    "data": "我們致力於構建堅實且具前瞻性的環境、社會與治理框架，以確保營運的永續發展與長期價值。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10402"
+  },
+  {
+    "id": "syn_st2_a2no_10407",
+    "data": "我們致力於建構一個包容且具吸引力的職場環境，以促進員工的長期發展與福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10407"
+  },
+  {
+    "id": "syn_st2_a2no_10408",
+    "data": "我們致力於持續優化人才發展機制，以確保員工能順利融入組織並發揮最大潛能。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10408"
+  },
+  {
+    "id": "syn_st2_a2no_10411",
+    "data": "我們致力於建立符合國際標準的合規體系以保障員工權益。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10411"
+  },
+  {
+    "id": "syn_st2_a2no_10414",
+    "data": "本公司致力於將資訊安全納入核心治理框架，以確保營運之穩健與永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10414"
+  },
+  {
+    "id": "syn_st2_a2no_10416",
+    "data": "我們致力於培育具備環境永續意識的未來世代。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10416"
+  },
+  {
+    "id": "syn_st2_a2no_10417",
+    "data": "我們致力於持續符合相關法規要求以確保職場安全與健康。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10417"
+  },
+  {
+    "id": "syn_st2_a2no_10418",
+    "data": "我們致力於透過全面的環境保護措施與可持續發展實踐，為達成全球氣候目標及建構綠色未來貢獻心力。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10418"
+  },
+  {
+    "id": "syn_st2_a2no_10425",
+    "data": "我們致力於持續優化個人資料保護機制並提升隱私權事件的應對能力。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10425"
+  },
+  {
+    "id": "syn_st2_a2no_10430",
+    "data": "本公司長期秉持對環境保護的承諾，致力於推動可持續發展並積極回應全球環保趨勢。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10430"
+  },
+  {
+    "id": "syn_st2_a2no_10432",
+    "data": "我們致力於透過多元化的金融服務促進社會的公平與包容。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10432"
+  },
+  {
+    "id": "syn_st2_a2no_10433",
+    "data": "我們致力於建立完善的溝通機制與定期檢視流程，以持續優化勞動條件並促進和諧的勞資關係。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10433"
+  },
+  {
+    "id": "syn_st2_a2no_10434",
+    "data": "我們承諾致力於環境永續發展，積極推動各項減碳策略以降低營運對氣候變遷的影響。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10434"
+  },
+  {
+    "id": "syn_st2_a2no_10437",
+    "data": "我們致力於推動環境永續發展並積極履行企業社會責任。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10437"
+  },
+  {
+    "id": "syn_st2_a2no_10439",
+    "data": "我們致力於推動環境永續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10439"
+  },
+  {
+    "id": "syn_st2_a2no_10445",
+    "data": "本公司承諾在發現任何違反誠信經營的行為並造成負面衝擊時，將立即採取適當的補救行動以承擔相應責任。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10445"
+  },
+  {
+    "id": "syn_st2_a2no_10447",
+    "data": "本公司致力於建構全面且完善的職業安全與健康管理機制，以保障員工的身心福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10447"
+  },
+  {
+    "id": "syn_st2_a2no_10448",
+    "data": "我們致力於透過持續的組織變革與數位創新，建構具韌性且可持續發展的未來營運模式。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10448"
+  },
+  {
+    "id": "syn_st2_a2no_10450",
+    "data": "我們致力於支持本土運動發展並促進健康生活方式的普及。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10450"
+  },
+  {
+    "id": "syn_st2_a2no_10458",
+    "data": "本公司致力於建立完善的客戶投訴處理機制，以確保服務品質與客戶滿意度。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10458"
+  },
+  {
+    "id": "syn_st2_a2no_10460",
+    "data": "我們致力於持續優化職場安全與健康環境，以保障員工福祉並提升整體營運韌性。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10460"
+  },
+  {
+    "id": "syn_st2_a2no_10463",
+    "data": "致力於全面優化職業運動生態系統，確保運動員權益與產業永續發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10463"
+  },
+  {
+    "id": "syn_st2_a2no_10464",
+    "data": "本公司致力於履行企業社會責任並推動永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10464"
+  },
+  {
+    "id": "syn_st2_a2no_10467",
+    "data": "我們致力於透過持續優化環境保護與社會責任實踐，為利益相關者創造長期可持續的價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10467"
+  },
+  {
+    "id": "syn_st2_a2no_10468",
+    "data": "我們致力於積極響應國家永續發展政策，並透過提供多元化的綠色金融服務來支持環境保護與社會責任的實踐。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10468"
+  },
+  {
+    "id": "syn_st2_a2no_10480",
+    "data": "我們致力於透過教育與文化活動促進青少年的全面發展與社會參與。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10480"
+  },
+  {
+    "id": "syn_st2_a2no_10492",
+    "data": "我們致力於建立卓越的企業治理架構以促進永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10492"
+  },
+  {
+    "id": "syn_st2_a2no_10493",
+    "data": "我們致力於持續優化生態復育策略，以促進生物多樣性的長期繁榮與可持續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10493"
+  },
+  {
+    "id": "syn_st2_a2no_10495",
+    "data": "我們堅守誠信原則，致力於在商業活動中秉持最高道德標準並嚴格遵守相關法規。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10495"
+  },
+  {
+    "id": "syn_st2_a2no_10496",
+    "data": "我們致力於透過持續優化營運流程與推動創新解決方案，為環境永續發展貢獻心力。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10496"
+  },
+  {
+    "id": "syn_st2_a2no_10498",
+    "data": "我們致力於透過系統性的氣候風險管理機制來強化組織韌性，並持續提升資訊透明度以深化利害關係人的信任。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10498"
+  },
+  {
+    "id": "syn_st2_a2no_10500",
+    "data": "我們致力於透過金融影響力推動各產業的低碳轉型與永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10500"
+  },
+  {
+    "id": "syn_st2_a2no_10504",
+    "data": "我們致力於推動環境永續發展並積極應對氣候變遷挑戰。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10504"
+  },
+  {
+    "id": "syn_st2_a2no_10505",
+    "data": "我們致力於透過嚴謹的環境管理與國際標準對齊，推動長期永續發展並實現淨零排放願景。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10505"
+  },
+  {
+    "id": "syn_st2_a2no_10513",
+    "data": "本公司致力於透過系統性的氣候風險與機會評估，結合永續金融商品創新及能源管理精進措施，以強化企業韌性並推動綠色產業發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10513"
+  },
+  {
+    "id": "syn_st2_a2no_10517",
+    "data": "我們致力於持續提升治理結構的多元與包容性。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10517"
+  },
+  {
+    "id": "syn_st2_a2no_10521",
+    "data": "我們致力於透過持續優化服務體驗來深化品牌價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10521"
+  },
+  {
+    "id": "syn_st2_a2no_10522",
+    "data": "我們致力於構建與環境和諧共存的永續未來。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10522"
+  },
+  {
+    "id": "syn_st2_a2no_10523",
+    "data": "我們致力於建立具韌性的組織架構與包容性文化，以靈活應對市場挑戰並持續優化人才發展機制。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10523"
+  },
+  {
+    "id": "syn_st2_a2no_10530",
+    "data": "我們致力於打造一個包容多元的職場環境，確保所有背景的人才都能獲得公平的發展機會並充分發揮所長。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10530"
+  },
+  {
+    "id": "syn_st2_a2no_10538",
+    "data": "我們致力於與各界合作推動環境永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10538"
+  },
+  {
+    "id": "syn_st2_a2no_10543",
+    "data": "我們致力於推動企業永續發展，以促進社會與環境的和諧共生。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10543"
+  },
+  {
+    "id": "syn_st2_a2no_10545",
+    "data": "我們致力於透過系統性的供應鏈管理策略，強化合作夥伴的運營韌性與風險應對能力。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10545"
+  },
+  {
+    "id": "syn_st2_a2no_10551",
+    "data": "我們致力於透過深化產學合作與優化教育體系，全面提升半導體領域的人才專業素養與競爭力。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10551"
+  },
+  {
+    "id": "syn_st2_a2no_10560",
+    "data": "本公司致力於將環境、社會及治理原則深度融入企業核心營運策略，以推動長遠且全面的永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10560"
+  },
+  {
+    "id": "syn_st2_a2no_10561",
+    "data": "我們致力於將永續發展理念深植於企業核心價值，並透過持續優化治理機制來回應利害關係人的期待。",
+    "esg_type": "S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10561"
+  },
+  {
+    "id": "syn_st2_a2no_10565",
+    "data": "我們承諾持續優化職場環境以促進員工福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10565"
+  },
+  {
+    "id": "syn_st2_a2no_10568",
+    "data": "我們致力於持續優化能源管理並提升再生能源的使用比例。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10568"
+  },
+  {
+    "id": "syn_st2_a2no_10570",
+    "data": "我們承諾持續優化營運流程中的安全與衛生管理機制，以確保員工福祉並預防潛在風險。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10570"
+  },
+  {
+    "id": "syn_st2_a2no_10574",
+    "data": "本公司致力於遵循國際公認的人權標準並持續優化其人權承諾之實踐範圍。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10574"
+  },
+  {
+    "id": "syn_st2_a2no_10579",
+    "data": "我們致力於建構包容且具吸引力的職場環境，以促進員工福祉與長期發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10579"
+  },
+  {
+    "id": "syn_st2_a2no_10584",
+    "data": "我們致力於持續優化企業治理與永續發展實踐。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10584"
+  },
+  {
+    "id": "syn_st2_a2no_10585",
+    "data": "我們致力於促進環境保護、社會責任及良好公司治理，以實現可持續發展目標。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10585"
+  },
+  {
+    "id": "syn_st2_a2no_10608",
+    "data": "本公司致力於建構永續且安全的營運環境，以實現零災害的長期願景。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10608"
+  },
+  {
+    "id": "syn_st2_a2no_10614",
+    "data": "本公司致力於透過優化航線規劃與物流調度，確保供應鏈運作之穩定性與完整性。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10614"
+  },
+  {
+    "id": "syn_st2_a2no_10619",
+    "data": "本公司致力於建立完善的治理架構以應對潛在風險並保障永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10619"
+  },
+  {
+    "id": "syn_st2_a2no_10620",
+    "data": "我們致力於透過創新與合作推動可持續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10620"
+  },
+  {
+    "id": "syn_st2_a2no_10636",
+    "data": "我們致力於打造安全且具韌性的營運環境。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10636"
+  },
+  {
+    "id": "syn_st2_a2no_10638",
+    "data": "我們致力於透過嚴謹的獨立稽核機制與跨部門協作，持續強化供應鏈與內部營運的風險管控能力，以確保各項業務均能嚴格遵循最高標準之規範並落實執行。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10638"
+  },
+  {
+    "id": "syn_st2_a2no_10639",
+    "data": "我們致力於在環境、社會及治理方面持續創造長期價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10639"
+  },
+  {
+    "id": "syn_st2_a2no_10641",
+    "data": "我們致力於透過創新且具永續性的餐飲服務來提升乘客體驗。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10641"
+  },
+  {
+    "id": "syn_st2_a2no_10657",
+    "data": "我們致力於建立完善的供應鏈管理機制，透過系統化的評估與輔導措施，持續優化合作夥伴的永續表現並降低潛在風險。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10657"
+  },
+  {
+    "id": "syn_st2_a2no_10658",
+    "data": "我們致力於將挑戰轉化為創新契機，並在全球範圍內積極推廣可持續發展方案以增強整體影響力。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10658"
+  },
+  {
+    "id": "syn_st2_a2no_10663",
+    "data": "我們致力於推動環境、社會及治理的長期價值創造。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10663"
+  },
+  {
+    "id": "syn_st2_a2no_10664",
+    "data": "我們致力於透過整合性分析與創新技術驗證，持續優化營運模式以達成環境永續目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10664"
+  },
+  {
+    "id": "syn_st2_a2no_10667",
+    "data": "我們致力於深化對利害關係人觀點的理解，以確保企業策略與社會期望保持高度一致。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10667"
+  },
+  {
+    "id": "syn_st2_a2no_10673",
+    "data": "我們致力於透過多元溝通渠道深化與各界利害關係人的連結，以促進社會共識並提升品牌價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10673"
+  },
+  {
+    "id": "syn_st2_a2no_10677",
+    "data": "我們致力於推動能源轉型並提升綠色電力使用比例。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10677"
+  },
+  {
+    "id": "syn_st2_a2no_10678",
+    "data": "我們致力於透過卓越的服務標準，為客戶創造超越預期的價值與滿意度。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10678"
+  },
+  {
+    "id": "syn_st2_a2no_10685",
+    "data": "我們致力於透過教育與人才培育計畫，積極促進社會的永續發展與知識傳承。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10685"
+  },
+  {
+    "id": "syn_st2_a2no_10689",
+    "data": "我們致力於推動環境保護與社會責任，以實現長遠的永續發展目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10689"
+  },
+  {
+    "id": "syn_st2_a2no_10702",
+    "data": "我們致力於透過日常營運實踐綠色承諾，積極推動資源循環與減碳行動，以實現環境永續發展之願景。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10702"
+  },
+  {
+    "id": "syn_st2_a2no_10703",
+    "data": "我們致力於持續優化營運模式並追求卓越，以實現長遠的永續發展目標。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10703"
+  },
+  {
+    "id": "syn_st2_a2no_10708",
+    "data": "我們致力於透過廣泛的公益合作網絡，持續深化對弱勢族群與社會大眾的關懷與支持。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10708"
+  },
+  {
+    "id": "syn_st2_a2no_10710",
+    "data": "我們致力於持續優化企業治理與環境保護策略，以確保營運活動符合國際永續發展標準並創造長期共享價值。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10710"
+  },
+  {
+    "id": "syn_st2_a2no_10715",
+    "data": "我們致力於透過持續的教育與培訓來強化團隊的風險意識與專業能力。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10715"
+  },
+  {
+    "id": "syn_st2_a2no_10716",
+    "data": "本公司致力於建構包容且友善的職場環境，以確保所有員工的身心健康與工作生活平衡。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10716"
+  },
+  {
+    "id": "syn_st2_a2no_10717",
+    "data": "本公司致力於建立完善的環境、社會與治理體系，以確保營運的永續發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10717"
+  },
+  {
+    "id": "syn_st2_a2no_10720",
+    "data": "我們致力於推動產業人才培育與技術傳承，以促進學術界與產業界的緊密連結及知識共享。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10720"
+  },
+  {
+    "id": "syn_st2_a2no_10724",
+    "data": "本公司致力於透過系統性的評估與預防措施，確保營運活動對生物多樣性及受威脅物種產生最小負面影響。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10724"
+  },
+  {
+    "id": "syn_st2_a2no_10727",
+    "data": "本公司致力於建立完善的治理架構以推動永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10727"
+  },
+  {
+    "id": "syn_st2_a2no_10728",
+    "data": "我們致力於持續優化組織的整體永續發展表現。",
+    "esg_type": "G;S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10728"
+  },
+  {
+    "id": "syn_st2_a2no_10732",
+    "data": "我們致力於透過持續的教育與演練來強化資訊安全防護並降低營運風險。",
+    "esg_type": "S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10732"
+  },
+  {
+    "id": "syn_st2_a2no_10734",
+    "data": "本公司致力於透過多元資源投入，積極推動涵蓋安全、觀光、文化及社會關懷之綜合性公益事業。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10734"
+  },
+  {
+    "id": "syn_st2_a2no_10738",
+    "data": "我們致力於提供卓越的服務體驗以滿足客戶期望。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10738"
+  },
+  {
+    "id": "syn_st2_a2no_10744",
+    "data": "我們致力於全面提升資訊安全防護體系，以確保客戶資產與資料的絕對安全。",
+    "esg_type": "S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10744"
+  },
+  {
+    "id": "syn_st2_a2no_10747",
+    "data": "本公司致力於建構安全健康的職場環境，以保障員工福祉與作業安全。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10747"
+  },
+  {
+    "id": "syn_st2_a2no_10751",
+    "data": "我們致力於持續優化金融服務的包容性，以確保所有族群皆能公平享有便捷的信貸資源。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10751"
+  },
+  {
+    "id": "syn_st2_a2no_10753",
+    "data": "我們致力於透過全方位的金融服務創造正向影響力，並秉持促進社會共榮的願景來推動永續發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10753"
+  },
+  {
+    "id": "syn_st2_a2no_10759",
+    "data": "我們致力於建立一個尊重員工權益且安全健康的優質工作環境。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10759"
+  },
+  {
+    "id": "syn_st2_a2no_10762",
+    "data": "我們致力於維持對被投資企業營運動態的長期關注與洞察。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10762"
+  },
+  {
+    "id": "syn_st2_a2no_10763",
+    "data": "我們致力於構建一個安全、包容且可持續的未來，讓每一位利益相關者都能在尊嚴與信任的環境中共同成長。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10763"
+  },
+  {
+    "id": "syn_st2_a2no_10766",
+    "data": "我們致力於推動多元共融與創新發展，以創造長遠的社會價值。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10766"
+  },
+  {
+    "id": "syn_st2_a2no_10776",
+    "data": "本公司致力於推動永續發展，透過高階管理層與各部門的協作機制，持續檢視重大議題並對齊永續策略，以確保企業長期經營的穩健與責任。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10776"
+  },
+  {
+    "id": "syn_st2_a2no_10777",
+    "data": "我們致力於持續優化我們的資產組合以促進環境永續性。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10777"
+  },
+  {
+    "id": "syn_st2_a2no_10780",
+    "data": "我們致力於推動能源轉型與創新，以促進永續發展並為社會創造長期價值。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10780"
+  },
+  {
+    "id": "syn_st2_a2no_10781",
+    "data": "我們致力於為環境保護與生態永續貢獻心力。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10781"
+  },
+  {
+    "id": "syn_st2_a2no_10784",
+    "data": "我們致力於推動符合高齡社會需求的企業社會責任實踐。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10784"
+  },
+  {
+    "id": "syn_st2_a2no_10787",
+    "data": "我們承諾持續推動教育品質提升與社會包容性發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10787"
+  },
+  {
+    "id": "syn_st2_a2no_10789",
+    "data": "我們承諾持續推動環境永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10789"
+  },
+  {
+    "id": "syn_st2_a2no_10800",
+    "data": "我們致力於建立完善的治理機制以持續優化環境、社會及公司治理表現。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10800"
+  },
+  {
+    "id": "syn_st2_a2no_10805",
+    "data": "我們致力於推動環境永續發展，積極實踐綠色運營理念以促進生態平衡與資源的有效利用。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10805"
+  },
+  {
+    "id": "syn_st2_a2no_10820",
+    "data": "我們致力於建構具韌性且負責任的永續供應鏈體系。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10820"
+  },
+  {
+    "id": "syn_st2_a2no_10822",
+    "data": "我們致力於建立完善的環境管理體系以推動可持續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10822"
+  },
+  {
+    "id": "syn_st2_a2no_10824",
+    "data": "我們致力於持續提升環境、社會及治理績效，以創造長期共享價值。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10824"
+  },
+  {
+    "id": "syn_st2_a2no_10829",
+    "data": "我們致力於透過體育發展培育卓越人才，為國家爭取國際榮譽。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10829"
+  },
+  {
+    "id": "syn_st2_a2no_10831",
+    "data": "我們致力於透過開放創新的思維與行動，不斷追求卓越成果並推動集團的永續發展。",
+    "esg_type": "S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10831"
+  },
+  {
+    "id": "syn_st2_a2no_10834",
+    "data": "我們致力於透過持續優化營運流程來提升資源使用效率。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10834"
+  },
+  {
+    "id": "syn_st2_a2no_10836",
+    "data": "我們致力於在營運中融入對環境保護與社會公益的長期承諾。",
+    "esg_type": "S;E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10836"
+  },
+  {
+    "id": "syn_st2_a2no_10846",
+    "data": "我們致力於持續優化環境、安全與衛生管理體系，以確保營運的永續性與社會責任。",
+    "esg_type": "",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10846"
+  },
+  {
+    "id": "syn_st2_a2no_10847",
+    "data": "本公司致力於在決策與營運過程中全面識別並管控潛在的經濟、環境及社會風險，以落實永續發展的預防性管理原則。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10847"
+  },
+  {
+    "id": "syn_st2_a2no_10856",
+    "data": "本公司堅守零容忍立場，致力於營造安全、尊重且無歧視的包容性工作環境。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10856"
+  },
+  {
+    "id": "syn_st2_a2no_10861",
+    "data": "我們致力於建立安全且無暴力的工作環境，以確保員工的身心健康與福祉。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10861"
+  },
+  {
+    "id": "syn_st2_a2no_10869",
+    "data": "我們致力於透過持續優化內部治理與人力資源策略，營造包容且具支持性的工作環境，以促進員工的全面福祉與長遠的職業發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10869"
+  },
+  {
+    "id": "syn_st2_a2no_10872",
+    "data": "我們致力於建構永續經營的企業環境以促進長期價值創造。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10872"
+  },
+  {
+    "id": "syn_st2_a2no_10873",
+    "data": "我們致力於透過倡導環境保護理念來促進社會永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10873"
+  },
+  {
+    "id": "syn_st2_a2no_10875",
+    "data": "我們致力於透過持續優化與創新來提升整體的水資源管理效能。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10875"
+  },
+  {
+    "id": "syn_st2_a2no_10883",
+    "data": "我們致力於透過前瞻性的策略規劃與持續的創新投入，不斷優化環境、社會及治理表現，以創造長遠且可持續的價值。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10883"
+  },
+  {
+    "id": "syn_st2_a2no_10884",
+    "data": "我們致力於透過持續的教育與宣導活動，全面提升全體同仁對安全責任的認知與重視。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10884"
+  },
+  {
+    "id": "syn_st2_a2no_10886",
+    "data": "本公司致力於持續優化治理架構並強化合規意識。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10886"
+  },
+  {
+    "id": "syn_st2_a2no_10888",
+    "data": "本公司致力於建立完善的產品追溯與追蹤系統，以確保供應鏈之透明性與可管理性。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10888"
+  },
+  {
+    "id": "syn_st2_a2no_10892",
+    "data": "我們致力於建立穩健的治理框架，以促進長期可持續發展並為所有利害關係人創造價值。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10892"
+  },
+  {
+    "id": "syn_st2_a2no_10901",
+    "data": "我們致力於透過員工參與及理念傳承，持續推動環境保護與綠色生活教育。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10901"
+  },
+  {
+    "id": "syn_st2_a2no_10907",
+    "data": "我們致力於營造一個包容且多元的職場環境，以促進不同背景員工之間的交流與共融。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10907"
+  },
+  {
+    "id": "syn_st2_a2no_10911",
+    "data": "我們致力於建立永續的供應鏈生態系，以促進環境保護與社會責任的長期發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10911"
+  },
+  {
+    "id": "syn_st2_a2no_10913",
+    "data": "我們致力於秉持負責任的經營理念，持續優化與利害關係人的互動機制。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10913"
+  },
+  {
+    "id": "syn_st2_a2no_10953",
+    "data": "我們致力於建立前瞻性的治理框架以應對不斷演變的挑戰。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10953"
+  },
+  {
+    "id": "syn_st2_a2no_10957",
+    "data": "我們致力於持續深化對社會弱勢群體的關懷與支持，以促進更包容且具韌性的社區發展。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10957"
+  },
+  {
+    "id": "syn_st2_a2no_10962",
+    "data": "我們致力於透過系統化的風險管理與持續改進機制，確保職場安全與健康環境的優化。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10962"
+  },
+  {
+    "id": "syn_st2_a2no_10965",
+    "data": "本公司致力於建立完善的治理架構，以確保營運過程中的合規性與永續發展。",
+    "esg_type": "G;S;E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10965"
+  },
+  {
+    "id": "syn_st2_a2no_10966",
+    "data": "我們致力於透過定期演練來強化組織對潛在危機的應對韌性。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10966"
+  },
+  {
+    "id": "syn_st2_a2no_10972",
+    "data": "我們致力於持續優化人才發展機制，以促進組織的多元與包容性。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10972"
+  },
+  {
+    "id": "syn_st2_a2no_10974",
+    "data": "我們致力於構建安全健康的職場環境，全面保障員工的身心福祉與職業安全。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10974"
+  },
+  {
+    "id": "syn_st2_a2no_10979",
+    "data": "我們致力於實踐企業永續發展的核心價值，以創造長遠的社會與環境效益。",
+    "esg_type": "E;S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10979"
+  },
+  {
+    "id": "syn_st2_a2no_10981",
+    "data": "我們致力於推動環境永續發展，並承諾在未來實現碳中和的目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10981"
+  },
+  {
+    "id": "syn_st2_a2no_10988",
+    "data": "我們致力於創造一個和諧共生的永續環境。",
+    "esg_type": "E;S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_remove",
+    "syn_method": "llm",
+    "syn_parent_id": "10988"
+  }
+]

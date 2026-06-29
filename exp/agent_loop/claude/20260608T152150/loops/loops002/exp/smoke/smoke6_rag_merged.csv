@@ -1,0 +1,7 @@
+id,promise_status,score_yes,score_no,model_family,mode,finetune_path,prompt_id,prompt_path,run_id,source,raw_prediction
+11777,Yes,0.99938285,0.00061717,hfl/chinese-roberta-wwm-ext-large,finetune,models/loop001_st1_a0_real_only/best_st1.pt,,,stage1_rag_t0.90_strict_negative_with_certficate_data-only,bert_high_conf,1
+11508,Yes,0.98998004,0.01001989,hfl/chinese-roberta-wwm-ext-large,finetune,models/loop001_st1_a0_real_only/best_st1.pt,,,stage1_rag_t0.90_strict_negative_with_certficate_data-only,bert_high_conf,1
+11896,Yes,,,/workspace/llm_model,codex_rag:strict_negative_with_certficate:data-only:ctx_bert_prediction,models/loop001_st1_a0_real_only/best_st1.pt,strict_negative_with_certficate,/workspace/esg_contest/configs/prompt/stage1/codex/strict_negative_with_certficate.txt,stage1_rag_t0.90_strict_negative_with_certficate_data-only,codex_rag_low_conf,Yes
+11923,Yes,0.99956745,0.00043253,hfl/chinese-roberta-wwm-ext-large,finetune,models/loop001_st1_a0_real_only/best_st1.pt,,,stage1_rag_t0.90_strict_negative_with_certficate_data-only,bert_high_conf,1
+11034,Yes,0.99989223,0.00010777,hfl/chinese-roberta-wwm-ext-large,finetune,models/loop001_st1_a0_real_only/best_st1.pt,,,stage1_rag_t0.90_strict_negative_with_certficate_data-only,bert_high_conf,1
+11484,No,0.00045157,0.99954838,hfl/chinese-roberta-wwm-ext-large,finetune,models/loop001_st1_a0_real_only/best_st1.pt,,,stage1_rag_t0.90_strict_negative_with_certficate_data-only,bert_high_conf,0

@@ -1,0 +1,412 @@
+[
+  {
+    "id": "syn_st2_a2no2_10001",
+    "data": "聯發科技於工作規則中依勞基法保障員工產期不得被終止契約，並自 2024 年起提供女性員工 84 天產假及男性員工 10 天有薪陪產（檢）假，以支持同仁與家人度過人生不同階段。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10001"
+  },
+  {
+    "id": "syn_st2_a2no2_10019",
+    "data": "第二線個資保護專責單位負責督導、協調及監控個人資料保護相關事宜，並應至少每年一次向董事會進行匯報；若發現任何重大違反個人資料保護相關法令之情事，則須立即向董事會通報。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10019"
+  },
+  {
+    "id": "syn_st2_a2no2_10113",
+    "data": "我們深信永續議題的管理是企業持續改善與長遠發展的關鍵，涵蓋整合內部資源擬定管理方針及各階段利害關係人議合溝通；本公司藉由多元管道蒐集相關回覆與建議，並將其納入營運規劃之中。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10113"
+  },
+  {
+    "id": "syn_st2_a2no2_10117",
+    "data": "本公司訂定於 2030 年前達成範疇一及二碳排放較 2020 年減少 42%、範疇三燃料與能源相關活動碳排放較 2020 年減少 42%、國內據點再生能源使用比例達 100%、營收用水量較 2020 年降低 30%，以及營收一般垃圾量較 2016 年減少 78% 之減碳與資源管理目標。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10117"
+  },
+  {
+    "id": "syn_st2_a2no2_10136",
+    "data": "本公司訂定涵蓋溫室氣體、再生能源、水電減量及產品設計之 2025 與 2030 年關鍵氣候目標 KPI，並承諾於 2030 年達成科學基礎減碳目標 (SBTi)，且於 2050 年實現淨零排放。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10136"
+  },
+  {
+    "id": "syn_st2_a2no2_10158",
+    "data": "在全球風險交織的時代背景下，台積公司呼應國際多邊合作趨勢，透過綠色製造、責任供應鏈、健康職場、人才培育及關懷弱勢等五大 ESG 方向，積極與利害關係人協作，致力於邁向具韌性、包容且共好的未來。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10158"
+  },
+  {
+    "id": "syn_st2_a2no2_10212",
+    "data": "參考相關文獻並透過工作坊課程鼓勵女孩突破框架，同時建立長期追蹤機制以評估成效並優化未來規劃。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10212"
+  },
+  {
+    "id": "syn_st2_a2no2_10258",
+    "data": "鑑於供應鏈對本行營運之影響目前評估甚微，本行仍將持續關注供貨穩定性並適時開發新供應商以提升替代能力；同時，為強化供應商氣候風險準備度，未來擬舉辦供應商大會宣導防範措施與救災知識，並建議高風險供應商設置防洪設備。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10258"
+  },
+  {
+    "id": "syn_st2_a2no2_10269",
+    "data": "廣達致力於推動包裝材料創新與減量，積極消除不必要的包材使用與一次性塑膠，並透過永續設計導向降低整體包裝對環境的衝擊，實踐資源效率與產品全生命週期管理。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10269"
+  },
+  {
+    "id": "syn_st2_a2no2_10378",
+    "data": "光寶的離職率主要集中於中國大陸的直接人員，未來將透過數位智能發展整合智慧製造與自動化作業以取代自然流失人力並提升人均產值，從而降低人力流動的影響（請參見附錄 137 頁）。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10378"
+  },
+  {
+    "id": "syn_st2_a2no2_10390",
+    "data": "本公司董事會成員秉持高度自律及審慎態度提供專業客觀之意見，管理階層亦致力於領導各部門執行永續發展年度計畫，以落實環境、社會與公司治理面向各議題為己任，持續精進聯發科技永續發展之作為。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10390"
+  },
+  {
+    "id": "syn_st2_a2no2_10401",
+    "data": "自 2024 年起啟動鄰近中壢廠之黃墘溪生態評估，擬定三年期專案以推動河川生態系統復育，並致力於實現生物多樣性淨正向影響。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10401"
+  },
+  {
+    "id": "syn_st2_a2no2_10404",
+    "data": "為落實 SDG4、SDG11、SDG12、SDG13、SDG14、SDG15 及 SDG17，合庫積極推動環境永續措施並實踐自然生態資源保護。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10404"
+  },
+  {
+    "id": "syn_st2_a2no2_10405",
+    "data": "緯創致力於推動長期保育工作，以提升公眾對生態保護的意識與支持。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10405"
+  },
+  {
+    "id": "syn_st2_a2no2_10413",
+    "data": "我們致力於應對氣候變遷風險並把握低碳轉型機遇，透過優化資源配置以增強企業競爭力與營運韌性。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10413"
+  },
+  {
+    "id": "syn_st2_a2no2_10431",
+    "data": "緯穎科技以永續供應鏈、綠色創新、環境友善營運及員工與企業共善共榮為發展策略，明確定義推動方向與角色，並設定短期（2025年）、中期（2028年）及長期（2030年）目標提報董事會，致力實現「釋放數位能量 點燃永續創新」之願景。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10431"
+  },
+  {
+    "id": "syn_st2_a2no2_10441",
+    "data": "本集團將依循科學基礎減碳路徑，致力於在 2030 年實現較基準年大幅減碳，並朝向 2050 年全營運據點全面採用綠電之淨零目標邁進。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10441"
+  },
+  {
+    "id": "syn_st2_a2no2_10465",
+    "data": "高蹺鴴遷徙與留駐模式的轉變，象徵著緯創對生態平衡的重視及人與自然和諧共生的承諾；同時，草鴞在險峻環境中的生存啟示我們珍視多元差異並促進溝通，以凝聚團隊智慧推動永續發展。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10465"
+  },
+  {
+    "id": "syn_st2_a2no2_10471",
+    "data": "董事會作為陽明海運的最高決策與治理單位，透過設立審計、薪資報酬、風險管理及提名等功能性委員會，持續監督公司營運管理並強化公司治理實踐，以保障股東權益並兼顧利害關係人利益，進而推動經濟、環境與社會的永續發展。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10471"
+  },
+  {
+    "id": "syn_st2_a2no2_10479",
+    "data": "台積公司自民國 109 年加入 RE100，推動百萬瓩級再生能源，並將目標提前至民國 129 年，展現其可擴展性與商業價值，期待持續合作以促進清潔能源使用與能源轉型。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10479"
+  },
+  {
+    "id": "syn_st2_a2no2_10485",
+    "data": "2023年未發生重大資安事件，2024年9月雖遭遇DDoS攻擊致官網服務中斷，但已即時啟動防禦與復原機制且無資訊外洩，對營運影響有限，後續將持續強化網路管控並依規定完成通報。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10485"
+  },
+  {
+    "id": "syn_st2_a2no2_10518",
+    "data": "日月光投控致力於提升資源效率並減少環境排放以改善生態效益，同時將生命週期各階段的環境影響納入考量，推動全方位的綠色製造與服務理念。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10518"
+  },
+  {
+    "id": "syn_st2_a2no2_10534",
+    "data": "中信金控秉持「永續成長」、「責任營運」與「共榮社會」三大主軸，透過「TRUST」五大承諾積極實踐聯合國永續發展目標 (SDGs)，推動低碳轉型與永續變革，以促進低碳經濟及普惠金融並落實永續經營。",
+    "esg_type": "E;S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10534"
+  },
+  {
+    "id": "syn_st2_a2no2_10540",
+    "data": "我們承諾於 2025 年實現範疇一碳排放強度及範疇二碳排放總量分別較 2024 年減少 1%，並於 2030 年達成範疇一碳排放強度與範疇二碳排放總量分別較 2024 年減少 10% 與 20% 的目標，最終在 2050 年實現淨零碳排。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10540"
+  },
+  {
+    "id": "syn_st2_a2no2_10555",
+    "data": "面對監理壓力增加，各國政府與國際組織如 GRI、ISSB 及 TNFD 相繼發布或制定自然相關揭露標準與指引，促使金融機構採取行動，兆豐需加強內部人員專業知識並進行長期持續性的培訓與成本投入。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10555"
+  },
+  {
+    "id": "syn_st2_a2no2_10557",
+    "data": "台達品牌以創新與節能為核心，將產品業務與企業永續發展相結合，並致力於透過技術創新提供高效節能的解決方案，以應對氣候變遷並推動低碳永續城市的建設。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10557"
+  },
+  {
+    "id": "syn_st2_a2no2_10572",
+    "data": "在採購決策中傾向於選擇具備節能與環保特性的產品及服務，並在供應商合作期間恪守道德規範與負責任的行為準則，致力於提升供應商的永續意識，同時發揮影響力以促進創新、新技術及新設計的廣泛應用；此外，我們將為參與採購的員工提供相應的培訓與指引，以確保本政策的有效落實。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10572"
+  },
+  {
+    "id": "syn_st2_a2no2_10581",
+    "data": "聯詠科技秉持誠信經營並持續優化公司治理架構，以期落實有效治理、推動研發創新，進而履行企業永續責任並提升經營績效。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10581"
+  },
+  {
+    "id": "syn_st2_a2no2_10583",
+    "data": "ASEP Cayman Ltd 及 Cyland Corp 的溫室氣體盤查數據尚待第三方查證，而 USI Hirschmann Car Communication GmbH、Hirschmann Car Communication Holding S.a.r.l、USI Asteelflash 及其所屬子公司等共 21 家實體已完成盤查並預計於 2026 年完成查證。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10583"
+  },
+  {
+    "id": "syn_st2_a2no2_10598",
+    "data": "中租控股推出「URiDE」共享租車品牌，旨在透過減少私人車輛需求以降低環境負擔，並藉資產共享與高效循環推動循環經濟及淨零減碳，期為自然生態帶來正面影響。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10598"
+  },
+  {
+    "id": "syn_st2_a2no2_10633",
+    "data": "世芯電子秉持對員工的尊重，嚴格遵守臺灣相關勞動法規及制定永續發展實務守則，承諾遵循國際人權公約與基本勞動原則，致力於落實性別平等、結社自由及關懷弱勢，並堅決抵制歧視、童工與強迫勞動，以營造包容多元且公平的就業環境。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10633"
+  },
+  {
+    "id": "syn_st2_a2no2_10647",
+    "data": "聯電致力於保障工作權的性別平等並重視女性同仁的晉升與發展，儘管受半導體產業特性影響，目前主管及工程師仍以男性為主，而管理師與技術員則以女性居多；為此，公司持續舉辦聚焦女性領導與管理的分享講座，旨在提升女性同仁擔任主管職的意願，以期逐步提高女性工作者的比例。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10647"
+  },
+  {
+    "id": "syn_st2_a2no2_10649",
+    "data": "廣達長期秉持「精研電腦、加速文明」的核心使命，將永續發展納入企業策略並積極整合ESG理念於營運系統與日常管理之中；面對氣候變遷、地緣政治風險、全球供應鏈轉型與科技快速演進等挑戰，廣達持續鞏固製造實力與技術領先，同時強化內部治理韌性、深化跨部門橫向協作，以推動環境永續、人才共融與社會參與。",
+    "esg_type": "E;S;G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10649"
+  },
+  {
+    "id": "syn_st2_a2no2_10699",
+    "data": "聯發科技於 2024 年啟動新竹高鐵辦公大樓興建計畫，並透過與國立臺灣大學之產學合作，投入專案經費執行百年榕樹及十三甲伯公廟周邊環境之維護與優化工程，旨在降低施工對既有生態之影響，同時規劃建設連接高鐵站、新辦公大樓及新竹生物醫學園區之空中連通橋，以實踐對社區發展之關懷。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10699"
+  },
+  {
+    "id": "syn_st2_a2no2_10719",
+    "data": "職安衛以「以人為本」為核心，重視工作者健康與安全；南科園區透過經驗分享提升風險控管，營造友善環境並建立優質文化；自 2019 年加入緯穎智造以來，在團隊努力下穩健建立管理制度與文化，順利通過多項國際認證並屢獲肯定，這些榮譽成為持續前行的動力，未來將繼續守護同仁健康與安全，讓工作成為充滿意義的旅程。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10719"
+  },
+  {
+    "id": "syn_st2_a2no2_10756",
+    "data": "台積公司與供應商合作檢視並解決產能不足、品質缺陷或製程精進等問題，在資材管理組織、品質暨可靠性、營運等相關業務單位合作下，積極導入先進製程儀器及技術、提升材料產品品質並扶植在地廠商技術發展，共創雙贏效益。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10756"
+  },
+  {
+    "id": "syn_st2_a2no2_10770",
+    "data": "建立供應商氣候風險地圖以識別並強化對具潛在風險供應商的監控，同時透過定期舉辦永續論壇分享管理經驗與技術，共同提升氣候韌性。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10770"
+  },
+  {
+    "id": "syn_st2_a2no2_10795",
+    "data": "我們致力於將環境友善思維融入日常營運及價值鏈，以有效管理氣候與自然相關的風險與機會，並透過涵蓋氣候策略、自然風險管理、綠色營運、供應商管理及氣候變遷風險管理等面向的目標，為地球盡一份心力，此承諾對應 SDG 6、7、12、13。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10795"
+  },
+  {
+    "id": "syn_st2_a2no2_10915",
+    "data": "本公司設立隸屬董事會之永續經營委員會，由董事長擔任主任委員，全體獨立董事為委員，每年至少向董事會報告一次，旨在協助將誠信與道德價值融入公司經營策略，並透過訂定防弊措施、制定與監督誠信政策執行、推動宣導訓練及規劃檢舉制度等事項，以確保誠信經營之落實。",
+    "esg_type": "G",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10915"
+  },
+  {
+    "id": "syn_st2_a2no2_10924",
+    "data": "光寶透過旗下企業與文教基金會的協同合作，秉持「易於合作，樂於分享」的品牌精神，並整合內外部資源聚焦於四大發展主軸，旨在以創新、科技、組織及學習為核心動力，共同實現社會共好的願景。",
+    "esg_type": "S",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10924"
+  },
+  {
+    "id": "syn_st2_a2no2_10946",
+    "data": "黑面琵鷺為全球最瀕危的候鳥之一，每年秋季逾六成族群會遷徙至台灣度冬；緯創致力於長期保育工作，以期提升公眾對生態保護的重視與支持。",
+    "esg_type": "E",
+    "promise_status": "Yes",
+    "evidence_status": "No",
+    "syn_source": "no_rewrite",
+    "syn_method": "llm",
+    "syn_parent_id": "10946"
+  }
+]

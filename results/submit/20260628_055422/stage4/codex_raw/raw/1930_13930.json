@@ -1,0 +1,50 @@
+{
+  "id": "13930",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpa2t2hsq6",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n### 3.3.7 以循環經濟打造零廢棄循環社會    **減少備品採購**  報廢物料減少**76.6**公噸，2024共計產生7,655片故障卡板，透過供應商負責相關設備維運及故障品處理，可為TWM減少10%廢棄物產生。    **延長SMR使用壽命年限**  **2,467**台SMR延長使用、報廢物料減少**25.9**公噸。本公司經良好的維護保養後，將電源供應系統(SMR)使用年限自10年延長至15年。    **舊機換新機**  舊機回收2024年：**52,487**台 (2023年: 41,648台；YoY +26%) / 舊機回收價值約**29,792**萬元 (2023年: 28,009萬元；YoY +6%)  持續與台灣伊藤忠(股)公司合作、點子行動科技(股)公司合作，提升舊機回收價格、締結率與門市人員舊機回收獎勵，促進更高效的回收成果。    **門市廢手機回收**  myfone門市廢手機回收 **21,714** 支 / 較去年成長**46%** / 廢電池&配件回收 **2.38**公噸 / 較去年成長**39%**  推動回收的措施：  回收箱置於顯眼處，定期維護確保正常使用。  同仁引導顧客進行廢手機的回收。    **紙張循環利用**  公司每季將銷毀文件集中送至處理廠，進行粉碎性破壞後噴水壓縮製成紙磚，後續製成再生紙製品，2024年共計有47,160公斤紙張製成紙磚。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpa2t2hsq6 '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n### 3.3.7 以循環經濟打造零廢棄循環社會    **減少備品採購**  報廢物料減少**76.6**公噸，2024共計產生7,655片故障卡板，透過供應商負責相關設備維運及故障品處理，可為TWM減少10%廢棄物產生。    **延長SMR使用壽命年限**  **2,467**台SMR延長使用、報廢物料減少**25.9**公噸。本公司經良好的維護保養後，將電源供應系統(SMR)使用年限自10年延長至15年。    **舊機換新機**  舊機回收2024年：**52,487**台 (2023年: 41,648台；YoY +26%) / 舊機回收價值約**29,792**萬元 (2023年: 28,009萬元；YoY +6%)  持續與台灣伊藤忠(股)公司合作、點子行動科技(股)公司合作，提升舊機回收價格、締結率與門市人員舊機回收獎勵，促進更高效的回收成果。    **門市廢手機回收**  myfone門市廢手機回收 **21,714** 支 / 較去年成長**46%** / 廢電池&配件回收 **2.38**公噸 / 較去年成長**39%**  推動回收的措施：  回收箱置於顯眼處，定期維護確保正常使用。  同仁引導顧客進行廢手機的回收。    **紙張循環利用**  公司每季將銷毀文件集中送至處理廠，進行粉碎性破壞後噴水壓縮製成紙磚，後續製成再生紙製品，2024年共計有47,160公斤紙張製成紙磚。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019f0ed5-81e4-7e53-949d-569492009388",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "already",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 14720,
+          "input_tokens": 15588,
+          "output_tokens": 34,
+          "reasoning_output_tokens": 27
+        }
+      }
+    ],
+    "raw_stderr": "",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019f0ed5-81e4-7e53-949d-569492009388\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"already\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":15588,\"cached_input_tokens\":14720,\"output_tokens\":34,\"reasoning_output_tokens\":27}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/AICUP_ESG2026/configs/prompts/stage4/boundary_rules_v4.txt",
+  "raw_prediction": "already",
+  "run_id": "20260628_144931_stage4"
+}

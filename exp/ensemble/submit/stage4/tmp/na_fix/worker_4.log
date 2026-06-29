@@ -1,0 +1,19 @@
+[1/7] 12241 -> already
+[2/7] 12403 -> already
+[3/7] 12686 -> between_2_and_5_years
+[4/7] 12971 -> already
+[5/7] 13314 -> between_2_and_5_years
+[6/7] 13634 -> already
+[7/7] 13799 -> already
+{
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0614/submit/submit_5/submit/stage4/tmp/na_fix/shard_4.csv",
+  "rows": 7,
+  "filtered_rows": 0,
+  "predicted_rows": 7,
+  "errors": 0,
+  "flow": "filter_pred_by_codex",
+  "model": "gpt-5.5",
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/boundary_rules_v4.txt",
+  "token_usage_output": "/workspace/esg_contest/exp/integrated_stage_predictions/0614/submit/submit_5/submit/stage4/tmp/na_fix/token_4.jsonl",
+  "raw_output_dir": "/workspace/esg_contest/exp/integrated_stage_predictions/0614/submit/submit_5/submit/stage4/tmp/na_fix/raw_4"
+}

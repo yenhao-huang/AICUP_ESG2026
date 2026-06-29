@@ -1,0 +1,167 @@
+{
+  "model": "hfl/chinese-roberta-wwm-ext-large",
+  "tasks": [
+    "st1",
+    "st2",
+    "st3"
+  ],
+  "task_weights": {
+    "st1": 0.2,
+    "st2": 0.3,
+    "st3": 0.5
+  },
+  "loss_modes": {
+    "st1": "weighted_ce",
+    "st2": "weighted_ce",
+    "st3": "weighted_ce"
+  },
+  "selection": "val_path:exp/integrated_stage_predictions/0615/ensemble/stage3/data/ensemble/seed7/vpesg_4k_train_1000_add_val.val.json",
+  "best_epoch": 2,
+  "best_val_st3_f1": 0.48382429895034934,
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6519,
+      "train_task_loss": {
+        "st1": 0.6599,
+        "st2": 0.643,
+        "st3": 0.6541
+      },
+      "val_f1": {
+        "st1": 0.5157,
+        "st2": 0.6652,
+        "st3": 0.4665
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4983,
+      "train_task_loss": {
+        "st1": 0.5395,
+        "st2": 0.485,
+        "st3": 0.4897
+      },
+      "val_f1": {
+        "st1": 0.6802,
+        "st2": 0.6962,
+        "st3": 0.4838
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.364,
+      "train_task_loss": {
+        "st1": 0.4261,
+        "st2": 0.3809,
+        "st3": 0.329
+      },
+      "val_f1": {
+        "st1": 0.7381,
+        "st2": 0.6864,
+        "st3": 0.4595
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.2357,
+      "train_task_loss": {
+        "st1": 0.3089,
+        "st2": 0.2977,
+        "st3": 0.1691
+      },
+      "val_f1": {
+        "st1": 0.7635,
+        "st2": 0.6953,
+        "st3": 0.4444
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.148,
+      "train_task_loss": {
+        "st1": 0.2333,
+        "st2": 0.2132,
+        "st3": 0.0747
+      },
+      "val_f1": {
+        "st1": 0.7381,
+        "st2": 0.6818,
+        "st3": 0.4483
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0854,
+      "train_task_loss": {
+        "st1": 0.1778,
+        "st2": 0.1213,
+        "st3": 0.0269
+      },
+      "val_f1": {
+        "st1": 0.777,
+        "st2": 0.6969,
+        "st3": 0.4636
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0446,
+      "train_task_loss": {
+        "st1": 0.0951,
+        "st2": 0.0635,
+        "st3": 0.0131
+      },
+      "val_f1": {
+        "st1": 0.7638,
+        "st2": 0.6671,
+        "st3": 0.466
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0266,
+      "train_task_loss": {
+        "st1": 0.0623,
+        "st2": 0.0354,
+        "st3": 0.0072
+      },
+      "val_f1": {
+        "st1": 0.7616,
+        "st2": 0.6649,
+        "st3": 0.4589
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.018,
+      "train_task_loss": {
+        "st1": 0.0451,
+        "st2": 0.0191,
+        "st3": 0.0066
+      },
+      "val_f1": {
+        "st1": 0.7672,
+        "st2": 0.6693,
+        "st3": 0.4602
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.014,
+      "train_task_loss": {
+        "st1": 0.0342,
+        "st2": 0.0151,
+        "st3": 0.0053
+      },
+      "val_f1": {
+        "st1": 0.7706,
+        "st2": 0.6677,
+        "st3": 0.4657
+      }
+    }
+  ],
+  "checkpoints": {
+    "multitask": "/models/ensemble_mt_st123_w1_8_30_mlval_seed7/best_multitask_st3.pt",
+    "st3_compat": "/models/ensemble_mt_st123_w1_8_30_mlval_seed7/best_st3.pt"
+  }
+}

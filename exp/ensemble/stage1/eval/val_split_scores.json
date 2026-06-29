@@ -1,0 +1,8 @@
+{
+  "tag": "a3_b1_ckpt_on_val_split",
+  "n": 500,
+  "macro_f1": 0.8773587299439234,
+  "f1_Yes": 0.966396292004635,
+  "f1_No": 0.7883211678832117,
+  "csv": "exp/integrated_stage_predictions/0614/submit/submit_5/stage1/eval/val_split_scored.csv"
+}

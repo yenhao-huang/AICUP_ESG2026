@@ -1,0 +1,3 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+12001,Clear,0,bert_multitask,score_clear=0.96448982;score_not_clear=0.03469588;score_misleading=0.00081425
+12002,Clear,0,bert_multitask,score_clear=0.99218655;score_not_clear=0.00697162;score_misleading=0.00084179

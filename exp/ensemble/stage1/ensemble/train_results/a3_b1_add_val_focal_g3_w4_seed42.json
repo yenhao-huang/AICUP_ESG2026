@@ -1,0 +1,67 @@
+{
+  "subtasks": {
+    "st1": {
+      "train_micro_f1": 1.0,
+      "train_macro_f1": 1.0,
+      "best_val_macro_f1": 0.82035277701184,
+      "best_val_micro_f1": 0.914,
+      "best_epoch": 4,
+      "train_samples": 2000,
+      "val_samples": 500,
+      "train_label_distribution": {
+        "1": 1702,
+        "0": 298
+      },
+      "val_label_distribution": {
+        "1": 425,
+        "0": 75
+      },
+      "epoch_metrics": [
+        {
+          "epoch": 1,
+          "train_loss": 0.17451138009524583,
+          "checkpoint": null,
+          "val_loss": null,
+          "val_micro_f1": 0.894,
+          "val_macro_f1": 0.7271388708697577
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.12405976578412789,
+          "checkpoint": null,
+          "val_loss": null,
+          "val_micro_f1": 0.92,
+          "val_macro_f1": 0.8158786271910443
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.04753385289221373,
+          "checkpoint": null,
+          "val_loss": null,
+          "val_micro_f1": 0.9,
+          "val_macro_f1": 0.7562022156342643
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.015138232225726527,
+          "checkpoint": null,
+          "val_loss": null,
+          "val_micro_f1": 0.914,
+          "val_macro_f1": 0.82035277701184
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.001325604893693561,
+          "checkpoint": null,
+          "val_loss": null,
+          "val_micro_f1": 0.904,
+          "val_macro_f1": 0.7820638552903999
+        }
+      ]
+    }
+  },
+  "selection_metric": "val_macro_f1",
+  "val_path": "exp/integrated_stage_predictions/0615/ensemble/stage1/data/ensemble/seed42/a3_b1_add_val.val.json",
+  "weighted_score": null,
+  "partial_weighted_contribution": 0.164070555402368
+}

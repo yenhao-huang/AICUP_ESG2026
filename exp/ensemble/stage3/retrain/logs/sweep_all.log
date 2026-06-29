@@ -1,0 +1,367 @@
+==================== task-weights=0.2,0.3,0.5  tag=w0_2_0_3_0_5 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.2, 'st2': 0.3, 'st3': 0.5}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 78825.90it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6550 {'st1': 0.6651, 'st2': 0.6102, 'st3': 0.6778} | st1 F1=0.6121 | st2 F1=0.6193 | st3 F1=0.4458
+  → new best ST3 F1=0.4458  saved best_st3.pt
+Epoch 2/10 | loss=0.4896 {'st1': 0.5349, 'st2': 0.4796, 'st3': 0.4775} | st1 F1=0.7199 | st2 F1=0.6498 | st3 F1=0.4713
+  → new best ST3 F1=0.4713  saved best_st3.pt
+Epoch 3/10 | loss=0.3885 {'st1': 0.4186, 'st2': 0.3749, 'st3': 0.3845} | st1 F1=0.7807 | st2 F1=0.7131 | st3 F1=0.4850
+  → new best ST3 F1=0.4850  saved best_st3.pt
+Epoch 4/10 | loss=0.2504 {'st1': 0.3208, 'st2': 0.2879, 'st3': 0.1997} | st1 F1=0.7793 | st2 F1=0.6966 | st3 F1=0.5209
+  → new best ST3 F1=0.5209  saved best_st3.pt
+Epoch 5/10 | loss=0.1515 {'st1': 0.2221, 'st2': 0.2027, 'st3': 0.0925} | st1 F1=0.7883 | st2 F1=0.7039 | st3 F1=0.5007
+Epoch 6/10 | loss=0.0907 {'st1': 0.1556, 'st2': 0.1251, 'st3': 0.0442} | st1 F1=0.7844 | st2 F1=0.7105 | st3 F1=0.4949
+Epoch 7/10 | loss=0.0503 {'st1': 0.0934, 'st2': 0.0811, 'st3': 0.0146} | st1 F1=0.8053 | st2 F1=0.7165 | st3 F1=0.4789
+Epoch 8/10 | loss=0.0278 {'st1': 0.0579, 'st2': 0.0405, 'st3': 0.0082} | st1 F1=0.7896 | st2 F1=0.7227 | st3 F1=0.4865
+Epoch 9/10 | loss=0.0199 {'st1': 0.0483, 'st2': 0.0237, 'st3': 0.0063} | st1 F1=0.8020 | st2 F1=0.7307 | st3 F1=0.4809
+Epoch 10/10 | loss=0.0166 {'st1': 0.0362, 'st2': 0.0214, 'st3': 0.0058} | st1 F1=0.8119 | st2 F1=0.7262 | st3 F1=0.4809
+
+=== Final train Macro-F1 ===
+  st1: 0.9959
+  st2: 0.9960
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 4  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_2_0_3_0_5/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_2_0_3_0_5.json
+==================== task-weights=0.15,0.25,0.6  tag=w0_15_0_25_0_6 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.15, 'st2': 0.25, 'st3': 0.6}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 62534.71it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6578 {'st1': 0.6703, 'st2': 0.6159, 'st3': 0.6721} | st1 F1=0.5424 | st2 F1=0.6219 | st3 F1=0.4764
+  → new best ST3 F1=0.4764  saved best_st3.pt
+Epoch 2/10 | loss=0.4893 {'st1': 0.5752, 'st2': 0.4874, 'st3': 0.4687} | st1 F1=0.6479 | st2 F1=0.6498 | st3 F1=0.4685
+Epoch 3/10 | loss=0.3960 {'st1': 0.4865, 'st2': 0.3978, 'st3': 0.3727} | st1 F1=0.7159 | st2 F1=0.7070 | st3 F1=0.4892
+  → new best ST3 F1=0.4892  saved best_st3.pt
+Epoch 4/10 | loss=0.2515 {'st1': 0.3959, 'st2': 0.3324, 'st3': 0.1817} | st1 F1=0.7616 | st2 F1=0.6963 | st3 F1=0.4974
+  → new best ST3 F1=0.4974  saved best_st3.pt
+Epoch 5/10 | loss=0.1635 {'st1': 0.3269, 'st2': 0.2689, 'st3': 0.0787} | st1 F1=0.7431 | st2 F1=0.7334 | st3 F1=0.5128
+  → new best ST3 F1=0.5128  saved best_st3.pt
+Epoch 6/10 | loss=0.1009 {'st1': 0.2585, 'st2': 0.1919, 'st3': 0.0235} | st1 F1=0.7869 | st2 F1=0.6744 | st3 F1=0.4921
+Epoch 7/10 | loss=0.0679 {'st1': 0.1946, 'st2': 0.1346, 'st3': 0.0084} | st1 F1=0.7924 | st2 F1=0.7137 | st3 F1=0.4920
+Epoch 8/10 | loss=0.0461 {'st1': 0.15, 'st2': 0.0811, 'st3': 0.0056} | st1 F1=0.7997 | st2 F1=0.7193 | st3 F1=0.5035
+Epoch 9/10 | loss=0.0345 {'st1': 0.1213, 'st2': 0.0519, 'st3': 0.0056} | st1 F1=0.7979 | st2 F1=0.7165 | st3 F1=0.4977
+Epoch 10/10 | loss=0.0285 {'st1': 0.0977, 'st2': 0.0427, 'st3': 0.0053} | st1 F1=0.7979 | st2 F1=0.7262 | st3 F1=0.4977
+
+=== Final train Macro-F1 ===
+  st1: 0.9768
+  st2: 0.9868
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 5  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_15_0_25_0_6/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_15_0_25_0_6.json
+==================== task-weights=0.1,0.2,0.7  tag=w0_1_0_2_0_7 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.1, 'st2': 0.2, 'st3': 0.7}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 78814.54it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6615 {'st1': 0.6771, 'st2': 0.6226, 'st3': 0.6704} | st1 F1=0.5319 | st2 F1=0.6323 | st3 F1=0.4688
+  → new best ST3 F1=0.4688  saved best_st3.pt
+Epoch 2/10 | loss=0.4897 {'st1': 0.6064, 'st2': 0.4962, 'st3': 0.4712} | st1 F1=0.5973 | st2 F1=0.6064 | st3 F1=0.4658
+Epoch 3/10 | loss=0.4001 {'st1': 0.5473, 'st2': 0.4164, 'st3': 0.3744} | st1 F1=0.6822 | st2 F1=0.6965 | st3 F1=0.4968
+  → new best ST3 F1=0.4968  saved best_st3.pt
+Epoch 4/10 | loss=0.2484 {'st1': 0.4762, 'st2': 0.3656, 'st3': 0.1824} | st1 F1=0.7168 | st2 F1=0.6969 | st3 F1=0.5051
+  → new best ST3 F1=0.5051  saved best_st3.pt
+Epoch 5/10 | loss=0.1579 {'st1': 0.415, 'st2': 0.3219, 'st3': 0.0743} | st1 F1=0.7454 | st2 F1=0.7167 | st3 F1=0.5069
+  → new best ST3 F1=0.5069  saved best_st3.pt
+Epoch 6/10 | loss=0.1058 {'st1': 0.3625, 'st2': 0.2541, 'st3': 0.0268} | st1 F1=0.7908 | st2 F1=0.6819 | st3 F1=0.5062
+Epoch 7/10 | loss=0.0785 {'st1': 0.3153, 'st2': 0.2096, 'st3': 0.0072} | st1 F1=0.7730 | st2 F1=0.6867 | st3 F1=0.4920
+Epoch 8/10 | loss=0.0628 {'st1': 0.2901, 'st2': 0.1528, 'st3': 0.0046} | st1 F1=0.7802 | st2 F1=0.6736 | st3 F1=0.5004
+Epoch 9/10 | loss=0.0520 {'st1': 0.2623, 'st2': 0.1162, 'st3': 0.0036} | st1 F1=0.7787 | st2 F1=0.6868 | st3 F1=0.4949
+Epoch 10/10 | loss=0.0462 {'st1': 0.234, 'st2': 0.1007, 'st3': 0.0039} | st1 F1=0.7815 | st2 F1=0.6836 | st3 F1=0.4894
+
+=== Final train Macro-F1 ===
+  st1: 0.9045
+  st2: 0.9522
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 5  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_1_0_2_0_7/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_1_0_2_0_7.json
+==================== task-weights=0.1,0.1,0.8  tag=w0_1_0_1_0_8 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.1, 'st2': 0.1, 'st3': 0.8}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 59271.13it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6696 {'st1': 0.679, 'st2': 0.6407, 'st3': 0.672} | st1 F1=0.5181 | st2 F1=0.4690 | st3 F1=0.4572
+  → new best ST3 F1=0.4572  saved best_st3.pt
+Epoch 2/10 | loss=0.4924 {'st1': 0.6137, 'st2': 0.5301, 'st3': 0.4725} | st1 F1=0.5682 | st2 F1=0.5886 | st3 F1=0.4636
+  → new best ST3 F1=0.4636  saved best_st3.pt
+Epoch 3/10 | loss=0.4021 {'st1': 0.5649, 'st2': 0.4638, 'st3': 0.374} | st1 F1=0.6242 | st2 F1=0.6831 | st3 F1=0.5036
+  → new best ST3 F1=0.5036  saved best_st3.pt
+Epoch 4/10 | loss=0.2358 {'st1': 0.5057, 'st2': 0.4293, 'st3': 0.1778} | st1 F1=0.6433 | st2 F1=0.6946 | st3 F1=0.5141
+  → new best ST3 F1=0.5141  saved best_st3.pt
+Epoch 5/10 | loss=0.1477 {'st1': 0.4467, 'st2': 0.4108, 'st3': 0.0774} | st1 F1=0.7178 | st2 F1=0.7049 | st3 F1=0.4972
+Epoch 6/10 | loss=0.1046 {'st1': 0.398, 'st2': 0.3741, 'st3': 0.0343} | st1 F1=0.7325 | st2 F1=0.6908 | st3 F1=0.5213
+  → new best ST3 F1=0.5213  saved best_st3.pt
+Epoch 7/10 | loss=0.0762 {'st1': 0.3481, 'st2': 0.3443, 'st3': 0.0087} | st1 F1=0.7570 | st2 F1=0.6721 | st3 F1=0.5187
+Epoch 8/10 | loss=0.0684 {'st1': 0.3258, 'st2': 0.3268, 'st3': 0.0039} | st1 F1=0.7721 | st2 F1=0.6687 | st3 F1=0.5207
+Epoch 9/10 | loss=0.0621 {'st1': 0.2969, 'st2': 0.2995, 'st3': 0.0031} | st1 F1=0.7652 | st2 F1=0.6574 | st3 F1=0.5117
+Epoch 10/10 | loss=0.0582 {'st1': 0.2736, 'st2': 0.2843, 'st3': 0.003} | st1 F1=0.7676 | st2 F1=0.6746 | st3 F1=0.5121
+
+=== Final train Macro-F1 ===
+  st1: 0.8845
+  st2: 0.8451
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 6  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_1_0_1_0_8/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_1_0_1_0_8.json
+==================== task-weights=0.2,0.35,0.45  tag=w0_2_0_35_0_45 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.2, 'st2': 0.35, 'st3': 0.45}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 84867.15it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6499 {'st1': 0.6639, 'st2': 0.6038, 'st3': 0.6795} | st1 F1=0.6320 | st2 F1=0.6344 | st3 F1=0.4396
+  → new best ST3 F1=0.4396  saved best_st3.pt
+Epoch 2/10 | loss=0.4841 {'st1': 0.5251, 'st2': 0.4702, 'st3': 0.4767} | st1 F1=0.7349 | st2 F1=0.6606 | st3 F1=0.4859
+  → new best ST3 F1=0.4859  saved best_st3.pt
+Epoch 3/10 | loss=0.3809 {'st1': 0.4099, 'st2': 0.3567, 'st3': 0.3868} | st1 F1=0.7691 | st2 F1=0.7248 | st3 F1=0.4850
+Epoch 4/10 | loss=0.2421 {'st1': 0.3048, 'st2': 0.2494, 'st3': 0.2085} | st1 F1=0.7877 | st2 F1=0.7142 | st3 F1=0.5165
+  → new best ST3 F1=0.5165  saved best_st3.pt
+Epoch 5/10 | loss=0.1378 {'st1': 0.2069, 'st2': 0.1463, 'st3': 0.1005} | st1 F1=0.7883 | st2 F1=0.7185 | st3 F1=0.5038
+Epoch 6/10 | loss=0.0848 {'st1': 0.1446, 'st2': 0.0925, 'st3': 0.0522} | st1 F1=0.7824 | st2 F1=0.7313 | st3 F1=0.4921
+Epoch 7/10 | loss=0.0457 {'st1': 0.0894, 'st2': 0.0512, 'st3': 0.0219} | st1 F1=0.7956 | st2 F1=0.7414 | st3 F1=0.4789
+Epoch 8/10 | loss=0.0246 {'st1': 0.0556, 'st2': 0.0252, 'st3': 0.0103} | st1 F1=0.7883 | st2 F1=0.7303 | st3 F1=0.4785
+Epoch 9/10 | loss=0.0174 {'st1': 0.0458, 'st2': 0.0146, 'st3': 0.0071} | st1 F1=0.8020 | st2 F1=0.7307 | st3 F1=0.4838
+Epoch 10/10 | loss=0.0151 {'st1': 0.0348, 'st2': 0.0146, 'st3': 0.0067} | st1 F1=0.7997 | st2 F1=0.7039 | st3 F1=0.4838
+
+=== Final train Macro-F1 ===
+  st1: 0.9928
+  st2: 0.9973
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 4  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_2_0_35_0_45/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_2_0_35_0_45.json
+==================== task-weights=0.33,0.33,0.34  tag=w0_33_0_33_0_34 ====================
+Device: cuda:0  Model: hfl/chinese-roberta-wwm-ext-large
+Tasks: ('st1', 'st2', 'st3')  task_weights={'st1': 0.33, 'st2': 0.33, 'st3': 0.34}
+Loss modes: {'st1': 'weighted_ce', 'st2': 'weighted_ce', 'st3': 'weighted_ce'}
+Train rows: 1598  multitask samples: 1598
+External val: exp/integrated_stage_predictions/0614/submit/submit_5/stage3/data/vpesg_4k_train_1000_add_val.val.json  val samples: 402
+  st1 applicable train dist: {'No': 298, 'Yes': 1300}
+  st2 applicable train dist: {'No': 226, 'Yes': 1074}
+  st3 applicable train dist: {'Clear': 894, 'Not Clear': 180}
+  st1 loss=weighted_ce weights=[2.6812, 0.6146]
+  st2 loss=weighted_ce weights=[2.8761, 0.6052]
+  st3 loss=weighted_ce weights=[1.0, 8.0, 30.0]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 73650.37it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Epoch 1/10 | loss=0.6476 {'st1': 0.6502, 'st2': 0.6023, 'st3': 0.689} | st1 F1=0.7078 | st2 F1=0.6476 | st3 F1=0.4551
+  → new best ST3 F1=0.4551  saved best_st3.pt
+Epoch 2/10 | loss=0.4691 {'st1': 0.4671, 'st2': 0.4652, 'st3': 0.4748} | st1 F1=0.7847 | st2 F1=0.6556 | st3 F1=0.4739
+  → new best ST3 F1=0.4739  saved best_st3.pt
+Epoch 3/10 | loss=0.3668 {'st1': 0.34, 'st2': 0.3565, 'st3': 0.4029} | st1 F1=0.7956 | st2 F1=0.7084 | st3 F1=0.4972
+  → new best ST3 F1=0.4972  saved best_st3.pt
+Epoch 4/10 | loss=0.2317 {'st1': 0.1924, 'st2': 0.2506, 'st3': 0.2516} | st1 F1=0.7922 | st2 F1=0.7024 | st3 F1=0.4977
+  → new best ST3 F1=0.4977  saved best_st3.pt
+Epoch 5/10 | loss=0.1381 {'st1': 0.1006, 'st2': 0.1535, 'st3': 0.1594} | st1 F1=0.7794 | st2 F1=0.7039 | st3 F1=0.4845
+Epoch 6/10 | loss=0.0715 {'st1': 0.0508, 'st2': 0.0892, 'st3': 0.0743} | st1 F1=0.7883 | st2 F1=0.7083 | st3 F1=0.4885
+Epoch 7/10 | loss=0.0411 {'st1': 0.0284, 'st2': 0.0535, 'st3': 0.0414} | st1 F1=0.8024 | st2 F1=0.7177 | st3 F1=0.4809
+Epoch 8/10 | loss=0.0218 {'st1': 0.0152, 'st2': 0.032, 'st3': 0.0183} | st1 F1=0.8015 | st2 F1=0.7268 | st3 F1=0.4921
+Epoch 9/10 | loss=0.0129 {'st1': 0.0118, 'st2': 0.0155, 'st3': 0.0114} | st1 F1=0.7896 | st2 F1=0.7272 | st3 F1=0.4657
+Epoch 10/10 | loss=0.0113 {'st1': 0.0101, 'st2': 0.0137, 'st3': 0.0102} | st1 F1=0.7863 | st2 F1=0.7049 | st3 F1=0.4733
+
+=== Final train Macro-F1 ===
+  st1: 1.0000
+  st2: 0.9960
+  st3: 0.6667
+              precision    recall  f1-score   support
+
+       Clear      1.000     1.000     1.000       894
+   Not Clear      1.000     1.000     1.000       180
+  Misleading      0.000     0.000     0.000         0
+
+    accuracy                          1.000      1074
+   macro avg      0.667     0.667     0.667      1074
+weighted avg      1.000     1.000     1.000      1074
+
+
+Best epoch: 4  best_st3.pt → /models/submit_5_mt_st123_twsweep/w0_33_0_33_0_34/best_st3.pt
+Results saved to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/w0_33_0_33_0_34.json
+==================== sweep done — collecting ====================
+task_weights(st1,st2,st3)    epoch   ST3 F1   ST1 F1   ST2 F1
+-------------------------------------------------------------
+0.1,0.1,0.8                      6   0.5213   0.7325   0.6908
+0.2,0.3,0.5                      4   0.5209   0.7793   0.6966
+0.2,0.35,0.45                    4   0.5165   0.7877   0.7142
+0.15,0.25,0.6                    5   0.5128   0.7431   0.7334
+0.1,0.2,0.7                      5   0.5069   0.7454   0.7167
+0.33,0.33,0.34                   4   0.4977   0.7922   0.7024
+
+BEST: task_weights=0.1,0.1,0.8  ST3 val Macro-F1=0.5212886593732918  epoch=6
+      ckpt=/models/submit_5_mt_st123_twsweep/w0_1_0_1_0_8/best_multitask_st3.pt
+Summary written to exp/integrated_stage_predictions/0614/submit/submit_5/stage3/retrain/results/summary.json

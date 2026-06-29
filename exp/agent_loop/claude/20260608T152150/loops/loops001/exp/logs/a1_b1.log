@@ -1,0 +1,59 @@
+Device: cuda:1
+Model: hfl/chinese-roberta-wwm-ext-large
+Batch size: 8 (grad accum: 2, effective: 16)
+Validation ratio: 0.2
+Train records: 1500
+
+============================================================
+Training subtask: ST1
+============================================================
+Train samples: 1200 | Labels: 2 | Dist: {0: 221, 1: 979}
+Val samples: 300 | Dist: {1: 245, 0: 55}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 81655.69it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loss: weighted CrossEntropyLoss  weights=[2.7149, 0.6129]
+Epoch 1/5 | Loss: 0.6446 | Val loss: 0.5583 | Val micro-F1: 0.8867 | Val macro-F1: 0.7647
+Saved best model → models/loop001_st1_a1_b1/best_st1.pt (epoch=1, val_macro_f1=0.7647)
+Epoch 2/5 | Loss: 0.3259 | Val loss: 0.3182 | Val micro-F1: 0.9067 | Val macro-F1: 0.8560
+Saved best model → models/loop001_st1_a1_b1/best_st1.pt (epoch=2, val_macro_f1=0.8560)
+Epoch 3/5 | Loss: 0.1373 | Val loss: 0.4727 | Val micro-F1: 0.9333 | Val macro-F1: 0.8902
+Saved best model → models/loop001_st1_a1_b1/best_st1.pt (epoch=3, val_macro_f1=0.8902)
+Epoch 4/5 | Loss: 0.0491 | Val loss: 0.7303 | Val micro-F1: 0.9500 | Val macro-F1: 0.9093
+Saved best model → models/loop001_st1_a1_b1/best_st1.pt (epoch=4, val_macro_f1=0.9093)
+Epoch 5/5 | Loss: 0.0167 | Val loss: 0.6562 | Val micro-F1: 0.9500 | Val macro-F1: 0.9107
+Saved best model → models/loop001_st1_a1_b1/best_st1.pt (epoch=5, val_macro_f1=0.9107)
+Loaded best model from epoch 5 for final train metrics
+
+Train Micro-F1: 0.9975
+Train Macro-F1: 0.9958
+              precision    recall  f1-score   support
+
+          No       0.99      1.00      0.99       221
+         Yes       1.00      1.00      1.00       979
+
+    accuracy                           1.00      1200
+   macro avg       0.99      1.00      1.00      1200
+weighted avg       1.00      1.00      1.00      1200
+
+Best Val Macro-F1: 0.9107 (epoch=5)
+
+============================================================
+Final Results (Train Micro-F1)
+============================================================
+ST1: 0.9107 (weight=0.2)
+
+Partial Weighted Contribution: 0.1821
+Results saved to exp/agent_loop/claude/20260608T152150/loops/loops001/exp/train_results/a1_b1.json

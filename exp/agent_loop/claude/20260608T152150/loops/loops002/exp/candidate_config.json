@@ -1,0 +1,20 @@
+{
+  "method": "confidence-routed LLM-RAG fallback on frozen loop001 a0 BERT",
+  "base_checkpoint": "models/loop001_st1_a0_real_only/best_st1.pt",
+  "base_model": "hfl/chinese-roberta-wwm-ext-large",
+  "threshold": 0.8,
+  "top_k": 5,
+  "prompt": "strict_negative",
+  "mode_context": "bert-prediction",
+  "info_mode": "data-only",
+  "text_col": "data",
+  "embedding_backend": "st",
+  "embedding_model": "/models/qihoo360-Zhinao-ChineseModernBert-Embedding",
+  "embed_cache": "data/generated/loop002_st1_rag/loop002_st1_train_data_only_modernbert_index.npz",
+  "train_corpus": "data/raw_data/vpesg_4k_train_1000.json",
+  "llm_backend": "http",
+  "llm_base_url": "http://192.168.1.79:3134/v1",
+  "served_model": "/workspace/llm_model",
+  "selection_split": "val_public",
+  "blind_gate_split": "val_test"
+}

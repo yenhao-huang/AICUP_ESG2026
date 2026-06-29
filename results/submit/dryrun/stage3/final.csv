@@ -1,0 +1,11 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+12001,Clear,0,bert_multitask,score_clear=0.96448982;score_not_clear=0.03469585;score_misleading=0.00081425
+12002,Clear,0,bert_multitask,score_clear=0.99218655;score_not_clear=0.00697161;score_misleading=0.00084179
+12003,Clear,0,bert_multitask,score_clear=0.91619641;score_not_clear=0.08006574;score_misleading=0.00373794
+12004,Clear,0,bert_multitask,score_clear=0.99206805;score_not_clear=0.00661416;score_misleading=0.00131785
+12005,Clear,0,bert_multitask,score_clear=0.94029933;score_not_clear=0.05896247;score_misleading=0.00073810
+12006,Clear,0,bert_multitask,score_clear=0.99766219;score_not_clear=0.00163623;score_misleading=0.00070157
+12007,Not Clear,1,bert_multitask,score_clear=0.05727831;score_not_clear=0.94184768;score_misleading=0.00087401
+12008,Clear,0,bert_multitask,score_clear=0.92078096;score_not_clear=0.07735143;score_misleading=0.00186761
+12009,N/A,1,bert_multitask,score_clear=0.31449044;score_not_clear=0.68138236;score_misleading=0.00412722
+12010,Not Clear,1,bert_multitask,score_clear=0.11261461;score_not_clear=0.88649660;score_misleading=0.00088881

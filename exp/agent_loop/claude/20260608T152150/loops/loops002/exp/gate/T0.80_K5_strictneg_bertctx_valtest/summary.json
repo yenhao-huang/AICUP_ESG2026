@@ -1,0 +1,447 @@
+{
+  "run_id": "stage1_rag_t0.80_strict_negative_data-only",
+  "output": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/gate/T0.80_K5_strictneg_bertctx_valtest/merged.csv",
+  "bert_csv": "exp/agent_loop/claude/20260608T152150/loops/loops002/exp/base/a0_val_test_scored.csv",
+  "threshold": 0.8,
+  "model": "/workspace/llm_model",
+  "prompt": "strict_negative",
+  "mode_context": "bert-prediction",
+  "info_mode": "data-only",
+  "top_k": 5,
+  "embedding_model": "/models/qihoo360-Zhinao-ChineseModernBert-Embedding",
+  "embedding_backend": "st",
+  "embedding_base_url": "http://192.168.1.78:3132/v1",
+  "train_data": "data/raw_data/vpesg_4k_train_1000.json",
+  "total_rows": 500,
+  "high_conf_rows": 470,
+  "low_conf_rows": 30,
+  "codex_called": 30,
+  "codex_errors": 0,
+  "changed_by_codex": 13,
+  "codex_results": [
+    {
+      "id": "11637",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.64984,
+      "retrieved_scores": [
+        0.46111202239990234,
+        0.4590495228767395,
+        0.4452885389328003,
+        0.3954559862613678,
+        0.39087915420532227
+      ]
+    },
+    {
+      "id": "11780",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.67315167,
+      "retrieved_scores": [
+        0.6361225843429565,
+        0.6359148025512695,
+        0.5975120067596436,
+        0.5935806035995483,
+        0.5842927694320679
+      ]
+    },
+    {
+      "id": "11942",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.71534997,
+      "retrieved_scores": [
+        0.6185351610183716,
+        0.6003557443618774,
+        0.5680638551712036,
+        0.5567649006843567,
+        0.547805905342102
+      ]
+    },
+    {
+      "id": "11973",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.5345825,
+      "retrieved_scores": [
+        0.5256088972091675,
+        0.46581095457077026,
+        0.45701098442077637,
+        0.45302891731262207,
+        0.4503002166748047
+      ]
+    },
+    {
+      "id": "11009",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.65102047,
+      "retrieved_scores": [
+        0.5729278922080994,
+        0.5646500587463379,
+        0.5572706460952759,
+        0.5470423698425293,
+        0.5344094038009644
+      ]
+    },
+    {
+      "id": "11010",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.63699263,
+      "retrieved_scores": [
+        0.509147047996521,
+        0.452461302280426,
+        0.4485135078430176,
+        0.44819727540016174,
+        0.4420952796936035
+      ]
+    },
+    {
+      "id": "11059",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.57864535,
+      "retrieved_scores": [
+        0.6616661548614502,
+        0.5418596863746643,
+        0.52825927734375,
+        0.526187539100647,
+        0.5230459570884705
+      ]
+    },
+    {
+      "id": "11594",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.6658659,
+      "retrieved_scores": [
+        0.65049147605896,
+        0.6500211358070374,
+        0.622880220413208,
+        0.6159504652023315,
+        0.5825168490409851
+      ]
+    },
+    {
+      "id": "11304",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.74390024,
+      "retrieved_scores": [
+        0.6718277335166931,
+        0.6087890863418579,
+        0.5394742488861084,
+        0.5378917455673218,
+        0.5365097522735596
+      ]
+    },
+    {
+      "id": "11554",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.50117451,
+      "retrieved_scores": [
+        0.662205696105957,
+        0.6521857380867004,
+        0.6117041707038879,
+        0.6038123369216919,
+        0.5919337272644043
+      ]
+    },
+    {
+      "id": "11990",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.58586961,
+      "retrieved_scores": [
+        0.599656343460083,
+        0.5977165699005127,
+        0.5793343186378479,
+        0.562094509601593,
+        0.5591917037963867
+      ]
+    },
+    {
+      "id": "11363",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.77050245,
+      "retrieved_scores": [
+        0.6341623663902283,
+        0.6265061497688293,
+        0.5930450558662415,
+        0.5820731520652771,
+        0.5769364833831787
+      ]
+    },
+    {
+      "id": "11195",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.66529,
+      "retrieved_scores": [
+        0.6661179065704346,
+        0.6274402141571045,
+        0.5793639421463013,
+        0.5452648401260376,
+        0.5222835540771484
+      ]
+    },
+    {
+      "id": "11244",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.66372889,
+      "retrieved_scores": [
+        0.546940803527832,
+        0.5461040139198303,
+        0.5224077701568604,
+        0.5196258425712585,
+        0.5086936354637146
+      ]
+    },
+    {
+      "id": "11070",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.55409682,
+      "retrieved_scores": [
+        0.5583329200744629,
+        0.5422409176826477,
+        0.4912909269332886,
+        0.47469550371170044,
+        0.42391103506088257
+      ]
+    },
+    {
+      "id": "11206",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.79343528,
+      "retrieved_scores": [
+        0.7074235081672668,
+        0.6695123910903931,
+        0.6682943105697632,
+        0.6679149866104126,
+        0.6560619473457336
+      ]
+    },
+    {
+      "id": "11622",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.56797516,
+      "retrieved_scores": [
+        0.6001861691474915,
+        0.5674644708633423,
+        0.5485367774963379,
+        0.5379431247711182,
+        0.5196064114570618
+      ]
+    },
+    {
+      "id": "11546",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.63840348,
+      "retrieved_scores": [
+        0.5288439393043518,
+        0.5207330584526062,
+        0.4904547333717346,
+        0.4874541759490967,
+        0.48467719554901123
+      ]
+    },
+    {
+      "id": "11246",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.77195096,
+      "retrieved_scores": [
+        0.5298290252685547,
+        0.4562568664550781,
+        0.45341384410858154,
+        0.42152297496795654,
+        0.41876935958862305
+      ]
+    },
+    {
+      "id": "11799",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.73192114,
+      "retrieved_scores": [
+        0.4037368595600128,
+        0.40223681926727295,
+        0.40023696422576904,
+        0.383772075176239,
+        0.3520587086677551
+      ]
+    },
+    {
+      "id": "11900",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.68113661,
+      "retrieved_scores": [
+        0.7138652801513672,
+        0.6848869323730469,
+        0.5259206295013428,
+        0.5120726823806763,
+        0.49817758798599243
+      ]
+    },
+    {
+      "id": "11506",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.76422924,
+      "retrieved_scores": [
+        0.5815624594688416,
+        0.5740298628807068,
+        0.554516077041626,
+        0.537255048751831,
+        0.5311006307601929
+      ]
+    },
+    {
+      "id": "11995",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.69637674,
+      "retrieved_scores": [
+        0.5961004495620728,
+        0.5722318887710571,
+        0.5487408638000488,
+        0.5384969711303711,
+        0.5168046951293945
+      ]
+    },
+    {
+      "id": "11747",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.7389698,
+      "retrieved_scores": [
+        0.5018036961555481,
+        0.4792519211769104,
+        0.4652942717075348,
+        0.4489157199859619,
+        0.4431929886341095
+      ]
+    },
+    {
+      "id": "11664",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.51208824,
+      "retrieved_scores": [
+        0.5450336337089539,
+        0.5243403911590576,
+        0.5188326239585876,
+        0.5001261234283447,
+        0.4850892722606659
+      ]
+    },
+    {
+      "id": "11465",
+      "bert_label": "No",
+      "codex_label": "No",
+      "changed": false,
+      "bert_conf": 0.73219955,
+      "retrieved_scores": [
+        0.9132355451583862,
+        0.9064815044403076,
+        0.881942629814148,
+        0.7960825562477112,
+        0.787035346031189
+      ]
+    },
+    {
+      "id": "11592",
+      "bert_label": "No",
+      "codex_label": "Yes",
+      "changed": true,
+      "bert_conf": 0.51241559,
+      "retrieved_scores": [
+        0.5387352705001831,
+        0.5224254131317139,
+        0.5167677402496338,
+        0.5102490782737732,
+        0.5005184412002563
+      ]
+    },
+    {
+      "id": "11371",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.60599458,
+      "retrieved_scores": [
+        0.6349837183952332,
+        0.6093693971633911,
+        0.5936422348022461,
+        0.5915136933326721,
+        0.5894046425819397
+      ]
+    },
+    {
+      "id": "11349",
+      "bert_label": "Yes",
+      "codex_label": "No",
+      "changed": true,
+      "bert_conf": 0.59841567,
+      "retrieved_scores": [
+        0.398806095123291,
+        0.38394153118133545,
+        0.37923580408096313,
+        0.36420953273773193,
+        0.35880374908447266
+      ]
+    },
+    {
+      "id": "11826",
+      "bert_label": "Yes",
+      "codex_label": "Yes",
+      "changed": false,
+      "bert_conf": 0.56241935,
+      "retrieved_scores": [
+        0.6412596702575684,
+        0.555598795413971,
+        0.5485518574714661,
+        0.5179393291473389,
+        0.5136915445327759
+      ]
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}

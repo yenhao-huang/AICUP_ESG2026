@@ -1,0 +1,50 @@
+{
+  "id": "11151",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmp5x6gh5k0",
+      "你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n擴大社會影響 ( Social Impact ) 是台新投入公益的初衷，我們匯集改變力量，實現提升社會福祉的泉源。鏈結 ( leverage ) 利害關係人讓台新在實踐社會公益能夠有更多的夥伴及資源，趨動與擴散社會影響力。因此，我們攜手員工、客戶、供應商、社區的參與，從志工服務、募集物資、物品捐贈、專業技能等面向，讓利害關係人成為台新在公益推動上的最佳夥伴，解決公益活動所需的資源與力量，實踐社會影響極大化理念。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmp5x6gh5k0 '你是一位 ESG 永續報告的時間線分類器。\n任務：在已知這是一個有效 ESG promise 的前提下，判斷該 promise 的 verification_timeline。\n\n今年是 2024 年，請以 2024 年作為唯一時間錨點。\n\n只允許輸出以下四個 label 之一：\n- already\n- within_2_years\n- between_2_and_5_years\n- more_than_5_years\n\n判斷步驟（優先順序由高到低）：\n\n第一步：找出 DATA 中的主要目標完成年份。\n- 忽略報告年份、歷史年份、基準年（如「以 2021 年為基準年」）、法規生效年、標準編號年份。\n- 只考慮 DATA 明確承諾達到某結果的年份（如「預計 2025 年完成」、「2030 年前達成」、「2029 年正式申報」）。\n\n第二步：若 DATA 中出現明確承諾年份，直接依年份判斷：\n- 主要目標年份為 2025 或 2026 → within_2_years\n  【關鍵規則】DATA 中出現 2025 或 2026 作為主要目標年份時，即使文字同時描述持續管理、供應鏈活動或 2024 年實績，仍判 within_2_years，不得判 already 或 between_2_and_5_years。\n- 主要目標年份為 2027、2028、2029 → between_2_and_5_years\n  【關鍵規則】DATA 中同時出現 2026（過渡步驟）與 2027-2029（最終目標）時，以最遠的主要目標年份為準。\n- 主要目標年份 >= 2030 → more_than_5_years\n\n第三步：若 DATA 中無明確未來承諾年份，依活動類型判斷：\n- 描述 2024 年績效數據（如「2024 年實績為 X」）、已達成指標、通過查核、完成評鑑，且無明確未來目標年份 → already\n  【關鍵規則】DATA 描述 2024 年已完成、已達成、已導入、已實施、或定期/每年/每季執行的活動，且沒有明確未來年份目標 → already。\n- 有效承諾但無明確年份，屬於管理制度維持、供應鏈管理、治理維持、風險評估、法規遵循、人才培育、合作關係、資源管理、低碳轉型 → between_2_and_5_years\n- 有效承諾且明確指向淨零排放、2050 願景、科學基礎長期目標、成果需超過 5 年累積驗證的長期目標 → more_than_5_years\n\n第四步：避免常見誤判：\n- 「持續」、「定期」、「每年」、「每季」、「已啟動」本身不是 already 的充分條件；若文中有明確 2025/2026 未來目標，仍判 within_2_years。\n- 「供應鏈」、「風險」、「治理」、「法規」、「轉型」本身不是 more_than_5_years 的充分條件；無明確長期目標時判 between_2_and_5_years。\n- 「長期」若只是泛稱合作關係或持續精進，沒有明確目標，不判 more_than_5_years。\n- 同一段 DATA 多個目標年份，選最遠且最能代表主要承諾的目標年份。\n\n僅輸出 label，不要解釋，不要使用 markdown。\n\n只能根據下方 DATA 判斷 verification_timeline；不要使用 evidence_string、promise_string、標註欄位或任何外部資料。\n\nDATA:\n擴大社會影響 ( Social Impact ) 是台新投入公益的初衷，我們匯集改變力量，實現提升社會福祉的泉源。鏈結 ( leverage ) 利害關係人讓台新在實踐社會公益能夠有更多的夥伴及資源，趨動與擴散社會影響力。因此，我們攜手員工、客戶、供應商、社區的參與，從志工服務、募集物資、物品捐贈、專業技能等面向，讓利害關係人成為台新在公益推動上的最佳夥伴，解決公益活動所需的資源與力量，實踐社會影響極大化理念。\n\n只輸出其中一個 label：already、within_2_years、between_2_and_5_years、more_than_5_years。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019ead85-14de-78e2-b6c1-3b7db871aa4c",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "between_2_and_5_years",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 15744,
+          "input_tokens": 16054,
+          "output_tokens": 64,
+          "reasoning_output_tokens": 50
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019ead85-14de-78e2-b6c1-3b7db871aa4c\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"between_2_and_5_years\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":16054,\"cached_input_tokens\":15744,\"output_tokens\":64,\"reasoning_output_tokens\":50}}\n",
+    "returncode": 0
+  },
+  "prompt_path": "/workspace/esg_contest/configs/prompt/stage4/codex/boundary_rules_v4.txt",
+  "raw_prediction": "between_2_and_5_years",
+  "run_id": "stage4_v4_val_public"
+}

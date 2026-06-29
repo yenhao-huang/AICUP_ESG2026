@@ -1,0 +1,259 @@
+id,promise_status,score_yes,score_no,model_family,mode,finetune_path,prompt_id,prompt_path,run_id,source,raw_prediction
+12030,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12059,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12061,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""透過外派輪調讓具潛力同仁得以歷練不同地區職務，並藉以擴充全球研發量能。"",""evidence_status"":""Yes"",""evidence_str"":""歷練條件分為跨功能、跨組織、跨地區三大項，並將外派輪調加速政策結合晉升制度，列入其審核條件，同步與各區協作，提早為關鍵人才職涯佈局，確保人才承擔重要職責時，能有相應的經驗與磨練。另外也訂定晉升專業職的判斷指標，作為技術委員會及人事評議委員會的審核參考。2024 年關鍵人才輪調滿兩年比例較去年增加 5%，其中外派比例較去年增加 6%。""}<end_of_turn>
+<eos>"
+12066,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12076,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12078,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12080,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12083,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12088,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""我們希望通過這些捐贈，為社會發展盡一份力量，實現更美好的未來。"",""evidence_status"":""Yes"",""evidence_str"":""我們捐贈給清華大學的動機系賽車隊、DIT 機器人項目以及動手做獎助金，這些捐贈不僅支持了學生們在科技和創新領域的發展，也鼓勵了他們的實踐能力和團隊合作精神。另外，我們也參與了清華大學的旭日獎學金計畫，這個計畫不僅提供了經濟援助，還鼓勵學術和社會貢獻方面的卓越表現。同時，我們也在中興大學、成功大學設立了獎助金，幫助更多有才華的學子實現他們的學術夢想。 在社會發展方面，我們也不遺餘力。我們捐贈了都市更新計畫，這有助於改善城市的基礎設施和環境，提升居民的生活品質。同時，我們也關心健康領域，捐贈給門諾醫院的東部護理人員培育計畫，這有助於提升醫療服務的質量和效率，保障人民的健康。最後，我們也通過博幼基金會捐贈筆電，這"
+12099,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""能源匱乏風險  • 導入能源管理措施  • 設備改善並優化製程，提升生產效能  • 推動能源管理體系"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12105,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12153,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12223,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12224,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12246,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""兆豐金控力拚減碳之企圖與邁向淨零排放之決心。"",""evidence_status"":""Yes"",""evidence_str"":""天下雜誌參考聯合國「絕對全球溫度變化潛勢模型 (AGTP)」方法學建置「企業減碳溫度計」，評估國內企業減碳承諾是否符合聯合國「巴黎協定」之目標。兆豐金控於數百家企業中脫穎而出，獲頒「成效卓越企業」之殊榮，2024 年 6 月 4 日受邀參加天下雜誌「企業 1.5°C 論壇」，""}<end_of_turn>
+<eos>"
+12248,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12260,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12264,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""包含致力要求供應商達到100%的調查，以及申報的冶煉廠與精煉廠亦需100%通過獨立的第三方機構審核項目認證。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12266,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12280,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""推廣數位應用，培育下一代善用數位工具用影像說故事的能力。"",""evidence_status"":""Yes"",""evidence_str"":""課程安排專業導演帶領社區學童從撰寫故事腳本、影像構圖、取材訪談到影音剪輯、配音錄製等，建構數位影像能力、培育數位使用能力。完成課堂學習後鼓勵返鄉持續進行拍攝，從小導演的視角觀察生活、在地發聲。自 2018 年起至 2024 年止，「小導演專案」已在 13 縣市、23 個社區部落執行，培育 576 位小導演，創作超過 180 支短片。""}<end_of_turn>
+<eos>"
+12295,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12304,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""包含投資之不動產標的是否取得國內外綠建築標章或建築能效評估⋯等，並將標的之環境風險 (包含升溫風險、土壤液化、地質敏感) 等因子納入考量，以檢視不動產投資標的是否具備ESG規劃。"",""evidence_status"":""Yes"",""evidence_str"":""不動產投資業務：凱基人壽進行不動產投資時，訂有「不動產投資作業手冊」及「不動產投資及管理處理程序」，""}<end_of_turn>
+<eos>"
+12339,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12353,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12359,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""透過各界攜手合作，不僅改善河川環境、維護當地生態平衡，更從環境教育著手，從小培養孩子們的環境保育意識。"",""evidence_status"":""Yes"",""evidence_str"":""2024 濁水溪白蛤季的舉辦，不僅吸引在地觀光人潮，更帶動地方經濟成長，讓社區共享發展機會，凝聚在地共識，為未來的環境保護與區域永續發展奠定堅實而穩固的基礎。""}<end_of_turn>
+<eos>"
+12362,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12387,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12441,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12448,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""以謀公司永續經營與風險控管之平衡。"",""evidence_status"":""Yes"",""evidence_str"":""本公司董事之酬勞，依「公司章程」規定年度如有獲利，應提撥不高於百分之一點二為董事酬勞。董事訂定酬金之程序，除參考公司整體的營運績效、產業未來經營風險及發展趨勢，亦參考個人的績效達成率及對公司績效的貢獻度，考量面向包含公司目標與任務之掌握、董事職責認知、對公司營運之參與程度、內部關係經營與溝通、董事之專業及持續進修、內部控制等納入績效評核與薪酬發放考量而給予合理報酬，相關績效考核及薪酬合理性均經薪資報酬委員會及董事會審核，並隨時視實際經營狀況及相關法令適時檢討酬金制度，""}<end_of_turn>
+<eos>"
+12449,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12460,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12472,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""積極投入新興技術研究與發展。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年，研發工作人員數達 446 人，當年度完成研發專案數量共 17 件，智慧財產權（包含專利權、著作權以及集成電路布圖設計）累計有效件數共 202 件。""}<end_of_turn>
+<eos>"
+12487,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""揭櫫本公司對於維護勞動人權、反對任何形式之歧視、提供安全與健康的工作環境及建立順暢和透明之溝通管道之重視。"",""evidence_status"":""Yes"",""evidence_str"":""「中租控股人權政策」於2018年9月通過，並於2023年12月修訂，""}<end_of_turn>
+<eos>"
+12490,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12500,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""增強鴻海面對極端天氣事件的彈性，這些事件可能會干擾營運和供應鏈。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12507,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12526,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12542,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""本集團整合資源，提供多元金融方案滿足多元客戶之需求，落實社會共好。"",""evidence_status"":""Yes"",""evidence_str"":""合庫銀行承作促進小型企業及社區發展之貸款 540.43 億元，金額超過 50 億元者有都更貸款 337.01 億元、農林漁貸款 117.39 億元及青年貸款 85.94 億元。相關貸款之逾期放款金額占總促進小型企業及社區發展貸款之比率為 0.28%，總逾期放款件數共 986 件。""}<end_of_turn>
+<eos>"
+12582,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""針對各議題制定因應措施，以利及早掌握風險並減緩潛在威脅。"",""evidence_status"":""Yes"",""evidence_str"":""和碩參考TCFD、CDP和國際研究報告，盤點氣候變遷風險與機會議題庫，並將轉型風險依據風險要素分為政策、市場、技術類別，實體風險則依據該議題預計發生的時間，區別為長期性和立即性風險。2024年共納入15項議題，由高階主管鑑別短(1~3年)、中(3~5年)、長期(5~10年)風險與機會，經彙整鑑別結果後，依據發生可能性和衝擊程度繪製氣候變遷風險與機會矩陣圖，呈現各議題之高、中、低度風險等級，作為管理階層研擬風險管理策略時的評估依據。""}<end_of_turn>
+<eos>"
+12587,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12631,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12642,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""為表達維護、體現尊重與保護人權之責任，由總經理代表全體員工簽署人權聲明，公開宣示本公司支持與遵守人權政策，並以相同標準期許供應商與客戶等合作夥伴，共同提升對人權議題之關注，"",""evidence_status"":""Yes"",""evidence_str"":""本集團遵循「聯合國世界人權宣言」、「聯合國全球盟約」與「國際勞工公約」等國際人權公約規範，制定人權政策、行為準則並適用集團之子公司，""}<end_of_turn>
+<eos>"
+12647,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12679,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12681,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12685,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""為維護雲林縣空氣品質，"",""evidence_status"":""Yes"",""evidence_str"":""規定進出麥寮園區之柴油車輛於申辦入廠證時，需檢附排煙檢測合格文件，如柴油車輛排煙遭主管機關開單舉發時，廠商需重新檢測並取得合格證明，否則禁止入廠。依雲林縣環保局歷次柴油車排煙檢測統計，2024 年於進出麥寮園區之鄰近道路進行攔檢作業，攔查柴油車輛數 195 輛，檢測 84 輛 ( 若當年度未進行排氣定檢，則進行檢測 )，0 輛不合格，檢測不合格率為 0%、攔查不合格率為 0%，近年攔檢結果如下：""}<end_of_turn>
+<eos>"
+12686,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""幫助主管進行團隊輔導管理「有效率」，業務活動「有效能」，加速超越擴大績效及組織發展目標。"",""evidence_status"":""Yes"",""evidence_str"":""除了個人業務管理，「FBLI 智能業務管理」系統更強化主管輔導管理功能，協助主管觀測夥伴的活動量及銷售活動轉換率，即時督導行程安排與拜訪量，並且日對於業務同仁的接觸中客戶，主管可追蹤其行銷或增員進程，適時督促夥伴再次約訪，協助夥伴發掘盲點、掌握潛在機會，提醒夥伴往前推進方向，機會來時不漏接。""}<end_of_turn>
+<eos>"
+12703,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12705,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""和艦亦執行節水措施，提升用水效率，降低水風險對營運影響。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12709,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12714,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12752,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12780,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12802,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12816,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""每年一次由永續發展委員會審議並提報董事會通過後，對外發佈以向利害關係人溝通。"",""evidence_status"":""Yes"",""evidence_str"":""永續發展委員會以總經理室為幕僚作業部門，設有「永續及風險管理工作小組」，由總經理擔任召集人，各機能組分別負責不同職能領域，負責推動公司風險管理、企業社會責任及氣候變遷調適等永續相關工作。工作成果編製彙整於永續報告書，""}<end_of_turn>
+<eos>"
+12820,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""該組織對於重大議題有設定清楚的短、中、長期目標與管理實績，涵蓋環境、社會、治理與創新面向。報告書亦適度揭露相關資訊，並考量目標之可行性與執行力，展現組織在永續議題上的承諾。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12830,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12833,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""針對環境保護、減碳計畫及 2050 淨零碳排目標等議題進行議合； ｜ 持續與投資標的交流議合。"",""evidence_status"":""Yes"",""evidence_str"":""2024 年中信金控旗下子公司與特定產業如鋼鐵、水泥等高碳排產業，""}<end_of_turn>
+<eos>"
+12864,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""緯穎科技以「知人善用、適才適所、育才留才」理念發展人力資本，員工與組織共同成長，達到企業最大效益。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12866,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12894,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""本公司廣開內外部人才來源進行人才獲取與培育，以強化人才板凳深度。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12902,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12906,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12926,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12929,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12955,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12958,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12971,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""透過此二個明確的量化指標，可強化管理階層持續創造長期股東價值、同時提高 ESG 目標達成成效，與公司經營績效呈高度關聯性。"",""evidence_status"":""Yes"",""evidence_str"":""高階主管酬金與績效評估的連結  台積公司總裁及經理人酬金依據公司獎金辦法辦理，辦法涵蓋公司營運目標及個人年度目標達成。公司營運目標包含財務及非財務指標，個人年度目標涵蓋營運目標及 ESG 指標，每位經理人獲派的金額，依職務、貢獻、績效表現而定。經理人報酬包含限制員工權利新股，既得期間為 3 年（限制員工權利新股相關資訊，請參閱台積公司 113 年度年報「4.6.1 限制員工權利新股辦理情形」），以公司營運成果指標〔公司股東總報酬率 (TSR) 相對標準普爾 500 IT 指數 TSR〕達成情形及公司 ESG 成果為"
+12974,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12994,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""守護七股潟湖海岸造林  提升濕地及海岸的生態棲地功能及生物多樣性的復育能力。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+12995,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""定期進行風險評估以及後續分析與處理。"",""evidence_status"":""Yes"",""evidence_str"":""本公司設置獨立之風險控管室直屬總經理，""}<end_of_turn>
+<eos>"
+13016,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13029,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13032,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13098,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""預計提報2025年下半年本公司永續暨誠信經營委員會。"",""evidence_status"":""Yes"",""evidence_str"":""2025年第一季本公司辦理2024年不誠信行為風險評估，評估項目包括：行賄及收賄、提供非法政治獻金、不當慈善捐贈或贊助、提供或接受不合理禮物／款待或其他不正當利益、侵害營業秘密／商標權／專利權／著作權及其他智慧財產權、洩漏或探詢公司機密並藉以從事內線交易、從事不公平競爭行為及損害利害關係人權益。經評估並採行風險抵減措施後，本公司不誠信行為風險為低度風險，""}<end_of_turn>
+<eos>"
+13120,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""*   同時達成集團與船隊溫室氣體減排目標"",""evidence_status"":""Yes"",""evidence_str"":""*   船隊首次加注生質燃油，降低溫室氣體排放  *   自有船隊 100% 裝設壓艙水處理系統  *   37 艘自有船裝配岸電設備  *   船隊二氧化碳排放強度較前一年減少 11%，相較於基準年 ( 2008 年 ) 下降 53%  *   下訂替代能源雙燃料船舶，實踐航運能源轉型  *   透過永續連結融資及參與綠色存款計畫響應綠色金融  *   截至 2024 年共 62 艘船舶參與船舶環境指數 ( ESI ) 認證  *   集團船隊及母公司辦公室通過 ISO 14001:2015 認證""}<end_of_turn>
+<eos>"
+13138,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""企業投資辦公室同時開始與 AppWorks 合作，成立「Wistron Accelerator 緯創垂直加速器」，借助 AppWorks 十多年耕耘於新創生態圈的經驗，由 AppWorks 提供招募及營運等核心業務，由緯創集團導入在全球 ICT 產業以及上下游生態系的完整佈局所累積的經驗，協助台灣新創更快適到規模化，透過垂直加速器的合作，讓新創和緯創能共同提出解決方案。往未來 10 年看，同時也為緯創提供原有事業以外的成長機會。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13141,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13169,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""增強客戶對鴻海作為負責任夥伴的信任，促進長期商業關係和忠誠度。  • 促進鴻海在氣候倡議上的實踐，以開拓新市場。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13209,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13234,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""2023 年 7 月承諾淨零，將依 SBTi 方法學訂定目標送審。"",""evidence_status"":""Yes"",""evidence_str"":""2023 年 8 月通過中期減碳目標審核，為臺灣公股金控首家。""}<end_of_turn>
+<eos>"
+13250,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13251,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13269,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""2024 年目標"",""evidence_status"":""Yes"",""evidence_str"":""• 廢棄物量（可回收再利用）：資源回收率 >30%。  • 廢棄物量（不可回收）：較前 3 年度平均減少 2% 廢棄物，目標為 283.79 公噸。""}<end_of_turn>
+<eos>"
+13272,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""**未來規劃**  持續監控溫室氣體排放趨勢"",""evidence_status"":""Yes"",""evidence_str"":""**2024年成果**  範疇1+2主要排放源為電力(佔98%)；範疇三15項全部盤查""}<end_of_turn>
+<eos>"
+13274,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""廠內增加宣導告示："",""evidence_status"":""Yes"",""evidence_str"":""1. 於主要動線和休息區張貼應變處理流程海報。2. 產線出入口設置電子佈告欄，不斷提示同仁災害初期應變觀念。3. 提供應變處理小卡，內容包含：火災、地震及 CPR+AED 應變流程。平時可持續複習，當異常事故發生時，可參照流程與通報資訊，爭取應變時間，減低災害衝擊。""}<end_of_turn>
+<eos>"
+13313,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13319,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""聯詠科技根據 SDGs 對應到的重大性主題以及長期深耕的相關 ESG 專案等，以 2024 年度績效作為回應 SDGs 的方向，進而作為企業未來營運方向。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13350,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13357,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""定期將相關管理績效揭露於永續報告書、盡職治理報告書等。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13386,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13408,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13435,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13441,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""集團為了因應這些風險，已經將此類項目納入各類管理計畫中。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13494,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""長期激勵計畫 - 認股權憑證 ( 含 ESOP、PSOP*)：留才以及激勵長期價值創造，以三年為區間、權利期間設計遞延五年發放，每年結算階段性目標達成率，滾動累計以激勵持續的價值貢獻，期滿結算總達成率。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13508,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13519,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13521,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""客戶是驅動廣達持續創新與精進營運表現的核心動力。客戶的信任與合作不僅促使公司不斷提升產品與服務品質，也推動廣達在資訊安全、責任供應鏈管理及永續發展等面向持續進步。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13529,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13545,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13590,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""也希望有機會讓青年返鄉，讓養殖更有規摸。"",""evidence_status"":""Yes"",""evidence_str"":""2024年11月特邀雲朗觀光集團主廚，以台泥漁電共生案場當季養殖收成鱸魚、自有團隊養殖的泰國蝦，搭配當地時令農產澎湃入菜，邀請養殖戶伙伴與地方村里長、社區意見領袖一起品嚐。旗下漁電共生案場中養殖戶已穩定產出鰻魚、金目鱸魚、虱目魚等。台泥綠能建置及開發中的漁電共生案場尚約100MW，除應對遠洋漁業高碳足跡和資源耗竭風險，""}<end_of_turn>
+<eos>"
+13593,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13598,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""近年來推動的數位轉型將擴大廠務節能減碳的力道。"",""evidence_status"":""Yes"",""evidence_str"":""透過由智慧製造處、廠務工程處、IT 跨部門合作的三大減碳專案「i-Chiller 2.0」、「i-CDA」、「i-MAU」，就是應用工業 4.0 相關技術，針對高耗電的廠務設備，找出減碳突破點。""}<end_of_turn>
+<eos>"
+13643,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""預估經 3-5 年成長期後之年吸碳量約達 1.5 公噸 CO₂e，"",""evidence_status"":""Yes"",""evidence_str"":""參與國立中山大學 2024 年 12 月舉辦之植樹活動，於旗津海水浴場「鍾愛之門」種植 60 棵耐鹽之可可椰子樹，預估經 3-5 年成長期後之年吸碳量約達 1.5 公噸 CO₂e，除可鞏固旗津海灘美化及減少沙灘流失外，亦可提供吸碳功能，實踐生態永續等多重目標。""}<end_of_turn>
+<eos>"
+13644,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""設定短期為 3 年、中期為 5 年、長期為 7~10 年。"",""evidence_status"":""Yes"",""evidence_str"":""本集團評估金融資產之範圍，並以水資源作為自然驅動因子，聚焦於與其相關性較高之半導體產業。TNFD 分析指引 V1.0 建議之四大情境（轉型風險及實體風險之不確定性矩陣）。""}<end_of_turn>
+<eos>"
+13657,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13666,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13679,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""能源  台灣及中國大陸水泥廠：加入EP100，設定2040年能源生產力相較2016基準年提升50%  營運總部大樓：年節電1%"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13690,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13736,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13759,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13776,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13799,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13805,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""瑞昱的客戶關係管理不僅聚焦於產品和技術的推廣，更重視建立長期穩健共贏的合作關係，透過有效的溝通和互動，共同探索企業社會責任及市場機會，實現多元永續發展之精彩未來。"",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13813,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13822,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13846,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13848,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""聯詠科技延續著前一年度的五大構面，從「公司治理」、「夥伴共榮」、「環境永續」、「友善職場」及「社會參與」持續穩步落實永續發展與企業社會責任："",""evidence_status"":""No"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13875,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13887,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13892,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13897,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13902,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13923,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13938,Yes,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""Yes"",""promise_str"":""以「公司治理」、「客戶關懷」、「員工照護」、「環境保護」及「社會參與」5 大主軸推動企業社會責任"",""evidence_status"":""Yes"",""evidence_str"":""發行第 1 本 (2011) 企業社會責任報告書  • 以「公司治理」、「客戶關懷」、「員工照護」、「環境保護」及「社會參與」5 大主軸推動企業社會責任  • 以「合庫寶貝 關懷加倍」為主題持續關懷偏鄉學童""}<end_of_turn>
+<eos>"
+13958,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13965,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13967,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13970,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"
+13972,No,,,/models/unsloth-gemma-4-12b,gemma_fallback:t=0.6,/models/gemma4_st12_mix,,,submit_9_stage1,gemma_fallback,"{""promise_status"":""No"",""promise_str"":"""",""evidence_status"":""N/A"",""evidence_str"":""""}<end_of_turn>
+<eos>"

@@ -1,0 +1,58 @@
+{
+  "train": "data/raw_data/vpesg_4k_train_1000.json",
+  "val": "data/raw_data/vpesg4k_val_1000.json",
+  "out_dir": "results/data_synthesis/stage2",
+  "seed": 42,
+  "base_url": "http://192.168.1.78:3132",
+  "model": "/workspace/llm_model",
+  "limit": null,
+  "sources": {
+    "yes": {
+      "rows": 274,
+      "method_counts": {
+        "llm": 274
+      }
+    },
+    "no_remove": {
+      "rows": 233,
+      "method_counts": {
+        "llm": 233
+      }
+    },
+    "no_rewrite": {
+      "rows": 41,
+      "method_counts": {
+        "llm": 41
+      }
+    }
+  },
+  "outputs": {
+    "synthetic": {
+      "path": "results/data_synthesis/stage2/synthetic_st2_balanced.json",
+      "rows": 548,
+      "evidence_status": {
+        "Yes": 274,
+        "No": 274
+      }
+    },
+    "mix": {
+      "path": "results/data_synthesis/stage2/mix_a2_b3.json",
+      "rows": 1548,
+      "evidence_status": {
+        "No": 411,
+        "Yes": 951,
+        "": 186
+      }
+    },
+    "mix_add_val": {
+      "path": "results/data_synthesis/stage2/mix_a2_b3_add_val.json",
+      "rows": 2548,
+      "evidence_status": {
+        "No": 556,
+        "Yes": 1619,
+        "": 186,
+        "N/A": 187
+      }
+    }
+  }
+}

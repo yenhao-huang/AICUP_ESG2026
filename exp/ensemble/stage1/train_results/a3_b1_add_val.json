@@ -1,0 +1,67 @@
+{
+  "subtasks": {
+    "st1": {
+      "train_micro_f1": 0.9975,
+      "train_macro_f1": 0.9950365286672732,
+      "best_val_macro_f1": 0.7851428571428571,
+      "best_val_micro_f1": 0.906,
+      "best_epoch": 5,
+      "train_samples": 2000,
+      "val_samples": 500,
+      "train_label_distribution": {
+        "1": 1702,
+        "0": 298
+      },
+      "val_label_distribution": {
+        "1": 425,
+        "0": 75
+      },
+      "epoch_metrics": [
+        {
+          "epoch": 1,
+          "train_loss": 0.5690299532496138,
+          "checkpoint": "/models/submit_5_a3_b1_add_val/epoch_st1_001.pt",
+          "val_loss": 0.579793331546709,
+          "val_micro_f1": 0.898,
+          "val_macro_f1": 0.7788589119858469
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.4254730895436369,
+          "checkpoint": "/models/submit_5_a3_b1_add_val/epoch_st1_002.pt",
+          "val_loss": 1.0230168585318606,
+          "val_micro_f1": 0.906,
+          "val_macro_f1": 0.7618540925627539
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.17118964541371678,
+          "checkpoint": "/models/submit_5_a3_b1_add_val/epoch_st1_003.pt",
+          "val_loss": 1.2506650766080711,
+          "val_micro_f1": 0.902,
+          "val_macro_f1": 0.7477321636343044
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.06103650799350726,
+          "checkpoint": "/models/submit_5_a3_b1_add_val/epoch_st1_004.pt",
+          "val_loss": 1.0958616236434318,
+          "val_micro_f1": 0.906,
+          "val_macro_f1": 0.7821471943339731
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.0353033010357176,
+          "checkpoint": "/models/submit_5_a3_b1_add_val/epoch_st1_005.pt",
+          "val_loss": 1.208558257282275,
+          "val_micro_f1": 0.906,
+          "val_macro_f1": 0.7851428571428571
+        }
+      ]
+    }
+  },
+  "selection_metric": "val_macro_f1",
+  "val_path": "exp/integrated_stage_predictions/0614/submit/submit_5/stage1/data/a3_b1_add_val.val.json",
+  "weighted_score": null,
+  "partial_weighted_contribution": 0.15702857142857143
+}
