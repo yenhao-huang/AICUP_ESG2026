@@ -12,6 +12,16 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
+For reproducing the final submission on machines with drivers that do not
+support CUDA 13 wheels, use the submit-only CUDA 12.4 environment instead:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements-submit-cu124.txt
+```
+
 The final submission pipeline expects the prepared data under `data/` and the
 submission checkpoints under `models/submission/`. These artifacts are stored in
 Google Drive and can be restored with the download helper:
@@ -211,7 +221,7 @@ The submit pipeline follows the predict architecture end to end. Use the one-sho
 submit wrapper when reproducing the final submission:
 
 ```bash
-bash scripts/submit.sh
+DEVICE=cuda bash scripts/submit.sh
 ```
 
 The wrapper writes all intermediate files under `results/submit/<RUN_ID>/` and
