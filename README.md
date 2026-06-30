@@ -42,13 +42,13 @@ Successful downloads are cached under
 the Google Drive folder URL. Re-running the helper reuses the cached download
 and only repeats extraction/install.
 
-Stage 3/4 GPT fallback prediction also requires an API key in the environment:
+Stage 3/4 Codex fallback prediction uses the local Codex CLI. It does not read
+`OPENAI_API_KEY` from this repository; make sure the `codex` command is
+installed and authenticated before running the fallback scripts:
 
 ```bash
-export OPENAI_API_KEY="<your-api-key>"
+codex --version
 ```
-
-Note: In our submission, we use GPT-5.5-codex-max to predict them.
 
 ## Directory
 
@@ -454,6 +454,9 @@ Default output for `predict_gpt_fallback_for_stage3.sh`:
 ```bash
 bash scripts/predict/predict_codex_for_stage4.sh
 ```
+
+Requirement:
+- Local `codex` CLI installed and authenticated.
 
 Default input:
 - `data/raw_data/vpesg4k_test_2000.json`
