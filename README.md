@@ -21,10 +21,20 @@ bash scripts/data/dowanload_data_model.sh
 ```
 
 The helper uses `gdown`, which is included in `requirements.txt`. It downloads
-the shared Google Drive folder, extracts the archive files, and moves the
-restored artifacts into `data/` and `models/`. It refuses to run if either
-`data/` or `models/` already exists, so existing local artifacts are never
-overwritten.
+the shared Google Drive folder, rebuilds the split zip shards
+(`aicup_esg2026_submit_artifacts.zip.part-*`) when present, extracts the
+archive, and moves the restored artifacts into `data/` and `models/`. It
+refuses to run if either `data/` or `models/` already exists, so existing local
+artifacts are never overwritten.
+
+Successful downloads are cached under
+`${XDG_CACHE_HOME:-$HOME/.cache}/aicup_esg2026/download_data_model/`, keyed by
+the Google Drive folder URL. Re-running the helper reuses the cached download
+and only repeats extraction/install. To force a fresh Google Drive download:
+
+```bash
+REFRESH_CACHE=1 bash scripts/data/dowanload_data_model.sh
+```
 
 Expected artifact sizes after following symlinks:
 
