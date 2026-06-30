@@ -1,0 +1,65 @@
+{
+  "id": "11186",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpl66u4vwm",
+      "你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：走路不僅是運動還是世界衛生組織認證「最完美的運動」，可預防及改善心血管疾病、糖尿病、代謝症候群等慢性疾病、控制體重、預防骨質疏鬆、預防跌倒、更可紓解壓力。為養成同仁良好的健走習慣，連續 4 年結合公司創建之「Fun group 放個鹿 APP」，舉辦健走競賽活動，2024 年共 2,474 人報名參加，活動總步數約 5.2 億步。\n\n同頁內容：\n關於本報告書 董事長的話 總經理的話 Chapter 01 Chapter 02 Chapter 03 Chapter 04 Chapter 05 Chapter 06 附錄 法定傳染病衛教宣導 提升職場健康安全 職場健康宣導：不定期依國內時事趨勢，規劃提供傳染性疾病預防相關健康衛教 EDM 及辦理健康講座，以增進公司同仁認識法定傳染病相關之危險性，進而能於日常生活中養成預防重於治療之觀念，期透過職場宣導及配合衛生主管機關政策的實施作為，達到提升同仁健康識能，進而預防職場群聚感染。 公費流感疫苗職場設站：每年因應流感季節結合健康服務中心（衛生所）、醫療院所定期舉辦職場公費流感疫苗接種，維護員工健康、避免發生流感群聚，2024年共舉辦7個場次。 健康促進活動推展 2024年舉辦「職場健康促進需求調查（含心情溫度計）」，調查統計結果，同仁前三大需求分別為「身體健康議題」、「運動體適能」、「手作紓壓」依同仁回饋開展各項貼近同仁需求的健促活動。 講座課程：因應同仁性別、年齡等，伴隨企業穩定發展、成長，每年舉辦各式健康課程，主題包含有中高齡黃金世代、紓壓、於害宣導、傳染病預防、緊急救護等課程，邀請各領域專家提供員工一系列實用的日常保健及養生知識，2024年總計辦理114場次，活動參與達4,218人次。 健走競賽：走路不僅是運動還是世界衛生組織認證「最完美的運動」，可預防及改善心血管疾病、糖尿病、代謝症候群等慢性疾病、控制體重、預防骨質疏鬆、預防跌倒、更可紓解壓力。為養成同仁良好的健走習慣，連續4年結合公司創建之「Fun group 放個鹿 APP」，舉辦健走競賽活動，2024年共2,474人報名參加，活動總步數約5.2億步。 減重競賽：邀請運動及飲食專家協助同仁恢復良好體態，活動期間定期發布減重飲食或運動 EDM，提供同仁於減重所需健康資訊，2024年舉辦7堂運動課程、1場營養師減重飲食講座及11場一對一營養師諮詢，給予同仁專屬的減重飲食建議，活動共計554人參與，共計減重813.8公斤。 職場健康促進認證及獎項 為響應政府職場安全衛生政策，展現本公司員工照護及建構職場安全環境之作為，將職場安全衛生及健康促進年度活動執行成果提報申請認證。 TCSA「台灣企業永續獎」：2024年本公司首度取得「職場福祉領袖獎」。 全國職場安全健康週系列活動實施計畫：連續3年取得勞動部證明。 國民健康署健康職場認證：全臺共12棟職場通過健康促進標準認證。 縣市衛生局哺乳集乳室認證：全臺共10棟職場取得優良哺乳集乳室認證。 花蓮縣「花縣幸福友善職場」：獲頒「特優事業單位獎」。 臺中市「幸福職場評選」：獲頒「幸福創意獎」。 高雄市「職GO雄健康」：獲評為「頂尖組」企業。 臺中市「幸福創意獎」 花蓮縣「花縣幸福友善職場特優事業單位獎」 關於本報告書 董事長的話 總經理的話 Chapter 01 Chapter 02 Chapter 03 Chapter 04 Chapter 05 Chapter 06 附錄 CHAPTER 04 數位創新 072 4.1 公平待客 076 4.2 客戶關係維護 085 4.3 ESG 商品服務與推廣 090 4.4 普惠金融 093 4.5 數位科技與創新 100 4.6 資訊安全與隱私 為落實公平待客與普惠金融服務，本公司與時俱進在不同面向全面提升，從客戶角度出發，設計多元金融商品與服務，包含規劃守護弱勢與高齡、符合年輕族群之商品、行銷活動與銷售保護機制。 因應現今快速變化的環境，本公司持續導入不同的數位科技，全力推動多元的線上服務，針對客戶的需求，提供全方面的保險服務，提升客戶服務品質與效率，並優化各項數位服務流程，持續推動完善的保險服務以及創新的數位服務體驗。 INTELLIGENT SERVICE - 71 -\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpl66u4vwm '你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：走路不僅是運動還是世界衛生組織認證「最完美的運動」，可預防及改善心血管疾病、糖尿病、代謝症候群等慢性疾病、控制體重、預防骨質疏鬆、預防跌倒、更可紓解壓力。為養成同仁良好的健走習慣，連續 4 年結合公司創建之「Fun group 放個鹿 APP」，舉辦健走競賽活動，2024 年共 2,474 人報名參加，活動總步數約 5.2 億步。\n\n同頁內容：\n關於本報告書 董事長的話 總經理的話 Chapter 01 Chapter 02 Chapter 03 Chapter 04 Chapter 05 Chapter 06 附錄 法定傳染病衛教宣導 提升職場健康安全 職場健康宣導：不定期依國內時事趨勢，規劃提供傳染性疾病預防相關健康衛教 EDM 及辦理健康講座，以增進公司同仁認識法定傳染病相關之危險性，進而能於日常生活中養成預防重於治療之觀念，期透過職場宣導及配合衛生主管機關政策的實施作為，達到提升同仁健康識能，進而預防職場群聚感染。 公費流感疫苗職場設站：每年因應流感季節結合健康服務中心（衛生所）、醫療院所定期舉辦職場公費流感疫苗接種，維護員工健康、避免發生流感群聚，2024年共舉辦7個場次。 健康促進活動推展 2024年舉辦「職場健康促進需求調查（含心情溫度計）」，調查統計結果，同仁前三大需求分別為「身體健康議題」、「運動體適能」、「手作紓壓」依同仁回饋開展各項貼近同仁需求的健促活動。 講座課程：因應同仁性別、年齡等，伴隨企業穩定發展、成長，每年舉辦各式健康課程，主題包含有中高齡黃金世代、紓壓、於害宣導、傳染病預防、緊急救護等課程，邀請各領域專家提供員工一系列實用的日常保健及養生知識，2024年總計辦理114場次，活動參與達4,218人次。 健走競賽：走路不僅是運動還是世界衛生組織認證「最完美的運動」，可預防及改善心血管疾病、糖尿病、代謝症候群等慢性疾病、控制體重、預防骨質疏鬆、預防跌倒、更可紓解壓力。為養成同仁良好的健走習慣，連續4年結合公司創建之「Fun group 放個鹿 APP」，舉辦健走競賽活動，2024年共2,474人報名參加，活動總步數約5.2億步。 減重競賽：邀請運動及飲食專家協助同仁恢復良好體態，活動期間定期發布減重飲食或運動 EDM，提供同仁於減重所需健康資訊，2024年舉辦7堂運動課程、1場營養師減重飲食講座及11場一對一營養師諮詢，給予同仁專屬的減重飲食建議，活動共計554人參與，共計減重813.8公斤。 職場健康促進認證及獎項 為響應政府職場安全衛生政策，展現本公司員工照護及建構職場安全環境之作為，將職場安全衛生及健康促進年度活動執行成果提報申請認證。 TCSA「台灣企業永續獎」：2024年本公司首度取得「職場福祉領袖獎」。 全國職場安全健康週系列活動實施計畫：連續3年取得勞動部證明。 國民健康署健康職場認證：全臺共12棟職場通過健康促進標準認證。 縣市衛生局哺乳集乳室認證：全臺共10棟職場取得優良哺乳集乳室認證。 花蓮縣「花縣幸福友善職場」：獲頒「特優事業單位獎」。 臺中市「幸福職場評選」：獲頒「幸福創意獎」。 高雄市「職GO雄健康」：獲評為「頂尖組」企業。 臺中市「幸福創意獎」 花蓮縣「花縣幸福友善職場特優事業單位獎」 關於本報告書 董事長的話 總經理的話 Chapter 01 Chapter 02 Chapter 03 Chapter 04 Chapter 05 Chapter 06 附錄 CHAPTER 04 數位創新 072 4.1 公平待客 076 4.2 客戶關係維護 085 4.3 ESG 商品服務與推廣 090 4.4 普惠金融 093 4.5 數位科技與創新 100 4.6 資訊安全與隱私 為落實公平待客與普惠金融服務，本公司與時俱進在不同面向全面提升，從客戶角度出發，設計多元金融商品與服務，包含規劃守護弱勢與高齡、符合年輕族群之商品、行銷活動與銷售保護機制。 因應現今快速變化的環境，本公司持續導入不同的數位科技，全力推動多元的線上服務，針對客戶的需求，提供全方面的保險服務，提升客戶服務品質與效率，並優化各項數位服務流程，持續推動完善的保險服務以及創新的數位服務體驗。 INTELLIGENT SERVICE - 71 -\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019ed0ca-c07d-7c50-8758-af029db4ad61",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "message": "Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f584d614a18-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f5f1c2ea9c1-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f681eb54a56-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f74fdf5b846-TPE)",
+        "type": "error"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "Clear",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 14208,
+          "input_tokens": 17528,
+          "output_tokens": 41,
+          "reasoning_output_tokens": 34
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n2026-06-16T14:16:52.765239Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:53.571196Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:54.443085Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:55.457231Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:56.903212Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:59.001809Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:17:02.701651Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019ed0ca-c07d-7c50-8758-af029db4ad61\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f584d614a18-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f5f1c2ea9c1-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f681eb54a56-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f74fdf5b846-TPE)\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"Clear\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":17528,\"cached_input_tokens\":14208,\"output_tokens\":41,\"reasoning_output_tokens\":34}}\n",
+    "returncode": 0
+  },
+  "raw_prediction": "Clear",
+  "run_id": "ab_scoped_01"
+}

@@ -101,3 +101,18 @@ models/gemma/base/unsloth-gemma-4-12b/
   The submit predictor only needs the adapter root files listed above.
 - The zip also includes `artifact_manifest.txt` and
   `artifact_manifest_details.tsv` for auditing the packaged paths and sizes.
+
+## scripts/data/dowanload_data_model.sh 介紹
+
+  現在流程是：
+
+  1. 用 gdown --folder 下載 Google Drive folder 到 cache。
+  2. 如果找到 *.zip.parts.txt，會讀 manifest。
+  3. 驗證 part_count、每片大小、總大小。
+  4. 依序把 aicup_esg2026_submit_artifacts.zip.part-* 重組成
+     zip。
+  5. 驗證重組後是有效 zip。
+  6. 解壓並安裝到 data/、models/。
+  7. 如果 data/ 或 models/ 已存在，仍會直接 error stop。
+
+  也更新了 README.md，說明現在會 rebuild split zip shards。

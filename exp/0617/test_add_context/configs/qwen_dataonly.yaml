@@ -1,0 +1,8 @@
+# Control: Qwen on the plain `data` field, no context, no image (data-only).
+#   python core/vlm_pred.py --config ../configs/qwen_dataonly.yaml
+data: ../data/val_ctxhit.json
+output: ../preds/st3_qwen_dataonly.csv
+prompt_path: ../prompts/clear_notclear_with_context_scoped.txt
+backend: qwen
+logprobs: true
+add_context: false

@@ -1,0 +1,36 @@
+{
+  "ranking": [
+    {
+      "method": "add_evidence_string",
+      "gtgated_2cls_macro_f1": 0.2997,
+      "full_coverage_macro_f1": 0.1651,
+      "f1_clear": 0.2948,
+      "f1_not_clear": 0.2003,
+      "n_2cls": 397,
+      "missing_pred": 0
+    },
+    {
+      "method": "add_context",
+      "gtgated_2cls_macro_f1": 0.2972,
+      "full_coverage_macro_f1": 0.1629,
+      "f1_clear": 0.2871,
+      "f1_not_clear": 0.2017,
+      "n_2cls": 397,
+      "missing_pred": 0
+    },
+    {
+      "method": "add_evidence_promise",
+      "gtgated_2cls_macro_f1": 0.2871,
+      "full_coverage_macro_f1": 0.1572,
+      "f1_clear": 0.2723,
+      "f1_not_clear": 0.1993,
+      "n_2cls": 397,
+      "missing_pred": 0
+    }
+  ],
+  "top3": [
+    "add_evidence_string",
+    "add_context",
+    "add_evidence_promise"
+  ]
+}

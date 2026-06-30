@@ -1,0 +1,10 @@
+# Codex CLI backend, data-only. Codex has no logprobs, so token_confidence stays
+# empty; runs single-threaded regardless of concurrency.
+#   python core/vlm_pred.py --config ../configs/codex_dataonly.yaml
+data: ../data/val_ctxhit.json
+output: ../preds/st3_codex_dataonly.csv
+prompt_path: ../prompts/codex/vanilla.txt
+backend: codex
+model: gpt-5.5
+add_context: false
+timeout: 300

@@ -1,0 +1,461 @@
+########## seed=7 mode=vanilla ##########
+=== Method A train | mode=vanilla | device=cuda:0 | seed=7 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 77408.33it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7790 | val macroF1=0.4536 val NC-F1=0.4577
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s7/best_st3.pt (epoch=1, val_macro_f1=0.4536)
+epoch 2/5 | main_loss=0.5635 | val macroF1=0.4637 val NC-F1=0.5041
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s7/best_st3.pt (epoch=2, val_macro_f1=0.4637)
+epoch 3/5 | main_loss=0.4778 | val macroF1=0.4488 val NC-F1=0.4984
+epoch 4/5 | main_loss=0.3449 | val macroF1=0.4528 val NC-F1=0.4889
+epoch 5/5 | main_loss=0.2786 | val macroF1=0.4558 val NC-F1=0.4758
+
+=== best epoch 2 | val macroF1=0.4637 | NC-F1=0.5041 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9235    0.8534    0.8871       566
+   Not Clear     0.4276    0.6139    0.5041       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8159       668
+   macro avg     0.4504    0.4891    0.4637       668
+weighted avg     0.8472    0.8159    0.8278       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_vanilla_s7.json
+########## seed=7 mode=multitask ##########
+=== Method A train | mode=multitask | device=cuda:0 | seed=7 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+aux heads (4): ['has_quantified_target', 'has_temporal_anchor', 'has_binding_commitment', 'has_percent'] | aux_lambda=0.5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 48321.19it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7681 aux_loss=0.6547 | val macroF1=0.4403 val NC-F1=0.4188
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s7/best_st3.pt (epoch=1, val_macro_f1=0.4403)
+epoch 2/5 | main_loss=0.5763 aux_loss=0.6110 | val macroF1=0.4596 val NC-F1=0.5019
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s7/best_st3.pt (epoch=2, val_macro_f1=0.4596)
+epoch 3/5 | main_loss=0.4252 aux_loss=0.5548 | val macroF1=0.4612 val NC-F1=0.4914
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s7/best_st3.pt (epoch=3, val_macro_f1=0.4612)
+epoch 4/5 | main_loss=0.3123 aux_loss=0.5133 | val macroF1=0.4582 val NC-F1=0.4961
+epoch 5/5 | main_loss=0.2417 aux_loss=0.4913 | val macroF1=0.4615 val NC-F1=0.4889
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s7/best_st3.pt (epoch=5, val_macro_f1=0.4615)
+
+=== best epoch 5 | val macroF1=0.4615 | NC-F1=0.4889 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9136    0.8781    0.8955       566
+   Not Clear     0.4435    0.5446    0.4889       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8263       668
+   macro avg     0.4524    0.4742    0.4615       668
+weighted avg     0.8412    0.8263    0.8327       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_multitask_s7.json
+########## seed=13 mode=vanilla ##########
+=== Method A train | mode=vanilla | device=cuda:0 | seed=13 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 52107.29it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.9143 | val macroF1=0.4255 val NC-F1=0.3613
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s13/best_st3.pt (epoch=1, val_macro_f1=0.4255)
+epoch 2/5 | main_loss=0.5956 | val macroF1=0.4103 val NC-F1=0.4408
+epoch 3/5 | main_loss=0.4157 | val macroF1=0.4542 val NC-F1=0.4945
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s13/best_st3.pt (epoch=3, val_macro_f1=0.4542)
+epoch 4/5 | main_loss=0.3153 | val macroF1=0.4574 val NC-F1=0.4962
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s13/best_st3.pt (epoch=4, val_macro_f1=0.4574)
+epoch 5/5 | main_loss=0.2109 | val macroF1=0.4662 val NC-F1=0.5120
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s13/best_st3.pt (epoch=5, val_macro_f1=0.4662)
+
+=== best epoch 5 | val macroF1=0.4662 | NC-F1=0.5120 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9268    0.8498    0.8866       566
+   Not Clear     0.4295    0.6337    0.5120       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8159       668
+   macro avg     0.4521    0.4945    0.4662       668
+weighted avg     0.8502    0.8159    0.8287       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_vanilla_s13.json
+########## seed=13 mode=multitask ##########
+=== Method A train | mode=multitask | device=cuda:0 | seed=13 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+aux heads (4): ['has_quantified_target', 'has_temporal_anchor', 'has_binding_commitment', 'has_percent'] | aux_lambda=0.5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 82709.95it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=1.0163 aux_loss=0.6910 | val macroF1=0.4255 val NC-F1=0.4452
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s13/best_st3.pt (epoch=1, val_macro_f1=0.4255)
+epoch 2/5 | main_loss=0.7069 aux_loss=0.6046 | val macroF1=0.4015 val NC-F1=0.4388
+epoch 3/5 | main_loss=0.4637 aux_loss=0.5616 | val macroF1=0.4507 val NC-F1=0.4912
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s13/best_st3.pt (epoch=3, val_macro_f1=0.4507)
+epoch 4/5 | main_loss=0.3682 aux_loss=0.5233 | val macroF1=0.4639 val NC-F1=0.5132
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s13/best_st3.pt (epoch=4, val_macro_f1=0.4639)
+epoch 5/5 | main_loss=0.2593 aux_loss=0.4997 | val macroF1=0.4587 val NC-F1=0.4848
+
+=== best epoch 4 | val macroF1=0.4639 | NC-F1=0.5132 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9325    0.8304    0.8785       566
+   Not Clear     0.4146    0.6733    0.5132       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8054       668
+   macro avg     0.4491    0.5012    0.4639       668
+weighted avg     0.8528    0.8054    0.8220       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_multitask_s13.json
+########## seed=42 mode=vanilla ##########
+=== Method A train | mode=vanilla | device=cuda:0 | seed=42 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 25670.30it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7441 | val macroF1=0.4148 val NC-F1=0.4183
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s42/best_st3.pt (epoch=1, val_macro_f1=0.4148)
+epoch 2/5 | main_loss=0.5404 | val macroF1=0.4361 val NC-F1=0.4732
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s42/best_st3.pt (epoch=2, val_macro_f1=0.4361)
+epoch 3/5 | main_loss=0.4286 | val macroF1=0.4436 val NC-F1=0.4735
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s42/best_st3.pt (epoch=3, val_macro_f1=0.4436)
+epoch 4/5 | main_loss=0.3185 | val macroF1=0.4618 val NC-F1=0.4737
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s42/best_st3.pt (epoch=4, val_macro_f1=0.4618)
+epoch 5/5 | main_loss=0.2379 | val macroF1=0.4700 val NC-F1=0.5110
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s42/best_st3.pt (epoch=5, val_macro_f1=0.4700)
+
+=== best epoch 5 | val macroF1=0.4700 | NC-F1=0.5110 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9188    0.8799    0.8989       566
+   Not Clear     0.4603    0.5743    0.5110       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8323       668
+   macro avg     0.4597    0.4847    0.4700       668
+weighted avg     0.8481    0.8323    0.8389       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_vanilla_s42.json
+########## seed=42 mode=multitask ##########
+=== Method A train | mode=multitask | device=cuda:0 | seed=42 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+aux heads (4): ['has_quantified_target', 'has_temporal_anchor', 'has_binding_commitment', 'has_percent'] | aux_lambda=0.5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 79734.19it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7282 aux_loss=0.6611 | val macroF1=0.4307 val NC-F1=0.4308
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s42/best_st3.pt (epoch=1, val_macro_f1=0.4307)
+epoch 2/5 | main_loss=0.5556 aux_loss=0.6124 | val macroF1=0.4592 val NC-F1=0.4762
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s42/best_st3.pt (epoch=2, val_macro_f1=0.4592)
+epoch 3/5 | main_loss=0.4471 aux_loss=0.5559 | val macroF1=0.4708 val NC-F1=0.5169
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s42/best_st3.pt (epoch=3, val_macro_f1=0.4708)
+epoch 4/5 | main_loss=0.3611 aux_loss=0.5082 | val macroF1=0.4672 val NC-F1=0.5022
+epoch 5/5 | main_loss=0.2426 aux_loss=0.4845 | val macroF1=0.4671 val NC-F1=0.5064
+
+=== best epoch 3 | val macroF1=0.4708 | NC-F1=0.5169 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9231    0.8693    0.8954       566
+   Not Clear     0.4519    0.6040    0.5169       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8278       668
+   macro avg     0.4583    0.4911    0.4708       668
+weighted avg     0.8504    0.8278    0.8368       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_multitask_s42.json
+########## seed=123 mode=vanilla ##########
+=== Method A train | mode=vanilla | device=cuda:0 | seed=123 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 62680.51it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7879 | val macroF1=0.4393 val NC-F1=0.4674
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s123/best_st3.pt (epoch=1, val_macro_f1=0.4393)
+epoch 2/5 | main_loss=0.5668 | val macroF1=0.4271 val NC-F1=0.4765
+epoch 3/5 | main_loss=0.4307 | val macroF1=0.4859 val NC-F1=0.5463
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s123/best_st3.pt (epoch=3, val_macro_f1=0.4859)
+epoch 4/5 | main_loss=0.2899 | val macroF1=0.4896 val NC-F1=0.5556
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s123/best_st3.pt (epoch=4, val_macro_f1=0.4896)
+epoch 5/5 | main_loss=0.2161 | val macroF1=0.4728 val NC-F1=0.5280
+
+=== best epoch 4 | val macroF1=0.4896 | NC-F1=0.5556 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9241    0.9028    0.9133       566
+   Not Clear     0.5217    0.5941    0.5556       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8548       668
+   macro avg     0.4819    0.4990    0.4896       668
+weighted avg     0.8618    0.8548    0.8579       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_vanilla_s123.json
+########## seed=123 mode=multitask ##########
+=== Method A train | mode=multitask | device=cuda:0 | seed=123 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+aux heads (4): ['has_quantified_target', 'has_temporal_anchor', 'has_binding_commitment', 'has_percent'] | aux_lambda=0.5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 34974.90it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.8315 aux_loss=0.6624 | val macroF1=0.4646 val NC-F1=0.5000
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s123/best_st3.pt (epoch=1, val_macro_f1=0.4646)
+epoch 2/5 | main_loss=0.6111 aux_loss=0.6075 | val macroF1=0.4687 val NC-F1=0.5126
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s123/best_st3.pt (epoch=2, val_macro_f1=0.4687)
+epoch 3/5 | main_loss=0.4709 aux_loss=0.5482 | val macroF1=0.4766 val NC-F1=0.5152
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s123/best_st3.pt (epoch=3, val_macro_f1=0.4766)
+epoch 4/5 | main_loss=0.3356 aux_loss=0.5148 | val macroF1=0.4830 val NC-F1=0.5306
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s123/best_st3.pt (epoch=4, val_macro_f1=0.4830)
+epoch 5/5 | main_loss=0.2605 aux_loss=0.4974 | val macroF1=0.4688 val NC-F1=0.5214
+
+=== best epoch 4 | val macroF1=0.4830 | NC-F1=0.5306 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9127    0.9240    0.9183       566
+   Not Clear     0.5474    0.5149    0.5306       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8608       668
+   macro avg     0.4867    0.4796    0.4830       668
+weighted avg     0.8561    0.8608    0.8583       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_multitask_s123.json
+########## seed=2024 mode=vanilla ##########
+=== Method A train | mode=vanilla | device=cuda:0 | seed=2024 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 66341.94it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7970 | val macroF1=0.1762 val NC-F1=0.2894
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s2024/best_st3.pt (epoch=1, val_macro_f1=0.1762)
+epoch 2/5 | main_loss=0.5767 | val macroF1=0.4580 val NC-F1=0.4771
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s2024/best_st3.pt (epoch=2, val_macro_f1=0.4580)
+epoch 3/5 | main_loss=0.4437 | val macroF1=0.4600 val NC-F1=0.4843
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s2024/best_st3.pt (epoch=3, val_macro_f1=0.4600)
+epoch 4/5 | main_loss=0.3233 | val macroF1=0.4622 val NC-F1=0.4935
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s2024/best_st3.pt (epoch=4, val_macro_f1=0.4622)
+epoch 5/5 | main_loss=0.2444 | val macroF1=0.4633 val NC-F1=0.4957
+  saved best -> /models/test_add_feature_0617/_seed_tmp/vanilla_s2024/best_st3.pt (epoch=5, val_macro_f1=0.4633)
+
+=== best epoch 5 | val macroF1=0.4633 | NC-F1=0.4957 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9165    0.8728    0.8941       566
+   Not Clear     0.4419    0.5644    0.4957       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8249       668
+   macro avg     0.4528    0.4790    0.4633       668
+weighted avg     0.8434    0.8249    0.8325       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_vanilla_s2024.json
+########## seed=2024 mode=multitask ##########
+=== Method A train | mode=multitask | device=cuda:0 | seed=2024 ===
+pretrain=hfl/chinese-roberta-wwm-ext-large max_len=512 bs=8 ga=2 lr=1e-05 epochs=5
+aux heads (4): ['has_quantified_target', 'has_temporal_anchor', 'has_binding_commitment', 'has_percent'] | aux_lambda=0.5
+train ST3-applicable: 677 dist={1: 124, 0: 552, 2: 1}
+val   ST3-applicable: 668 dist={0: 566, 1: 101, 2: 1}
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 42297.87it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: hfl/chinese-roberta-wwm-ext-large
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+main loss: weighted CE weights=[0.409, 1.82, 225.667]
+epoch 1/5 | main_loss=0.7747 aux_loss=0.7061 | val macroF1=0.3675 val NC-F1=0.1786
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s2024/best_st3.pt (epoch=1, val_macro_f1=0.3675)
+epoch 2/5 | main_loss=0.5639 aux_loss=0.6102 | val macroF1=0.4154 val NC-F1=0.4553
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s2024/best_st3.pt (epoch=2, val_macro_f1=0.4154)
+epoch 3/5 | main_loss=0.4623 aux_loss=0.5495 | val macroF1=0.4614 val NC-F1=0.4980
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s2024/best_st3.pt (epoch=3, val_macro_f1=0.4614)
+epoch 4/5 | main_loss=0.2900 aux_loss=0.5154 | val macroF1=0.4695 val NC-F1=0.5200
+  saved best -> /models/test_add_feature_0617/_seed_tmp/multitask_s2024/best_st3.pt (epoch=4, val_macro_f1=0.4695)
+epoch 5/5 | main_loss=0.2353 aux_loss=0.4965 | val macroF1=0.4690 val NC-F1=0.5046
+
+=== best epoch 4 | val macroF1=0.4695 | NC-F1=0.5200 ===
+              precision    recall  f1-score   support
+
+       Clear     0.9287    0.8516    0.8885       566
+   Not Clear     0.4362    0.6436    0.5200       101
+  Misleading     0.0000    0.0000    0.0000         1
+
+    accuracy                         0.8189       668
+   macro avg     0.4550    0.4984    0.4695       668
+weighted avg     0.8529    0.8189    0.8314       668
+
+metrics -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/train_multitask_s2024.json
+########## summarize ##########
+paired seeds (n=5): [7, 13, 42, 123, 2024]
+
+### macroF1(3c)
+  seed   vanilla  multitask   Δ(mt-van)
+     7    0.4637     0.4615     -0.0022
+    13    0.4662     0.4639     -0.0023
+    42    0.4700     0.4708     +0.0008
+   123    0.4896     0.4830     -0.0066
+  2024    0.4633     0.4695     +0.0062
+  vanilla   mean±std = 0.4706±0.0098   (per-seed spread = noise band)
+  multitask mean±std = 0.4697±0.0075
+  paired Δ  mean = -0.0008 | median = -0.0022 | std = 0.0043
+  sign test: 2/5 seeds have Δ>0
+
+### NC-F1
+  seed   vanilla  multitask   Δ(mt-van)
+     7    0.5041     0.4889     -0.0152
+    13    0.5120     0.5132     +0.0012
+    42    0.5110     0.5169     +0.0059
+   123    0.5556     0.5306     -0.0249
+  2024    0.4957     0.5200     +0.0243
+  vanilla   mean±std = 0.5157±0.0208   (per-seed spread = noise band)
+  multitask mean±std = 0.5139±0.0138
+  paired Δ  mean = -0.0017 | median = +0.0012 | std = 0.0171
+  sign test: 3/5 seeds have Δ>0
+
+summary -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_feature/results/seeds/summary.json
+########## seeds-done ##########

@@ -1,0 +1,1001 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+11001,Clear,0,bert,score_clear=0.90042233;score_not_clear=0.07234413;score_misleading=0.02723352
+11002,Clear,0,bert,score_clear=0.96591026;score_not_clear=0.01109270;score_misleading=0.02299706
+11003,Clear,0,bert,score_clear=0.96492320;score_not_clear=0.01252280;score_misleading=0.02255391
+11004,Clear,0,bert,score_clear=0.98756731;score_not_clear=0.00277187;score_misleading=0.00966085
+11005,Clear,0,bert,score_clear=0.57902819;score_not_clear=0.37479880;score_misleading=0.04617304
+11006,Clear,0,bert,score_clear=0.49575618;score_not_clear=0.45614547;score_misleading=0.04809834
+11007,Clear,0,bert,score_clear=0.73249716;score_not_clear=0.21401855;score_misleading=0.05348434
+11008,Clear,0,bert,score_clear=0.94036168;score_not_clear=0.03210184;score_misleading=0.02753650
+11009,N/A,,stage2_filter,evidence_status_not_yes
+11010,N/A,,stage2_filter,evidence_status_not_yes
+11011,N/A,,stage2_filter,evidence_status_not_yes
+11012,Not Clear,1,bert,score_clear=0.44684792;score_not_clear=0.48839226;score_misleading=0.06475983
+11013,N/A,,stage2_filter,evidence_status_not_yes
+11014,Clear,0,bert,score_clear=0.99023098;score_not_clear=0.00135581;score_misleading=0.00841312
+11015,Clear,0,bert,score_clear=0.89111364;score_not_clear=0.07092964;score_misleading=0.03795667
+11016,Clear,0,bert,score_clear=0.61038512;score_not_clear=0.33601159;score_misleading=0.05360324
+11017,N/A,,stage2_filter,evidence_status_not_yes
+11018,N/A,,stage2_filter,evidence_status_not_yes
+11019,Clear,0,bert,score_clear=0.98981655;score_not_clear=0.00145705;score_misleading=0.00872651
+11020,N/A,,stage2_filter,evidence_status_not_yes
+11021,Clear,0,bert,score_clear=0.99175113;score_not_clear=0.00097306;score_misleading=0.00727579
+11022,Clear,0,bert,score_clear=0.93713748;score_not_clear=0.03790305;score_misleading=0.02495952
+11023,N/A,,stage2_filter,evidence_status_not_yes
+11024,N/A,,stage2_filter,evidence_status_not_yes
+11025,Not Clear,1,bert,score_clear=0.08087267;score_not_clear=0.89133126;score_misleading=0.02779608
+11026,Not Clear,1,bert,score_clear=0.14141291;score_not_clear=0.83721769;score_misleading=0.02136943
+11027,N/A,,stage2_filter,evidence_status_not_yes
+11028,Clear,0,bert,score_clear=0.88103491;score_not_clear=0.09602453;score_misleading=0.02294055
+11029,N/A,,stage2_filter,evidence_status_not_yes
+11030,N/A,,stage2_filter,evidence_status_not_yes
+11031,Clear,0,bert,score_clear=0.93027604;score_not_clear=0.04681851;score_misleading=0.02290544
+11032,N/A,,stage2_filter,evidence_status_not_yes
+11033,Clear,0,bert,score_clear=0.98567235;score_not_clear=0.00412671;score_misleading=0.01020086
+11034,N/A,,stage2_filter,evidence_status_not_yes
+11035,Clear,0,bert,score_clear=0.95696348;score_not_clear=0.02168234;score_misleading=0.02135424
+11036,Clear,0,bert,score_clear=0.97399127;score_not_clear=0.00914014;score_misleading=0.01686860
+11037,N/A,,stage2_filter,evidence_status_not_yes
+11038,Clear,0,bert,score_clear=0.94708002;score_not_clear=0.02728471;score_misleading=0.02563524
+11039,Clear,0,bert,score_clear=0.78586930;score_not_clear=0.18390906;score_misleading=0.03022163
+11040,Not Clear,1,bert,score_clear=0.38477466;score_not_clear=0.57478833;score_misleading=0.04043701
+11041,Clear,0,bert,score_clear=0.97928929;score_not_clear=0.00378370;score_misleading=0.01692706
+11042,Clear,0,bert,score_clear=0.88768458;score_not_clear=0.08675984;score_misleading=0.02555562
+11043,Clear,0,bert,score_clear=0.89330810;score_not_clear=0.08249509;score_misleading=0.02419680
+11044,Clear,0,bert,score_clear=0.87744415;score_not_clear=0.07866134;score_misleading=0.04389450
+11045,Clear,0,bert,score_clear=0.80296975;score_not_clear=0.15663469;score_misleading=0.04039565
+11046,Not Clear,1,bert,score_clear=0.22099231;score_not_clear=0.73145616;score_misleading=0.04755147
+11047,N/A,,stage2_filter,evidence_status_not_yes
+11048,N/A,,stage2_filter,evidence_status_not_yes
+11049,N/A,,stage2_filter,evidence_status_not_yes
+11050,Clear,0,bert,score_clear=0.89567566;score_not_clear=0.06505238;score_misleading=0.03927206
+11051,Not Clear,1,bert,score_clear=0.20572862;score_not_clear=0.75506556;score_misleading=0.03920583
+11052,N/A,,stage2_filter,evidence_status_not_yes
+11053,N/A,,stage2_filter,evidence_status_not_yes
+11054,Not Clear,1,bert,score_clear=0.00299036;score_not_clear=0.98958206;score_misleading=0.00742759
+11055,Clear,0,bert,score_clear=0.98891103;score_not_clear=0.00149555;score_misleading=0.00959339
+11056,Clear,0,bert,score_clear=0.93170273;score_not_clear=0.03968256;score_misleading=0.02861471
+11057,Clear,0,bert,score_clear=0.96989924;score_not_clear=0.00994932;score_misleading=0.02015143
+11058,Not Clear,1,bert,score_clear=0.24560052;score_not_clear=0.70035344;score_misleading=0.05404608
+11059,N/A,,stage2_filter,evidence_status_not_yes
+11060,N/A,,stage2_filter,evidence_status_not_yes
+11061,Clear,0,bert,score_clear=0.96132672;score_not_clear=0.02020261;score_misleading=0.01847069
+11062,Clear,0,bert,score_clear=0.60238826;score_not_clear=0.35234460;score_misleading=0.04526715
+11063,Clear,0,bert,score_clear=0.98676455;score_not_clear=0.00390575;score_misleading=0.00932967
+11064,Not Clear,1,bert,score_clear=0.02269059;score_not_clear=0.96491075;score_misleading=0.01239862
+11065,Clear,0,bert,score_clear=0.82544929;score_not_clear=0.14795038;score_misleading=0.02660032
+11066,N/A,,stage2_filter,evidence_status_not_yes
+11067,N/A,,stage2_filter,evidence_status_not_yes
+11068,N/A,,stage2_filter,evidence_status_not_yes
+11069,Clear,0,bert,score_clear=0.91934979;score_not_clear=0.04789438;score_misleading=0.03275589
+11070,N/A,,stage2_filter,evidence_status_not_yes
+11071,Clear,0,bert,score_clear=0.98683399;score_not_clear=0.00167155;score_misleading=0.01149451
+11072,N/A,,stage2_filter,evidence_status_not_yes
+11073,N/A,,stage2_filter,evidence_status_not_yes
+11074,Clear,0,bert,score_clear=0.96388131;score_not_clear=0.01275168;score_misleading=0.02336699
+11075,Clear,0,bert,score_clear=0.54920208;score_not_clear=0.39868942;score_misleading=0.05210850
+11076,Clear,0,bert,score_clear=0.93660092;score_not_clear=0.03478022;score_misleading=0.02861882
+11077,Clear,0,bert,score_clear=0.98548120;score_not_clear=0.00313522;score_misleading=0.01138349
+11078,Clear,0,bert,score_clear=0.98534113;score_not_clear=0.00424045;score_misleading=0.01041845
+11079,Clear,0,bert,score_clear=0.97787523;score_not_clear=0.00445670;score_misleading=0.01766809
+11080,Clear,0,bert,score_clear=0.98200595;score_not_clear=0.00599157;score_misleading=0.01200243
+11081,Not Clear,1,bert,score_clear=0.34294540;score_not_clear=0.61016881;score_misleading=0.04688585
+11082,Clear,0,bert,score_clear=0.61221105;score_not_clear=0.33757859;score_misleading=0.05021035
+11083,Clear,0,bert,score_clear=0.87274158;score_not_clear=0.09199455;score_misleading=0.03526386
+11084,Not Clear,1,bert,score_clear=0.28307086;score_not_clear=0.66906464;score_misleading=0.04786449
+11085,Not Clear,1,bert,score_clear=0.06994604;score_not_clear=0.90337574;score_misleading=0.02667824
+11086,Not Clear,1,bert,score_clear=0.19124888;score_not_clear=0.77518100;score_misleading=0.03357009
+11087,N/A,,stage2_filter,evidence_status_not_yes
+11088,Clear,0,bert,score_clear=0.80633152;score_not_clear=0.15809231;score_misleading=0.03557613
+11089,Clear,0,bert,score_clear=0.96525359;score_not_clear=0.01706427;score_misleading=0.01768210
+11090,N/A,,stage2_filter,evidence_status_not_yes
+11091,Clear,0,bert,score_clear=0.97790796;score_not_clear=0.00522405;score_misleading=0.01686806
+11092,Clear,0,bert,score_clear=0.98766065;score_not_clear=0.00262889;score_misleading=0.00971050
+11093,N/A,,stage2_filter,evidence_status_not_yes
+11094,N/A,,stage2_filter,evidence_status_not_yes
+11095,Clear,0,bert,score_clear=0.92893583;score_not_clear=0.03176395;score_misleading=0.03930023
+11096,Clear,0,bert,score_clear=0.68192780;score_not_clear=0.28544027;score_misleading=0.03263190
+11097,N/A,,stage2_filter,evidence_status_not_yes
+11098,Clear,0,bert,score_clear=0.98413092;score_not_clear=0.00370691;score_misleading=0.01216221
+11099,Clear,0,bert,score_clear=0.96872813;score_not_clear=0.01264467;score_misleading=0.01862729
+11100,Not Clear,1,bert,score_clear=0.19723713;score_not_clear=0.77423269;score_misleading=0.02853023
+11101,Clear,0,bert,score_clear=0.95154744;score_not_clear=0.02205644;score_misleading=0.02639620
+11102,N/A,,stage2_filter,evidence_status_not_yes
+11103,N/A,,stage2_filter,evidence_status_not_yes
+11104,N/A,,stage2_filter,evidence_status_not_yes
+11105,Clear,0,bert,score_clear=0.98053312;score_not_clear=0.00552927;score_misleading=0.01393755
+11106,N/A,,stage2_filter,evidence_status_not_yes
+11107,Clear,0,bert,score_clear=0.97208732;score_not_clear=0.01095340;score_misleading=0.01695937
+11108,N/A,,stage2_filter,evidence_status_not_yes
+11109,Clear,0,bert,score_clear=0.83638644;score_not_clear=0.10609595;score_misleading=0.05751767
+11110,Clear,0,bert,score_clear=0.87287265;score_not_clear=0.09736838;score_misleading=0.02975895
+11111,Not Clear,1,bert,score_clear=0.11771143;score_not_clear=0.83321285;score_misleading=0.04907571
+11112,N/A,,stage2_filter,evidence_status_not_yes
+11113,Not Clear,1,bert,score_clear=0.26455483;score_not_clear=0.69487846;score_misleading=0.04056674
+11114,Clear,0,bert,score_clear=0.98686582;score_not_clear=0.00351515;score_misleading=0.00961906
+11115,Clear,0,bert,score_clear=0.95808184;score_not_clear=0.02273726;score_misleading=0.01918088
+11116,Not Clear,1,bert,score_clear=0.43443885;score_not_clear=0.49229878;score_misleading=0.07326239
+11117,N/A,,stage2_filter,evidence_status_not_yes
+11118,Not Clear,1,bert,score_clear=0.40461409;score_not_clear=0.53801829;score_misleading=0.05736759
+11119,Not Clear,1,bert,score_clear=0.31849551;score_not_clear=0.60609895;score_misleading=0.07540556
+11120,N/A,,stage2_filter,evidence_status_not_yes
+11121,Clear,0,bert,score_clear=0.98559201;score_not_clear=0.00220185;score_misleading=0.01220619
+11122,Clear,0,bert,score_clear=0.98691237;score_not_clear=0.00166045;score_misleading=0.01142714
+11123,Clear,0,bert,score_clear=0.73054588;score_not_clear=0.22950031;score_misleading=0.03995382
+11124,Clear,0,bert,score_clear=0.97591454;score_not_clear=0.00783097;score_misleading=0.01625457
+11125,Clear,0,bert,score_clear=0.83574182;score_not_clear=0.12510952;score_misleading=0.03914873
+11126,Not Clear,1,bert,score_clear=0.01208419;score_not_clear=0.97621310;score_misleading=0.01170270
+11127,Clear,0,bert,score_clear=0.79350787;score_not_clear=0.15749376;score_misleading=0.04899839
+11128,Clear,0,bert,score_clear=0.48340046;score_not_clear=0.47030643;score_misleading=0.04629308
+11129,Clear,0,bert,score_clear=0.98493618;score_not_clear=0.00266364;score_misleading=0.01240018
+11130,Not Clear,1,bert,score_clear=0.09588411;score_not_clear=0.86972475;score_misleading=0.03439121
+11131,Clear,0,bert,score_clear=0.74011618;score_not_clear=0.20532279;score_misleading=0.05456095
+11132,Clear,0,bert,score_clear=0.73519355;score_not_clear=0.21971478;score_misleading=0.04509163
+11133,Clear,0,bert,score_clear=0.98700005;score_not_clear=0.00269955;score_misleading=0.01030039
+11134,N/A,,stage2_filter,evidence_status_not_yes
+11135,N/A,,stage2_filter,evidence_status_not_yes
+11136,Clear,0,bert,score_clear=0.63159180;score_not_clear=0.32626551;score_misleading=0.04214269
+11137,Clear,0,bert,score_clear=0.81835097;score_not_clear=0.12872383;score_misleading=0.05292514
+11138,Clear,0,bert,score_clear=0.94677174;score_not_clear=0.02069911;score_misleading=0.03252914
+11139,Not Clear,1,bert,score_clear=0.14017387;score_not_clear=0.83312905;score_misleading=0.02669706
+11140,Clear,0,bert,score_clear=0.75497490;score_not_clear=0.19565290;score_misleading=0.04937219
+11141,Clear,0,bert,score_clear=0.97796249;score_not_clear=0.00899069;score_misleading=0.01304679
+11142,Clear,0,bert,score_clear=0.99063474;score_not_clear=0.00162932;score_misleading=0.00773597
+11143,Clear,0,bert,score_clear=0.97870469;score_not_clear=0.00797281;score_misleading=0.01332254
+11144,N/A,,stage2_filter,evidence_status_not_yes
+11145,Not Clear,1,bert,score_clear=0.11376978;score_not_clear=0.84979045;score_misleading=0.03643969
+11146,Clear,0,bert,score_clear=0.92880744;score_not_clear=0.05110587;score_misleading=0.02008672
+11147,N/A,,stage2_filter,evidence_status_not_yes
+11148,Clear,0,bert,score_clear=0.98547179;score_not_clear=0.00253551;score_misleading=0.01199267
+11149,Clear,0,bert,score_clear=0.68824422;score_not_clear=0.25849131;score_misleading=0.05326454
+11150,Clear,0,bert,score_clear=0.85638231;score_not_clear=0.10318702;score_misleading=0.04043073
+11151,N/A,,stage2_filter,evidence_status_not_yes
+11152,Clear,0,bert,score_clear=0.97769314;score_not_clear=0.00527237;score_misleading=0.01703446
+11153,Not Clear,1,bert,score_clear=0.26043856;score_not_clear=0.70416272;score_misleading=0.03539870
+11154,Clear,0,bert,score_clear=0.97993958;score_not_clear=0.00589805;score_misleading=0.01416236
+11155,Clear,0,bert,score_clear=0.97730905;score_not_clear=0.00750492;score_misleading=0.01518603
+11156,N/A,,stage2_filter,evidence_status_not_yes
+11157,Clear,0,bert,score_clear=0.97502214;score_not_clear=0.00631586;score_misleading=0.01866188
+11158,Clear,0,bert,score_clear=0.98440462;score_not_clear=0.00246983;score_misleading=0.01312549
+11159,N/A,,stage2_filter,evidence_status_not_yes
+11160,Clear,0,bert,score_clear=0.98249614;score_not_clear=0.00302280;score_misleading=0.01448107
+11161,Clear,0,bert,score_clear=0.98985249;score_not_clear=0.00240875;score_misleading=0.00773882
+11162,Clear,0,bert,score_clear=0.99114251;score_not_clear=0.00116546;score_misleading=0.00769204
+11163,N/A,,stage2_filter,evidence_status_not_yes
+11164,Clear,0,bert,score_clear=0.79838103;score_not_clear=0.16999328;score_misleading=0.03162569
+11165,Clear,0,bert,score_clear=0.99015349;score_not_clear=0.00097923;score_misleading=0.00886732
+11166,Clear,0,bert,score_clear=0.93668836;score_not_clear=0.04321092;score_misleading=0.02010070
+11167,N/A,,stage2_filter,evidence_status_not_yes
+11168,Clear,0,bert,score_clear=0.93049502;score_not_clear=0.04566528;score_misleading=0.02383976
+11169,Clear,0,bert,score_clear=0.90723413;score_not_clear=0.06177294;score_misleading=0.03099294
+11170,N/A,,stage2_filter,evidence_status_not_yes
+11171,Clear,0,bert,score_clear=0.79327780;score_not_clear=0.16809149;score_misleading=0.03863070
+11172,Clear,0,bert,score_clear=0.88720167;score_not_clear=0.07245737;score_misleading=0.04034095
+11173,Clear,0,bert,score_clear=0.81434363;score_not_clear=0.13802199;score_misleading=0.04763436
+11174,Clear,0,bert,score_clear=0.62553215;score_not_clear=0.33158773;score_misleading=0.04288018
+11175,Clear,0,bert,score_clear=0.97944403;score_not_clear=0.00366284;score_misleading=0.01689319
+11176,N/A,,stage2_filter,evidence_status_not_yes
+11177,N/A,,stage2_filter,evidence_status_not_yes
+11178,N/A,,stage2_filter,evidence_status_not_yes
+11179,Clear,0,bert,score_clear=0.80479300;score_not_clear=0.16618583;score_misleading=0.02902110
+11180,N/A,,stage2_filter,evidence_status_not_yes
+11181,Clear,0,bert,score_clear=0.63794917;score_not_clear=0.31939226;score_misleading=0.04265861
+11182,N/A,,stage2_filter,evidence_status_not_yes
+11183,Clear,0,bert,score_clear=0.98367625;score_not_clear=0.00643176;score_misleading=0.00989201
+11184,Clear,0,bert,score_clear=0.98598528;score_not_clear=0.00232920;score_misleading=0.01168544
+11185,Clear,0,bert,score_clear=0.72273707;score_not_clear=0.21474673;score_misleading=0.06251619
+11186,Clear,0,bert,score_clear=0.98097253;score_not_clear=0.00543928;score_misleading=0.01358823
+11187,Not Clear,1,bert,score_clear=0.11800992;score_not_clear=0.85030532;score_misleading=0.03168475
+11188,Not Clear,1,bert,score_clear=0.41535270;score_not_clear=0.54661638;score_misleading=0.03803093
+11189,Clear,0,bert,score_clear=0.90776706;score_not_clear=0.05978573;score_misleading=0.03244730
+11190,Clear,0,bert,score_clear=0.99001521;score_not_clear=0.00105070;score_misleading=0.00893405
+11191,N/A,,stage2_filter,evidence_status_not_yes
+11192,Clear,0,bert,score_clear=0.97548586;score_not_clear=0.00911668;score_misleading=0.01539745
+11193,Clear,0,bert,score_clear=0.82212263;score_not_clear=0.14445691;score_misleading=0.03342049
+11194,Not Clear,1,bert,score_clear=0.32841572;score_not_clear=0.57635069;score_misleading=0.09523360
+11195,Clear,0,bert,score_clear=0.94697696;score_not_clear=0.02031475;score_misleading=0.03270825
+11196,Not Clear,1,bert,score_clear=0.13329506;score_not_clear=0.83004653;score_misleading=0.03665836
+11197,Clear,0,bert,score_clear=0.91363794;score_not_clear=0.06077392;score_misleading=0.02558820
+11198,N/A,,stage2_filter,evidence_status_not_yes
+11199,Not Clear,1,bert,score_clear=0.10429945;score_not_clear=0.86632442;score_misleading=0.02937614
+11200,N/A,,stage2_filter,evidence_status_not_yes
+11201,Clear,0,bert,score_clear=0.97286463;score_not_clear=0.01243408;score_misleading=0.01470132
+11202,Clear,0,bert,score_clear=0.98374152;score_not_clear=0.00402657;score_misleading=0.01223179
+11203,N/A,,stage2_filter,evidence_status_not_yes
+11204,Clear,0,bert,score_clear=0.89971203;score_not_clear=0.06359984;score_misleading=0.03668814
+11205,Clear,0,bert,score_clear=0.66060179;score_not_clear=0.30703700;score_misleading=0.03236113
+11206,Not Clear,1,bert,score_clear=0.17816857;score_not_clear=0.78089732;score_misleading=0.04093418
+11207,N/A,,stage2_filter,evidence_status_not_yes
+11208,N/A,,stage2_filter,evidence_status_not_yes
+11209,Clear,0,bert,score_clear=0.98817432;score_not_clear=0.00156190;score_misleading=0.01026376
+11210,Not Clear,1,bert,score_clear=0.27987128;score_not_clear=0.66851723;score_misleading=0.05161149
+11211,Clear,0,bert,score_clear=0.89753181;score_not_clear=0.07242996;score_misleading=0.03003818
+11212,Clear,0,bert,score_clear=0.96847981;score_not_clear=0.01116435;score_misleading=0.02035587
+11213,Clear,0,bert,score_clear=0.98414767;score_not_clear=0.00633122;score_misleading=0.00952101
+11214,N/A,,stage2_filter,evidence_status_not_yes
+11215,Clear,0,bert,score_clear=0.95686078;score_not_clear=0.01934270;score_misleading=0.02379644
+11216,Clear,0,bert,score_clear=0.97892314;score_not_clear=0.00856126;score_misleading=0.01251565
+11217,N/A,,stage2_filter,evidence_status_not_yes
+11218,N/A,,stage2_filter,evidence_status_not_yes
+11219,Not Clear,1,bert,score_clear=0.18006000;score_not_clear=0.78793371;score_misleading=0.03200626
+11220,Clear,0,bert,score_clear=0.94183224;score_not_clear=0.03726634;score_misleading=0.02090139
+11221,N/A,,stage2_filter,evidence_status_not_yes
+11222,Clear,0,bert,score_clear=0.59359622;score_not_clear=0.34013841;score_misleading=0.06626539
+11223,Not Clear,1,bert,score_clear=0.45646963;score_not_clear=0.49309227;score_misleading=0.05043818
+11224,Not Clear,1,bert,score_clear=0.43885699;score_not_clear=0.51986724;score_misleading=0.04127576
+11225,Clear,0,bert,score_clear=0.93775755;score_not_clear=0.03828548;score_misleading=0.02395689
+11226,Clear,0,bert,score_clear=0.84687364;score_not_clear=0.11432887;score_misleading=0.03879752
+11227,N/A,,stage2_filter,evidence_status_not_yes
+11228,Clear,0,bert,score_clear=0.69943082;score_not_clear=0.24180146;score_misleading=0.05876767
+11229,N/A,,stage2_filter,evidence_status_not_yes
+11230,Clear,0,bert,score_clear=0.81631541;score_not_clear=0.14168967;score_misleading=0.04199493
+11231,N/A,,stage2_filter,evidence_status_not_yes
+11232,N/A,,stage2_filter,evidence_status_not_yes
+11233,N/A,,stage2_filter,evidence_status_not_yes
+11234,N/A,,stage2_filter,evidence_status_not_yes
+11235,N/A,,stage2_filter,evidence_status_not_yes
+11236,N/A,,stage2_filter,evidence_status_not_yes
+11237,Clear,0,bert,score_clear=0.57136309;score_not_clear=0.38801137;score_misleading=0.04062546
+11238,Clear,0,bert,score_clear=0.97297037;score_not_clear=0.01224470;score_misleading=0.01478490
+11239,Not Clear,1,bert,score_clear=0.29929951;score_not_clear=0.64847541;score_misleading=0.05222505
+11240,Clear,0,bert,score_clear=0.73449081;score_not_clear=0.22234567;score_misleading=0.04316349
+11241,Clear,0,bert,score_clear=0.85502559;score_not_clear=0.10918317;score_misleading=0.03579126
+11242,Clear,0,bert,score_clear=0.75644249;score_not_clear=0.20097105;score_misleading=0.04258645
+11243,Clear,0,bert,score_clear=0.98225212;score_not_clear=0.00391527;score_misleading=0.01383264
+11244,N/A,,stage2_filter,evidence_status_not_yes
+11245,Clear,0,bert,score_clear=0.72669697;score_not_clear=0.22586370;score_misleading=0.04743938
+11246,Clear,0,bert,score_clear=0.98308891;score_not_clear=0.00515175;score_misleading=0.01175947
+11247,Clear,0,bert,score_clear=0.97319251;score_not_clear=0.01084172;score_misleading=0.01596580
+11248,Clear,0,bert,score_clear=0.92628038;score_not_clear=0.05223417;score_misleading=0.02148545
+11249,Clear,0,bert,score_clear=0.63313848;score_not_clear=0.31883201;score_misleading=0.04802953
+11250,N/A,,stage2_filter,evidence_status_not_yes
+11251,Clear,0,bert,score_clear=0.98838079;score_not_clear=0.00173057;score_misleading=0.00988863
+11252,N/A,,stage2_filter,evidence_status_not_yes
+11253,N/A,,stage2_filter,evidence_status_not_yes
+11254,Not Clear,1,bert,score_clear=0.12992376;score_not_clear=0.80510038;score_misleading=0.06497585
+11255,N/A,,stage2_filter,evidence_status_not_yes
+11256,N/A,,stage2_filter,evidence_status_not_yes
+11257,N/A,,stage2_filter,evidence_status_not_yes
+11258,Not Clear,1,bert,score_clear=0.40933400;score_not_clear=0.52392411;score_misleading=0.06674189
+11259,Clear,0,bert,score_clear=0.80569953;score_not_clear=0.14285123;score_misleading=0.05144918
+11260,Clear,0,bert,score_clear=0.83110046;score_not_clear=0.12663324;score_misleading=0.04226624
+11261,N/A,,stage2_filter,evidence_status_not_yes
+11262,N/A,,stage2_filter,evidence_status_not_yes
+11263,Clear,0,bert,score_clear=0.95669293;score_not_clear=0.01918399;score_misleading=0.02412309
+11264,Not Clear,1,bert,score_clear=0.21258733;score_not_clear=0.73278445;score_misleading=0.05462823
+11265,Clear,0,bert,score_clear=0.97805709;score_not_clear=0.00433857;score_misleading=0.01760437
+11266,Clear,0,bert,score_clear=0.97495008;score_not_clear=0.00614344;score_misleading=0.01890649
+11267,N/A,,stage2_filter,evidence_status_not_yes
+11268,Clear,0,bert,score_clear=0.91781199;score_not_clear=0.04920729;score_misleading=0.03298069
+11269,Clear,0,bert,score_clear=0.92027909;score_not_clear=0.04487065;score_misleading=0.03485026
+11270,N/A,,stage2_filter,evidence_status_not_yes
+11271,Clear,0,bert,score_clear=0.98672789;score_not_clear=0.00250281;score_misleading=0.01076936
+11272,Not Clear,1,bert,score_clear=0.32698432;score_not_clear=0.61415946;score_misleading=0.05885622
+11273,Clear,0,bert,score_clear=0.53524762;score_not_clear=0.42148411;score_misleading=0.04326829
+11274,Clear,0,bert,score_clear=0.97436917;score_not_clear=0.00846762;score_misleading=0.01716325
+11275,Clear,0,bert,score_clear=0.98266304;score_not_clear=0.00488744;score_misleading=0.01244957
+11276,Clear,0,bert,score_clear=0.93801111;score_not_clear=0.04137756;score_misleading=0.02061140
+11277,Clear,0,bert,score_clear=0.88648611;score_not_clear=0.07694256;score_misleading=0.03657137
+11278,N/A,,stage2_filter,evidence_status_not_yes
+11279,Clear,0,bert,score_clear=0.98590267;score_not_clear=0.00171957;score_misleading=0.01237777
+11280,Clear,0,bert,score_clear=0.92849922;score_not_clear=0.04403176;score_misleading=0.02746898
+11281,Clear,0,bert,score_clear=0.96639842;score_not_clear=0.01469215;score_misleading=0.01890940
+11282,Clear,0,bert,score_clear=0.93777651;score_not_clear=0.03876623;score_misleading=0.02345723
+11283,N/A,,stage2_filter,evidence_status_not_yes
+11284,N/A,,stage2_filter,evidence_status_not_yes
+11285,N/A,,stage2_filter,evidence_status_not_yes
+11286,Clear,0,bert,score_clear=0.98828167;score_not_clear=0.00235501;score_misleading=0.00936333
+11287,N/A,,stage2_filter,evidence_status_not_yes
+11288,Not Clear,1,bert,score_clear=0.16924970;score_not_clear=0.79141420;score_misleading=0.03933611
+11289,Clear,0,bert,score_clear=0.98926872;score_not_clear=0.00202495;score_misleading=0.00870625
+11290,N/A,,stage2_filter,evidence_status_not_yes
+11291,Clear,0,bert,score_clear=0.97279412;score_not_clear=0.00862792;score_misleading=0.01857801
+11292,Not Clear,1,bert,score_clear=0.19824940;score_not_clear=0.76312101;score_misleading=0.03862952
+11293,N/A,,stage2_filter,evidence_status_not_yes
+11294,Clear,0,bert,score_clear=0.67201185;score_not_clear=0.25165510;score_misleading=0.07633303
+11295,Not Clear,1,bert,score_clear=0.02129357;score_not_clear=0.96322840;score_misleading=0.01547797
+11296,N/A,,stage2_filter,evidence_status_not_yes
+11297,Clear,0,bert,score_clear=0.81045777;score_not_clear=0.15698633;score_misleading=0.03255600
+11298,N/A,,stage2_filter,evidence_status_not_yes
+11299,Clear,0,bert,score_clear=0.98481917;score_not_clear=0.00307591;score_misleading=0.01210493
+11300,Not Clear,1,bert,score_clear=0.09557053;score_not_clear=0.87076330;score_misleading=0.03366613
+11301,Not Clear,1,bert,score_clear=0.40821719;score_not_clear=0.54909933;score_misleading=0.04268346
+11302,N/A,,stage2_filter,evidence_status_not_yes
+11303,Not Clear,1,bert,score_clear=0.33214560;score_not_clear=0.63794768;score_misleading=0.02990674
+11304,N/A,,stage2_filter,evidence_status_not_yes
+11305,Clear,0,bert,score_clear=0.99008173;score_not_clear=0.00105200;score_misleading=0.00886631
+11306,Clear,0,bert,score_clear=0.74563676;score_not_clear=0.19545038;score_misleading=0.05891284
+11307,N/A,,stage2_filter,evidence_status_not_yes
+11308,N/A,,stage2_filter,evidence_status_not_yes
+11309,Clear,0,bert,score_clear=0.98072743;score_not_clear=0.00461823;score_misleading=0.01465427
+11310,N/A,,stage2_filter,evidence_status_not_yes
+11311,N/A,,stage2_filter,evidence_status_not_yes
+11312,Clear,0,bert,score_clear=0.98278111;score_not_clear=0.00398044;score_misleading=0.01323847
+11313,N/A,,stage2_filter,evidence_status_not_yes
+11314,Clear,0,bert,score_clear=0.70483929;score_not_clear=0.22283119;score_misleading=0.07232951
+11315,Clear,0,bert,score_clear=0.96469194;score_not_clear=0.01912017;score_misleading=0.01618794
+11316,N/A,,stage2_filter,evidence_status_not_yes
+11317,Clear,0,bert,score_clear=0.55822164;score_not_clear=0.37846139;score_misleading=0.06331696
+11318,Clear,0,bert,score_clear=0.98215038;score_not_clear=0.00509296;score_misleading=0.01275669
+11319,Clear,0,bert,score_clear=0.88233191;score_not_clear=0.09500325;score_misleading=0.02266491
+11320,Not Clear,1,bert,score_clear=0.04668035;score_not_clear=0.93395704;score_misleading=0.01936262
+11321,N/A,,stage2_filter,evidence_status_not_yes
+11322,N/A,,stage2_filter,evidence_status_not_yes
+11323,Clear,0,bert,score_clear=0.97142863;score_not_clear=0.01471426;score_misleading=0.01385716
+11324,N/A,,stage2_filter,evidence_status_not_yes
+11325,Clear,0,bert,score_clear=0.97679639;score_not_clear=0.01038002;score_misleading=0.01282371
+11326,Clear,0,bert,score_clear=0.98616260;score_not_clear=0.00147462;score_misleading=0.01236265
+11327,N/A,,stage2_filter,evidence_status_not_yes
+11328,N/A,,stage2_filter,evidence_status_not_yes
+11329,Clear,0,bert,score_clear=0.98598504;score_not_clear=0.00229632;score_misleading=0.01171856
+11330,Not Clear,1,bert,score_clear=0.04400901;score_not_clear=0.93765712;score_misleading=0.01833389
+11331,Clear,0,bert,score_clear=0.80454361;score_not_clear=0.14776406;score_misleading=0.04769227
+11332,Clear,0,bert,score_clear=0.96282047;score_not_clear=0.01303693;score_misleading=0.02414252
+11333,Clear,0,bert,score_clear=0.94117290;score_not_clear=0.03206433;score_misleading=0.02676279
+11334,N/A,,stage2_filter,evidence_status_not_yes
+11335,N/A,,stage2_filter,evidence_status_not_yes
+11336,Clear,0,bert,score_clear=0.98813522;score_not_clear=0.00102233;score_misleading=0.01084245
+11337,N/A,,stage2_filter,evidence_status_not_yes
+11338,Clear,0,bert,score_clear=0.95926034;score_not_clear=0.02001736;score_misleading=0.02072235
+11339,Clear,0,bert,score_clear=0.98306078;score_not_clear=0.00395633;score_misleading=0.01298294
+11340,N/A,,stage2_filter,evidence_status_not_yes
+11341,Not Clear,1,bert,score_clear=0.42610627;score_not_clear=0.53068411;score_misleading=0.04320960
+11342,Clear,0,bert,score_clear=0.97548115;score_not_clear=0.00862947;score_misleading=0.01588939
+11343,N/A,,stage2_filter,evidence_status_not_yes
+11344,N/A,,stage2_filter,evidence_status_not_yes
+11345,Clear,0,bert,score_clear=0.57761258;score_not_clear=0.37615719;score_misleading=0.04623026
+11346,N/A,,stage2_filter,evidence_status_not_yes
+11347,Clear,0,bert,score_clear=0.75855100;score_not_clear=0.19057620;score_misleading=0.05087274
+11348,Clear,0,bert,score_clear=0.95911217;score_not_clear=0.02190509;score_misleading=0.01898274
+11349,N/A,,stage2_filter,evidence_status_not_yes
+11350,Not Clear,1,bert,score_clear=0.19656104;score_not_clear=0.76379359;score_misleading=0.03964542
+11351,Clear,0,bert,score_clear=0.69919944;score_not_clear=0.25057709;score_misleading=0.05022348
+11352,Not Clear,1,bert,score_clear=0.22223939;score_not_clear=0.74057102;score_misleading=0.03718954
+11353,Not Clear,1,bert,score_clear=0.14185436;score_not_clear=0.82756996;score_misleading=0.03057570
+11354,N/A,,stage2_filter,evidence_status_not_yes
+11355,Clear,0,bert,score_clear=0.92828727;score_not_clear=0.04548337;score_misleading=0.02622945
+11356,Clear,0,bert,score_clear=0.98937899;score_not_clear=0.00174438;score_misleading=0.00887658
+11357,N/A,,stage2_filter,evidence_status_not_yes
+11358,Clear,0,bert,score_clear=0.97273797;score_not_clear=0.01180683;score_misleading=0.01545520
+11359,N/A,,stage2_filter,evidence_status_not_yes
+11360,N/A,,stage2_filter,evidence_status_not_yes
+11361,N/A,,stage2_filter,evidence_status_not_yes
+11362,N/A,,stage2_filter,evidence_status_not_yes
+11363,Clear,0,bert,score_clear=0.97464085;score_not_clear=0.00942054;score_misleading=0.01593866
+11364,Clear,0,bert,score_clear=0.95150596;score_not_clear=0.01942978;score_misleading=0.02906422
+11365,Not Clear,1,bert,score_clear=0.06416135;score_not_clear=0.90259123;score_misleading=0.03324746
+11366,Clear,0,bert,score_clear=0.75617421;score_not_clear=0.20108525;score_misleading=0.04274058
+11367,Clear,0,bert,score_clear=0.98645222;score_not_clear=0.00298923;score_misleading=0.01055857
+11368,Clear,0,bert,score_clear=0.98024118;score_not_clear=0.00659901;score_misleading=0.01315985
+11369,N/A,,stage2_filter,evidence_status_not_yes
+11370,Not Clear,1,bert,score_clear=0.45675150;score_not_clear=0.51133615;score_misleading=0.03191233
+11371,Clear,0,bert,score_clear=0.70060253;score_not_clear=0.25097603;score_misleading=0.04842146
+11372,Clear,0,bert,score_clear=0.88747048;score_not_clear=0.07651868;score_misleading=0.03601085
+11373,N/A,,stage2_filter,evidence_status_not_yes
+11374,N/A,,stage2_filter,evidence_status_not_yes
+11375,N/A,,stage2_filter,evidence_status_not_yes
+11376,N/A,,stage2_filter,evidence_status_not_yes
+11377,Clear,0,bert,score_clear=0.98922569;score_not_clear=0.00161509;score_misleading=0.00915919
+11378,Not Clear,1,bert,score_clear=0.16251555;score_not_clear=0.80562776;score_misleading=0.03185667
+11379,N/A,,stage2_filter,evidence_status_not_yes
+11380,Not Clear,1,bert,score_clear=0.44116804;score_not_clear=0.51453316;score_misleading=0.04429878
+11381,N/A,,stage2_filter,evidence_status_not_yes
+11382,Clear,0,bert,score_clear=0.91594911;score_not_clear=0.05888021;score_misleading=0.02517074
+11383,Clear,0,bert,score_clear=0.51202857;score_not_clear=0.44030145;score_misleading=0.04766996
+11384,N/A,,stage2_filter,evidence_status_not_yes
+11385,N/A,,stage2_filter,evidence_status_not_yes
+11386,N/A,,stage2_filter,evidence_status_not_yes
+11387,N/A,,stage2_filter,evidence_status_not_yes
+11388,N/A,,stage2_filter,evidence_status_not_yes
+11389,N/A,,stage2_filter,evidence_status_not_yes
+11390,Clear,0,bert,score_clear=0.98080689;score_not_clear=0.00404396;score_misleading=0.01514914
+11391,N/A,,stage2_filter,evidence_status_not_yes
+11392,Clear,0,bert,score_clear=0.87125897;score_not_clear=0.09093904;score_misleading=0.03780199
+11393,Clear,0,bert,score_clear=0.98709482;score_not_clear=0.00373526;score_misleading=0.00916997
+11394,N/A,,stage2_filter,evidence_status_not_yes
+11395,Clear,0,bert,score_clear=0.91431928;score_not_clear=0.05301953;score_misleading=0.03266120
+11396,Clear,0,bert,score_clear=0.67115921;score_not_clear=0.28142947;score_misleading=0.04741136
+11397,Clear,0,bert,score_clear=0.98493516;score_not_clear=0.00523826;score_misleading=0.00982651
+11398,N/A,,stage2_filter,evidence_status_not_yes
+11399,N/A,,stage2_filter,evidence_status_not_yes
+11400,Clear,0,bert,score_clear=0.87425220;score_not_clear=0.09406768;score_misleading=0.03168018
+11401,Not Clear,1,bert,score_clear=0.06965549;score_not_clear=0.90299445;score_misleading=0.02735009
+11402,N/A,,stage2_filter,evidence_status_not_yes
+11403,N/A,,stage2_filter,evidence_status_not_yes
+11404,Clear,0,bert,score_clear=0.95464677;score_not_clear=0.02782981;score_misleading=0.01752342
+11405,N/A,,stage2_filter,evidence_status_not_yes
+11406,Clear,0,bert,score_clear=0.97234446;score_not_clear=0.01105190;score_misleading=0.01660360
+11407,Clear,0,bert,score_clear=0.97485483;score_not_clear=0.00939950;score_misleading=0.01574565
+11408,N/A,,stage2_filter,evidence_status_not_yes
+11409,Clear,0,bert,score_clear=0.96522218;score_not_clear=0.01707401;score_misleading=0.01770374
+11410,Clear,0,bert,score_clear=0.82474113;score_not_clear=0.13455409;score_misleading=0.04070470
+11411,Clear,0,bert,score_clear=0.99121410;score_not_clear=0.00183983;score_misleading=0.00694617
+11412,N/A,,stage2_filter,evidence_status_not_yes
+11413,Clear,0,bert,score_clear=0.81967813;score_not_clear=0.13745742;score_misleading=0.04286451
+11414,Clear,0,bert,score_clear=0.87415189;score_not_clear=0.08697378;score_misleading=0.03887436
+11415,Clear,0,bert,score_clear=0.97529209;score_not_clear=0.00838537;score_misleading=0.01632248
+11416,N/A,,stage2_filter,evidence_status_not_yes
+11417,Clear,0,bert,score_clear=0.98308140;score_not_clear=0.00326934;score_misleading=0.01364929
+11418,Clear,0,bert,score_clear=0.60811394;score_not_clear=0.35414714;score_misleading=0.03773887
+11419,Clear,0,bert,score_clear=0.75242656;score_not_clear=0.18142976;score_misleading=0.06614370
+11420,Clear,0,bert,score_clear=0.59504426;score_not_clear=0.35616902;score_misleading=0.04878674
+11421,Clear,0,bert,score_clear=0.97423178;score_not_clear=0.00927483;score_misleading=0.01649334
+11422,Clear,0,bert,score_clear=0.80856436;score_not_clear=0.15278466;score_misleading=0.03865101
+11423,Clear,0,bert,score_clear=0.89993244;score_not_clear=0.07223447;score_misleading=0.02783301
+11424,Not Clear,1,bert,score_clear=0.37892020;score_not_clear=0.54279977;score_misleading=0.07828002
+11425,N/A,,stage2_filter,evidence_status_not_yes
+11426,N/A,,stage2_filter,evidence_status_not_yes
+11427,N/A,,stage2_filter,evidence_status_not_yes
+11428,Clear,0,bert,score_clear=0.97812235;score_not_clear=0.00361906;score_misleading=0.01825857
+11429,N/A,,stage2_filter,evidence_status_not_yes
+11430,Clear,0,bert,score_clear=0.79401606;score_not_clear=0.16252024;score_misleading=0.04346378
+11431,N/A,,stage2_filter,evidence_status_not_yes
+11432,N/A,,stage2_filter,evidence_status_not_yes
+11433,Clear,0,bert,score_clear=0.76113486;score_not_clear=0.20320462;score_misleading=0.03566049
+11434,Not Clear,1,bert,score_clear=0.33650073;score_not_clear=0.61774856;score_misleading=0.04575069
+11435,Clear,0,bert,score_clear=0.58202708;score_not_clear=0.36535197;score_misleading=0.05262094
+11436,Not Clear,1,bert,score_clear=0.26981398;score_not_clear=0.68064475;score_misleading=0.04954130
+11437,Clear,0,bert,score_clear=0.86168939;score_not_clear=0.10972118;score_misleading=0.02858946
+11438,N/A,,stage2_filter,evidence_status_not_yes
+11439,Clear,0,bert,score_clear=0.52598333;score_not_clear=0.42920795;score_misleading=0.04480875
+11440,N/A,,stage2_filter,evidence_status_not_yes
+11441,Clear,0,bert,score_clear=0.96472180;score_not_clear=0.02051661;score_misleading=0.01476167
+11442,Clear,0,bert,score_clear=0.98123932;score_not_clear=0.00394950;score_misleading=0.01481127
+11443,Not Clear,1,bert,score_clear=0.02412079;score_not_clear=0.95601207;score_misleading=0.01986719
+11444,Clear,0,bert,score_clear=0.65166467;score_not_clear=0.30093697;score_misleading=0.04739840
+11445,Not Clear,1,bert,score_clear=0.14941613;score_not_clear=0.82129264;score_misleading=0.02929122
+11446,N/A,,stage2_filter,evidence_status_not_yes
+11447,Clear,0,bert,score_clear=0.98394185;score_not_clear=0.00425865;score_misleading=0.01179956
+11448,N/A,,stage2_filter,evidence_status_not_yes
+11449,Clear,0,bert,score_clear=0.97973412;score_not_clear=0.00667785;score_misleading=0.01358800
+11450,Clear,0,bert,score_clear=0.98103869;score_not_clear=0.00547729;score_misleading=0.01348396
+11451,N/A,,stage2_filter,evidence_status_not_yes
+11452,N/A,,stage2_filter,evidence_status_not_yes
+11453,N/A,,stage2_filter,evidence_status_not_yes
+11454,Clear,0,bert,score_clear=0.58735806;score_not_clear=0.36637607;score_misleading=0.04626587
+11455,Clear,0,bert,score_clear=0.98802686;score_not_clear=0.00193347;score_misleading=0.01003963
+11456,Clear,0,bert,score_clear=0.71720022;score_not_clear=0.23864570;score_misleading=0.04415408
+11457,Clear,0,bert,score_clear=0.98575413;score_not_clear=0.00278479;score_misleading=0.01146113
+11458,Clear,0,bert,score_clear=0.89578307;score_not_clear=0.07121600;score_misleading=0.03300089
+11459,N/A,,stage2_filter,evidence_status_not_yes
+11460,N/A,,stage2_filter,evidence_status_not_yes
+11461,N/A,,stage2_filter,evidence_status_not_yes
+11462,Clear,0,bert,score_clear=0.53503823;score_not_clear=0.41498968;score_misleading=0.04997209
+11463,Clear,0,bert,score_clear=0.96701062;score_not_clear=0.01994465;score_misleading=0.01304467
+11464,Clear,0,bert,score_clear=0.76236212;score_not_clear=0.18488175;score_misleading=0.05275611
+11465,N/A,,stage2_filter,evidence_status_not_yes
+11466,Not Clear,1,bert,score_clear=0.28286001;score_not_clear=0.66660798;score_misleading=0.05053201
+11467,Clear,0,bert,score_clear=0.98176277;score_not_clear=0.00637486;score_misleading=0.01186229
+11468,Clear,0,bert,score_clear=0.98908591;score_not_clear=0.00138548;score_misleading=0.00952849
+11469,N/A,,stage2_filter,evidence_status_not_yes
+11470,Clear,0,bert,score_clear=0.91120273;score_not_clear=0.04965506;score_misleading=0.03914221
+11471,N/A,,stage2_filter,evidence_status_not_yes
+11472,Clear,0,bert,score_clear=0.97377115;score_not_clear=0.00958447;score_misleading=0.01664440
+11473,Clear,0,bert,score_clear=0.71503431;score_not_clear=0.21870306;score_misleading=0.06626263
+11474,Clear,0,bert,score_clear=0.84493452;score_not_clear=0.10261532;score_misleading=0.05245017
+11475,Clear,0,bert,score_clear=0.98486644;score_not_clear=0.00295362;score_misleading=0.01217996
+11476,Clear,0,bert,score_clear=0.92356187;score_not_clear=0.04842025;score_misleading=0.02801781
+11477,N/A,,stage2_filter,evidence_status_not_yes
+11478,N/A,,stage2_filter,evidence_status_not_yes
+11479,Clear,0,bert,score_clear=0.93045187;score_not_clear=0.04307846;score_misleading=0.02646971
+11480,Clear,0,bert,score_clear=0.86369962;score_not_clear=0.09702770;score_misleading=0.03927269
+11481,Clear,0,bert,score_clear=0.98339570;score_not_clear=0.00432876;score_misleading=0.01227558
+11482,Clear,0,bert,score_clear=0.98523301;score_not_clear=0.00511858;score_misleading=0.00964848
+11483,Clear,0,bert,score_clear=0.95177716;score_not_clear=0.02369525;score_misleading=0.02452755
+11484,N/A,,stage2_filter,evidence_status_not_yes
+11485,Clear,0,bert,score_clear=0.97513688;score_not_clear=0.01303503;score_misleading=0.01182813
+11486,Clear,0,bert,score_clear=0.99091804;score_not_clear=0.00095530;score_misleading=0.00812664
+11487,N/A,,stage2_filter,evidence_status_not_yes
+11488,Not Clear,1,bert,score_clear=0.01543284;score_not_clear=0.96698040;score_misleading=0.01758677
+11489,Not Clear,1,bert,score_clear=0.37505770;score_not_clear=0.58997512;score_misleading=0.03496723
+11490,Clear,0,bert,score_clear=0.83136380;score_not_clear=0.12731102;score_misleading=0.04132514
+11491,Clear,0,bert,score_clear=0.87375826;score_not_clear=0.08621817;score_misleading=0.04002347
+11492,Clear,0,bert,score_clear=0.95643681;score_not_clear=0.01870566;score_misleading=0.02485756
+11493,Not Clear,1,bert,score_clear=0.42149001;score_not_clear=0.53491902;score_misleading=0.04359096
+11494,Clear,0,bert,score_clear=0.98010123;score_not_clear=0.00592189;score_misleading=0.01397687
+11495,Clear,0,bert,score_clear=0.97285163;score_not_clear=0.01063953;score_misleading=0.01650888
+11496,Clear,0,bert,score_clear=0.89749253;score_not_clear=0.07365607;score_misleading=0.02885145
+11497,Clear,0,bert,score_clear=0.64472711;score_not_clear=0.28671721;score_misleading=0.06855562
+11498,Clear,0,bert,score_clear=0.99043357;score_not_clear=0.00163970;score_misleading=0.00792666
+11499,N/A,,stage2_filter,evidence_status_not_yes
+11500,N/A,,stage2_filter,evidence_status_not_yes
+11501,Not Clear,1,bert,score_clear=0.20540626;score_not_clear=0.75204659;score_misleading=0.04254716
+11502,Not Clear,1,bert,score_clear=0.30302376;score_not_clear=0.65033776;score_misleading=0.04663844
+11503,N/A,,stage2_filter,evidence_status_not_yes
+11504,Not Clear,1,bert,score_clear=0.17412558;score_not_clear=0.79234731;score_misleading=0.03352709
+11505,Clear,0,bert,score_clear=0.98537201;score_not_clear=0.00398914;score_misleading=0.01063889
+11506,Clear,0,bert,score_clear=0.98601192;score_not_clear=0.00184078;score_misleading=0.01214728
+11507,N/A,,stage2_filter,evidence_status_not_yes
+11508,Clear,0,bert,score_clear=0.92426866;score_not_clear=0.04324552;score_misleading=0.03248573
+11509,Clear,0,bert,score_clear=0.83943158;score_not_clear=0.12202393;score_misleading=0.03854441
+11510,Clear,0,bert,score_clear=0.93492216;score_not_clear=0.04491595;score_misleading=0.02016191
+11511,N/A,,stage2_filter,evidence_status_not_yes
+11512,Clear,0,bert,score_clear=0.97000766;score_not_clear=0.01419856;score_misleading=0.01579369
+11513,Not Clear,1,bert,score_clear=0.40571249;score_not_clear=0.56396347;score_misleading=0.03032405
+11514,N/A,,stage2_filter,evidence_status_not_yes
+11515,Clear,0,bert,score_clear=0.95289326;score_not_clear=0.02721234;score_misleading=0.01989442
+11516,Clear,0,bert,score_clear=0.85854143;score_not_clear=0.09750673;score_misleading=0.04395177
+11517,Clear,0,bert,score_clear=0.98743755;score_not_clear=0.00220850;score_misleading=0.01035391
+11518,N/A,,stage2_filter,evidence_status_not_yes
+11519,Clear,0,bert,score_clear=0.98403305;score_not_clear=0.00445758;score_misleading=0.01150939
+11520,Clear,0,bert,score_clear=0.69664139;score_not_clear=0.24498643;score_misleading=0.05837223
+11521,Clear,0,bert,score_clear=0.96532995;score_not_clear=0.01441259;score_misleading=0.02025751
+11522,Not Clear,1,bert,score_clear=0.38574278;score_not_clear=0.55151463;score_misleading=0.06274259
+11523,Clear,0,bert,score_clear=0.86331695;score_not_clear=0.09409316;score_misleading=0.04258990
+11524,Clear,0,bert,score_clear=0.59277385;score_not_clear=0.32949817;score_misleading=0.07772798
+11525,Not Clear,1,bert,score_clear=0.30824468;score_not_clear=0.63510215;score_misleading=0.05665322
+11526,Clear,0,bert,score_clear=0.97769344;score_not_clear=0.00452160;score_misleading=0.01778495
+11527,Clear,0,bert,score_clear=0.97512585;score_not_clear=0.00822653;score_misleading=0.01664752
+11528,Clear,0,bert,score_clear=0.96727985;score_not_clear=0.01841302;score_misleading=0.01430721
+11529,Clear,0,bert,score_clear=0.95073187;score_not_clear=0.02952855;score_misleading=0.01973947
+11530,Clear,0,bert,score_clear=0.85845768;score_not_clear=0.10873894;score_misleading=0.03280331
+11531,Clear,0,bert,score_clear=0.98114944;score_not_clear=0.00929411;score_misleading=0.00955635
+11532,Clear,0,bert,score_clear=0.94236934;score_not_clear=0.03455788;score_misleading=0.02307273
+11533,N/A,,stage2_filter,evidence_status_not_yes
+11534,Clear,0,bert,score_clear=0.95485574;score_not_clear=0.02440323;score_misleading=0.02074110
+11535,Clear,0,bert,score_clear=0.96102506;score_not_clear=0.01511531;score_misleading=0.02385964
+11536,Not Clear,1,bert,score_clear=0.09217060;score_not_clear=0.88528490;score_misleading=0.02254457
+11537,Clear,0,bert,score_clear=0.88526434;score_not_clear=0.07416902;score_misleading=0.04056657
+11538,Clear,0,bert,score_clear=0.82468569;score_not_clear=0.14097425;score_misleading=0.03434000
+11539,Not Clear,1,bert,score_clear=0.13090934;score_not_clear=0.82691324;score_misleading=0.04217738
+11540,N/A,,stage2_filter,evidence_status_not_yes
+11541,Clear,0,bert,score_clear=0.82535881;score_not_clear=0.12232100;score_misleading=0.05232017
+11542,N/A,,stage2_filter,evidence_status_not_yes
+11543,Not Clear,1,bert,score_clear=0.32604688;score_not_clear=0.62758040;score_misleading=0.04637273
+11544,Clear,0,bert,score_clear=0.98005235;score_not_clear=0.00835318;score_misleading=0.01159449
+11545,Clear,0,bert,score_clear=0.97684473;score_not_clear=0.00921217;score_misleading=0.01394313
+11546,Clear,0,bert,score_clear=0.98004538;score_not_clear=0.00431232;score_misleading=0.01564232
+11547,Clear,0,bert,score_clear=0.98574281;score_not_clear=0.00213511;score_misleading=0.01212201
+11548,Clear,0,bert,score_clear=0.70941019;score_not_clear=0.25853646;score_misleading=0.03205332
+11549,Not Clear,1,bert,score_clear=0.11994906;score_not_clear=0.85979956;score_misleading=0.02025140
+11550,Clear,0,bert,score_clear=0.97323245;score_not_clear=0.00956556;score_misleading=0.01720189
+11551,Not Clear,1,bert,score_clear=0.37270308;score_not_clear=0.57099843;score_misleading=0.05629851
+11552,N/A,,stage2_filter,evidence_status_not_yes
+11553,Not Clear,1,bert,score_clear=0.07182766;score_not_clear=0.89085275;score_misleading=0.03731958
+11554,Clear,0,bert,score_clear=0.98163742;score_not_clear=0.00309353;score_misleading=0.01526908
+11555,Clear,0,bert,score_clear=0.93904948;score_not_clear=0.03566642;score_misleading=0.02528413
+11556,N/A,,stage2_filter,evidence_status_not_yes
+11557,Clear,0,bert,score_clear=0.98284388;score_not_clear=0.00167109;score_misleading=0.01548505
+11558,Clear,0,bert,score_clear=0.70685941;score_not_clear=0.25764701;score_misleading=0.03549357
+11559,Clear,0,bert,score_clear=0.96806943;score_not_clear=0.01494497;score_misleading=0.01698560
+11560,Not Clear,1,bert,score_clear=0.43567055;score_not_clear=0.53273326;score_misleading=0.03159618
+11561,Clear,0,bert,score_clear=0.87486297;score_not_clear=0.08579601;score_misleading=0.03934091
+11562,Clear,0,bert,score_clear=0.56823987;score_not_clear=0.35268849;score_misleading=0.07907169
+11563,N/A,,stage2_filter,evidence_status_not_yes
+11564,N/A,,stage2_filter,evidence_status_not_yes
+11565,Clear,0,bert,score_clear=0.94837141;score_not_clear=0.02762191;score_misleading=0.02400670
+11566,N/A,,stage2_filter,evidence_status_not_yes
+11567,Clear,0,bert,score_clear=0.85517961;score_not_clear=0.10353776;score_misleading=0.04128266
+11568,Not Clear,1,bert,score_clear=0.42960274;score_not_clear=0.51803631;score_misleading=0.05236096
+11569,Clear,0,bert,score_clear=0.89077669;score_not_clear=0.06519986;score_misleading=0.04402351
+11570,Clear,0,bert,score_clear=0.82238322;score_not_clear=0.13413864;score_misleading=0.04347816
+11571,Not Clear,1,bert,score_clear=0.02598498;score_not_clear=0.95403224;score_misleading=0.01998275
+11572,Clear,0,bert,score_clear=0.98299015;score_not_clear=0.00310408;score_misleading=0.01390576
+11573,Clear,0,bert,score_clear=0.94675553;score_not_clear=0.02995632;score_misleading=0.02328814
+11574,Clear,0,bert,score_clear=0.95857418;score_not_clear=0.02660511;score_misleading=0.01482073
+11575,Not Clear,1,bert,score_clear=0.35810244;score_not_clear=0.58330780;score_misleading=0.05858979
+11576,N/A,,stage2_filter,evidence_status_not_yes
+11577,N/A,,stage2_filter,evidence_status_not_yes
+11578,N/A,,stage2_filter,evidence_status_not_yes
+11579,N/A,,stage2_filter,evidence_status_not_yes
+11580,N/A,,stage2_filter,evidence_status_not_yes
+11581,Clear,0,bert,score_clear=0.57011461;score_not_clear=0.38470876;score_misleading=0.04517670
+11582,N/A,,stage2_filter,evidence_status_not_yes
+11583,N/A,,stage2_filter,evidence_status_not_yes
+11584,N/A,,stage2_filter,evidence_status_not_yes
+11585,Clear,0,bert,score_clear=0.97349924;score_not_clear=0.01329118;score_misleading=0.01320950
+11586,N/A,,stage2_filter,evidence_status_not_yes
+11587,Clear,0,bert,score_clear=0.93535125;score_not_clear=0.04514823;score_misleading=0.01950047
+11588,Clear,0,bert,score_clear=0.98330379;score_not_clear=0.00353979;score_misleading=0.01315646
+11589,N/A,,stage2_filter,evidence_status_not_yes
+11590,Not Clear,1,bert,score_clear=0.44645920;score_not_clear=0.50190288;score_misleading=0.05163794
+11591,Clear,0,bert,score_clear=0.96838778;score_not_clear=0.01242771;score_misleading=0.01918457
+11592,N/A,,stage2_filter,evidence_status_not_yes
+11593,Not Clear,1,bert,score_clear=0.22434691;score_not_clear=0.74179155;score_misleading=0.03386156
+11594,Not Clear,1,bert,score_clear=0.22332689;score_not_clear=0.74330145;score_misleading=0.03337169
+11595,Not Clear,1,bert,score_clear=0.05861983;score_not_clear=0.92417783;score_misleading=0.01720234
+11596,N/A,,stage2_filter,evidence_status_not_yes
+11597,Clear,0,bert,score_clear=0.98358339;score_not_clear=0.00250652;score_misleading=0.01391007
+11598,Clear,0,bert,score_clear=0.98592955;score_not_clear=0.00388313;score_misleading=0.01018727
+11599,Clear,0,bert,score_clear=0.95217377;score_not_clear=0.03270372;score_misleading=0.01512259
+11600,Clear,0,bert,score_clear=0.97085708;score_not_clear=0.00789469;score_misleading=0.02124833
+11601,Clear,0,bert,score_clear=0.86574984;score_not_clear=0.10269687;score_misleading=0.03155333
+11602,N/A,,stage2_filter,evidence_status_not_yes
+11603,Clear,0,bert,score_clear=0.98238671;score_not_clear=0.00373100;score_misleading=0.01388234
+11604,N/A,,stage2_filter,evidence_status_not_yes
+11605,Not Clear,1,bert,score_clear=0.35655102;score_not_clear=0.58265615;score_misleading=0.06079281
+11606,Clear,0,bert,score_clear=0.97168827;score_not_clear=0.01052814;score_misleading=0.01778354
+11607,N/A,,stage2_filter,evidence_status_not_yes
+11608,Clear,0,bert,score_clear=0.98990226;score_not_clear=0.00104295;score_misleading=0.00905479
+11609,N/A,,stage2_filter,evidence_status_not_yes
+11610,Clear,0,bert,score_clear=0.99271834;score_not_clear=0.00101727;score_misleading=0.00626435
+11611,N/A,,stage2_filter,evidence_status_not_yes
+11612,N/A,,stage2_filter,evidence_status_not_yes
+11613,N/A,,stage2_filter,evidence_status_not_yes
+11614,Clear,0,bert,score_clear=0.91599590;score_not_clear=0.05214280;score_misleading=0.03186126
+11615,Clear,0,bert,score_clear=0.90454704;score_not_clear=0.06681439;score_misleading=0.02863858
+11616,Clear,0,bert,score_clear=0.73201180;score_not_clear=0.22137363;score_misleading=0.04661453
+11617,Clear,0,bert,score_clear=0.98632324;score_not_clear=0.00420715;score_misleading=0.00946969
+11618,Clear,0,bert,score_clear=0.88506275;score_not_clear=0.07907713;score_misleading=0.03586004
+11619,Not Clear,1,bert,score_clear=0.29603234;score_not_clear=0.65256834;score_misleading=0.05139932
+11620,Clear,0,bert,score_clear=0.98778290;score_not_clear=0.00250473;score_misleading=0.00971232
+11621,Clear,0,bert,score_clear=0.98475271;score_not_clear=0.00212241;score_misleading=0.01312486
+11622,Clear,0,bert,score_clear=0.98499054;score_not_clear=0.00249197;score_misleading=0.01251743
+11623,Clear,0,bert,score_clear=0.53856683;score_not_clear=0.41702694;score_misleading=0.04440621
+11624,N/A,,stage2_filter,evidence_status_not_yes
+11625,N/A,,stage2_filter,evidence_status_not_yes
+11626,N/A,,stage2_filter,evidence_status_not_yes
+11627,Clear,0,bert,score_clear=0.86341852;score_not_clear=0.10367768;score_misleading=0.03290384
+11628,Clear,0,bert,score_clear=0.98716974;score_not_clear=0.00286896;score_misleading=0.00996132
+11629,Clear,0,bert,score_clear=0.95220023;score_not_clear=0.02956635;score_misleading=0.01823336
+11630,Clear,0,bert,score_clear=0.96419895;score_not_clear=0.01745682;score_misleading=0.01834417
+11631,Clear,0,bert,score_clear=0.49253941;score_not_clear=0.44699275;score_misleading=0.06046788
+11632,Clear,0,bert,score_clear=0.98900032;score_not_clear=0.00212001;score_misleading=0.00887964
+11633,Clear,0,bert,score_clear=0.57056838;score_not_clear=0.38580456;score_misleading=0.04362699
+11634,Clear,0,bert,score_clear=0.84949708;score_not_clear=0.11416937;score_misleading=0.03633353
+11635,N/A,,stage2_filter,evidence_status_not_yes
+11636,Clear,0,bert,score_clear=0.48534277;score_not_clear=0.47599199;score_misleading=0.03866519
+11637,N/A,,stage2_filter,evidence_status_not_yes
+11638,Not Clear,1,bert,score_clear=0.25172508;score_not_clear=0.71019083;score_misleading=0.03808406
+11639,Clear,0,bert,score_clear=0.82071370;score_not_clear=0.12934540;score_misleading=0.04994097
+11640,N/A,,stage2_filter,evidence_status_not_yes
+11641,Clear,0,bert,score_clear=0.97664112;score_not_clear=0.01064454;score_misleading=0.01271425
+11642,Clear,0,bert,score_clear=0.81252855;score_not_clear=0.14603633;score_misleading=0.04143518
+11643,Not Clear,1,bert,score_clear=0.36310443;score_not_clear=0.58972359;score_misleading=0.04717200
+11644,N/A,,stage2_filter,evidence_status_not_yes
+11645,N/A,,stage2_filter,evidence_status_not_yes
+11646,N/A,,stage2_filter,evidence_status_not_yes
+11647,Clear,0,bert,score_clear=0.96428227;score_not_clear=0.01818695;score_misleading=0.01753077
+11648,Clear,0,bert,score_clear=0.49193665;score_not_clear=0.46336114;score_misleading=0.04470226
+11649,Not Clear,1,bert,score_clear=0.02583445;score_not_clear=0.95926088;score_misleading=0.01490461
+11650,Clear,0,bert,score_clear=0.56471723;score_not_clear=0.36355728;score_misleading=0.07172545
+11651,N/A,,stage2_filter,evidence_status_not_yes
+11652,N/A,,stage2_filter,evidence_status_not_yes
+11653,Clear,0,bert,score_clear=0.67352283;score_not_clear=0.25642869;score_misleading=0.07004855
+11654,Clear,0,bert,score_clear=0.70367754;score_not_clear=0.24094041;score_misleading=0.05538209
+11655,N/A,,stage2_filter,evidence_status_not_yes
+11656,Clear,0,bert,score_clear=0.97137171;score_not_clear=0.00662160;score_misleading=0.02200668
+11657,Clear,0,bert,score_clear=0.78394592;score_not_clear=0.17678539;score_misleading=0.03926861
+11658,N/A,,stage2_filter,evidence_status_not_yes
+11659,Clear,0,bert,score_clear=0.79014432;score_not_clear=0.17005245;score_misleading=0.03980323
+11660,Clear,0,bert,score_clear=0.93792921;score_not_clear=0.04029895;score_misleading=0.02177183
+11661,Clear,0,bert,score_clear=0.71311724;score_not_clear=0.24285869;score_misleading=0.04402408
+11662,N/A,,stage2_filter,evidence_status_not_yes
+11663,Clear,0,bert,score_clear=0.95131350;score_not_clear=0.02119316;score_misleading=0.02749332
+11664,N/A,,stage2_filter,evidence_status_not_yes
+11665,Clear,0,bert,score_clear=0.64955407;score_not_clear=0.29242924;score_misleading=0.05801674
+11666,Clear,0,bert,score_clear=0.98384655;score_not_clear=0.00390475;score_misleading=0.01224870
+11667,N/A,,stage2_filter,evidence_status_not_yes
+11668,N/A,,stage2_filter,evidence_status_not_yes
+11669,N/A,,stage2_filter,evidence_status_not_yes
+11670,Clear,0,bert,score_clear=0.51776952;score_not_clear=0.42480636;score_misleading=0.05742414
+11671,Clear,0,bert,score_clear=0.74644083;score_not_clear=0.21249104;score_misleading=0.04106820
+11672,Clear,0,bert,score_clear=0.89409125;score_not_clear=0.07729111;score_misleading=0.02861772
+11673,Clear,0,bert,score_clear=0.97333807;score_not_clear=0.01106307;score_misleading=0.01559885
+11674,Clear,0,bert,score_clear=0.98384064;score_not_clear=0.00483100;score_misleading=0.01132839
+11675,Not Clear,1,bert,score_clear=0.40191087;score_not_clear=0.53882927;score_misleading=0.05925991
+11676,N/A,,stage2_filter,evidence_status_not_yes
+11677,Not Clear,1,bert,score_clear=0.28237107;score_not_clear=0.68212366;score_misleading=0.03550526
+11678,N/A,,stage2_filter,evidence_status_not_yes
+11679,Clear,0,bert,score_clear=0.95772368;score_not_clear=0.02080880;score_misleading=0.02146754
+11680,Clear,0,bert,score_clear=0.97460651;score_not_clear=0.01233562;score_misleading=0.01305783
+11681,N/A,,stage2_filter,evidence_status_not_yes
+11682,N/A,,stage2_filter,evidence_status_not_yes
+11683,N/A,,stage2_filter,evidence_status_not_yes
+11684,N/A,,stage2_filter,evidence_status_not_yes
+11685,Clear,0,bert,score_clear=0.98271066;score_not_clear=0.00389607;score_misleading=0.01339325
+11686,N/A,,stage2_filter,evidence_status_not_yes
+11687,N/A,,stage2_filter,evidence_status_not_yes
+11688,Clear,0,bert,score_clear=0.67869568;score_not_clear=0.26342061;score_misleading=0.05788378
+11689,N/A,,stage2_filter,evidence_status_not_yes
+11690,Clear,0,bert,score_clear=0.98236728;score_not_clear=0.00355502;score_misleading=0.01407771
+11691,Not Clear,1,bert,score_clear=0.09682970;score_not_clear=0.86446530;score_misleading=0.03870502
+11692,Clear,0,bert,score_clear=0.58626717;score_not_clear=0.36816111;score_misleading=0.04557172
+11693,Clear,0,bert,score_clear=0.98960298;score_not_clear=0.00166578;score_misleading=0.00873131
+11694,Clear,0,bert,score_clear=0.96853930;score_not_clear=0.00818546;score_misleading=0.02327523
+11695,Clear,0,bert,score_clear=0.79880559;score_not_clear=0.14199245;score_misleading=0.05920196
+11696,Clear,0,bert,score_clear=0.72388595;score_not_clear=0.24206871;score_misleading=0.03404533
+11697,Clear,0,bert,score_clear=0.71180719;score_not_clear=0.22275580;score_misleading=0.06543697
+11698,Clear,0,bert,score_clear=0.98350126;score_not_clear=0.00362730;score_misleading=0.01287149
+11699,Clear,0,bert,score_clear=0.97740322;score_not_clear=0.00631954;score_misleading=0.01627719
+11700,Clear,0,bert,score_clear=0.95356697;score_not_clear=0.02416549;score_misleading=0.02226752
+11701,Clear,0,bert,score_clear=0.98639864;score_not_clear=0.00256832;score_misleading=0.01103309
+11702,Clear,0,bert,score_clear=0.51416385;score_not_clear=0.44237360;score_misleading=0.04346260
+11703,Clear,0,bert,score_clear=0.63943654;score_not_clear=0.29953998;score_misleading=0.06102347
+11704,Not Clear,1,bert,score_clear=0.14914125;score_not_clear=0.81957000;score_misleading=0.03128878
+11705,Clear,0,bert,score_clear=0.59409398;score_not_clear=0.35345766;score_misleading=0.05244833
+11706,Clear,0,bert,score_clear=0.95288253;score_not_clear=0.02816921;score_misleading=0.01894824
+11707,Not Clear,1,bert,score_clear=0.36294582;score_not_clear=0.56928581;score_misleading=0.06776838
+11708,N/A,,stage2_filter,evidence_status_not_yes
+11709,Clear,0,bert,score_clear=0.99035513;score_not_clear=0.00130188;score_misleading=0.00834306
+11710,N/A,,stage2_filter,evidence_status_not_yes
+11711,Clear,0,bert,score_clear=0.98109955;score_not_clear=0.00655402;score_misleading=0.01234653
+11712,Not Clear,1,bert,score_clear=0.45690528;score_not_clear=0.47271994;score_misleading=0.07037477
+11713,N/A,,stage2_filter,evidence_status_not_yes
+11714,Not Clear,1,bert,score_clear=0.17290194;score_not_clear=0.79018509;score_misleading=0.03691294
+11715,N/A,,stage2_filter,evidence_status_not_yes
+11716,Clear,0,bert,score_clear=0.66631269;score_not_clear=0.29043338;score_misleading=0.04325395
+11717,N/A,,stage2_filter,evidence_status_not_yes
+11718,Clear,0,bert,score_clear=0.97500765;score_not_clear=0.01014036;score_misleading=0.01485201
+11719,Clear,0,bert,score_clear=0.98507380;score_not_clear=0.00262636;score_misleading=0.01229982
+11720,N/A,,stage2_filter,evidence_status_not_yes
+11721,Clear,0,bert,score_clear=0.97440922;score_not_clear=0.01027624;score_misleading=0.01531454
+11722,Clear,0,bert,score_clear=0.99060237;score_not_clear=0.00097878;score_misleading=0.00841890
+11723,Clear,0,bert,score_clear=0.98305559;score_not_clear=0.00531065;score_misleading=0.01163376
+11724,N/A,,stage2_filter,evidence_status_not_yes
+11725,Clear,0,bert,score_clear=0.97603250;score_not_clear=0.00935904;score_misleading=0.01460853
+11726,Clear,0,bert,score_clear=0.90601343;score_not_clear=0.05908341;score_misleading=0.03490319
+11727,Not Clear,1,bert,score_clear=0.31444830;score_not_clear=0.63460726;score_misleading=0.05094449
+11728,Clear,0,bert,score_clear=0.77288252;score_not_clear=0.17170145;score_misleading=0.05541607
+11729,N/A,,stage2_filter,evidence_status_not_yes
+11730,Clear,0,bert,score_clear=0.81259459;score_not_clear=0.13662185;score_misleading=0.05078360
+11731,Clear,0,bert,score_clear=0.70912248;score_not_clear=0.23895986;score_misleading=0.05191763
+11732,Not Clear,1,bert,score_clear=0.10966557;score_not_clear=0.84435391;score_misleading=0.04598049
+11733,N/A,,stage2_filter,evidence_status_not_yes
+11734,N/A,,stage2_filter,evidence_status_not_yes
+11735,Clear,0,bert,score_clear=0.99049556;score_not_clear=0.00150370;score_misleading=0.00800072
+11736,N/A,,stage2_filter,evidence_status_not_yes
+11737,N/A,,stage2_filter,evidence_status_not_yes
+11738,N/A,,stage2_filter,evidence_status_not_yes
+11739,Not Clear,1,bert,score_clear=0.19788803;score_not_clear=0.76344198;score_misleading=0.03866997
+11740,Clear,0,bert,score_clear=0.97512585;score_not_clear=0.00774924;score_misleading=0.01712490
+11741,Not Clear,1,bert,score_clear=0.41203928;score_not_clear=0.52051938;score_misleading=0.06744136
+11742,Clear,0,bert,score_clear=0.98130715;score_not_clear=0.00656221;score_misleading=0.01213072
+11743,N/A,,stage2_filter,evidence_status_not_yes
+11744,Not Clear,1,bert,score_clear=0.45860147;score_not_clear=0.47837892;score_misleading=0.06301956
+11745,Not Clear,1,bert,score_clear=0.15441519;score_not_clear=0.81539530;score_misleading=0.03018952
+11746,Clear,0,bert,score_clear=0.98810846;score_not_clear=0.00200465;score_misleading=0.00988688
+11747,Clear,0,bert,score_clear=0.98049128;score_not_clear=0.00425563;score_misleading=0.01525307
+11748,Clear,0,bert,score_clear=0.75231087;score_not_clear=0.21217221;score_misleading=0.03551684
+11749,N/A,,stage2_filter,evidence_status_not_yes
+11750,Clear,0,bert,score_clear=0.97491395;score_not_clear=0.01346778;score_misleading=0.01161828
+11751,Clear,0,bert,score_clear=0.86533368;score_not_clear=0.08975343;score_misleading=0.04491293
+11752,N/A,,stage2_filter,evidence_status_not_yes
+11753,Clear,0,bert,score_clear=0.88268846;score_not_clear=0.08220720;score_misleading=0.03510427
+11754,Clear,0,bert,score_clear=0.98390782;score_not_clear=0.00308846;score_misleading=0.01300371
+11755,Clear,0,bert,score_clear=0.96763623;score_not_clear=0.00675117;score_misleading=0.02561259
+11756,Clear,0,bert,score_clear=0.60150552;score_not_clear=0.35729575;score_misleading=0.04119869
+11757,Clear,0,bert,score_clear=0.75198245;score_not_clear=0.22324446;score_misleading=0.02477306
+11758,Clear,0,bert,score_clear=0.98971176;score_not_clear=0.00100267;score_misleading=0.00928566
+11759,Clear,0,bert,score_clear=0.52936167;score_not_clear=0.41327921;score_misleading=0.05735910
+11760,N/A,,stage2_filter,evidence_status_not_yes
+11761,Not Clear,1,bert,score_clear=0.14417472;score_not_clear=0.82044458;score_misleading=0.03538069
+11762,Clear,0,bert,score_clear=0.97208560;score_not_clear=0.01544508;score_misleading=0.01246938
+11763,N/A,,stage2_filter,evidence_status_not_yes
+11764,Clear,0,bert,score_clear=0.95158005;score_not_clear=0.01817806;score_misleading=0.03024188
+11765,Clear,0,bert,score_clear=0.95217109;score_not_clear=0.02939261;score_misleading=0.01843637
+11766,Not Clear,1,bert,score_clear=0.02226119;score_not_clear=0.95831931;score_misleading=0.01941951
+11767,N/A,,stage2_filter,evidence_status_not_yes
+11768,Clear,0,bert,score_clear=0.97669649;score_not_clear=0.00831585;score_misleading=0.01498766
+11769,N/A,,stage2_filter,evidence_status_not_yes
+11770,Clear,0,bert,score_clear=0.95488322;score_not_clear=0.01761254;score_misleading=0.02750427
+11771,N/A,,stage2_filter,evidence_status_not_yes
+11772,N/A,,stage2_filter,evidence_status_not_yes
+11773,Clear,0,bert,score_clear=0.96441209;score_not_clear=0.01469423;score_misleading=0.02089364
+11774,Clear,0,bert,score_clear=0.95088011;score_not_clear=0.02635676;score_misleading=0.02276313
+11775,Clear,0,bert,score_clear=0.96470058;score_not_clear=0.01505725;score_misleading=0.02024220
+11776,Clear,0,bert,score_clear=0.89700520;score_not_clear=0.06868959;score_misleading=0.03430514
+11777,Clear,0,bert,score_clear=0.85462028;score_not_clear=0.11098519;score_misleading=0.03439450
+11778,Clear,0,bert,score_clear=0.92573851;score_not_clear=0.05065524;score_misleading=0.02360629
+11779,N/A,,stage2_filter,evidence_status_not_yes
+11780,Clear,0,bert,score_clear=0.80595911;score_not_clear=0.15225126;score_misleading=0.04178960
+11781,Clear,0,bert,score_clear=0.75541180;score_not_clear=0.19963780;score_misleading=0.04495040
+11782,Not Clear,1,bert,score_clear=0.30380175;score_not_clear=0.65930468;score_misleading=0.03689349
+11783,N/A,,stage2_filter,evidence_status_not_yes
+11784,N/A,,stage2_filter,evidence_status_not_yes
+11785,N/A,,stage2_filter,evidence_status_not_yes
+11786,Clear,0,bert,score_clear=0.93037921;score_not_clear=0.04557484;score_misleading=0.02404589
+11787,Clear,0,bert,score_clear=0.83477432;score_not_clear=0.13438763;score_misleading=0.03083799
+11788,Clear,0,bert,score_clear=0.89612907;score_not_clear=0.07155362;score_misleading=0.03231723
+11789,Clear,0,bert,score_clear=0.98956048;score_not_clear=0.00155150;score_misleading=0.00888802
+11790,Clear,0,bert,score_clear=0.75212890;score_not_clear=0.19608624;score_misleading=0.05178478
+11791,Clear,0,bert,score_clear=0.95121056;score_not_clear=0.02490861;score_misleading=0.02388078
+11792,Clear,0,bert,score_clear=0.94786799;score_not_clear=0.02517179;score_misleading=0.02696020
+11793,N/A,,stage2_filter,evidence_status_not_yes
+11794,N/A,,stage2_filter,evidence_status_not_yes
+11795,Clear,0,bert,score_clear=0.98904908;score_not_clear=0.00213766;score_misleading=0.00881323
+11796,Clear,0,bert,score_clear=0.96935576;score_not_clear=0.00814738;score_misleading=0.02249688
+11797,Not Clear,1,bert,score_clear=0.39044359;score_not_clear=0.57393336;score_misleading=0.03562305
+11798,Clear,0,bert,score_clear=0.93347377;score_not_clear=0.04238472;score_misleading=0.02414151
+11799,N/A,,stage2_filter,evidence_status_not_yes
+11800,N/A,,stage2_filter,evidence_status_not_yes
+11801,N/A,,stage2_filter,evidence_status_not_yes
+11802,N/A,,stage2_filter,evidence_status_not_yes
+11803,Not Clear,1,bert,score_clear=0.10177162;score_not_clear=0.87348980;score_misleading=0.02473860
+11804,Clear,0,bert,score_clear=0.95629942;score_not_clear=0.02179082;score_misleading=0.02190971
+11805,Clear,0,bert,score_clear=0.98791319;score_not_clear=0.00154140;score_misleading=0.01054540
+11806,Clear,0,bert,score_clear=0.89699334;score_not_clear=0.07381455;score_misleading=0.02919212
+11807,Clear,0,bert,score_clear=0.97513843;score_not_clear=0.00798005;score_misleading=0.01688149
+11808,Not Clear,1,bert,score_clear=0.25049654;score_not_clear=0.69482476;score_misleading=0.05467870
+11809,N/A,,stage2_filter,evidence_status_not_yes
+11810,Clear,0,bert,score_clear=0.67414033;score_not_clear=0.26752794;score_misleading=0.05833171
+11811,Clear,0,bert,score_clear=0.97309577;score_not_clear=0.01077770;score_misleading=0.01612644
+11812,N/A,,stage2_filter,evidence_status_not_yes
+11813,Clear,0,bert,score_clear=0.84888166;score_not_clear=0.10664416;score_misleading=0.04447423
+11814,Clear,0,bert,score_clear=0.96483231;score_not_clear=0.01789864;score_misleading=0.01726906
+11815,Clear,0,bert,score_clear=0.48918957;score_not_clear=0.46972987;score_misleading=0.04108053
+11816,Not Clear,1,bert,score_clear=0.24992366;score_not_clear=0.70452625;score_misleading=0.04555015
+11817,Clear,0,bert,score_clear=0.91896242;score_not_clear=0.05594029;score_misleading=0.02509735
+11818,Not Clear,1,bert,score_clear=0.07998113;score_not_clear=0.87780696;score_misleading=0.04221192
+11819,Clear,0,bert,score_clear=0.77085143;score_not_clear=0.17230953;score_misleading=0.05683903
+11820,Not Clear,1,bert,score_clear=0.16951989;score_not_clear=0.79426122;score_misleading=0.03621893
+11821,N/A,,stage2_filter,evidence_status_not_yes
+11822,Clear,0,bert,score_clear=0.98363829;score_not_clear=0.00253365;score_misleading=0.01382808
+11823,N/A,,stage2_filter,evidence_status_not_yes
+11824,Clear,0,bert,score_clear=0.91503263;score_not_clear=0.04744408;score_misleading=0.03752328
+11825,Clear,0,bert,score_clear=0.90699941;score_not_clear=0.06613813;score_misleading=0.02686244
+11826,Clear,0,bert,score_clear=0.58560944;score_not_clear=0.35051101;score_misleading=0.06387959
+11827,Clear,0,bert,score_clear=0.92367768;score_not_clear=0.05181900;score_misleading=0.02450328
+11828,N/A,,stage2_filter,evidence_status_not_yes
+11829,Not Clear,1,bert,score_clear=0.39585218;score_not_clear=0.57534909;score_misleading=0.02879877
+11830,N/A,,stage2_filter,evidence_status_not_yes
+11831,Clear,0,bert,score_clear=0.97865081;score_not_clear=0.00423170;score_misleading=0.01711756
+11832,Clear,0,bert,score_clear=0.98750466;score_not_clear=0.00490442;score_misleading=0.00759089
+11833,Clear,0,bert,score_clear=0.74649787;score_not_clear=0.22204997;score_misleading=0.03145214
+11834,N/A,,stage2_filter,evidence_status_not_yes
+11835,N/A,,stage2_filter,evidence_status_not_yes
+11836,Clear,0,bert,score_clear=0.88393158;score_not_clear=0.04137618;score_misleading=0.07469232
+11837,N/A,,stage2_filter,evidence_status_not_yes
+11838,N/A,,stage2_filter,evidence_status_not_yes
+11839,Not Clear,1,bert,score_clear=0.40744865;score_not_clear=0.52881294;score_misleading=0.06373844
+11840,N/A,,stage2_filter,evidence_status_not_yes
+11841,N/A,,stage2_filter,evidence_status_not_yes
+11842,N/A,,stage2_filter,evidence_status_not_yes
+11843,Clear,0,bert,score_clear=0.67015958;score_not_clear=0.27093470;score_misleading=0.05890573
+11844,N/A,,stage2_filter,evidence_status_not_yes
+11845,Clear,0,bert,score_clear=0.55277562;score_not_clear=0.39815331;score_misleading=0.04907103
+11846,N/A,,stage2_filter,evidence_status_not_yes
+11847,Clear,0,bert,score_clear=0.98613560;score_not_clear=0.00270700;score_misleading=0.01115736
+11848,N/A,,stage2_filter,evidence_status_not_yes
+11849,Clear,0,bert,score_clear=0.97585493;score_not_clear=0.00970927;score_misleading=0.01443588
+11850,N/A,,stage2_filter,evidence_status_not_yes
+11851,N/A,,stage2_filter,evidence_status_not_yes
+11852,N/A,,stage2_filter,evidence_status_not_yes
+11853,Not Clear,1,bert,score_clear=0.08063450;score_not_clear=0.88666332;score_misleading=0.03270223
+11854,N/A,,stage2_filter,evidence_status_not_yes
+11855,N/A,,stage2_filter,evidence_status_not_yes
+11856,Clear,0,bert,score_clear=0.95272982;score_not_clear=0.02255279;score_misleading=0.02471741
+11857,Not Clear,1,bert,score_clear=0.46714014;score_not_clear=0.48336264;score_misleading=0.04949713
+11858,Clear,0,bert,score_clear=0.96645653;score_not_clear=0.01371922;score_misleading=0.01982421
+11859,N/A,,stage2_filter,evidence_status_not_yes
+11860,N/A,,stage2_filter,evidence_status_not_yes
+11861,Not Clear,1,bert,score_clear=0.13951048;score_not_clear=0.82631510;score_misleading=0.03417445
+11862,N/A,,stage2_filter,evidence_status_not_yes
+11863,N/A,,stage2_filter,evidence_status_not_yes
+11864,Clear,0,bert,score_clear=0.98830253;score_not_clear=0.00197487;score_misleading=0.00972269
+11865,Clear,0,bert,score_clear=0.98149729;score_not_clear=0.00607493;score_misleading=0.01242773
+11866,Clear,0,bert,score_clear=0.54721600;score_not_clear=0.40914252;score_misleading=0.04364151
+11867,Clear,0,bert,score_clear=0.92845362;score_not_clear=0.04209278;score_misleading=0.02945356
+11868,Clear,0,bert,score_clear=0.95274097;score_not_clear=0.02112778;score_misleading=0.02613123
+11869,N/A,,stage2_filter,evidence_status_not_yes
+11870,N/A,,stage2_filter,evidence_status_not_yes
+11871,Clear,0,bert,score_clear=0.93086207;score_not_clear=0.03398272;score_misleading=0.03515512
+11872,N/A,,stage2_filter,evidence_status_not_yes
+11873,Clear,0,bert,score_clear=0.71585071;score_not_clear=0.24385901;score_misleading=0.04029027
+11874,Clear,0,bert,score_clear=0.94816607;score_not_clear=0.03357277;score_misleading=0.01826114
+11875,N/A,,stage2_filter,evidence_status_not_yes
+11876,Clear,0,bert,score_clear=0.93689173;score_not_clear=0.03850941;score_misleading=0.02459890
+11877,N/A,,stage2_filter,evidence_status_not_yes
+11878,Clear,0,bert,score_clear=0.76097220;score_not_clear=0.20629369;score_misleading=0.03273408
+11879,Clear,0,bert,score_clear=0.96618474;score_not_clear=0.01432852;score_misleading=0.01948678
+11880,Clear,0,bert,score_clear=0.90920192;score_not_clear=0.05493102;score_misleading=0.03586705
+11881,Clear,0,bert,score_clear=0.98805052;score_not_clear=0.00317421;score_misleading=0.00877537
+11882,Clear,0,bert,score_clear=0.79027689;score_not_clear=0.17884301;score_misleading=0.03088008
+11883,N/A,,stage2_filter,evidence_status_not_yes
+11884,Clear,0,bert,score_clear=0.94970441;score_not_clear=0.02948737;score_misleading=0.02080821
+11885,Clear,0,bert,score_clear=0.97125334;score_not_clear=0.01018611;score_misleading=0.01856059
+11886,Not Clear,1,bert,score_clear=0.04719345;score_not_clear=0.93134564;score_misleading=0.02146083
+11887,Clear,0,bert,score_clear=0.93321085;score_not_clear=0.03072377;score_misleading=0.03606539
+11888,N/A,,stage2_filter,evidence_status_not_yes
+11889,Clear,0,bert,score_clear=0.52498686;score_not_clear=0.43571532;score_misleading=0.03929779
+11890,Clear,0,bert,score_clear=0.56384784;score_not_clear=0.39302212;score_misleading=0.04313000
+11891,Not Clear,1,bert,score_clear=0.16494662;score_not_clear=0.78615326;score_misleading=0.04890016
+11892,Clear,0,bert,score_clear=0.87269455;score_not_clear=0.10312591;score_misleading=0.02417952
+11893,Not Clear,1,bert,score_clear=0.02155965;score_not_clear=0.96060854;score_misleading=0.01783189
+11894,Clear,0,bert,score_clear=0.88573092;score_not_clear=0.07821950;score_misleading=0.03604958
+11895,Clear,0,bert,score_clear=0.95413893;score_not_clear=0.02469417;score_misleading=0.02116695
+11896,N/A,,stage2_filter,evidence_status_not_yes
+11897,Clear,0,bert,score_clear=0.87795645;score_not_clear=0.09602624;score_misleading=0.02601722
+11898,Clear,0,bert,score_clear=0.65385902;score_not_clear=0.29824629;score_misleading=0.04789468
+11899,Clear,0,bert,score_clear=0.60944968;score_not_clear=0.35616532;score_misleading=0.03438501
+11900,Not Clear,1,bert,score_clear=0.44303283;score_not_clear=0.49045220;score_misleading=0.06651495
+11901,Not Clear,1,bert,score_clear=0.25548744;score_not_clear=0.70695704;score_misleading=0.03755558
+11902,Clear,0,bert,score_clear=0.98652458;score_not_clear=0.00274395;score_misleading=0.01073150
+11903,Clear,0,bert,score_clear=0.86080027;score_not_clear=0.10594683;score_misleading=0.03325291
+11904,Clear,0,bert,score_clear=0.70203197;score_not_clear=0.23702873;score_misleading=0.06093933
+11905,N/A,,stage2_filter,evidence_status_not_yes
+11906,N/A,,stage2_filter,evidence_status_not_yes
+11907,Clear,0,bert,score_clear=0.93470532;score_not_clear=0.03722505;score_misleading=0.02806969
+11908,Clear,0,bert,score_clear=0.98865497;score_not_clear=0.00130501;score_misleading=0.01004000
+11909,N/A,,stage2_filter,evidence_status_not_yes
+11910,Clear,0,bert,score_clear=0.81058657;score_not_clear=0.15321794;score_misleading=0.03619551
+11911,N/A,,stage2_filter,evidence_status_not_yes
+11912,N/A,,stage2_filter,evidence_status_not_yes
+11913,N/A,,stage2_filter,evidence_status_not_yes
+11914,Clear,0,bert,score_clear=0.93540448;score_not_clear=0.04118356;score_misleading=0.02341191
+11915,Clear,0,bert,score_clear=0.81931609;score_not_clear=0.13057116;score_misleading=0.05011280
+11916,N/A,,stage2_filter,evidence_status_not_yes
+11917,N/A,,stage2_filter,evidence_status_not_yes
+11918,Not Clear,1,bert,score_clear=0.18922469;score_not_clear=0.76011038;score_misleading=0.05066492
+11919,Clear,0,bert,score_clear=0.97167552;score_not_clear=0.00942362;score_misleading=0.01890094
+11920,Clear,0,bert,score_clear=0.96159625;score_not_clear=0.02337726;score_misleading=0.01502646
+11921,Clear,0,bert,score_clear=0.98665082;score_not_clear=0.00347865;score_misleading=0.00987054
+11922,Not Clear,1,bert,score_clear=0.44657665;score_not_clear=0.48470762;score_misleading=0.06871579
+11923,Clear,0,bert,score_clear=0.95493692;score_not_clear=0.02660650;score_misleading=0.01845658
+11924,N/A,,stage2_filter,evidence_status_not_yes
+11925,N/A,,stage2_filter,evidence_status_not_yes
+11926,Clear,0,bert,score_clear=0.84076148;score_not_clear=0.13409576;score_misleading=0.02514270
+11927,Clear,0,bert,score_clear=0.87647271;score_not_clear=0.08274537;score_misleading=0.04078199
+11928,N/A,,stage2_filter,evidence_status_not_yes
+11929,Clear,0,bert,score_clear=0.98598236;score_not_clear=0.00369449;score_misleading=0.01032319
+11930,Not Clear,1,bert,score_clear=0.45957735;score_not_clear=0.49370345;score_misleading=0.04671920
+11931,Clear,0,bert,score_clear=0.98620206;score_not_clear=0.00239632;score_misleading=0.01140162
+11932,N/A,,stage2_filter,evidence_status_not_yes
+11933,Not Clear,1,bert,score_clear=0.45273656;score_not_clear=0.46410957;score_misleading=0.08315381
+11934,Clear,0,bert,score_clear=0.86603457;score_not_clear=0.07953299;score_misleading=0.05443241
+11935,Clear,0,bert,score_clear=0.70874870;score_not_clear=0.24506752;score_misleading=0.04618377
+11936,Clear,0,bert,score_clear=0.98127055;score_not_clear=0.00518128;score_misleading=0.01354823
+11937,Clear,0,bert,score_clear=0.70967126;score_not_clear=0.25497365;score_misleading=0.03535508
+11938,Clear,0,bert,score_clear=0.87997562;score_not_clear=0.09264562;score_misleading=0.02737874
+11939,Clear,0,bert,score_clear=0.60710502;score_not_clear=0.35355470;score_misleading=0.03934030
+11940,N/A,,stage2_filter,evidence_status_not_yes
+11941,Clear,0,bert,score_clear=0.80915558;score_not_clear=0.14770855;score_misleading=0.04313594
+11942,N/A,,stage2_filter,evidence_status_not_yes
+11943,Clear,0,bert,score_clear=0.96928966;score_not_clear=0.01095200;score_misleading=0.01975828
+11944,Clear,0,bert,score_clear=0.96408606;score_not_clear=0.02032376;score_misleading=0.01559021
+11945,N/A,,stage2_filter,evidence_status_not_yes
+11946,Clear,0,bert,score_clear=0.98959422;score_not_clear=0.00251700;score_misleading=0.00788879
+11947,Not Clear,1,bert,score_clear=0.03769343;score_not_clear=0.94336754;score_misleading=0.01893903
+11948,N/A,,stage2_filter,evidence_status_not_yes
+11949,Clear,0,bert,score_clear=0.98849571;score_not_clear=0.00166487;score_misleading=0.00983944
+11950,Clear,0,bert,score_clear=0.90268892;score_not_clear=0.06136223;score_misleading=0.03594884
+11951,N/A,,stage2_filter,evidence_status_not_yes
+11952,N/A,,stage2_filter,evidence_status_not_yes
+11953,N/A,,stage2_filter,evidence_status_not_yes
+11954,Clear,0,bert,score_clear=0.96339548;score_not_clear=0.01312807;score_misleading=0.02347655
+11955,Clear,0,bert,score_clear=0.97535580;score_not_clear=0.01454540;score_misleading=0.01009872
+11956,Not Clear,1,bert,score_clear=0.31560028;score_not_clear=0.63567621;score_misleading=0.04872349
+11957,Clear,0,bert,score_clear=0.97069353;score_not_clear=0.01178339;score_misleading=0.01752306
+11958,Clear,0,bert,score_clear=0.53580683;score_not_clear=0.42702687;score_misleading=0.03716624
+11959,Clear,0,bert,score_clear=0.98688668;score_not_clear=0.00323574;score_misleading=0.00987760
+11960,N/A,,stage2_filter,evidence_status_not_yes
+11961,Clear,0,bert,score_clear=0.97159809;score_not_clear=0.00871107;score_misleading=0.01969081
+11962,Clear,0,bert,score_clear=0.81648123;score_not_clear=0.15141639;score_misleading=0.03210241
+11963,Clear,0,bert,score_clear=0.91972977;score_not_clear=0.05266365;score_misleading=0.02760654
+11964,Not Clear,1,bert,score_clear=0.41190004;score_not_clear=0.51890272;score_misleading=0.06919725
+11965,Clear,0,bert,score_clear=0.96489620;score_not_clear=0.01941354;score_misleading=0.01569025
+11966,N/A,,stage2_filter,evidence_status_not_yes
+11967,Clear,0,bert,score_clear=0.71291351;score_not_clear=0.22592688;score_misleading=0.06115958
+11968,Clear,0,bert,score_clear=0.96235710;score_not_clear=0.02376422;score_misleading=0.01387876
+11969,Not Clear,1,bert,score_clear=0.44181484;score_not_clear=0.48616996;score_misleading=0.07201517
+11970,N/A,,stage2_filter,evidence_status_not_yes
+11971,N/A,,stage2_filter,evidence_status_not_yes
+11972,N/A,,stage2_filter,evidence_status_not_yes
+11973,N/A,,stage2_filter,evidence_status_not_yes
+11974,N/A,,stage2_filter,evidence_status_not_yes
+11975,Clear,0,bert,score_clear=0.96738952;score_not_clear=0.01153318;score_misleading=0.02107724
+11976,N/A,,stage2_filter,evidence_status_not_yes
+11977,N/A,,stage2_filter,evidence_status_not_yes
+11978,N/A,,stage2_filter,evidence_status_not_yes
+11979,Not Clear,1,bert,score_clear=0.33657464;score_not_clear=0.62179536;score_misleading=0.04163003
+11980,N/A,,stage2_filter,evidence_status_not_yes
+11981,N/A,,stage2_filter,evidence_status_not_yes
+11982,N/A,,stage2_filter,evidence_status_not_yes
+11983,N/A,,stage2_filter,evidence_status_not_yes
+11984,Clear,0,bert,score_clear=0.99005055;score_not_clear=0.00138200;score_misleading=0.00856737
+11985,Clear,0,bert,score_clear=0.94469911;score_not_clear=0.03160218;score_misleading=0.02369871
+11986,N/A,,stage2_filter,evidence_status_not_yes
+11987,Clear,0,bert,score_clear=0.88477731;score_not_clear=0.08031238;score_misleading=0.03491035
+11988,Clear,0,bert,score_clear=0.94311565;score_not_clear=0.03543052;score_misleading=0.02145390
+11989,N/A,,stage2_filter,evidence_status_not_yes
+11990,Clear,0,bert,score_clear=0.92273951;score_not_clear=0.05150580;score_misleading=0.02575471
+11991,N/A,,stage2_filter,evidence_status_not_yes
+11992,Clear,0,bert,score_clear=0.95025402;score_not_clear=0.02977067;score_misleading=0.01997531
+11993,N/A,,stage2_filter,evidence_status_not_yes
+11994,Clear,0,bert,score_clear=0.84830487;score_not_clear=0.12162568;score_misleading=0.03006942
+11995,N/A,,stage2_filter,evidence_status_not_yes
+11996,Clear,0,bert,score_clear=0.97307152;score_not_clear=0.01155210;score_misleading=0.01537637
+11997,Clear,0,bert,score_clear=0.98648548;score_not_clear=0.00249510;score_misleading=0.01101939
+11998,Not Clear,1,bert,score_clear=0.44679341;score_not_clear=0.49891433;score_misleading=0.05429218
+11999,N/A,,stage2_filter,evidence_status_not_yes
+12000,Clear,0,bert,score_clear=0.96948200;score_not_clear=0.01499610;score_misleading=0.01552191

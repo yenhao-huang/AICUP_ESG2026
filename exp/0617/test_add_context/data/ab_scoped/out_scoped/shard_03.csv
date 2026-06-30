@@ -1,0 +1,14 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+11008,Clear,Clear,codex,normalized_codex_label
+11042,Clear,Clear,codex,normalized_codex_label
+11064,Not Clear,Not Clear,codex,normalized_codex_label
+11089,Clear,Clear,codex,normalized_codex_label
+11114,Clear,Clear,codex,normalized_codex_label
+11127,Not Clear,Not Clear,codex,normalized_codex_label
+11140,Not Clear,Not Clear,codex,normalized_codex_label
+11161,Clear,Clear,codex,normalized_codex_label
+11174,Clear,Clear,codex,normalized_codex_label
+11189,Clear,Clear,codex,normalized_codex_label
+11202,Clear,Clear,codex,normalized_codex_label
+11220,Clear,Clear,codex,normalized_codex_label
+11243,Clear,Clear,codex,normalized_codex_label

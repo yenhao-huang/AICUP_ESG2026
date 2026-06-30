@@ -1,0 +1,101 @@
+{
+  "val": "/workspace/esg_contest/data/raw_data/vpesg4k_val_1000.json",
+  "n_eval": 668,
+  "models": {
+    "ref(exp23)": "/models/esg_contest/exp23_train_json_st2_st3_st4_large/best_st3.pt",
+    "vanilla": "/models/test_add_feature_0617/vanilla/best_st3.pt",
+    "multitask": "/models/test_add_feature_0617/multitask/best_st3.pt"
+  },
+  "results": {
+    "ref(exp23)": {
+      "macro_f1_3class": 0.4564070716520954,
+      "macro_f1_2class_clear_nc": 0.685012895908425,
+      "accuracy": 0.8233532934131736,
+      "per_class": {
+        "Clear": {
+          "precision": 0.9102564102564102,
+          "recall": 0.8780918727915195,
+          "f1": 0.8938848920863309,
+          "support": 566.0
+        },
+        "Not Clear": {
+          "precision": 0.4344262295081967,
+          "recall": 0.5247524752475248,
+          "f1": 0.47533632286995514,
+          "support": 101.0
+        },
+        "Misleading": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        }
+      },
+      "pred_dist": {
+        "Clear": 546,
+        "Not Clear": 122,
+        "Misleading": 0
+      }
+    },
+    "vanilla": {
+      "macro_f1_3class": 0.4685885885885886,
+      "macro_f1_2class_clear_nc": 0.7032882476705742,
+      "accuracy": 0.8323353293413174,
+      "per_class": {
+        "Clear": {
+          "precision": 0.9172794117647058,
+          "recall": 0.8816254416961131,
+          "f1": 0.8990990990990991,
+          "support": 566.0
+        },
+        "Not Clear": {
+          "precision": 0.4596774193548387,
+          "recall": 0.5643564356435643,
+          "f1": 0.5066666666666667,
+          "support": 101.0
+        },
+        "Misleading": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        }
+      },
+      "pred_dist": {
+        "Clear": 544,
+        "Not Clear": 124,
+        "Misleading": 0
+      }
+    },
+    "multitask": {
+      "macro_f1_3class": 0.47242428564636524,
+      "macro_f1_2class_clear_nc": 0.7090431775641636,
+      "accuracy": 0.8338323353293413,
+      "per_class": {
+        "Clear": {
+          "precision": 0.9205175600739371,
+          "recall": 0.8798586572438163,
+          "f1": 0.8997289972899729,
+          "support": 566.0
+        },
+        "Not Clear": {
+          "precision": 0.4645669291338583,
+          "recall": 0.5841584158415841,
+          "f1": 0.5175438596491229,
+          "support": 101.0
+        },
+        "Misleading": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1.0
+        }
+      },
+      "pred_dist": {
+        "Clear": 541,
+        "Not Clear": 127,
+        "Misleading": 0
+      }
+    }
+  }
+}

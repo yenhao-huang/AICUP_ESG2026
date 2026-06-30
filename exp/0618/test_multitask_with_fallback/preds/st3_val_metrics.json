@@ -1,0 +1,36 @@
+{
+  "model": "w0_2_0_3_0_5/best_multitask_st3.pt",
+  "n_total": 402,
+  "n_eval_3cls_subset": 271,
+  "accuracy_3cls_subset": 0.8598,
+  "macro_f1_3cls": 0.5209,
+  "per_class_f1": {
+    "Clear": 0.9149,
+    "Not Clear": 0.6476,
+    "Misleading": 0.0
+  },
+  "accuracy_all_402": 0.5796,
+  "accuracy_exclude_na": 0.6935,
+  "confidence_bins": {
+    "lt_0.6": {
+      "n_all": 37,
+      "pct_total_pred": 0.092
+    },
+    "lt_0.7": {
+      "n_all": 70,
+      "pct_total_pred": 0.1741
+    },
+    "lt_0.8": {
+      "n_all": 110,
+      "pct_total_pred": 0.2736
+    },
+    "lt_0.9": {
+      "n_all": 160,
+      "pct_total_pred": 0.398
+    },
+    "ge_0.9": {
+      "n_all": 242,
+      "pct_total_pred": 0.602
+    }
+  }
+}

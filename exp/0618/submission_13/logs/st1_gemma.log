@@ -1,0 +1,44 @@
+[info] BERT predictions : 2000
+[info] high-conf (>=0.7) : 1721
+[info] Gemma fallback   : 279
+[Gemma] loading  base=/models/unsloth-gemma-4-12b  adapter=/models/gemma4_st12_mix  device=cuda
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   0%|          | 3/677 [00:00<02:25,  4.63it/s]Loading weights:   1%|          | 8/677 [00:00<00:53, 12.57it/s]Loading weights:   3%|▎         | 21/677 [00:00<00:18, 35.96it/s]Loading weights:   5%|▌         | 34/677 [00:00<00:11, 56.32it/s]Loading weights:   7%|▋         | 45/677 [00:01<00:09, 68.47it/s]Loading weights:   8%|▊         | 55/677 [00:01<00:08, 73.48it/s]Loading weights:  10%|▉         | 65/677 [00:01<00:08, 73.50it/s]Loading weights:  11%|█▏        | 77/677 [00:01<00:07, 84.26it/s]Loading weights:  13%|█▎        | 89/677 [00:01<00:06, 90.09it/s]Loading weights:  15%|█▍        | 100/677 [00:01<00:06, 94.21it/s]Loading weights:  16%|█▋        | 111/677 [00:01<00:06, 91.96it/s]Loading weights:  18%|█▊        | 121/677 [00:01<00:06, 88.03it/s]Loading weights:  19%|█▉        | 132/677 [00:02<00:05, 92.66it/s]Loading weights:  21%|██▏       | 145/677 [00:02<00:05, 101.50it/s]Loading weights:  23%|██▎       | 156/677 [00:02<00:05, 102.36it/s]Loading weights:  25%|██▍       | 167/677 [00:02<00:05, 95.88it/s] Loading weights:  26%|██▌       | 177/677 [00:02<00:05, 89.64it/s]Loading weights:  28%|██▊       | 187/677 [00:02<00:05, 91.36it/s]Loading weights:  30%|██▉       | 200/677 [00:02<00:04, 100.57it/s]Loading weights:  31%|███       | 211/677 [00:02<00:04, 101.92it/s]Loading weights:  33%|███▎      | 222/677 [00:02<00:04, 97.18it/s] Loading weights:  34%|███▍      | 232/677 [00:03<00:04, 91.52it/s]Loading weights:  36%|███▌      | 243/677 [00:03<00:04, 95.30it/s]Loading weights:  38%|███▊      | 255/677 [00:03<00:04, 97.95it/s]Loading weights:  39%|███▉      | 266/677 [00:03<00:04, 99.91it/s]Loading weights:  41%|████      | 277/677 [00:03<00:04, 95.70it/s]Loading weights:  42%|████▏     | 287/677 [00:03<00:04, 90.60it/s]Loading weights:  44%|████▍     | 298/677 [00:03<00:04, 94.61it/s]Loading weights:  46%|████▌     | 311/677 [00:03<00:03, 103.00it/s]Loading weights:  48%|████▊     | 322/677 [00:03<00:03, 103.59it/s]Loading weights:  49%|████▉     | 333/677 [00:04<00:03, 96.76it/s] Loading weights:  51%|█████     | 343/677 [00:04<00:03, 90.26it/s]Loading weights:  52%|█████▏    | 353/677 [00:04<00:03, 91.75it/s]Loading weights:  54%|█████▍    | 366/677 [00:04<00:03, 100.71it/s]Loading weights:  56%|█████▌    | 377/677 [00:04<00:02, 101.88it/s]Loading weights:  57%|█████▋    | 388/677 [00:04<00:02, 97.04it/s] Loading weights:  59%|█████▉    | 398/677 [00:04<00:03, 91.47it/s]Loading weights:  60%|██████    | 409/677 [00:04<00:02, 95.38it/s]Loading weights:  62%|██████▏   | 421/677 [00:04<00:02, 98.11it/s]Loading weights:  64%|██████▍   | 432/677 [00:05<00:02, 100.18it/s]Loading weights:  65%|██████▌   | 443/677 [00:05<00:02, 96.03it/s] Loading weights:  67%|██████▋   | 453/677 [00:05<00:02, 90.82it/s]Loading weights:  69%|██████▊   | 464/677 [00:05<00:02, 94.77it/s]Loading weights:  70%|███████   | 477/677 [00:05<00:01, 103.06it/s]Loading weights:  72%|███████▏  | 488/677 [00:05<00:01, 103.69it/s]Loading weights:  74%|███████▎  | 499/677 [00:05<00:01, 96.83it/s] Loading weights:  75%|███████▌  | 509/677 [00:05<00:01, 90.28it/s]Loading weights:  77%|███████▋  | 519/677 [00:06<00:01, 91.84it/s]Loading weights:  79%|███████▊  | 532/677 [00:06<00:01, 100.96it/s]Loading weights:  80%|████████  | 543/677 [00:06<00:01, 102.27it/s]Loading weights:  82%|████████▏ | 554/677 [00:06<00:01, 97.31it/s] Loading weights:  83%|████████▎ | 564/677 [00:06<00:01, 91.63it/s]Loading weights:  85%|████████▍ | 575/677 [00:06<00:01, 95.45it/s]Loading weights:  87%|████████▋ | 587/677 [00:06<00:00, 98.12it/s]Loading weights:  88%|████████▊ | 598/677 [00:06<00:00, 100.05it/s]Loading weights:  90%|████████▉ | 609/677 [00:06<00:00, 95.84it/s] Loading weights:  91%|█████████▏| 619/677 [00:07<00:00, 90.66it/s]Loading weights:  93%|█████████▎| 630/677 [00:07<00:00, 94.70it/s]Loading weights:  95%|█████████▍| 643/677 [00:07<00:00, 102.92it/s]Loading weights:  97%|█████████▋| 654/677 [00:07<00:00, 103.49it/s]Loading weights:  98%|█████████▊| 665/677 [00:07<00:00, 96.59it/s] Loading weights: 100%|██████████| 677/677 [00:07<00:00, 89.78it/s]
+/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+[Gemma] 20/279
+[Gemma] 40/279
+[Gemma] 60/279
+[Gemma] 80/279
+[Gemma] 100/279
+[Gemma] 120/279
+[Gemma] 140/279
+[Gemma] 160/279
+[Gemma] 180/279
+[Gemma] 200/279
+[Gemma] 220/279
+[Gemma] 240/279
+[Gemma] 260/279
+[Gemma] 279/279
+{
+  "run_id": "submit_13_stage1",
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage1/bert_gemma.csv",
+  "bert_pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage1/tmp/softvote_raw.csv",
+  "gemma_base": "/models/unsloth-gemma-4-12b",
+  "gemma_adapter": "/models/gemma4_st12_mix",
+  "conf_threshold": 0.7,
+  "total_rows": 2000,
+  "kept_bert_rows": 1721,
+  "escalated_rows": 279,
+  "changed_by_llm": 113,
+  "change_rate": 0.0565,
+  "yes_to_no": 89,
+  "no_to_yes": 24,
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}
+[info] summary -> /workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage1/summary.json

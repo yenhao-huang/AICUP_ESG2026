@@ -1,0 +1,11 @@
+# Qwen + same-page-content, but ONLY inject window-matched pages
+# (offsets hit_kind in {hit_exact_window, hit_norm_window}); others stay data-only.
+#   python core/vlm_pred.py --config ../configs/qwen_ctx_window.yaml
+data: ../data/val_ctxhit.json
+output: ../preds/st3_qwen_ctx_window.csv
+prompt_path: ../prompts/clear_notclear_with_context_scoped.txt
+backend: qwen
+logprobs: true
+add_context: true
+context_mode: hit_exact_window_norm_window
+context_max_chars: 0

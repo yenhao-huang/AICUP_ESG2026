@@ -1,0 +1,660 @@
+[08:09:54] vanilla/codex  prompt=vanilla.txt  set=100  conc=8  
+[1/99] 11006 -> between_2_and_5_years (ctx=data_only)
+[2/99] 11016 -> between_2_and_5_years (ctx=data_only)
+[3/99] 11015 -> already (ctx=data_only)
+[4/99] 11018 -> between_2_and_5_years (ctx=data_only)
+[5/99] 11021 -> already (ctx=data_only)
+[6/99] 11008 -> already (ctx=data_only)
+[7/99] 11014 -> already (ctx=data_only)
+[8/99] 11003 -> already (ctx=data_only)
+[9/99] 11004 -> between_2_and_5_years (ctx=data_only)
+[10/99] 11023 -> already (ctx=data_only)
+[11/99] 11022 -> between_2_and_5_years (ctx=data_only)
+[12/99] 11034 -> more_than_5_years (ctx=data_only)
+[13/99] 11026 -> more_than_5_years (ctx=data_only)
+[14/99] 11042 -> already (ctx=data_only)
+[15/99] 11030 -> between_2_and_5_years (ctx=data_only)
+[16/99] 11046 -> already (ctx=data_only)
+[17/99] 11047 -> between_2_and_5_years (ctx=data_only)
+[18/99] 11025 -> between_2_and_5_years (ctx=data_only)
+[19/99] 11045 -> between_2_and_5_years (ctx=data_only)
+[20/99] 11050 -> already (ctx=data_only)
+[21/99] 11048 -> between_2_and_5_years (ctx=data_only)
+[22/99] 11055 -> already (ctx=data_only)
+[23/99] 11058 -> between_2_and_5_years (ctx=data_only)
+[24/99] 11056 -> more_than_5_years (ctx=data_only)
+[25/99] 11060 -> between_2_and_5_years (ctx=data_only)
+[26/99] 11052 -> between_2_and_5_years (ctx=data_only)
+[27/99] 11061 -> already (ctx=data_only)
+[28/99] 11066 -> between_2_and_5_years (ctx=data_only)
+[29/99] 11068 -> between_2_and_5_years (ctx=data_only)
+[30/99] 11064 -> between_2_and_5_years (ctx=data_only)
+[31/99] 11075 -> between_2_and_5_years (ctx=data_only)
+[32/99] 11078 -> already (ctx=data_only)
+[33/99] 11085 -> between_2_and_5_years (ctx=data_only)
+[34/99] 11082 -> already (ctx=data_only)
+[35/99] 11071 -> already (ctx=data_only)
+[36/99] 11074 -> between_2_and_5_years (ctx=data_only)
+[37/99] 11073 -> already (ctx=data_only)
+[38/99] 11079 -> between_2_and_5_years (ctx=data_only)
+[39/99] 11089 -> already (ctx=data_only)
+[40/99] 11092 -> more_than_5_years (ctx=data_only)
+[41/99] 11087 -> between_2_and_5_years (ctx=data_only)
+[42/99] 11098 -> already (ctx=data_only)
+[43/99] 11100 -> between_2_and_5_years (ctx=data_only)
+[44/99] 11101 -> more_than_5_years (ctx=data_only)
+[45/99] 11099 -> already (ctx=data_only)
+[46/99] 11106 -> between_2_and_5_years (ctx=data_only)
+[47/99] 11114 -> already (ctx=data_only)
+[48/99] 11113 -> between_2_and_5_years (ctx=data_only)
+[49/99] 11110 -> between_2_and_5_years (ctx=data_only)
+[50/99] 11119 -> between_2_and_5_years (ctx=data_only)
+[51/99] 11112 -> between_2_and_5_years (ctx=data_only)
+[52/99] 11115 -> between_2_and_5_years (ctx=data_only)
+[53/99] 11121 -> more_than_5_years (ctx=data_only)
+[54/99] 11117 -> between_2_and_5_years (ctx=data_only)
+[55/99] 11118 -> already (ctx=data_only)
+[56/99] 11124 -> between_2_and_5_years (ctx=data_only)
+[57/99] 11127 -> already (ctx=data_only)
+[58/99] 11123 -> already (ctx=data_only)
+[59/99] 11122 -> already (ctx=data_only)
+[60/99] 11129 -> already (ctx=data_only)
+[61/99] 11132 -> between_2_and_5_years (ctx=data_only)
+[62/99] 11134 -> between_2_and_5_years (ctx=data_only)
+[63/99] 11133 -> already (ctx=data_only)
+[64/99] 11130 -> between_2_and_5_years (ctx=data_only)
+[65/99] 11136 -> more_than_5_years (ctx=data_only)
+[66/99] 11137 -> already (ctx=data_only)
+[67/99] 11135 -> within_2_years (ctx=data_only)
+[68/99] 11145 -> between_2_and_5_years (ctx=data_only)
+[69/99] 11153 -> between_2_and_5_years (ctx=data_only)
+[70/99] 11140 -> between_2_and_5_years (ctx=data_only)
+[71/99] 11144 -> between_2_and_5_years (ctx=data_only)
+[72/99] 11141 -> within_2_years (ctx=data_only)
+[73/99] 11155 -> already (ctx=data_only)
+[74/99] 11139 -> already (ctx=data_only)
+[75/99] 11154 -> already (ctx=data_only)
+[76/99] 11162 -> between_2_and_5_years (ctx=data_only)
+[77/99] 11166 -> already (ctx=data_only)
+[78/99] 11161 -> between_2_and_5_years (ctx=data_only)
+[79/99] 11169 -> between_2_and_5_years (ctx=data_only)
+[80/99] 11157 -> already (ctx=data_only)
+[81/99] 11158 -> already (ctx=data_only)
+[82/99] 11165 -> between_2_and_5_years (ctx=data_only)
+[83/99] 11171 -> between_2_and_5_years (ctx=data_only)
+[84/99] 11164 -> more_than_5_years (ctx=data_only)
+[85/99] 11177 -> already (ctx=data_only)
+[86/99] 11173 -> more_than_5_years (ctx=data_only)
+[87/99] 11175 -> already (ctx=data_only)
+[88/99] 11174 -> between_2_and_5_years (ctx=data_only)
+[89/99] 11179 -> more_than_5_years (ctx=data_only)
+[90/99] 11181 -> more_than_5_years (ctx=data_only)
+[91/99] 11185 -> between_2_and_5_years (ctx=data_only)
+[92/99] 11182 -> between_2_and_5_years (ctx=data_only)
+[93/99] 11189 -> between_2_and_5_years (ctx=data_only)
+[94/99] 11199 -> between_2_and_5_years (ctx=data_only)
+[95/99] 11186 -> already (ctx=data_only)
+[96/99] 11192 -> already (ctx=data_only)
+[97/99] 11190 -> between_2_and_5_years (ctx=data_only)
+[98/99] 11193 -> already (ctx=data_only)
+[99/99] 11198 -> between_2_and_5_years (ctx=data_only)
+
+wrote /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/vanilla_100_codex.csv  rows=99 predicted=99 err=0 context_hits=0 image_hits=0
+=== score (vanilla, set=100, codex) ===
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/vanilla_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.644,
+  "accuracy": 0.5455,
+  "per_class_f1": {
+    "already": 0.5783,
+    "within_2_years": 1.0,
+    "between_2_and_5_years": 0.5128,
+    "more_than_5_years": 0.4848
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 37,
+    "between_2_and_5_years": 49,
+    "more_than_5_years": 11,
+    "within_2_years": 2
+  }
+}
+[08:13:06] add_context/codex  prompt=add-context.txt  set=100  conc=8  
+[1/99] 11008 -> already (ctx=offset_hit_exact_window)
+[2/99] 11006 -> already (ctx=offset_hit_exact_window)
+[3/99] 11015 -> already (ctx=offset_hit_exact_window)
+[4/99] 11003 -> already (ctx=offset_hit_exact_window)
+[5/99] 11014 -> already (ctx=offset_hit_exact_window)
+[6/99] 11016 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[7/99] 11018 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[8/99] 11023 -> already (ctx=offset_hit_exact_window)
+[9/99] 11021 -> already (ctx=offset_hit_exact_window)
+[10/99] 11022 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[11/99] 11034 -> more_than_5_years (ctx=offset_hit_exact_window)
+[12/99] 11030 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[13/99] 11026 -> more_than_5_years (ctx=offset_hit_exact_window)
+[14/99] 11004 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[15/99] 11042 -> already (ctx=offset_hit_exact_window)
+[16/99] 11025 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[17/99] 11045 -> already (ctx=offset_hit_exact_window)
+[18/99] 11046 -> already (ctx=offset_hit_exact_window)
+[19/99] 11048 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[20/99] 11047 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[21/99] 11055 -> already (ctx=offset_hit_exact_window)
+[22/99] 11050 -> already (ctx=offset_hit_exact_window)
+[23/99] 11052 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[24/99] 11058 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[25/99] 11071 -> already (ctx=offset_hit_exact_window)
+[26/99] 11060 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[27/99] 11056 -> more_than_5_years (ctx=offset_hit_exact_window)
+[28/99] 11066 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[29/99] 11068 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[30/99] 11064 -> more_than_5_years (ctx=offset_hit_exact_window)
+[31/99] 11061 -> already (ctx=offset_hit_exact_window)
+[32/99] 11078 -> already (ctx=offset_hit_exact_window)
+[33/99] 11079 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[34/99] 11074 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[35/99] 11075 -> already (ctx=offset_hit_exact_window)
+[36/99] 11073 -> already (ctx=offset_hit_exact_window)
+[37/99] 11085 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[38/99] 11082 -> already (ctx=offset_hit_exact_window)
+[39/99] 11098 -> already (ctx=offset_hit_exact_window)
+[40/99] 11089 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[41/99] 11092 -> more_than_5_years (ctx=offset_hit_exact_window)
+[42/99] 11087 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[43/99] 11101 -> within_2_years (ctx=offset_hit_exact_window)
+[44/99] 11114 -> already (ctx=offset_hit_exact_window)
+[45/99] 11099 -> already (ctx=offset_hit_exact_window)
+[46/99] 11100 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[47/99] 11106 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[48/99] 11110 -> already (ctx=offset_hit_exact_window)
+[49/99] 11117 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[50/99] 11122 -> already (ctx=offset_hit_exact_window)
+[51/99] 11119 -> already (ctx=offset_hit_exact_window)
+[52/99] 11113 -> already (ctx=offset_hit_exact_window)
+[53/99] 11121 -> more_than_5_years (ctx=offset_hit_exact_window)
+[54/99] 11112 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[55/99] 11118 -> already (ctx=offset_hit_exact_window)
+[56/99] 11124 -> already (ctx=offset_hit_exact_window)
+[57/99] 11129 -> already (ctx=offset_hit_exact_window)
+[58/99] 11115 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[59/99] 11130 -> within_2_years (ctx=offset_hit_exact_window)
+[60/99] 11132 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[61/99] 11134 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[62/99] 11135 -> within_2_years (ctx=offset_hit_exact_window)
+[63/99] 11136 -> more_than_5_years (ctx=offset_hit_exact_window)
+[64/99] 11133 -> already (ctx=offset_hit_exact_window)
+[65/99] 11123 -> already (ctx=offset_hit_exact_window)
+[66/99] 11127 -> already (ctx=offset_hit_exact_window)
+[67/99] 11144 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[68/99] 11141 -> within_2_years (ctx=offset_hit_exact_window)
+[69/99] 11139 -> already (ctx=offset_hit_exact_window)
+[70/99] 11137 -> already (ctx=offset_hit_exact_window)
+[71/99] 11145 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[72/99] 11140 -> more_than_5_years (ctx=offset_hit_exact_window)
+[73/99] 11154 -> already (ctx=offset_hit_exact_window)
+[74/99] 11155 -> already (ctx=offset_hit_exact_window)
+[75/99] 11157 -> already (ctx=offset_hit_exact_window)
+[76/99] 11161 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[77/99] 11162 -> already (ctx=offset_hit_exact_window)
+[78/99] 11153 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[79/99] 11158 -> already (ctx=offset_hit_exact_window)
+[80/99] 11166 -> already (ctx=offset_hit_exact_window)
+[81/99] 11169 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[82/99] 11164 -> more_than_5_years (ctx=offset_hit_exact_window)
+[83/99] 11171 -> already (ctx=offset_hit_exact_window)
+[84/99] 11174 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[85/99] 11182 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[86/99] 11165 -> already (ctx=offset_hit_exact_window)
+[87/99] 11173 -> more_than_5_years (ctx=offset_hit_exact_window)
+[88/99] 11181 -> more_than_5_years (ctx=offset_hit_exact_window)
+[89/99] 11177 -> already (ctx=offset_hit_exact_window)
+[90/99] 11179 -> more_than_5_years (ctx=offset_hit_exact_window)
+[91/99] 11175 -> already (ctx=offset_hit_exact_window)
+[92/99] 11189 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[93/99] 11192 -> already (ctx=offset_hit_exact_window)
+[94/99] 11185 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[95/99] 11199 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[96/99] 11198 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[97/99] 11186 -> already (ctx=offset_hit_exact_window)
+[98/99] 11190 -> between_2_and_5_years (ctx=offset_hit_exact_window)
+[99/99] 11193 -> already (ctx=offset_hit_exact_window)
+
+wrote /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_context_100_codex.csv  rows=99 predicted=99 err=0 context_hits=99 image_hits=0
+=== score (add_context, set=100, codex) ===
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_context_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.5761,
+  "accuracy": 0.5758,
+  "per_class_f1": {
+    "already": 0.6522,
+    "within_2_years": 0.6667,
+    "between_2_and_5_years": 0.5152,
+    "more_than_5_years": 0.4706
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 46,
+    "between_2_and_5_years": 37,
+    "more_than_5_years": 12,
+    "within_2_years": 4
+  }
+}
+[08:16:34] add_promise/codex  prompt=add-promise.txt  set=100  conc=8  
+[1/99] 11006 -> already (ctx=data_only)
+[2/99] 11004 -> between_2_and_5_years (ctx=data_only)
+[3/99] 11018 -> between_2_and_5_years (ctx=data_only)
+[4/99] 11014 -> already (ctx=data_only)
+[5/99] 11008 -> already (ctx=data_only)
+[6/99] 11003 -> already (ctx=data_only)
+[7/99] 11016 -> between_2_and_5_years (ctx=data_only)
+[8/99] 11015 -> already (ctx=data_only)
+[9/99] 11022 -> between_2_and_5_years (ctx=data_only)
+[10/99] 11021 -> already (ctx=data_only)
+[11/99] 11026 -> more_than_5_years (ctx=data_only)
+[12/99] 11025 -> between_2_and_5_years (ctx=data_only)
+[13/99] 11023 -> already (ctx=data_only)
+[14/99] 11034 -> more_than_5_years (ctx=data_only)
+[15/99] 11030 -> between_2_and_5_years (ctx=data_only)
+[16/99] 11042 -> between_2_and_5_years (ctx=data_only)
+[17/99] 11045 -> already (ctx=data_only)
+[18/99] 11052 -> between_2_and_5_years (ctx=data_only)
+[19/99] 11047 -> between_2_and_5_years (ctx=data_only)
+[20/99] 11046 -> already (ctx=data_only)
+[21/99] 11048 -> between_2_and_5_years (ctx=data_only)
+[22/99] 11060 -> between_2_and_5_years (ctx=data_only)
+[23/99] 11056 -> more_than_5_years (ctx=data_only)
+[24/99] 11050 -> already (ctx=data_only)
+[25/99] 11055 -> already (ctx=data_only)
+[26/99] 11058 -> between_2_and_5_years (ctx=data_only)
+[27/99] 11068 -> between_2_and_5_years (ctx=data_only)
+[28/99] 11066 -> between_2_and_5_years (ctx=data_only)
+[29/99] 11074 -> already (ctx=data_only)
+[30/99] 11064 -> between_2_and_5_years (ctx=data_only)
+[31/99] 11061 -> already (ctx=data_only)
+[32/99] 11073 -> already (ctx=data_only)
+[33/99] 11075 -> already (ctx=data_only)
+[34/99] 11082 -> already (ctx=data_only)
+[35/99] 11071 -> already (ctx=data_only)
+[36/99] 11087 -> between_2_and_5_years (ctx=data_only)
+[37/99] 11085 -> between_2_and_5_years (ctx=data_only)
+[38/99] 11092 -> more_than_5_years (ctx=data_only)
+[39/99] 11079 -> between_2_and_5_years (ctx=data_only)
+[40/99] 11089 -> already (ctx=data_only)
+[41/99] 11078 -> already (ctx=data_only)
+[42/99] 11106 -> between_2_and_5_years (ctx=data_only)
+[43/99] 11098 -> already (ctx=data_only)
+[44/99] 11100 -> between_2_and_5_years (ctx=data_only)
+[45/99] 11099 -> already (ctx=data_only)
+[46/99] 11110 -> between_2_and_5_years (ctx=data_only)
+[47/99] 11112 -> between_2_and_5_years (ctx=data_only)
+[48/99] 11117 -> between_2_and_5_years (ctx=data_only)
+[49/99] 11113 -> already (ctx=data_only)
+[50/99] 11101 -> more_than_5_years (ctx=data_only)
+[51/99] 11118 -> already (ctx=data_only)
+[52/99] 11115 -> between_2_and_5_years (ctx=data_only)
+[53/99] 11114 -> already (ctx=data_only)
+[54/99] 11121 -> more_than_5_years (ctx=data_only)
+[55/99] 11119 -> between_2_and_5_years (ctx=data_only)
+[56/99] 11123 -> already (ctx=data_only)
+[57/99] 11127 -> already (ctx=data_only)
+[58/99] 11132 -> between_2_and_5_years (ctx=data_only)
+[59/99] 11122 -> between_2_and_5_years (ctx=data_only)
+[60/99] 11133 -> already (ctx=data_only)
+[61/99] 11130 -> between_2_and_5_years (ctx=data_only)
+[62/99] 11135 -> within_2_years (ctx=data_only)
+[63/99] 11134 -> between_2_and_5_years (ctx=data_only)
+[64/99] 11129 -> already (ctx=data_only)
+[65/99] 11136 -> more_than_5_years (ctx=data_only)
+[66/99] 11144 -> between_2_and_5_years (ctx=data_only)
+[67/99] 11137 -> already (ctx=data_only)
+[68/99] 11141 -> within_2_years (ctx=data_only)
+[69/99] 11140 -> between_2_and_5_years (ctx=data_only)
+[70/99] 11124 -> between_2_and_5_years (ctx=data_only)
+[71/99] 11145 -> between_2_and_5_years (ctx=data_only)
+[72/99] 11139 -> within_2_years (ctx=data_only)
+[73/99] 11153 -> between_2_and_5_years (ctx=data_only)
+[74/99] 11154 -> already (ctx=data_only)
+[75/99] 11158 -> already (ctx=data_only)
+[76/99] 11155 -> already (ctx=data_only)
+[77/99] 11157 -> already (ctx=data_only)
+[78/99] 11164 -> more_than_5_years (ctx=data_only)
+[79/99] 11161 -> between_2_and_5_years (ctx=data_only)
+[80/99] 11162 -> between_2_and_5_years (ctx=data_only)
+[81/99] 11165 -> between_2_and_5_years (ctx=data_only)
+[82/99] 11169 -> between_2_and_5_years (ctx=data_only)
+[83/99] 11173 -> more_than_5_years (ctx=data_only)
+[84/99] 11166 -> already (ctx=data_only)
+[85/99] 11179 -> more_than_5_years (ctx=data_only)
+[86/99] 11177 -> within_2_years (ctx=data_only)
+[87/99] 11171 -> between_2_and_5_years (ctx=data_only)
+[88/99] 11174 -> between_2_and_5_years (ctx=data_only)
+[89/99] 11185 -> between_2_and_5_years (ctx=data_only)
+[90/99] 11175 -> already (ctx=data_only)
+[91/99] 11192 -> already (ctx=data_only)
+[92/99] 11190 -> between_2_and_5_years (ctx=data_only)
+[93/99] 11189 -> between_2_and_5_years (ctx=data_only)
+[94/99] 11186 -> already (ctx=data_only)
+[95/99] 11198 -> between_2_and_5_years (ctx=data_only)
+[96/99] 11181 -> more_than_5_years (ctx=data_only)
+[97/99] 11193 -> already (ctx=data_only)
+[98/99] 11199 -> between_2_and_5_years (ctx=data_only)
+[99/99] 11182 -> between_2_and_5_years (ctx=data_only)
+
+wrote /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_promise_100_codex.csv  rows=99 predicted=99 err=0 context_hits=0 image_hits=0
+=== score (add_promise, set=100, codex) ===
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_promise_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.6012,
+  "accuracy": 0.6061,
+  "per_class_f1": {
+    "already": 0.6667,
+    "within_2_years": 0.6667,
+    "between_2_and_5_years": 0.5867,
+    "more_than_5_years": 0.4848
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 38,
+    "between_2_and_5_years": 46,
+    "more_than_5_years": 11,
+    "within_2_years": 4
+  }
+}
+[08:20:06] add_image/codex  prompt=add-image.txt  set=100  conc=8  
+[1/99] 11018 -> between_2_and_5_years (ctx=data_only +img)
+[2/99] 11014 -> already (ctx=data_only +img)
+[3/99] 11004 -> between_2_and_5_years (ctx=data_only +img)
+[4/99] 11008 -> already (ctx=data_only +img)
+[5/99] 11015 -> already (ctx=data_only +img)
+[6/99] 11022 -> between_2_and_5_years (ctx=data_only +img)
+[7/99] 11016 -> between_2_and_5_years (ctx=data_only +img)
+[8/99] 11006 -> already (ctx=data_only +img)
+[9/99] 11023 -> already (ctx=data_only +img)
+[10/99] 11021 -> already (ctx=data_only +img)
+[11/99] 11025 -> between_2_and_5_years (ctx=data_only +img)
+[12/99] 11026 -> between_2_and_5_years (ctx=data_only +img)
+[13/99] 11030 -> between_2_and_5_years (ctx=data_only +img)
+[14/99] 11034 -> more_than_5_years (ctx=data_only +img)
+[15/99] 11042 -> already (ctx=data_only +img)
+[16/99] 11045 -> already (ctx=data_only +img)
+[17/99] 11046 -> already (ctx=data_only +img)
+[18/99] 11003 -> already (ctx=data_only +img)
+[19/99] 11047 -> between_2_and_5_years (ctx=data_only +img)
+[20/99] 11052 -> between_2_and_5_years (ctx=data_only +img)
+[21/99] 11050 -> already (ctx=data_only +img)
+[22/99] 11055 -> already (ctx=data_only +img)
+[23/99] 11060 -> between_2_and_5_years (ctx=data_only +img)
+[24/99] 11056 -> more_than_5_years (ctx=data_only +img)
+[25/99] 11058 -> between_2_and_5_years (ctx=data_only +img)
+[26/99] 11048 -> between_2_and_5_years (ctx=data_only +img)
+[27/99] 11068 -> between_2_and_5_years (ctx=data_only +img)
+[28/99] 11066 -> between_2_and_5_years (ctx=data_only +img)
+[29/99] 11073 -> already (ctx=data_only +img)
+[30/99] 11061 -> already (ctx=data_only +img)
+[31/99] 11064 -> more_than_5_years (ctx=data_only +img)
+[32/99] 11074 -> between_2_and_5_years (ctx=data_only +img)
+[33/99] 11071 -> already (ctx=data_only +img)
+[34/99] 11079 -> between_2_and_5_years (ctx=data_only +img)
+[35/99] 11078 -> already (ctx=data_only +img)
+[36/99] 11087 -> between_2_and_5_years (ctx=data_only +img)
+[37/99] 11082 -> already (ctx=data_only +img)
+[38/99] 11089 -> between_2_and_5_years (ctx=data_only +img)
+[39/99] 11092 -> more_than_5_years (ctx=data_only +img)
+[40/99] 11098 -> already (ctx=data_only +img)
+[41/99] 11100 -> between_2_and_5_years (ctx=data_only +img)
+[42/99] 11085 -> between_2_and_5_years (ctx=data_only +img)
+[43/99] 11099 -> already (ctx=data_only +img)
+[44/99] 11101 -> within_2_years (ctx=data_only +img)
+[45/99] 11106 -> between_2_and_5_years (ctx=data_only +img)
+[46/99] 11110 -> already (ctx=data_only +img)
+[47/99] 11115 -> between_2_and_5_years (ctx=data_only +img)
+[48/99] 11112 -> between_2_and_5_years (ctx=data_only +img)
+[49/99] 11117 -> between_2_and_5_years (ctx=data_only +img)
+[50/99] 11119 -> already (ctx=data_only +img)
+[51/99] 11075 -> already (ctx=data_only +img)
+[52/99] 11113 -> already (ctx=data_only +img)
+[53/99] 11118 -> between_2_and_5_years (ctx=data_only +img)
+[54/99] 11129 -> already (ctx=data_only +img)
+[55/99] 11122 -> between_2_and_5_years (ctx=data_only +img)
+[56/99] 11123 -> already (ctx=data_only +img)
+[57/99] 11127 -> already (ctx=data_only +img)
+[58/99] 11124 -> already (ctx=data_only +img)
+[59/99] 11130 -> between_2_and_5_years (ctx=data_only +img)
+[60/99] 11133 -> already (ctx=data_only +img)
+[61/99] 11135 -> within_2_years (ctx=data_only +img)
+[62/99] 11137 -> already (ctx=data_only +img)
+[63/99] 11121 -> more_than_5_years (ctx=data_only +img)
+[64/99] 11134 -> between_2_and_5_years (ctx=data_only +img)
+[65/99] 11132 -> more_than_5_years (ctx=data_only +img)
+[66/99] 11136 -> more_than_5_years (ctx=data_only +img)
+[67/99] 11141 -> within_2_years (ctx=data_only +img)
+[68/99] 11140 -> between_2_and_5_years (ctx=data_only +img)
+[69/99] 11145 -> between_2_and_5_years (ctx=data_only +img)
+[70/99] 11144 -> between_2_and_5_years (ctx=data_only +img)
+[71/99] 11153 -> between_2_and_5_years (ctx=data_only +img)
+[72/99] 11155 -> already (ctx=data_only +img)
+[73/99] 11154 -> already (ctx=data_only +img)
+[74/99] 11114 -> already (ctx=data_only +img)
+[75/99] 11164 -> more_than_5_years (ctx=data_only +img)
+[76/99] 11162 -> between_2_and_5_years (ctx=data_only +img)
+[77/99] 11165 -> already (ctx=data_only +img)
+[78/99] 11157 -> already (ctx=data_only +img)
+[79/99] 11161 -> between_2_and_5_years (ctx=data_only +img)
+[80/99] 11158 -> already (ctx=data_only +img)
+[81/99] 11166 -> already (ctx=data_only +img)
+[82/99] 11169 -> between_2_and_5_years (ctx=data_only +img)
+[83/99] 11173 -> more_than_5_years (ctx=data_only +img)
+[84/99] 11171 -> already (ctx=data_only +img)
+[85/99] 11175 -> already (ctx=data_only +img)
+[86/99] 11139 -> within_2_years (ctx=data_only +img)
+[87/99] 11179 -> more_than_5_years (ctx=data_only +img)
+[88/99] 11177 -> within_2_years (ctx=data_only +img)
+[89/99] 11181 -> more_than_5_years (ctx=data_only +img)
+[90/99] 11186 -> already (ctx=data_only +img)
+[91/99] 11185 -> between_2_and_5_years (ctx=data_only +img)
+[92/99] 11174 -> between_2_and_5_years (ctx=data_only +img)
+[93/99] 11189 -> between_2_and_5_years (ctx=data_only +img)
+[94/99] 11182 -> between_2_and_5_years (ctx=data_only +img)
+[95/99] 11192 -> already (ctx=data_only +img)
+[96/99] 11190 -> between_2_and_5_years (ctx=data_only +img)
+[97/99] 11199 -> between_2_and_5_years (ctx=data_only +img)
+[98/99] 11198 -> between_2_and_5_years (ctx=data_only +img)
+[99/99] 11193 -> already (ctx=data_only +img)
+
+wrote /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_image_100_codex.csv  rows=99 predicted=99 err=0 context_hits=0 image_hits=99
+=== score (add_image, set=100, codex) ===
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/add_image_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.5564,
+  "accuracy": 0.5859,
+  "per_class_f1": {
+    "already": 0.6667,
+    "within_2_years": 0.5714,
+    "between_2_and_5_years": 0.5634,
+    "more_than_5_years": 0.4242
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 41,
+    "between_2_and_5_years": 42,
+    "more_than_5_years": 11,
+    "within_2_years": 5
+  }
+}
+[08:24:02] all/codex  prompt=all.txt  set=100  conc=8  
+[1/99] 11016 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[2/99] 11014 -> already (ctx=offset_hit_exact_window +img)
+[3/99] 11003 -> already (ctx=offset_hit_exact_window +img)
+[4/99] 11018 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[5/99] 11015 -> already (ctx=offset_hit_exact_window +img)
+[6/99] 11008 -> already (ctx=offset_hit_exact_window +img)
+[7/99] 11006 -> already (ctx=offset_hit_exact_window +img)
+[8/99] 11021 -> already (ctx=offset_hit_exact_window +img)
+[9/99] 11025 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[10/99] 11004 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[11/99] 11034 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[12/99] 11030 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[13/99] 11022 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[14/99] 11047 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[15/99] 11046 -> already (ctx=offset_hit_exact_window +img)
+[16/99] 11042 -> already (ctx=offset_hit_exact_window +img)
+[17/99] 11023 -> already (ctx=offset_hit_exact_window +img)
+[18/99] 11045 -> already (ctx=offset_hit_exact_window +img)
+[19/99] 11056 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[20/99] 11048 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[21/99] 11052 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[22/99] 11055 -> already (ctx=offset_hit_exact_window +img)
+[23/99] 11050 -> already (ctx=offset_hit_exact_window +img)
+[24/99] 11058 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[25/99] 11060 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[26/99] 11026 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[27/99] 11068 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[28/99] 11066 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[29/99] 11064 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[30/99] 11061 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[31/99] 11073 -> already (ctx=offset_hit_exact_window +img)
+[32/99] 11071 -> already (ctx=offset_hit_exact_window +img)
+[33/99] 11082 -> already (ctx=offset_hit_exact_window +img)
+[34/99] 11074 -> already (ctx=offset_hit_exact_window +img)
+[35/99] 11079 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[36/99] 11078 -> already (ctx=offset_hit_exact_window +img)
+[37/99] 11085 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[38/99] 11075 -> already (ctx=offset_hit_exact_window +img)
+[39/99] 11092 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[40/99] 11087 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[41/99] 11089 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[42/99] 11099 -> already (ctx=offset_hit_exact_window +img)
+[43/99] 11100 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[44/99] 11098 -> already (ctx=offset_hit_exact_window +img)
+[45/99] 11101 -> within_2_years (ctx=offset_hit_exact_window +img)
+[46/99] 11112 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[47/99] 11117 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[48/99] 11106 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[49/99] 11114 -> already (ctx=offset_hit_exact_window +img)
+[50/99] 11115 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[51/99] 11110 -> already (ctx=offset_hit_exact_window +img)
+[52/99] 11113 -> already (ctx=offset_hit_exact_window +img)
+[53/99] 11119 -> already (ctx=offset_hit_exact_window +img)
+[54/99] 11118 -> already (ctx=offset_hit_exact_window +img)
+[55/99] 11122 -> already (ctx=offset_hit_exact_window +img)
+[56/99] 11123 -> already (ctx=offset_hit_exact_window +img)
+[57/99] 11127 -> already (ctx=offset_hit_exact_window +img)
+[58/99] 11129 -> already (ctx=offset_hit_exact_window +img)
+[59/99] 11121 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[60/99] 11130 -> within_2_years (ctx=offset_hit_exact_window +img)
+[61/99] 11135 -> within_2_years (ctx=offset_hit_exact_window +img)
+[62/99] 11133 -> already (ctx=offset_hit_exact_window +img)
+[63/99] 11137 -> already (ctx=offset_hit_exact_window +img)
+[64/99] 11136 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[65/99] 11132 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[66/99] 11134 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[67/99] 11124 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[68/99] 11140 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[69/99] 11144 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[70/99] 11139 -> already (ctx=offset_hit_exact_window +img)
+[71/99] 11155 -> already (ctx=offset_hit_exact_window +img)
+[72/99] 11153 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[73/99] 11145 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[74/99] 11154 -> already (ctx=offset_hit_exact_window +img)
+[75/99] 11141 -> within_2_years (ctx=offset_hit_exact_window +img)
+[76/99] 11157 -> already (ctx=offset_hit_exact_window +img)
+[77/99] 11158 -> already (ctx=offset_hit_exact_window +img)
+[78/99] 11162 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[79/99] 11161 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[80/99] 11164 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[81/99] 11166 -> already (ctx=offset_hit_exact_window +img)
+[82/99] 11169 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[83/99] 11171 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[84/99] 11165 -> already (ctx=offset_hit_exact_window +img)
+[85/99] 11175 -> already (ctx=offset_hit_exact_window +img)
+[86/99] 11173 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[87/99] 11179 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[88/99] 11174 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[89/99] 11182 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[90/99] 11186 -> already (ctx=offset_hit_exact_window +img)
+[91/99] 11185 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[92/99] 11189 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[93/99] 11177 -> within_2_years (ctx=offset_hit_exact_window +img)
+[94/99] 11190 -> already (ctx=offset_hit_exact_window +img)
+[95/99] 11192 -> already (ctx=offset_hit_exact_window +img)
+[96/99] 11181 -> more_than_5_years (ctx=offset_hit_exact_window +img)
+[97/99] 11193 -> already (ctx=offset_hit_exact_window +img)
+[98/99] 11198 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+[99/99] 11199 -> between_2_and_5_years (ctx=offset_hit_exact_window +img)
+
+wrote /workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/all_100_codex.csv  rows=99 predicted=99 err=0 context_hits=99 image_hits=99
+=== score (all, set=100, codex) ===
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/all_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.5574,
+  "accuracy": 0.5758,
+  "per_class_f1": {
+    "already": 0.6517,
+    "within_2_years": 0.5714,
+    "between_2_and_5_years": 0.5217,
+    "more_than_5_years": 0.4848
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 43,
+    "between_2_and_5_years": 40,
+    "more_than_5_years": 11,
+    "within_2_years": 5
+  }
+}
+
+=== Stage 4 variant summary (SET=100, BACKEND=codex) ===
+variant         macroF1  Δvanilla     acc       already  within_2_y  between_2_  more_than_
+-------------------------------------------------------------------------------------------
+vanilla          0.6440   +0.0000  0.5455        0.5783      1.0000      0.5128      0.4848
+add_context      0.5761   -0.0679  0.5758        0.6522      0.6667      0.5152      0.4706
+add_promise      0.6012   -0.0428  0.6061        0.6667      0.6667      0.5867      0.4848
+add_image        0.5564   -0.0876  0.5859        0.6667      0.5714      0.5634      0.4242
+all              0.5574   -0.0866  0.5758        0.6517      0.5714      0.5217      0.4848
+

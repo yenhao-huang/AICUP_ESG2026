@@ -1,0 +1,45 @@
+{
+  "ranking": [
+    {
+      "method": "clear_lenient_tagged",
+      "gtgated_2cls_macro_f1": 0.714,
+      "full_coverage_macro_f1": 0.3694,
+      "f1_clear": 0.7603,
+      "f1_not_clear": 0.3478,
+      "n_2cls": 67,
+      "missing_pred": 0
+    },
+    {
+      "method": "clear_checklist_tagged",
+      "gtgated_2cls_macro_f1": 0.6583,
+      "full_coverage_macro_f1": 0.3466,
+      "f1_clear": 0.7434,
+      "f1_not_clear": 0.2963,
+      "n_2cls": 67,
+      "missing_pred": 0
+    },
+    {
+      "method": "clear_fewshot_tagged",
+      "gtgated_2cls_macro_f1": 0.6451,
+      "full_coverage_macro_f1": 0.337,
+      "f1_clear": 0.75,
+      "f1_not_clear": 0.2609,
+      "n_2cls": 67,
+      "missing_pred": 0
+    },
+    {
+      "method": "scoped",
+      "gtgated_2cls_macro_f1": 0.2821,
+      "full_coverage_macro_f1": 0.1545,
+      "f1_clear": 0.25,
+      "f1_not_clear": 0.2136,
+      "n_2cls": 67,
+      "missing_pred": 0
+    }
+  ],
+  "top3": [
+    "clear_lenient_tagged",
+    "clear_checklist_tagged",
+    "clear_fewshot_tagged"
+  ]
+}

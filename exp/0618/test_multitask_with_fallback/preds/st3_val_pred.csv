@@ -1,0 +1,403 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+11327,Not Clear,1,bert_multitask,score_clear=0.26229921;score_not_clear=0.73441768;score_misleading=0.00328313
+10935,Clear,0,bert_multitask,score_clear=0.93466842;score_not_clear=0.06243126;score_misleading=0.00290025
+11674,Clear,0,bert_multitask,score_clear=0.98207563;score_not_clear=0.01677529;score_misleading=0.00114909
+11862,Not Clear,1,bert_multitask,score_clear=0.01870385;score_not_clear=0.98012370;score_misleading=0.00117246
+11096,Clear,0,bert_multitask,score_clear=0.72529465;score_not_clear=0.27134448;score_misleading=0.00336084
+11791,Clear,0,bert_multitask,score_clear=0.95329535;score_not_clear=0.04531274;score_misleading=0.00139192
+11174,Clear,0,bert_multitask,score_clear=0.90905809;score_not_clear=0.08933898;score_misleading=0.00160302
+10073,Clear,0,bert_multitask,score_clear=0.74893594;score_not_clear=0.24810918;score_misleading=0.00295489
+10265,Clear,0,bert_multitask,score_clear=0.98624575;score_not_clear=0.01279185;score_misleading=0.00096244
+11756,Clear,0,bert_multitask,score_clear=0.92141700;score_not_clear=0.07629072;score_misleading=0.00229226
+10801,Clear,0,bert_multitask,score_clear=0.92557281;score_not_clear=0.07276335;score_misleading=0.00166387
+10673,Clear,0,bert_multitask,score_clear=0.68151379;score_not_clear=0.31618240;score_misleading=0.00230378
+11617,Clear,0,bert_multitask,score_clear=0.92761010;score_not_clear=0.07065844;score_misleading=0.00173146
+10682,Not Clear,1,bert_multitask,score_clear=0.07992244;score_not_clear=0.91843742;score_misleading=0.00164017
+10050,Clear,0,bert_multitask,score_clear=0.74046898;score_not_clear=0.25652480;score_misleading=0.00300620
+10478,Clear,0,bert_multitask,score_clear=0.99901283;score_not_clear=0.00058594;score_misleading=0.00040119
+11525,Clear,0,bert_multitask,score_clear=0.69521976;score_not_clear=0.30129120;score_misleading=0.00348904
+10808,Clear,0,bert_multitask,score_clear=0.96640211;score_not_clear=0.03225827;score_misleading=0.00133961
+11751,Clear,0,bert_multitask,score_clear=0.98158574;score_not_clear=0.01708805;score_misleading=0.00132625
+11820,Not Clear,1,bert_multitask,score_clear=0.07791205;score_not_clear=0.92133826;score_misleading=0.00074968
+11978,Clear,0,bert_multitask,score_clear=0.68628067;score_not_clear=0.30985540;score_misleading=0.00386391
+10205,Clear,0,bert_multitask,score_clear=0.99825412;score_not_clear=0.00136097;score_misleading=0.00038486
+11599,Clear,0,bert_multitask,score_clear=0.99220347;score_not_clear=0.00690520;score_misleading=0.00089138
+10931,Clear,0,bert_multitask,score_clear=0.57615137;score_not_clear=0.42142314;score_misleading=0.00242550
+10678,Not Clear,1,bert_multitask,score_clear=0.23654462;score_not_clear=0.76204568;score_misleading=0.00140964
+10078,Clear,0,bert_multitask,score_clear=0.77549797;score_not_clear=0.22210689;score_misleading=0.00239512
+11376,Clear,0,bert_multitask,score_clear=0.97813284;score_not_clear=0.01792840;score_misleading=0.00393877
+11374,Clear,0,bert_multitask,score_clear=0.93950498;score_not_clear=0.05720707;score_misleading=0.00328787
+10643,Clear,0,bert_multitask,score_clear=0.96841902;score_not_clear=0.02940678;score_misleading=0.00217429
+10418,Clear,0,bert_multitask,score_clear=0.85474372;score_not_clear=0.14374684;score_misleading=0.00150949
+11291,Clear,0,bert_multitask,score_clear=0.98375088;score_not_clear=0.01431326;score_misleading=0.00193585
+10300,Clear,0,bert_multitask,score_clear=0.99274009;score_not_clear=0.00654189;score_misleading=0.00071803
+11907,Clear,0,bert_multitask,score_clear=0.99253684;score_not_clear=0.00621291;score_misleading=0.00125017
+11432,Clear,0,bert_multitask,score_clear=0.98587859;score_not_clear=0.01297120;score_misleading=0.00115019
+11680,Clear,0,bert_multitask,score_clear=0.98727709;score_not_clear=0.01128509;score_misleading=0.00143786
+11631,Not Clear,1,bert_multitask,score_clear=0.22676134;score_not_clear=0.77148139;score_misleading=0.00175731
+11935,Clear,0,bert_multitask,score_clear=0.82409126;score_not_clear=0.17379645;score_misleading=0.00211227
+11753,Not Clear,1,bert_multitask,score_clear=0.18367422;score_not_clear=0.81467479;score_misleading=0.00165100
+11007,Clear,0,bert_multitask,score_clear=0.65958619;score_not_clear=0.33858764;score_misleading=0.00182615
+11404,Clear,0,bert_multitask,score_clear=0.98422837;score_not_clear=0.01421749;score_misleading=0.00155411
+10070,Clear,0,bert_multitask,score_clear=0.99915349;score_not_clear=0.00024605;score_misleading=0.00060046
+11377,Clear,0,bert_multitask,score_clear=0.99876368;score_not_clear=0.00051037;score_misleading=0.00072592
+10007,Clear,0,bert_multitask,score_clear=0.99797553;score_not_clear=0.00142377;score_misleading=0.00060063
+11496,Not Clear,1,bert_multitask,score_clear=0.42768496;score_not_clear=0.56944776;score_misleading=0.00286723
+11468,Clear,0,bert_multitask,score_clear=0.99749869;score_not_clear=0.00183062;score_misleading=0.00067069
+10080,Clear,0,bert_multitask,score_clear=0.97007823;score_not_clear=0.02778543;score_misleading=0.00213642
+11675,Not Clear,1,bert_multitask,score_clear=0.44952035;score_not_clear=0.54858530;score_misleading=0.00189437
+10044,Clear,0,bert_multitask,score_clear=0.98275441;score_not_clear=0.01552209;score_misleading=0.00172340
+11630,Clear,0,bert_multitask,score_clear=0.97824973;score_not_clear=0.02053546;score_misleading=0.00121481
+11694,Clear,0,bert_multitask,score_clear=0.99723947;score_not_clear=0.00199298;score_misleading=0.00076744
+11636,Clear,0,bert_multitask,score_clear=0.56930584;score_not_clear=0.42898476;score_misleading=0.00170944
+10415,Clear,0,bert_multitask,score_clear=0.98045462;score_not_clear=0.01833520;score_misleading=0.00121018
+11015,Clear,0,bert_multitask,score_clear=0.53065318;score_not_clear=0.46575496;score_misleading=0.00359185
+11360,Clear,0,bert_multitask,score_clear=0.93097377;score_not_clear=0.06785260;score_misleading=0.00117359
+10906,Not Clear,1,bert_multitask,score_clear=0.41152042;score_not_clear=0.58684164;score_misleading=0.00163790
+11813,Not Clear,1,bert_multitask,score_clear=0.46417174;score_not_clear=0.53292203;score_misleading=0.00290632
+10773,Clear,0,bert_multitask,score_clear=0.68173009;score_not_clear=0.31441262;score_misleading=0.00385730
+10025,Clear,0,bert_multitask,score_clear=0.82862937;score_not_clear=0.16614039;score_misleading=0.00523022
+10981,Clear,0,bert_multitask,score_clear=0.89947033;score_not_clear=0.09737020;score_misleading=0.00315952
+11558,Clear,0,bert_multitask,score_clear=0.97870493;score_not_clear=0.01973582;score_misleading=0.00155934
+11863,Not Clear,1,bert_multitask,score_clear=0.03568566;score_not_clear=0.96192962;score_misleading=0.00238480
+10570,Clear,0,bert_multitask,score_clear=0.92770028;score_not_clear=0.07069778;score_misleading=0.00160201
+11666,Clear,0,bert_multitask,score_clear=0.99651104;score_not_clear=0.00230591;score_misleading=0.00118307
+10521,Clear,0,bert_multitask,score_clear=0.99061978;score_not_clear=0.00859388;score_misleading=0.00078632
+10483,Not Clear,1,bert_multitask,score_clear=0.11057824;score_not_clear=0.88532895;score_misleading=0.00409282
+10008,Not Clear,1,bert_multitask,score_clear=0.49497932;score_not_clear=0.50267416;score_misleading=0.00234657
+11645,Not Clear,1,bert_multitask,score_clear=0.10094104;score_not_clear=0.89773726;score_misleading=0.00132169
+11179,Clear,0,bert_multitask,score_clear=0.83388102;score_not_clear=0.16193856;score_misleading=0.00418045
+11743,Not Clear,1,bert_multitask,score_clear=0.07914553;score_not_clear=0.91950476;score_misleading=0.00134967
+11434,Not Clear,1,bert_multitask,score_clear=0.08092865;score_not_clear=0.91812551;score_misleading=0.00094579
+11731,Clear,0,bert_multitask,score_clear=0.65735906;score_not_clear=0.34063041;score_misleading=0.00201052
+10716,Clear,0,bert_multitask,score_clear=0.97121584;score_not_clear=0.02780508;score_misleading=0.00097899
+11451,Clear,0,bert_multitask,score_clear=0.85014850;score_not_clear=0.14593625;score_misleading=0.00391530
+10852,Clear,0,bert_multitask,score_clear=0.73655802;score_not_clear=0.25864261;score_misleading=0.00479929
+11012,Not Clear,1,bert_multitask,score_clear=0.35262832;score_not_clear=0.64483184;score_misleading=0.00253984
+11403,Clear,0,bert_multitask,score_clear=0.94826412;score_not_clear=0.05045966;score_misleading=0.00127619
+10326,Clear,0,bert_multitask,score_clear=0.99759239;score_not_clear=0.00185036;score_misleading=0.00055731
+10563,Clear,0,bert_multitask,score_clear=0.52079362;score_not_clear=0.47459140;score_misleading=0.00461499
+10949,Clear,0,bert_multitask,score_clear=0.99815482;score_not_clear=0.00118891;score_misleading=0.00065620
+10224,Not Clear,1,bert_multitask,score_clear=0.35919476;score_not_clear=0.63759279;score_misleading=0.00321243
+11998,Not Clear,1,bert_multitask,score_clear=0.24729784;score_not_clear=0.75102323;score_misleading=0.00167892
+10804,Clear,0,bert_multitask,score_clear=0.99660754;score_not_clear=0.00236916;score_misleading=0.00102329
+11278,Clear,0,bert_multitask,score_clear=0.92124051;score_not_clear=0.07550894;score_misleading=0.00325058
+10104,Clear,0,bert_multitask,score_clear=0.92715454;score_not_clear=0.06974638;score_misleading=0.00309906
+10939,Clear,0,bert_multitask,score_clear=0.96638018;score_not_clear=0.03310109;score_misleading=0.00051876
+10435,Not Clear,1,bert_multitask,score_clear=0.01979116;score_not_clear=0.97973847;score_misleading=0.00047032
+10131,Not Clear,1,bert_multitask,score_clear=0.02782579;score_not_clear=0.97160935;score_misleading=0.00056484
+11075,Not Clear,1,bert_multitask,score_clear=0.11025544;score_not_clear=0.88848472;score_misleading=0.00125982
+11812,Clear,0,bert_multitask,score_clear=0.68744761;score_not_clear=0.30739418;score_misleading=0.00515831
+11865,Clear,0,bert_multitask,score_clear=0.92611897;score_not_clear=0.07220831;score_misleading=0.00167266
+11212,Clear,0,bert_multitask,score_clear=0.99318498;score_not_clear=0.00575933;score_misleading=0.00105569
+11732,Not Clear,1,bert_multitask,score_clear=0.15646936;score_not_clear=0.84176016;score_misleading=0.00177047
+11729,Not Clear,1,bert_multitask,score_clear=0.21282005;score_not_clear=0.78336257;score_misleading=0.00381739
+11091,Clear,0,bert_multitask,score_clear=0.92517662;score_not_clear=0.07259539;score_misleading=0.00222800
+10277,Clear,0,bert_multitask,score_clear=0.84060895;score_not_clear=0.15327676;score_misleading=0.00611436
+11013,Clear,0,bert_multitask,score_clear=0.84696257;score_not_clear=0.15013435;score_misleading=0.00290304
+10711,Not Clear,1,bert_multitask,score_clear=0.08002231;score_not_clear=0.91835868;score_misleading=0.00161899
+11876,Clear,0,bert_multitask,score_clear=0.83668184;score_not_clear=0.16025023;score_misleading=0.00306792
+10255,Clear,0,bert_multitask,score_clear=0.99642158;score_not_clear=0.00280954;score_misleading=0.00076888
+10920,Clear,0,bert_multitask,score_clear=0.73744291;score_not_clear=0.25773448;score_misleading=0.00482259
+10317,Clear,0,bert_multitask,score_clear=0.99180627;score_not_clear=0.00746687;score_misleading=0.00072691
+10706,Not Clear,1,bert_multitask,score_clear=0.09556639;score_not_clear=0.90256852;score_misleading=0.00186506
+10192,Clear,0,bert_multitask,score_clear=0.99490106;score_not_clear=0.00441024;score_misleading=0.00068868
+11531,Clear,0,bert_multitask,score_clear=0.99885905;score_not_clear=0.00068071;score_misleading=0.00046024
+10303,Not Clear,1,bert_multitask,score_clear=0.17335999;score_not_clear=0.82345825;score_misleading=0.00318176
+11444,Clear,0,bert_multitask,score_clear=0.54332417;score_not_clear=0.45306930;score_misleading=0.00360646
+10107,Clear,0,bert_multitask,score_clear=0.99334282;score_not_clear=0.00618128;score_misleading=0.00047586
+10649,Not Clear,1,bert_multitask,score_clear=0.04370010;score_not_clear=0.95483238;score_misleading=0.00146759
+11063,Clear,0,bert_multitask,score_clear=0.98167694;score_not_clear=0.01773150;score_misleading=0.00059157
+10474,Clear,0,bert_multitask,score_clear=0.90272993;score_not_clear=0.09551723;score_misleading=0.00175280
+10193,Clear,0,bert_multitask,score_clear=0.55735034;score_not_clear=0.43995973;score_misleading=0.00268992
+11396,Clear,0,bert_multitask,score_clear=0.57918721;score_not_clear=0.41927373;score_misleading=0.00153910
+11305,Clear,0,bert_multitask,score_clear=0.99732721;score_not_clear=0.00181631;score_misleading=0.00085643
+11208,Clear,0,bert_multitask,score_clear=0.91921592;score_not_clear=0.07689516;score_misleading=0.00388891
+10172,Clear,0,bert_multitask,score_clear=0.51055038;score_not_clear=0.48482069;score_misleading=0.00462896
+10542,Clear,0,bert_multitask,score_clear=0.97192782;score_not_clear=0.02607100;score_misleading=0.00200121
+11188,Clear,0,bert_multitask,score_clear=0.49987951;score_not_clear=0.49821091;score_misleading=0.00190966
+10766,Clear,0,bert_multitask,score_clear=0.92347980;score_not_clear=0.07388434;score_misleading=0.00263583
+11852,Clear,0,bert_multitask,score_clear=0.99812299;score_not_clear=0.00121690;score_misleading=0.00066008
+11317,Not Clear,1,bert_multitask,score_clear=0.46555141;score_not_clear=0.53166378;score_misleading=0.00278477
+10820,Not Clear,1,bert_multitask,score_clear=0.01801253;score_not_clear=0.98119408;score_misleading=0.00079338
+11351,Clear,0,bert_multitask,score_clear=0.94085091;score_not_clear=0.05795061;score_misleading=0.00119844
+10789,Clear,0,bert_multitask,score_clear=0.98922104;score_not_clear=0.00923145;score_misleading=0.00154758
+11701,Clear,0,bert_multitask,score_clear=0.99775809;score_not_clear=0.00130584;score_misleading=0.00093612
+11569,Clear,0,bert_multitask,score_clear=0.98231375;score_not_clear=0.01631141;score_misleading=0.00137481
+10714,Clear,0,bert_multitask,score_clear=0.94138193;score_not_clear=0.05750908;score_misleading=0.00110893
+11662,Not Clear,1,bert_multitask,score_clear=0.01943549;score_not_clear=0.97948498;score_misleading=0.00107952
+11561,Clear,0,bert_multitask,score_clear=0.64826912;score_not_clear=0.34854475;score_misleading=0.00318620
+10617,Clear,0,bert_multitask,score_clear=0.85382527;score_not_clear=0.14382595;score_misleading=0.00234873
+10356,Not Clear,1,bert_multitask,score_clear=0.03513492;score_not_clear=0.96292889;score_misleading=0.00193623
+11850,Not Clear,1,bert_multitask,score_clear=0.25519574;score_not_clear=0.73640525;score_misleading=0.00839900
+11796,Clear,0,bert_multitask,score_clear=0.98580116;score_not_clear=0.01283495;score_misleading=0.00136395
+10702,Clear,0,bert_multitask,score_clear=0.99502963;score_not_clear=0.00403635;score_misleading=0.00093395
+10518,Not Clear,1,bert_multitask,score_clear=0.03651224;score_not_clear=0.96245307;score_misleading=0.00103471
+11781,Not Clear,1,bert_multitask,score_clear=0.49110350;score_not_clear=0.50456452;score_misleading=0.00433195
+10818,Clear,0,bert_multitask,score_clear=0.98648399;score_not_clear=0.01247918;score_misleading=0.00103682
+11245,Clear,0,bert_multitask,score_clear=0.97064900;score_not_clear=0.02856489;score_misleading=0.00078619
+11554,Clear,0,bert_multitask,score_clear=0.99614859;score_not_clear=0.00257151;score_misleading=0.00127993
+11439,Clear,0,bert_multitask,score_clear=0.91336977;score_not_clear=0.08382048;score_misleading=0.00280977
+10805,Clear,0,bert_multitask,score_clear=0.97097868;score_not_clear=0.02579772;score_misleading=0.00322366
+11851,Not Clear,1,bert_multitask,score_clear=0.44794536;score_not_clear=0.54792875;score_misleading=0.00412592
+11140,Not Clear,1,bert_multitask,score_clear=0.12791006;score_not_clear=0.87023199;score_misleading=0.00185797
+10204,Clear,0,bert_multitask,score_clear=0.98805642;score_not_clear=0.01095907;score_misleading=0.00098451
+11808,Not Clear,1,bert_multitask,score_clear=0.20670311;score_not_clear=0.79155314;score_misleading=0.00174370
+10991,Clear,0,bert_multitask,score_clear=0.99907827;score_not_clear=0.00034751;score_misleading=0.00057415
+10374,Clear,0,bert_multitask,score_clear=0.96292305;score_not_clear=0.03521378;score_misleading=0.00186315
+11644,Not Clear,1,bert_multitask,score_clear=0.36103889;score_not_clear=0.63477224;score_misleading=0.00418881
+11423,Clear,0,bert_multitask,score_clear=0.95796430;score_not_clear=0.04097550;score_misleading=0.00106020
+10323,Clear,0,bert_multitask,score_clear=0.82199520;score_not_clear=0.17702739;score_misleading=0.00097740
+10180,Clear,0,bert_multitask,score_clear=0.82239914;score_not_clear=0.17639127;score_misleading=0.00120961
+10622,Clear,0,bert_multitask,score_clear=0.98383188;score_not_clear=0.01503329;score_misleading=0.00113485
+11193,Clear,0,bert_multitask,score_clear=0.64375621;score_not_clear=0.35413054;score_misleading=0.00211328
+11769,Not Clear,1,bert_multitask,score_clear=0.05883569;score_not_clear=0.94018066;score_misleading=0.00098362
+11344,Clear,0,bert_multitask,score_clear=0.96041769;score_not_clear=0.03762170;score_misleading=0.00196069
+10354,Clear,0,bert_multitask,score_clear=0.74644154;score_not_clear=0.25010148;score_misleading=0.00345696
+10498,Clear,0,bert_multitask,score_clear=0.52961224;score_not_clear=0.46891597;score_misleading=0.00147173
+11201,Clear,0,bert_multitask,score_clear=0.98277181;score_not_clear=0.01648761;score_misleading=0.00074060
+11048,Not Clear,1,bert_multitask,score_clear=0.01221824;score_not_clear=0.98589653;score_misleading=0.00188524
+11894,Clear,0,bert_multitask,score_clear=0.90834326;score_not_clear=0.08881170;score_misleading=0.00284502
+11849,Clear,0,bert_multitask,score_clear=0.96716332;score_not_clear=0.03117462;score_misleading=0.00166204
+10580,Not Clear,1,bert_multitask,score_clear=0.28439730;score_not_clear=0.71300751;score_misleading=0.00259523
+10768,Clear,0,bert_multitask,score_clear=0.92457855;score_not_clear=0.07381614;score_misleading=0.00160528
+10106,Clear,0,bert_multitask,score_clear=0.96229231;score_not_clear=0.03550543;score_misleading=0.00220231
+10331,Clear,0,bert_multitask,score_clear=0.91114694;score_not_clear=0.08744200;score_misleading=0.00141102
+10125,Clear,0,bert_multitask,score_clear=0.96662384;score_not_clear=0.03146324;score_misleading=0.00191294
+11913,Not Clear,1,bert_multitask,score_clear=0.23911947;score_not_clear=0.75810724;score_misleading=0.00277334
+10596,Clear,0,bert_multitask,score_clear=0.98855013;score_not_clear=0.01065854;score_misleading=0.00079138
+10845,Clear,0,bert_multitask,score_clear=0.58191556;score_not_clear=0.41653836;score_misleading=0.00154611
+10235,Clear,0,bert_multitask,score_clear=0.97864562;score_not_clear=0.02021154;score_misleading=0.00114287
+10799,Clear,0,bert_multitask,score_clear=0.99747568;score_not_clear=0.00173633;score_misleading=0.00078802
+10978,Clear,0,bert_multitask,score_clear=0.73806721;score_not_clear=0.25696838;score_misleading=0.00496437
+10094,Clear,0,bert_multitask,score_clear=0.77096409;score_not_clear=0.22543982;score_misleading=0.00359609
+11145,Not Clear,1,bert_multitask,score_clear=0.16290824;score_not_clear=0.83581334;score_misleading=0.00127844
+10364,Clear,0,bert_multitask,score_clear=0.99810719;score_not_clear=0.00109591;score_misleading=0.00079688
+10416,Clear,0,bert_multitask,score_clear=0.79337198;score_not_clear=0.20443442;score_misleading=0.00219360
+11547,Clear,0,bert_multitask,score_clear=0.99912685;score_not_clear=0.00034768;score_misleading=0.00052553
+11199,Not Clear,1,bert_multitask,score_clear=0.37729847;score_not_clear=0.62119377;score_misleading=0.00150773
+11761,Not Clear,1,bert_multitask,score_clear=0.14759314;score_not_clear=0.85095412;score_misleading=0.00145268
+11300,Not Clear,1,bert_multitask,score_clear=0.03517447;score_not_clear=0.96316063;score_misleading=0.00166496
+11187,Not Clear,1,bert_multitask,score_clear=0.06108704;score_not_clear=0.93807888;score_misleading=0.00083412
+11975,Clear,0,bert_multitask,score_clear=0.99784434;score_not_clear=0.00142196;score_misleading=0.00073375
+11955,Clear,0,bert_multitask,score_clear=0.98749709;score_not_clear=0.01117360;score_misleading=0.00132923
+11361,Clear,0,bert_multitask,score_clear=0.79482347;score_not_clear=0.20409924;score_misleading=0.00107727
+10704,Clear,0,bert_multitask,score_clear=0.82337976;score_not_clear=0.17410247;score_misleading=0.00251779
+10177,Clear,0,bert_multitask,score_clear=0.89598894;score_not_clear=0.10168995;score_misleading=0.00232107
+10539,Not Clear,1,bert_multitask,score_clear=0.33335710;score_not_clear=0.65871972;score_misleading=0.00792317
+11877,Clear,0,bert_multitask,score_clear=0.70647109;score_not_clear=0.29135722;score_misleading=0.00217169
+11486,Clear,0,bert_multitask,score_clear=0.99812180;score_not_clear=0.00130130;score_misleading=0.00057680
+11119,Not Clear,1,bert_multitask,score_clear=0.03392662;score_not_clear=0.96481174;score_misleading=0.00126156
+11470,Clear,0,bert_multitask,score_clear=0.93940169;score_not_clear=0.05670191;score_misleading=0.00389647
+10017,Not Clear,1,bert_multitask,score_clear=0.04873297;score_not_clear=0.94953102;score_misleading=0.00173598
+11055,Clear,0,bert_multitask,score_clear=0.99491477;score_not_clear=0.00447941;score_misleading=0.00060578
+11577,Not Clear,1,bert_multitask,score_clear=0.07725812;score_not_clear=0.92202985;score_misleading=0.00071205
+11872,Not Clear,1,bert_multitask,score_clear=0.04838418;score_not_clear=0.94894367;score_misleading=0.00267210
+10585,Not Clear,1,bert_multitask,score_clear=0.02487524;score_not_clear=0.97399592;score_misleading=0.00112883
+11664,Clear,0,bert_multitask,score_clear=0.99223983;score_not_clear=0.00678711;score_misleading=0.00097297
+11871,Clear,0,bert_multitask,score_clear=0.77017361;score_not_clear=0.22365271;score_misleading=0.00617360
+11643,Not Clear,1,bert_multitask,score_clear=0.48397288;score_not_clear=0.51358688;score_misleading=0.00244024
+11009,Clear,0,bert_multitask,score_clear=0.93293905;score_not_clear=0.06417383;score_misleading=0.00288719
+11842,Not Clear,1,bert_multitask,score_clear=0.11831273;score_not_clear=0.88039625;score_misleading=0.00129102
+11041,Clear,0,bert_multitask,score_clear=0.99349087;score_not_clear=0.00573862;score_misleading=0.00077057
+10133,Clear,0,bert_multitask,score_clear=0.65278423;score_not_clear=0.34395030;score_misleading=0.00326547
+11083,Clear,0,bert_multitask,score_clear=0.81515700;score_not_clear=0.18214090;score_misleading=0.00270211
+11273,Clear,0,bert_multitask,score_clear=0.90287811;score_not_clear=0.09558107;score_misleading=0.00154088
+10662,Clear,0,bert_multitask,score_clear=0.98752856;score_not_clear=0.01135113;score_misleading=0.00112025
+10182,Clear,0,bert_multitask,score_clear=0.60353601;score_not_clear=0.39332789;score_misleading=0.00313608
+10027,Clear,0,bert_multitask,score_clear=0.99561501;score_not_clear=0.00300583;score_misleading=0.00137914
+10061,Clear,0,bert_multitask,score_clear=0.95128918;score_not_clear=0.04721658;score_misleading=0.00149414
+11605,Not Clear,1,bert_multitask,score_clear=0.41318613;score_not_clear=0.58389866;score_misleading=0.00291521
+10020,Not Clear,1,bert_multitask,score_clear=0.15040174;score_not_clear=0.84827650;score_misleading=0.00132177
+10042,Not Clear,1,bert_multitask,score_clear=0.31494829;score_not_clear=0.68305433;score_misleading=0.00199734
+11968,Clear,0,bert_multitask,score_clear=0.97487295;score_not_clear=0.02268920;score_misleading=0.00243781
+11770,Clear,0,bert_multitask,score_clear=0.98643506;score_not_clear=0.01182982;score_misleading=0.00173517
+10698,Clear,0,bert_multitask,score_clear=0.98167598;score_not_clear=0.01678144;score_misleading=0.00154255
+10627,Clear,0,bert_multitask,score_clear=0.85311145;score_not_clear=0.14526100;score_misleading=0.00162756
+11241,Clear,0,bert_multitask,score_clear=0.62591827;score_not_clear=0.37070617;score_misleading=0.00337562
+10767,Clear,0,bert_multitask,score_clear=0.99780554;score_not_clear=0.00141960;score_misleading=0.00077477
+11385,Not Clear,1,bert_multitask,score_clear=0.19985211;score_not_clear=0.79889548;score_misleading=0.00125239
+11515,Clear,0,bert_multitask,score_clear=0.97562212;score_not_clear=0.02269208;score_misleading=0.00168576
+10252,Clear,0,bert_multitask,score_clear=0.63910729;score_not_clear=0.35762098;score_misleading=0.00327170
+10942,Not Clear,1,bert_multitask,score_clear=0.29421374;score_not_clear=0.70018041;score_misleading=0.00560584
+11593,Clear,0,bert_multitask,score_clear=0.87077469;score_not_clear=0.12712060;score_misleading=0.00210474
+10594,Clear,0,bert_multitask,score_clear=0.56994301;score_not_clear=0.42384410;score_misleading=0.00621289
+11657,Clear,0,bert_multitask,score_clear=0.99054480;score_not_clear=0.00834554;score_misleading=0.00110967
+11352,Not Clear,1,bert_multitask,score_clear=0.46544108;score_not_clear=0.53344256;score_misleading=0.00111635
+10604,Clear,0,bert_multitask,score_clear=0.98723388;score_not_clear=0.01185978;score_misleading=0.00090629
+11875,Not Clear,1,bert_multitask,score_clear=0.01366224;score_not_clear=0.98453462;score_misleading=0.00180311
+11970,Not Clear,1,bert_multitask,score_clear=0.40842804;score_not_clear=0.58934164;score_misleading=0.00223023
+11844,Not Clear,1,bert_multitask,score_clear=0.06167895;score_not_clear=0.93511498;score_misleading=0.00320604
+11445,Clear,0,bert_multitask,score_clear=0.71512169;score_not_clear=0.28296816;score_misleading=0.00191012
+10060,Clear,0,bert_multitask,score_clear=0.98043388;score_not_clear=0.01863953;score_misleading=0.00092660
+11329,Clear,0,bert_multitask,score_clear=0.96967918;score_not_clear=0.02916044;score_misleading=0.00116045
+11529,Clear,0,bert_multitask,score_clear=0.98822880;score_not_clear=0.01027691;score_misleading=0.00149428
+11266,Clear,0,bert_multitask,score_clear=0.99690896;score_not_clear=0.00244800;score_misleading=0.00064304
+10174,Not Clear,1,bert_multitask,score_clear=0.33287162;score_not_clear=0.66490036;score_misleading=0.00222799
+11541,Clear,0,bert_multitask,score_clear=0.95452887;score_not_clear=0.04445051;score_misleading=0.00102055
+10793,Clear,0,bert_multitask,score_clear=0.94270968;score_not_clear=0.05562009;score_misleading=0.00167021
+11948,Clear,0,bert_multitask,score_clear=0.92905903;score_not_clear=0.06706785;score_misleading=0.00387317
+10774,Not Clear,1,bert_multitask,score_clear=0.03491575;score_not_clear=0.96371037;score_misleading=0.00137395
+10237,Not Clear,1,bert_multitask,score_clear=0.36422595;score_not_clear=0.63328773;score_misleading=0.00248629
+10718,Clear,0,bert_multitask,score_clear=0.98938936;score_not_clear=0.00912645;score_misleading=0.00148417
+11782,Not Clear,1,bert_multitask,score_clear=0.19686854;score_not_clear=0.80169857;score_misleading=0.00143295
+10166,Clear,0,bert_multitask,score_clear=0.99471092;score_not_clear=0.00419984;score_misleading=0.00108928
+11879,Clear,0,bert_multitask,score_clear=0.98271376;score_not_clear=0.01580795;score_misleading=0.00147826
+10972,Clear,0,bert_multitask,score_clear=0.98549217;score_not_clear=0.01350063;score_misleading=0.00100710
+11830,Not Clear,1,bert_multitask,score_clear=0.41670597;score_not_clear=0.57575643;score_misleading=0.00753761
+10377,Clear,0,bert_multitask,score_clear=0.97895515;score_not_clear=0.02003682;score_misleading=0.00100811
+11236,Clear,0,bert_multitask,score_clear=0.67983347;score_not_clear=0.31606957;score_misleading=0.00409692
+10915,Clear,0,bert_multitask,score_clear=0.77513081;score_not_clear=0.22302961;score_misleading=0.00183951
+11143,Clear,0,bert_multitask,score_clear=0.99278426;score_not_clear=0.00625190;score_misleading=0.00096379
+11192,Clear,0,bert_multitask,score_clear=0.98905635;score_not_clear=0.00977305;score_misleading=0.00117072
+10831,Not Clear,1,bert_multitask,score_clear=0.40766144;score_not_clear=0.58821714;score_misleading=0.00412145
+10916,Clear,0,bert_multitask,score_clear=0.98847508;score_not_clear=0.00870955;score_misleading=0.00281531
+11348,Clear,0,bert_multitask,score_clear=0.98843539;score_not_clear=0.01001290;score_misleading=0.00155170
+10178,Clear,0,bert_multitask,score_clear=0.97002864;score_not_clear=0.02630691;score_misleading=0.00366446
+11893,Not Clear,1,bert_multitask,score_clear=0.03609733;score_not_clear=0.96304274;score_misleading=0.00085992
+10880,Clear,0,bert_multitask,score_clear=0.93817121;score_not_clear=0.05977838;score_misleading=0.00205045
+11719,Clear,0,bert_multitask,score_clear=0.99638140;score_not_clear=0.00292459;score_misleading=0.00069398
+11183,Clear,0,bert_multitask,score_clear=0.99338961;score_not_clear=0.00616663;score_misleading=0.00044375
+10812,Not Clear,1,bert_multitask,score_clear=0.44559854;score_not_clear=0.55224669;score_misleading=0.00215479
+10238,Not Clear,1,bert_multitask,score_clear=0.30155730;score_not_clear=0.69395977;score_misleading=0.00448293
+11472,Clear,0,bert_multitask,score_clear=0.95306355;score_not_clear=0.04546171;score_misleading=0.00147467
+10677,Clear,0,bert_multitask,score_clear=0.99783474;score_not_clear=0.00153205;score_misleading=0.00063319
+11699,Clear,0,bert_multitask,score_clear=0.97807395;score_not_clear=0.02085703;score_misleading=0.00106891
+11151,Not Clear,1,bert_multitask,score_clear=0.19497707;score_not_clear=0.80309391;score_misleading=0.00192899
+10525,Not Clear,1,bert_multitask,score_clear=0.13683785;score_not_clear=0.86158007;score_misleading=0.00158212
+11296,Clear,0,bert_multitask,score_clear=0.99241078;score_not_clear=0.00653754;score_misleading=0.00105168
+11252,Not Clear,1,bert_multitask,score_clear=0.19240524;score_not_clear=0.80286592;score_misleading=0.00472881
+10899,Clear,0,bert_multitask,score_clear=0.94869274;score_not_clear=0.05020278;score_misleading=0.00110447
+11836,Clear,0,bert_multitask,score_clear=0.98867744;score_not_clear=0.01029532;score_misleading=0.00102725
+10815,Clear,0,bert_multitask,score_clear=0.49950024;score_not_clear=0.49576172;score_misleading=0.00473807
+10039,Clear,0,bert_multitask,score_clear=0.99903595;score_not_clear=0.00040032;score_misleading=0.00056382
+10143,Not Clear,1,bert_multitask,score_clear=0.29288334;score_not_clear=0.70572609;score_misleading=0.00139057
+10127,Clear,0,bert_multitask,score_clear=0.99567562;score_not_clear=0.00385646;score_misleading=0.00046785
+10031,Clear,0,bert_multitask,score_clear=0.72730494;score_not_clear=0.27054319;score_misleading=0.00215184
+11494,Clear,0,bert_multitask,score_clear=0.98723805;score_not_clear=0.01184723;score_misleading=0.00091477
+11084,Clear,0,bert_multitask,score_clear=0.52412742;score_not_clear=0.47379977;score_misleading=0.00207278
+11511,Clear,0,bert_multitask,score_clear=0.81462592;score_not_clear=0.18076457;score_misleading=0.00460946
+10419,Not Clear,1,bert_multitask,score_clear=0.03330256;score_not_clear=0.96552593;score_misleading=0.00117152
+11838,Not Clear,1,bert_multitask,score_clear=0.46838790;score_not_clear=0.52932817;score_misleading=0.00228386
+11206,Not Clear,1,bert_multitask,score_clear=0.03788947;score_not_clear=0.96064919;score_misleading=0.00146132
+11536,Not Clear,1,bert_multitask,score_clear=0.13464499;score_not_clear=0.86358470;score_misleading=0.00177035
+10202,Clear,0,bert_multitask,score_clear=0.95720446;score_not_clear=0.04164699;score_misleading=0.00114846
+11737,Clear,0,bert_multitask,score_clear=0.60791928;score_not_clear=0.38769379;score_misleading=0.00438698
+10908,Not Clear,1,bert_multitask,score_clear=0.09354913;score_not_clear=0.90473342;score_misleading=0.00171746
+11011,Clear,0,bert_multitask,score_clear=0.84221566;score_not_clear=0.15579599;score_misleading=0.00198828
+10330,Clear,0,bert_multitask,score_clear=0.97213191;score_not_clear=0.02702299;score_misleading=0.00084508
+10257,Clear,0,bert_multitask,score_clear=0.72742605;score_not_clear=0.27036026;score_misleading=0.00221365
+11107,Clear,0,bert_multitask,score_clear=0.99743515;score_not_clear=0.00204540;score_misleading=0.00051946
+11474,Clear,0,bert_multitask,score_clear=0.62047303;score_not_clear=0.37705475;score_misleading=0.00247223
+11098,Clear,0,bert_multitask,score_clear=0.99265689;score_not_clear=0.00596571;score_misleading=0.00137740
+10371,Not Clear,1,bert_multitask,score_clear=0.21297556;score_not_clear=0.78443563;score_misleading=0.00258884
+10381,Clear,0,bert_multitask,score_clear=0.98511904;score_not_clear=0.01254427;score_misleading=0.00233667
+11755,Clear,0,bert_multitask,score_clear=0.99386650;score_not_clear=0.00463378;score_misleading=0.00149973
+10405,Not Clear,1,bert_multitask,score_clear=0.24492678;score_not_clear=0.74636662;score_misleading=0.00870656
+10747,Clear,0,bert_multitask,score_clear=0.95207328;score_not_clear=0.04647488;score_misleading=0.00145188
+11491,Clear,0,bert_multitask,score_clear=0.93916869;score_not_clear=0.05794476;score_misleading=0.00288654
+11990,Clear,0,bert_multitask,score_clear=0.98927045;score_not_clear=0.00905135;score_misleading=0.00167810
+10311,Clear,0,bert_multitask,score_clear=0.99156767;score_not_clear=0.00770110;score_misleading=0.00073125
+10164,Clear,0,bert_multitask,score_clear=0.74635470;score_not_clear=0.24734044;score_misleading=0.00630485
+10707,Clear,0,bert_multitask,score_clear=0.96860784;score_not_clear=0.02976437;score_misleading=0.00162770
+11482,Clear,0,bert_multitask,score_clear=0.99723935;score_not_clear=0.00208275;score_misleading=0.00067785
+10786,Not Clear,1,bert_multitask,score_clear=0.47729319;score_not_clear=0.52100885;score_misleading=0.00169793
+10363,Clear,0,bert_multitask,score_clear=0.61527884;score_not_clear=0.38261470;score_misleading=0.00210655
+10432,Clear,0,bert_multitask,score_clear=0.99868578;score_not_clear=0.00089669;score_misleading=0.00041748
+11661,Not Clear,1,bert_multitask,score_clear=0.19080009;score_not_clear=0.80434775;score_misleading=0.00485216
+10369,Not Clear,1,bert_multitask,score_clear=0.03849271;score_not_clear=0.95969188;score_misleading=0.00181544
+11616,Clear,0,bert_multitask,score_clear=0.95998156;score_not_clear=0.03521573;score_misleading=0.00480262
+11888,Not Clear,1,bert_multitask,score_clear=0.04048446;score_not_clear=0.95851225;score_misleading=0.00100332
+10009,Clear,0,bert_multitask,score_clear=0.53199500;score_not_clear=0.46496680;score_misleading=0.00303821
+10018,Clear,0,bert_multitask,score_clear=0.98362178;score_not_clear=0.01525768;score_misleading=0.00112055
+10990,Clear,0,bert_multitask,score_clear=0.99523443;score_not_clear=0.00359469;score_misleading=0.00117092
+11181,Clear,0,bert_multitask,score_clear=0.95215064;score_not_clear=0.04554298;score_misleading=0.00230638
+10343,Not Clear,1,bert_multitask,score_clear=0.41487798;score_not_clear=0.58264977;score_misleading=0.00247224
+10185,Clear,0,bert_multitask,score_clear=0.90353930;score_not_clear=0.09444090;score_misleading=0.00201977
+10549,Not Clear,1,bert_multitask,score_clear=0.03111627;score_not_clear=0.96734816;score_misleading=0.00153561
+10648,Not Clear,1,bert_multitask,score_clear=0.04840042;score_not_clear=0.94992435;score_misleading=0.00167527
+10679,Clear,0,bert_multitask,score_clear=0.99476022;score_not_clear=0.00416187;score_misleading=0.00107790
+11980,Clear,0,bert_multitask,score_clear=0.99075437;score_not_clear=0.00731118;score_misleading=0.00193452
+10983,Clear,0,bert_multitask,score_clear=0.98807031;score_not_clear=0.01043962;score_misleading=0.00149018
+11234,Clear,0,bert_multitask,score_clear=0.94543231;score_not_clear=0.05220563;score_misleading=0.00236205
+10522,Not Clear,1,bert_multitask,score_clear=0.44731635;score_not_clear=0.54379296;score_misleading=0.00889065
+10822,Clear,0,bert_multitask,score_clear=0.84815222;score_not_clear=0.14973965;score_misleading=0.00210814
+11373,Not Clear,1,bert_multitask,score_clear=0.01463604;score_not_clear=0.98458141;score_misleading=0.00078258
+10926,Not Clear,1,bert_multitask,score_clear=0.42557579;score_not_clear=0.57116610;score_misleading=0.00325811
+10021,Clear,0,bert_multitask,score_clear=0.98211437;score_not_clear=0.01671077;score_misleading=0.00117485
+10546,Clear,0,bert_multitask,score_clear=0.97055411;score_not_clear=0.02808781;score_misleading=0.00135813
+10921,Not Clear,1,bert_multitask,score_clear=0.02879198;score_not_clear=0.97015697;score_misleading=0.00105104
+11189,Clear,0,bert_multitask,score_clear=0.96797991;score_not_clear=0.03046578;score_misleading=0.00155430
+11582,Not Clear,1,bert_multitask,score_clear=0.37541696;score_not_clear=0.62167704;score_misleading=0.00290595
+10314,Clear,0,bert_multitask,score_clear=0.99698192;score_not_clear=0.00234575;score_misleading=0.00067233
+11501,Not Clear,1,bert_multitask,score_clear=0.03310937;score_not_clear=0.96589714;score_misleading=0.00099343
+11971,Clear,0,bert_multitask,score_clear=0.98919535;score_not_clear=0.00943545;score_misleading=0.00136919
+10751,Clear,0,bert_multitask,score_clear=0.99503917;score_not_clear=0.00421277;score_misleading=0.00074818
+11319,Clear,0,bert_multitask,score_clear=0.86042267;score_not_clear=0.13639598;score_misleading=0.00318128
+11960,Not Clear,1,bert_multitask,score_clear=0.13143788;score_not_clear=0.86741507;score_misleading=0.00114701
+10791,Not Clear,1,bert_multitask,score_clear=0.14576873;score_not_clear=0.85247266;score_misleading=0.00175859
+11654,Clear,0,bert_multitask,score_clear=0.60350454;score_not_clear=0.39406651;score_misleading=0.00242892
+11204,Clear,0,bert_multitask,score_clear=0.82999647;score_not_clear=0.16626400;score_misleading=0.00373952
+11600,Clear,0,bert_multitask,score_clear=0.87064219;score_not_clear=0.12682557;score_misleading=0.00253226
+10306,Clear,0,bert_multitask,score_clear=0.54904038;score_not_clear=0.44557443;score_misleading=0.00538518
+11431,Not Clear,1,bert_multitask,score_clear=0.08589697;score_not_clear=0.91191226;score_misleading=0.00219075
+10689,Clear,0,bert_multitask,score_clear=0.93412542;score_not_clear=0.06463253;score_misleading=0.00124203
+11194,Not Clear,1,bert_multitask,score_clear=0.09685387;score_not_clear=0.90150881;score_misleading=0.00163729
+10392,Not Clear,1,bert_multitask,score_clear=0.20013511;score_not_clear=0.79751736;score_misleading=0.00234754
+10359,Not Clear,1,bert_multitask,score_clear=0.20834623;score_not_clear=0.78993368;score_misleading=0.00172013
+10347,Clear,0,bert_multitask,score_clear=0.98763603;score_not_clear=0.01123985;score_misleading=0.00112415
+10639,Clear,0,bert_multitask,score_clear=0.61143392;score_not_clear=0.38509041;score_misleading=0.00347565
+10500,Clear,0,bert_multitask,score_clear=0.87367111;score_not_clear=0.12504055;score_misleading=0.00128836
+10748,Not Clear,1,bert_multitask,score_clear=0.29339173;score_not_clear=0.70504868;score_misleading=0.00155959
+10929,Clear,0,bert_multitask,score_clear=0.99872953;score_not_clear=0.00083790;score_misleading=0.00043253
+11995,Clear,0,bert_multitask,score_clear=0.98983765;score_not_clear=0.00869441;score_misleading=0.00146789
+10583,Clear,0,bert_multitask,score_clear=0.97748464;score_not_clear=0.01941633;score_misleading=0.00309899
+10556,Not Clear,1,bert_multitask,score_clear=0.06880179;score_not_clear=0.92904896;score_misleading=0.00214922
+10421,Not Clear,1,bert_multitask,score_clear=0.03836717;score_not_clear=0.96102870;score_misleading=0.00060416
+11258,Not Clear,1,bert_multitask,score_clear=0.27297148;score_not_clear=0.72519642;score_misleading=0.00183215
+11324,Not Clear,1,bert_multitask,score_clear=0.17510404;score_not_clear=0.82154584;score_misleading=0.00335012
+11185,Clear,0,bert_multitask,score_clear=0.81372839;score_not_clear=0.18413308;score_misleading=0.00213855
+11754,Clear,0,bert_multitask,score_clear=0.98478055;score_not_clear=0.01429738;score_misleading=0.00092202
+11133,Clear,0,bert_multitask,score_clear=0.99226612;score_not_clear=0.00664537;score_misleading=0.00108851
+11779,Not Clear,1,bert_multitask,score_clear=0.05015129;score_not_clear=0.94761658;score_misleading=0.00223211
+10168,Clear,0,bert_multitask,score_clear=0.97272551;score_not_clear=0.02618440;score_misleading=0.00109005
+11608,Clear,0,bert_multitask,score_clear=0.99835193;score_not_clear=0.00112176;score_misleading=0.00052632
+10666,Clear,0,bert_multitask,score_clear=0.98261189;score_not_clear=0.01631343;score_misleading=0.00107463
+10671,Clear,0,bert_multitask,score_clear=0.99475396;score_not_clear=0.00426412;score_misleading=0.00098189
+10269,Not Clear,1,bert_multitask,score_clear=0.02071625;score_not_clear=0.97828704;score_misleading=0.00099668
+10955,Clear,0,bert_multitask,score_clear=0.97827482;score_not_clear=0.02058566;score_misleading=0.00113949
+10839,Clear,0,bert_multitask,score_clear=0.76914555;score_not_clear=0.22828948;score_misleading=0.00256500
+11809,Clear,0,bert_multitask,score_clear=0.69536513;score_not_clear=0.29941848;score_misleading=0.00521640
+11310,Not Clear,1,bert_multitask,score_clear=0.01561761;score_not_clear=0.98329264;score_misleading=0.00108982
+11985,Clear,0,bert_multitask,score_clear=0.87140954;score_not_clear=0.12503520;score_misleading=0.00355533
+11748,Clear,0,bert_multitask,score_clear=0.92378968;score_not_clear=0.07290977;score_misleading=0.00330053
+10499,Not Clear,1,bert_multitask,score_clear=0.04532234;score_not_clear=0.95248449;score_misleading=0.00219320
+10239,Clear,0,bert_multitask,score_clear=0.99317485;score_not_clear=0.00583642;score_misleading=0.00098878
+11747,Clear,0,bert_multitask,score_clear=0.91511267;score_not_clear=0.08200607;score_misleading=0.00288126
+11833,Clear,0,bert_multitask,score_clear=0.67474860;score_not_clear=0.32241744;score_misleading=0.00283403
+10126,Not Clear,1,bert_multitask,score_clear=0.04987536;score_not_clear=0.94796610;score_misleading=0.00215851
+11649,Not Clear,1,bert_multitask,score_clear=0.02843890;score_not_clear=0.97105598;score_misleading=0.00050515
+10194,Clear,0,bert_multitask,score_clear=0.94630355;score_not_clear=0.04785767;score_misleading=0.00583885
+11275,Clear,0,bert_multitask,score_clear=0.98704147;score_not_clear=0.01209566;score_misleading=0.00086286
+10346,Clear,0,bert_multitask,score_clear=0.96420562;score_not_clear=0.03372809;score_misleading=0.00206631
+10861,Clear,0,bert_multitask,score_clear=0.88524836;score_not_clear=0.11225342;score_misleading=0.00249822
+11073,Not Clear,1,bert_multitask,score_clear=0.20817679;score_not_clear=0.78846627;score_misleading=0.00335696
+10974,Clear,0,bert_multitask,score_clear=0.83990949;score_not_clear=0.15882176;score_misleading=0.00126865
+10233,Clear,0,bert_multitask,score_clear=0.99402446;score_not_clear=0.00511630;score_misleading=0.00085918
+11702,Clear,0,bert_multitask,score_clear=0.67289716;score_not_clear=0.32409689;score_misleading=0.00300591
+11986,Not Clear,1,bert_multitask,score_clear=0.01201868;score_not_clear=0.98680580;score_misleading=0.00117553
+10821,Not Clear,1,bert_multitask,score_clear=0.05363272;score_not_clear=0.94491112;score_misleading=0.00145623
+11708,Clear,0,bert_multitask,score_clear=0.98568636;score_not_clear=0.01342418;score_misleading=0.00088950
+11807,Clear,0,bert_multitask,score_clear=0.83448708;score_not_clear=0.16269836;score_misleading=0.00281455
+11945,Clear,0,bert_multitask,score_clear=0.49843848;score_not_clear=0.49690780;score_misleading=0.00465367
+11109,Clear,0,bert_multitask,score_clear=0.75930148;score_not_clear=0.23746938;score_misleading=0.00322912
+10575,Not Clear,1,bert_multitask,score_clear=0.04886654;score_not_clear=0.94927818;score_misleading=0.00185523
+11676,Clear,0,bert_multitask,score_clear=0.99311781;score_not_clear=0.00547243;score_misleading=0.00140980
+11695,Clear,0,bert_multitask,score_clear=0.93600637;score_not_clear=0.06282225;score_misleading=0.00117139
+10147,Clear,0,bert_multitask,score_clear=0.99500066;score_not_clear=0.00403330;score_misleading=0.00096599
+10097,Clear,0,bert_multitask,score_clear=0.96979481;score_not_clear=0.02875112;score_misleading=0.00145398
+11592,Not Clear,1,bert_multitask,score_clear=0.18674132;score_not_clear=0.81127942;score_misleading=0.00197926
+11172,Clear,0,bert_multitask,score_clear=0.72443521;score_not_clear=0.27333903;score_misleading=0.00222571
+10222,Clear,0,bert_multitask,score_clear=0.97204977;score_not_clear=0.02698819;score_misleading=0.00096196
+10063,Clear,0,bert_multitask,score_clear=0.99869734;score_not_clear=0.00083148;score_misleading=0.00047117
+10095,Not Clear,1,bert_multitask,score_clear=0.31032217;score_not_clear=0.68467546;score_misleading=0.00500235

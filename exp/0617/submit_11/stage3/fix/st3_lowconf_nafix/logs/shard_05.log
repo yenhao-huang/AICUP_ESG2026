@@ -1,0 +1,18 @@
+[1/6] 12140 -> Clear
+[2/6] 12376 -> Clear
+[3/6] 12827 -> Not Clear
+[4/6] 13106 -> Clear
+[5/6] 13415 -> Not Clear
+[6/6] 13977 -> Clear
+{
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/submit_11/stage3/fix/st3_lowconf_nafix/preds/shard_05.csv",
+  "rows": 6,
+  "filtered_rows": 0,
+  "predicted_rows": 6,
+  "resumed_rows": 0,
+  "errors": 0,
+  "flow": "filter_pred_by_codex",
+  "model": "gpt-5.5",
+  "token_usage_output": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/submit_11/stage3/fix/st3_lowconf_nafix/preds/token_usage_shard_05.jsonl",
+  "raw_output_dir": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/submit_11/stage3/fix/st3_lowconf_nafix/raw/shard_05"
+}

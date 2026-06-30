@@ -1,0 +1,7 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+12092,Not Clear,Not Clear,codex,normalized_codex_label
+12349,Clear,Clear,codex,normalized_codex_label
+12715,Clear,Clear,codex,normalized_codex_label
+13006,Clear,Clear,codex,normalized_codex_label
+13395,Clear,Clear,codex,normalized_codex_label
+13875,Not Clear,Not Clear,codex,normalized_codex_label

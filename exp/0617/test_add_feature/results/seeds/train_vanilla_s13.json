@@ -1,0 +1,81 @@
+{
+  "mode": "vanilla",
+  "best_epoch": 5,
+  "val_macro_f1": 0.46621198156682025,
+  "val_nc_f1": 0.512,
+  "aux_lambda": null,
+  "aux_names": null,
+  "best_checkpoint": "/models/test_add_feature_0617/_seed_tmp/vanilla_s13/best_st3.pt",
+  "train": "/workspace/esg_contest/data/raw_data/vpesg_4k_train_1000.json",
+  "val": "/workspace/esg_contest/data/raw_data/vpesg4k_val_1000.json",
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.4255148532895936,
+      "val_nc_f1": 0.36129032258064514,
+      "train_main_loss": 0.9143035660771762,
+      "train_aux_loss": null
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.41029826888412746,
+      "val_nc_f1": 0.44077134986225897,
+      "train_main_loss": 0.5955871738055173,
+      "train_aux_loss": null
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.45415666094911383,
+      "val_nc_f1": 0.49454545454545457,
+      "train_main_loss": 0.41573461224051084,
+      "train_aux_loss": null
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.45741055612074305,
+      "val_nc_f1": 0.4961832061068702,
+      "train_main_loss": 0.3153324343264103,
+      "train_aux_loss": null
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.46621198156682025,
+      "val_nc_f1": 0.512,
+      "train_main_loss": 0.21085008271038533,
+      "train_aux_loss": null
+    }
+  ],
+  "classification_report": {
+    "Clear": {
+      "precision": 0.9267822736030829,
+      "recall": 0.8498233215547704,
+      "f1-score": 0.8866359447004608,
+      "support": 566.0
+    },
+    "Not Clear": {
+      "precision": 0.42953020134228187,
+      "recall": 0.6336633663366337,
+      "f1-score": 0.512,
+      "support": 101.0
+    },
+    "Misleading": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.8158682634730539,
+    "macro avg": {
+      "precision": 0.4521041583151216,
+      "recall": 0.49449556263046796,
+      "f1-score": 0.46621198156682025,
+      "support": 668.0
+    },
+    "weighted avg": {
+      "precision": 0.8502115526869991,
+      "recall": 0.8158682634730539,
+      "f1-score": 0.8286645878749413,
+      "support": 668.0
+    }
+  }
+}

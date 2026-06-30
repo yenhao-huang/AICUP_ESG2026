@@ -1,0 +1,46 @@
+# Stage 3 evidence_quality — Qwen + same-page-content (default probe).
+#
+# Drive vlm_pred.py with:
+#   python core/vlm_pred.py --config ../configs/qwen_ctx.yaml
+#
+# Any key may be omitted to keep its built-in default (see DEFAULTS in vlm_pred.py).
+# Relative paths resolve against THIS config file's directory.
+# Any CLI flag overrides the matching key here (e.g. --limit 20).
+
+# ── input / output ──────────────────────────────────────────────
+data: ../data/val_ctxhit.json          # input rows (id, data, pdf_url, page_number)
+output: ../preds/st3_qwen_ctx.csv       # output Stage 3 CSV
+prompt_path: ../prompts/clear_notclear_with_context_scoped.txt
+data_col: data
+limit: null                            # null = all rows; int caps for a smoke run
+
+# ── backend ─────────────────────────────────────────────────────
+backend: qwen                          # qwen | codex
+endpoint: http://192.168.1.78:3132/v1/chat/completions
+model: null                            # null = per-backend default (qwen -> local-qwen)
+max_tokens: 16
+temperature: 0.0
+enable_thinking: false
+logprobs: true                         # record per-output-token confidence (qwen only)
+timeout: 120
+retries: 4
+concurrency: 4
+
+# ── gate (optional) ─────────────────────────────────────────────
+gate_csv: null                         # null = predict every row (no Stage 2 gate)
+gate_col: evidence_status
+
+# ── same-page-content (whole matched page, no front/back window) ─
+add_context: true
+context_mode: all                      # all | hit_exact_window_norm_window
+context_max_chars: 0                    # cap page chars; 0 = whole page
+
+# ── prompt assembly ─────────────────────────────────────────────
+# Single tagged message in this order:
+#   <same-page-context> <promise-string> <evidence-string> <data-prompt> <system-prompt>
+prompt_role: user                      # user | system (role of that single message)
+
+# ── data-use extras (OFF by default; exceed `data`-only rule) ────
+add_evidence_string: false
+add_promise_string: false
+add_image: false

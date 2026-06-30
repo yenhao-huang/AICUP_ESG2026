@@ -1,0 +1,47 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+12019,Not Clear,Not Clear,codex,normalized_codex_label
+12057,Not Clear,Not Clear,codex,normalized_codex_label
+12089,Clear,Clear,codex,normalized_codex_label
+12092,Not Clear,Not Clear,codex,normalized_codex_label
+12133,Clear,Clear,codex,normalized_codex_label
+12140,Clear,Clear,codex,normalized_codex_label
+12141,Clear,Clear,codex,normalized_codex_label
+12222,Clear,Clear,codex,normalized_codex_label
+12227,Clear,Clear,codex,normalized_codex_label
+12287,Clear,Clear,codex,normalized_codex_label
+12344,Not Clear,Not Clear,codex,normalized_codex_label
+12349,Clear,Clear,codex,normalized_codex_label
+12359,Clear,Clear,codex,normalized_codex_label
+12376,Clear,Clear,codex,normalized_codex_label
+12569,Not Clear,Not Clear,codex,normalized_codex_label
+12578,Not Clear,Not Clear,codex,normalized_codex_label
+12611,Clear,Clear,codex,normalized_codex_label
+12638,Clear,Clear,codex,normalized_codex_label
+12697,Not Clear,Not Clear,codex,normalized_codex_label
+12715,Clear,Clear,codex,normalized_codex_label
+12763,Not Clear,Not Clear,codex,normalized_codex_label
+12827,Not Clear,Not Clear,codex,normalized_codex_label
+12834,Clear,Clear,codex,normalized_codex_label
+12867,Clear,Clear,codex,normalized_codex_label
+12881,Not Clear,Not Clear,codex,normalized_codex_label
+12887,Clear,Clear,codex,normalized_codex_label
+12905,Not Clear,Not Clear,codex,normalized_codex_label
+13006,Clear,Clear,codex,normalized_codex_label
+13025,Clear,Clear,codex,normalized_codex_label
+13106,Clear,Clear,codex,normalized_codex_label
+13178,Clear,Clear,codex,normalized_codex_label
+13258,Clear,Clear,codex,normalized_codex_label
+13303,Not Clear,Not Clear,codex,normalized_codex_label
+13357,Not Clear,Not Clear,codex,normalized_codex_label
+13390,Clear,Clear,codex,normalized_codex_label
+13395,Clear,Clear,codex,normalized_codex_label
+13407,Clear,Clear,codex,normalized_codex_label
+13415,Not Clear,Not Clear,codex,normalized_codex_label
+13429,Not Clear,Not Clear,codex,normalized_codex_label
+13439,Clear,Clear,codex,normalized_codex_label
+13639,Not Clear,Not Clear,codex,normalized_codex_label
+13686,Clear,Clear,codex,normalized_codex_label
+13799,Clear,Clear,codex,normalized_codex_label
+13875,Not Clear,Not Clear,codex,normalized_codex_label
+13897,Not Clear,Not Clear,codex,normalized_codex_label
+13977,Clear,Clear,codex,normalized_codex_label

@@ -1,0 +1,467 @@
+{
+  "page_table": "/workspace/esg_contest/data/generated/raw_page_table.jsonl",
+  "total_pages": 8026,
+  "pages_with_garbage": 2204,
+  "pages_with_garbage_pct": 27.46,
+  "total_chars": 9235517,
+  "total_garbage_chars": 186563,
+  "garbage_char_pct": 2.0201,
+  "top_garbage_blocks": {
+    "<unnamed>": 22153,
+    "REPLACEMENT": 14393,
+    "LATIN": 11957,
+    "CYRILLIC": 11910,
+    "CANADIAN": 9681,
+    "GREEK": 9343,
+    "COMBINING": 9012,
+    "TIBETAN": 7751,
+    "ETHIOPIC": 7468,
+    "MODIFIER": 6683,
+    "MYANMAR": 5846,
+    "HANGUL": 5497,
+    "ORIYA": 5405,
+    "GURMUKHI": 5230,
+    "THAI": 4963,
+    "ARABIC": 4440,
+    "MALAYALAM": 4069,
+    "ARMENIAN": 3488,
+    "TAMIL": 3434,
+    "SINHALA": 2987,
+    "KATAKANA": 2920,
+    "TELUGU": 2597,
+    "BENGALI": 2558,
+    "KANNADA": 2062,
+    "DEVANAGARI": 1820
+  },
+  "top_garbage_chars": [
+    {
+      "char": "�",
+      "U+": "FFFD",
+      "block": "REPLACEMENT",
+      "count": 14393
+    },
+    {
+      "char": "・",
+      "U+": "30FB",
+      "block": "KATAKANA",
+      "count": 2883
+    },
+    {
+      "char": "\u0001",
+      "U+": "0001",
+      "block": "<unnamed>",
+      "count": 2633
+    },
+    {
+      "char": "ଣ",
+      "U+": "0B23",
+      "block": "ORIYA",
+      "count": 1889
+    },
+    {
+      "char": "ၾ",
+      "U+": "107E",
+      "block": "MYANMAR",
+      "count": 1882
+    },
+    {
+      "char": "ϋ",
+      "U+": "03CB",
+      "block": "GREEK",
+      "count": 1877
+    },
+    {
+      "char": "ɛ",
+      "U+": "025B",
+      "block": "LATIN",
+      "count": 1760
+    },
+    {
+      "char": "",
+      "U+": "0080",
+      "block": "<unnamed>",
+      "count": 1760
+    },
+    {
+      "char": "ึ",
+      "U+": "0E36",
+      "block": "THAI",
+      "count": 1670
+    },
+    {
+      "char": "",
+      "U+": "0081",
+      "block": "<unnamed>",
+      "count": 1503
+    },
+    {
+      "char": "၍",
+      "U+": "104D",
+      "block": "MYANMAR",
+      "count": 1477
+    },
+    {
+      "char": "ุ",
+      "U+": "0E38",
+      "block": "THAI",
+      "count": 1340
+    },
+    {
+      "char": "Б",
+      "U+": "0411",
+      "block": "CYRILLIC",
+      "count": 1326
+    },
+    {
+      "char": "༟",
+      "U+": "0F1F",
+      "block": "TIBETAN",
+      "count": 1296
+    },
+    {
+      "char": "ᅰ",
+      "U+": "1170",
+      "block": "HANGUL",
+      "count": 1247
+    },
+    {
+      "char": "΍",
+      "U+": "038D",
+      "block": "<unnamed>",
+      "count": 1246
+    },
+    {
+      "char": "ʿ",
+      "U+": "02BF",
+      "block": "MODIFIER",
+      "count": 1244
+    },
+    {
+      "char": "ᚃ",
+      "U+": "1683",
+      "block": "OGHAM",
+      "count": 1237
+    },
+    {
+      "char": "ፄ",
+      "U+": "1344",
+      "block": "ETHIOPIC",
+      "count": 1186
+    },
+    {
+      "char": "ਗ",
+      "U+": "0A17",
+      "block": "GURMUKHI",
+      "count": 1168
+    },
+    {
+      "char": "ʮ",
+      "U+": "02AE",
+      "block": "LATIN",
+      "count": 1096
+    },
+    {
+      "char": "ᐄ",
+      "U+": "1404",
+      "block": "CANADIAN",
+      "count": 1082
+    },
+    {
+      "char": "຾",
+      "U+": "0EBE",
+      "block": "<unnamed>",
+      "count": 1066
+    },
+    {
+      "char": "ਕ",
+      "U+": "0A15",
+      "block": "GURMUKHI",
+      "count": 1049
+    },
+    {
+      "char": "ʈ",
+      "U+": "0288",
+      "block": "LATIN",
+      "count": 1019
+    },
+    {
+      "char": "͜",
+      "U+": "035C",
+      "block": "COMBINING",
+      "count": 1017
+    },
+    {
+      "char": "ᅺ",
+      "U+": "117A",
+      "block": "HANGUL",
+      "count": 1006
+    },
+    {
+      "char": "ʘ",
+      "U+": "0298",
+      "block": "LATIN",
+      "count": 993
+    },
+    {
+      "char": "Ꮠ",
+      "U+": "13D0",
+      "block": "CHEROKEE",
+      "count": 987
+    },
+    {
+      "char": "͑",
+      "U+": "0351",
+      "block": "COMBINING",
+      "count": 912
+    }
+  ],
+  "worst_reports_by_garbage_page_share": [
+    {
+      "doc_id": "e39ad90346460dc0",
+      "company": "tcfhc",
+      "garbage_pages": 197,
+      "total_pages": 197,
+      "share_pct": 100.0
+    },
+    {
+      "doc_id": "0a8a6b4296cba9c2",
+      "company": "cathay",
+      "garbage_pages": 192,
+      "total_pages": 231,
+      "share_pct": 83.1
+    },
+    {
+      "doc_id": "f91f5a9857a333b9",
+      "company": "twm",
+      "garbage_pages": 187,
+      "total_pages": 187,
+      "share_pct": 100.0
+    },
+    {
+      "doc_id": "616fbac4b135c056",
+      "company": "esfh",
+      "garbage_pages": 181,
+      "total_pages": 195,
+      "share_pct": 92.8
+    },
+    {
+      "doc_id": "f072c35af960dc69",
+      "company": "accton",
+      "garbage_pages": 174,
+      "total_pages": 176,
+      "share_pct": 98.9
+    },
+    {
+      "doc_id": "2659b211f21b3b17",
+      "company": "ymtc",
+      "garbage_pages": 135,
+      "total_pages": 187,
+      "share_pct": 72.2
+    },
+    {
+      "doc_id": "75ac92a6af4a4b60",
+      "company": "hotaimotor",
+      "garbage_pages": 119,
+      "total_pages": 121,
+      "share_pct": 98.3
+    },
+    {
+      "doc_id": "835b88b00f36ce76",
+      "company": "scsb",
+      "garbage_pages": 91,
+      "total_pages": 151,
+      "share_pct": 60.3
+    },
+    {
+      "doc_id": "79d6b15d6903ce18",
+      "company": "ffhc",
+      "garbage_pages": 88,
+      "total_pages": 124,
+      "share_pct": 71.0
+    },
+    {
+      "doc_id": "0a34d7e7c4278895",
+      "company": "hnfhc",
+      "garbage_pages": 81,
+      "total_pages": 158,
+      "share_pct": 51.3
+    },
+    {
+      "doc_id": "52423036938223ff",
+      "company": "yfy",
+      "garbage_pages": 76,
+      "total_pages": 173,
+      "share_pct": 43.9
+    },
+    {
+      "doc_id": "5b64609972dba360",
+      "company": "mega",
+      "garbage_pages": 68,
+      "total_pages": 173,
+      "share_pct": 39.3
+    },
+    {
+      "doc_id": "b47b5b0710234254",
+      "company": "emc2",
+      "garbage_pages": 65,
+      "total_pages": 83,
+      "share_pct": 78.3
+    },
+    {
+      "doc_id": "d0a8ec134675bcb5",
+      "company": "csc",
+      "garbage_pages": 49,
+      "total_pages": 77,
+      "share_pct": 63.6
+    },
+    {
+      "doc_id": "dd2c1c11172e22a9",
+      "company": "rt",
+      "garbage_pages": 42,
+      "total_pages": 168,
+      "share_pct": 25.0
+    }
+  ],
+  "worst_pages_by_ratio": [
+    {
+      "garbage_ratio": 0.7232,
+      "n_garbage": 277,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "64",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p64.png"
+    },
+    {
+      "garbage_ratio": 0.7016,
+      "n_garbage": 174,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "120",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p120.png"
+    },
+    {
+      "garbage_ratio": 0.7,
+      "n_garbage": 28,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "193",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p193.png"
+    },
+    {
+      "garbage_ratio": 0.6986,
+      "n_garbage": 721,
+      "doc_id": "f91f5a9857a333b9",
+      "page_no": "40",
+      "image_path": "data/raw_reports/images/f7b0172e4bd69eacce0ee884cb4efb8b_p40.png"
+    },
+    {
+      "garbage_ratio": 0.6909,
+      "n_garbage": 190,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "87",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p87.png"
+    },
+    {
+      "garbage_ratio": 0.6786,
+      "n_garbage": 378,
+      "doc_id": "f91f5a9857a333b9",
+      "page_no": "34",
+      "image_path": "data/raw_reports/images/f7b0172e4bd69eacce0ee884cb4efb8b_p34.png"
+    },
+    {
+      "garbage_ratio": 0.6717,
+      "n_garbage": 178,
+      "doc_id": "f91f5a9857a333b9",
+      "page_no": "13",
+      "image_path": "data/raw_reports/images/f7b0172e4bd69eacce0ee884cb4efb8b_p13.png"
+    },
+    {
+      "garbage_ratio": 0.6687,
+      "n_garbage": 216,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "139",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p139.png"
+    },
+    {
+      "garbage_ratio": 0.6646,
+      "n_garbage": 325,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "69",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p69.png"
+    },
+    {
+      "garbage_ratio": 0.6603,
+      "n_garbage": 309,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "122",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p122.png"
+    },
+    {
+      "garbage_ratio": 0.6589,
+      "n_garbage": 338,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "58",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p58.png"
+    },
+    {
+      "garbage_ratio": 0.653,
+      "n_garbage": 254,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "143",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p143.png"
+    },
+    {
+      "garbage_ratio": 0.6524,
+      "n_garbage": 351,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "78",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p78.png"
+    },
+    {
+      "garbage_ratio": 0.6519,
+      "n_garbage": 103,
+      "doc_id": "f91f5a9857a333b9",
+      "page_no": "157",
+      "image_path": "data/raw_reports/images/f7b0172e4bd69eacce0ee884cb4efb8b_p157.png"
+    },
+    {
+      "garbage_ratio": 0.6457,
+      "n_garbage": 144,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "65",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p65.png"
+    },
+    {
+      "garbage_ratio": 0.6457,
+      "n_garbage": 441,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "149",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p149.png"
+    },
+    {
+      "garbage_ratio": 0.6455,
+      "n_garbage": 264,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "66",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p66.png"
+    },
+    {
+      "garbage_ratio": 0.6433,
+      "n_garbage": 211,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "190",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p190.png"
+    },
+    {
+      "garbage_ratio": 0.643,
+      "n_garbage": 461,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "68",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p68.png"
+    },
+    {
+      "garbage_ratio": 0.6418,
+      "n_garbage": 378,
+      "doc_id": "e39ad90346460dc0",
+      "page_no": "101",
+      "image_path": "data/raw_reports/images/7a2a78ad958a39d032645377587cd35f_p101.png"
+    }
+  ]
+}

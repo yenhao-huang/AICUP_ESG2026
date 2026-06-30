@@ -1,0 +1,2001 @@
+id,evidence_quality,evidence_quality_raw,evidence_quality_source,evidence_quality_reason
+12001,Not Clear,Not Clear,codex,normalized_codex_label
+12002,Clear,Clear,codex,normalized_codex_label
+12003,Clear,Clear,codex,normalized_codex_label
+12004,Clear,Clear,codex,normalized_codex_label
+12005,Clear,Clear,codex,normalized_codex_label
+12006,Clear,Clear,codex,normalized_codex_label
+12007,Clear,Clear,codex,normalized_codex_label
+12008,Clear,Clear,codex,normalized_codex_label
+12009,N/A,,stage2_filter,evidence_status_not_yes
+12010,Not Clear,Not Clear,codex,normalized_codex_label
+12011,Clear,Clear,codex,normalized_codex_label
+12012,Clear,Clear,codex,normalized_codex_label
+12013,N/A,,stage2_filter,evidence_status_not_yes
+12014,Clear,Clear,codex,normalized_codex_label
+12015,Clear,Clear,codex,normalized_codex_label
+12016,Clear,Clear,codex,normalized_codex_label
+12017,Clear,Clear,codex,normalized_codex_label
+12018,N/A,,stage2_filter,evidence_status_not_yes
+12019,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12020,N/A,,stage2_filter,evidence_status_not_yes
+12021,Not Clear,Not Clear,codex,normalized_codex_label
+12022,Clear,Clear,codex,normalized_codex_label
+12023,Clear,Clear,codex,normalized_codex_label
+12024,Clear,Clear,codex,normalized_codex_label
+12025,Clear,Clear,codex,normalized_codex_label
+12026,N/A,,stage2_filter,evidence_status_not_yes
+12027,N/A,,stage2_filter,evidence_status_not_yes
+12028,Clear,Clear,codex,normalized_codex_label
+12029,N/A,,stage2_filter,evidence_status_not_yes
+12030,N/A,,stage2_filter,evidence_status_not_yes
+12031,Clear,Clear,codex,normalized_codex_label
+12032,Clear,Clear,codex,normalized_codex_label
+12033,Not Clear,Not Clear,codex,normalized_codex_label
+12034,Clear,Clear,codex,normalized_codex_label
+12035,Clear,Clear,codex,normalized_codex_label
+12036,N/A,,stage2_filter,evidence_status_not_yes
+12037,Clear,Clear,codex,normalized_codex_label
+12038,Clear,Clear,codex,normalized_codex_label
+12039,Not Clear,Not Clear,codex,normalized_codex_label
+12040,Clear,Clear,codex,normalized_codex_label
+12041,Not Clear,Not Clear,codex,normalized_codex_label
+12042,Clear,Clear,codex,normalized_codex_label
+12043,N/A,,stage2_filter,evidence_status_not_yes
+12044,Clear,Clear,codex,normalized_codex_label
+12045,N/A,,stage2_filter,evidence_status_not_yes
+12046,N/A,,stage2_filter,evidence_status_not_yes
+12047,Clear,Clear,codex,normalized_codex_label
+12048,Not Clear,Not Clear,codex,normalized_codex_label
+12049,Clear,Clear,codex,normalized_codex_label
+12050,Clear,Clear,codex,normalized_codex_label
+12051,Clear,Clear,codex,normalized_codex_label
+12052,N/A,,stage2_filter,evidence_status_not_yes
+12053,Clear,Clear,codex,normalized_codex_label
+12054,N/A,,stage2_filter,evidence_status_not_yes
+12055,Clear,Clear,codex,normalized_codex_label
+12056,Clear,Clear,codex,normalized_codex_label
+12057,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12058,Clear,Clear,codex,normalized_codex_label
+12059,N/A,,stage2_filter,evidence_status_not_yes
+12060,Clear,Clear,codex,normalized_codex_label
+12061,Clear,Clear,codex,normalized_codex_label
+12062,Clear,Clear,codex,normalized_codex_label
+12063,N/A,,stage2_filter,evidence_status_not_yes
+12064,Clear,Clear,codex,normalized_codex_label
+12065,Clear,Clear,codex,normalized_codex_label
+12066,N/A,,stage2_filter,evidence_status_not_yes
+12067,Clear,Clear,codex,normalized_codex_label
+12068,Not Clear,Not Clear,codex,normalized_codex_label
+12069,N/A,,stage2_filter,evidence_status_not_yes
+12070,Clear,Clear,codex,normalized_codex_label
+12071,Clear,Clear,codex,normalized_codex_label
+12072,Clear,Clear,codex,normalized_codex_label
+12073,Clear,Clear,codex,normalized_codex_label
+12074,Not Clear,Not Clear,codex,normalized_codex_label
+12075,Clear,Clear,codex,normalized_codex_label
+12076,N/A,,stage2_filter,evidence_status_not_yes
+12077,Clear,Clear,codex,normalized_codex_label
+12078,N/A,,stage2_filter,evidence_status_not_yes
+12079,Clear,Clear,codex,normalized_codex_label
+12080,N/A,,stage2_filter,evidence_status_not_yes
+12081,Clear,Clear,codex,normalized_codex_label
+12082,Clear,Clear,codex,normalized_codex_label
+12083,Clear,Clear,codex,normalized_codex_label
+12084,N/A,,stage2_filter,evidence_status_not_yes
+12085,N/A,,stage2_filter,evidence_status_not_yes
+12086,N/A,,stage2_filter,evidence_status_not_yes
+12087,Clear,Clear,codex,normalized_codex_label
+12088,Not Clear,Not Clear,codex,normalized_codex_label
+12089,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12090,Clear,Clear,codex,normalized_codex_label
+12091,Not Clear,Not Clear,codex,normalized_codex_label
+12092,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12093,N/A,,stage2_filter,evidence_status_not_yes
+12094,Clear,Clear,codex,normalized_codex_label
+12095,Not Clear,Not Clear,codex,normalized_codex_label
+12096,Clear,Clear,codex,normalized_codex_label
+12097,N/A,,stage2_filter,evidence_status_not_yes
+12098,Clear,Clear,codex,normalized_codex_label
+12099,N/A,,stage2_filter,evidence_status_not_yes
+12100,Clear,Clear,codex,normalized_codex_label
+12101,Not Clear,Not Clear,codex,normalized_codex_label
+12102,Clear,Clear,codex,normalized_codex_label
+12103,N/A,,stage2_filter,evidence_status_not_yes
+12104,Clear,Clear,codex,normalized_codex_label
+12105,Clear,Clear,codex,normalized_codex_label
+12106,Clear,Clear,codex,normalized_codex_label
+12107,Clear,Clear,codex,normalized_codex_label
+12108,Clear,Clear,codex,normalized_codex_label
+12109,Clear,Clear,codex,normalized_codex_label
+12110,N/A,,stage2_filter,evidence_status_not_yes
+12111,N/A,,stage2_filter,evidence_status_not_yes
+12112,Clear,Clear,codex,normalized_codex_label
+12113,Clear,Clear,codex,normalized_codex_label
+12114,Not Clear,Not Clear,codex,normalized_codex_label
+12115,Clear,Clear,codex,normalized_codex_label
+12116,N/A,,stage2_filter,evidence_status_not_yes
+12117,N/A,,stage2_filter,evidence_status_not_yes
+12118,Clear,Clear,codex,normalized_codex_label
+12119,Clear,Clear,codex,normalized_codex_label
+12120,Clear,Clear,codex,normalized_codex_label
+12121,Clear,Clear,codex,normalized_codex_label
+12122,Clear,Clear,codex,normalized_codex_label
+12123,N/A,,stage2_filter,evidence_status_not_yes
+12124,Clear,Clear,codex,normalized_codex_label
+12125,Clear,Clear,codex,normalized_codex_label
+12126,Clear,Clear,codex,normalized_codex_label
+12127,Clear,Clear,codex,normalized_codex_label
+12128,Clear,Clear,codex,normalized_codex_label
+12129,N/A,,stage2_filter,evidence_status_not_yes
+12130,Clear,Clear,codex,normalized_codex_label
+12131,Clear,Clear,codex,normalized_codex_label
+12132,N/A,,stage2_filter,evidence_status_not_yes
+12133,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12134,Clear,Clear,codex,normalized_codex_label
+12135,N/A,,stage2_filter,evidence_status_not_yes
+12136,Not Clear,Not Clear,codex,normalized_codex_label
+12137,N/A,,stage2_filter,evidence_status_not_yes
+12138,Clear,Clear,codex,normalized_codex_label
+12139,Clear,Clear,codex,normalized_codex_label
+12140,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12141,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12142,Not Clear,Not Clear,codex,normalized_codex_label
+12143,Clear,Clear,codex,normalized_codex_label
+12144,Clear,Clear,codex,normalized_codex_label
+12145,Clear,Clear,codex,normalized_codex_label
+12146,Clear,Clear,codex,normalized_codex_label
+12147,Not Clear,Not Clear,codex,normalized_codex_label
+12148,Clear,Clear,codex,normalized_codex_label
+12149,N/A,,stage2_filter,evidence_status_not_yes
+12150,N/A,,stage2_filter,evidence_status_not_yes
+12151,N/A,,stage2_filter,evidence_status_not_yes
+12152,N/A,,stage2_filter,evidence_status_not_yes
+12153,N/A,,stage2_filter,evidence_status_not_yes
+12154,Clear,Clear,codex,normalized_codex_label
+12155,Clear,Clear,codex,normalized_codex_label
+12156,N/A,,stage2_filter,evidence_status_not_yes
+12157,Clear,Clear,codex,normalized_codex_label
+12158,Clear,Clear,codex,normalized_codex_label
+12159,Clear,Clear,codex,normalized_codex_label
+12160,Clear,Clear,codex,normalized_codex_label
+12161,N/A,,stage2_filter,evidence_status_not_yes
+12162,N/A,,codex,codex_error:ValueError
+12163,N/A,,stage2_filter,evidence_status_not_yes
+12164,Clear,Clear,codex,normalized_codex_label
+12165,Clear,Clear,codex,normalized_codex_label
+12166,Clear,Clear,codex,normalized_codex_label
+12167,Clear,Clear,codex,normalized_codex_label
+12168,Clear,Clear,codex,normalized_codex_label
+12169,Clear,Clear,codex,normalized_codex_label
+12170,Clear,Clear,codex,normalized_codex_label
+12171,Clear,Clear,codex,normalized_codex_label
+12172,N/A,,stage2_filter,evidence_status_not_yes
+12173,N/A,,stage2_filter,evidence_status_not_yes
+12174,Clear,Clear,codex,normalized_codex_label
+12175,N/A,,stage2_filter,evidence_status_not_yes
+12176,Clear,Clear,codex,normalized_codex_label
+12177,Not Clear,Not Clear,codex,normalized_codex_label
+12178,N/A,,stage2_filter,evidence_status_not_yes
+12179,Clear,Clear,codex,normalized_codex_label
+12180,Clear,Clear,codex,normalized_codex_label
+12181,Clear,Clear,codex,normalized_codex_label
+12182,Not Clear,Not Clear,codex,normalized_codex_label
+12183,Not Clear,Not Clear,codex,normalized_codex_label
+12184,Clear,Clear,codex,normalized_codex_label
+12185,Clear,Clear,codex,normalized_codex_label
+12186,Clear,Clear,codex,normalized_codex_label
+12187,N/A,,stage2_filter,evidence_status_not_yes
+12188,N/A,,stage2_filter,evidence_status_not_yes
+12189,Clear,Clear,codex,normalized_codex_label
+12190,N/A,,stage2_filter,evidence_status_not_yes
+12191,Clear,Clear,codex,normalized_codex_label
+12192,Clear,Clear,codex,normalized_codex_label
+12193,Clear,Clear,codex,normalized_codex_label
+12194,N/A,,stage2_filter,evidence_status_not_yes
+12195,N/A,,stage2_filter,evidence_status_not_yes
+12196,N/A,,stage2_filter,evidence_status_not_yes
+12197,Clear,Clear,codex,normalized_codex_label
+12198,Clear,Clear,codex,normalized_codex_label
+12199,Clear,Clear,codex,normalized_codex_label
+12200,Clear,Clear,codex,normalized_codex_label
+12201,Clear,Clear,codex,normalized_codex_label
+12202,Not Clear,Not Clear,codex,normalized_codex_label
+12203,Clear,Clear,codex,normalized_codex_label
+12204,Clear,Clear,codex,normalized_codex_label
+12205,Clear,Clear,codex,normalized_codex_label
+12206,Clear,Clear,codex,normalized_codex_label
+12207,N/A,,stage2_filter,evidence_status_not_yes
+12208,Not Clear,Not Clear,codex,normalized_codex_label
+12209,Clear,Clear,codex,normalized_codex_label
+12210,Clear,Clear,codex,normalized_codex_label
+12211,Clear,Clear,codex,normalized_codex_label
+12212,Clear,Clear,codex,normalized_codex_label
+12213,Clear,Clear,codex,normalized_codex_label
+12214,Clear,Clear,codex,normalized_codex_label
+12215,N/A,,stage2_filter,evidence_status_not_yes
+12216,Clear,Clear,codex,normalized_codex_label
+12217,Clear,Clear,codex,normalized_codex_label
+12218,Clear,Clear,codex,normalized_codex_label
+12219,Not Clear,Not Clear,codex,normalized_codex_label
+12220,N/A,,stage2_filter,evidence_status_not_yes
+12221,Clear,Clear,codex,normalized_codex_label
+12222,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12223,Clear,Clear,codex,normalized_codex_label
+12224,N/A,,stage2_filter,evidence_status_not_yes
+12225,Not Clear,Not Clear,codex,normalized_codex_label
+12226,N/A,,stage2_filter,evidence_status_not_yes
+12227,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12228,Not Clear,Not Clear,codex,normalized_codex_label
+12229,Clear,Clear,codex,normalized_codex_label
+12230,N/A,,stage2_filter,evidence_status_not_yes
+12231,Clear,Clear,codex,normalized_codex_label
+12232,Not Clear,Not Clear,codex,normalized_codex_label
+12233,Clear,Clear,codex,normalized_codex_label
+12234,Not Clear,Not Clear,codex,normalized_codex_label
+12235,Clear,Clear,codex,normalized_codex_label
+12236,Clear,Clear,codex,normalized_codex_label
+12237,Clear,Clear,codex,normalized_codex_label
+12238,Not Clear,Not Clear,codex,normalized_codex_label
+12239,Clear,Clear,codex,normalized_codex_label
+12240,Clear,Clear,codex,normalized_codex_label
+12241,Clear,Clear,codex,normalized_codex_label
+12242,Clear,Clear,codex,normalized_codex_label
+12243,Clear,Clear,codex,normalized_codex_label
+12244,N/A,,stage2_filter,evidence_status_not_yes
+12245,Clear,Clear,codex,normalized_codex_label
+12246,Clear,Clear,codex,normalized_codex_label
+12247,N/A,,stage2_filter,evidence_status_not_yes
+12248,N/A,,stage2_filter,evidence_status_not_yes
+12249,Clear,Clear,codex,normalized_codex_label
+12250,N/A,,stage2_filter,evidence_status_not_yes
+12251,Clear,Clear,codex,normalized_codex_label
+12252,Not Clear,Not Clear,codex,normalized_codex_label
+12253,Not Clear,Not Clear,codex,normalized_codex_label
+12254,Not Clear,Not Clear,codex,normalized_codex_label
+12255,Clear,Clear,codex,normalized_codex_label
+12256,Not Clear,Not Clear,codex,normalized_codex_label
+12257,Clear,Clear,codex,normalized_codex_label
+12258,Clear,Clear,codex,normalized_codex_label
+12259,Clear,Clear,codex,normalized_codex_label
+12260,N/A,,stage2_filter,evidence_status_not_yes
+12261,Clear,Clear,codex,normalized_codex_label
+12262,Clear,Clear,codex,normalized_codex_label
+12263,N/A,,stage2_filter,evidence_status_not_yes
+12264,N/A,,stage2_filter,evidence_status_not_yes
+12265,Clear,Clear,codex,normalized_codex_label
+12266,Not Clear,Not Clear,codex,normalized_codex_label
+12267,N/A,,stage2_filter,evidence_status_not_yes
+12268,Clear,Clear,codex,normalized_codex_label
+12269,N/A,,stage2_filter,evidence_status_not_yes
+12270,Clear,Clear,codex,normalized_codex_label
+12271,N/A,,stage2_filter,evidence_status_not_yes
+12272,Clear,Clear,codex,normalized_codex_label
+12273,Clear,Clear,codex,normalized_codex_label
+12274,Clear,Clear,codex,normalized_codex_label
+12275,Clear,Clear,codex,normalized_codex_label
+12276,Clear,Clear,codex,normalized_codex_label
+12277,N/A,,stage2_filter,evidence_status_not_yes
+12278,Clear,Clear,codex,normalized_codex_label
+12279,N/A,,stage2_filter,evidence_status_not_yes
+12280,Clear,Clear,codex,normalized_codex_label
+12281,Not Clear,Not Clear,codex,normalized_codex_label
+12282,N/A,,stage2_filter,evidence_status_not_yes
+12283,Clear,Clear,codex,normalized_codex_label
+12284,Not Clear,Not Clear,codex,normalized_codex_label
+12285,Clear,Clear,codex,normalized_codex_label
+12286,Clear,Clear,codex,normalized_codex_label
+12287,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12288,Not Clear,Not Clear,codex,normalized_codex_label
+12289,N/A,,stage2_filter,evidence_status_not_yes
+12290,Clear,Clear,codex,normalized_codex_label
+12291,N/A,,stage2_filter,evidence_status_not_yes
+12292,Clear,Clear,codex,normalized_codex_label
+12293,Clear,Clear,codex,normalized_codex_label
+12294,Clear,Clear,codex,normalized_codex_label
+12295,Clear,Clear,codex,normalized_codex_label
+12296,Clear,Clear,codex,normalized_codex_label
+12297,Clear,Clear,codex,normalized_codex_label
+12298,N/A,,stage2_filter,evidence_status_not_yes
+12299,N/A,,stage2_filter,evidence_status_not_yes
+12300,Clear,Clear,codex,normalized_codex_label
+12301,N/A,,stage2_filter,evidence_status_not_yes
+12302,N/A,,stage2_filter,evidence_status_not_yes
+12303,Clear,Clear,codex,normalized_codex_label
+12304,Clear,Clear,codex,normalized_codex_label
+12305,Clear,Clear,codex,normalized_codex_label
+12306,Clear,Clear,codex,normalized_codex_label
+12307,Not Clear,Not Clear,codex,normalized_codex_label
+12308,Clear,Clear,codex,normalized_codex_label
+12309,Clear,Clear,codex,normalized_codex_label
+12310,Clear,Clear,codex,normalized_codex_label
+12311,N/A,,stage2_filter,evidence_status_not_yes
+12312,Clear,Clear,codex,normalized_codex_label
+12313,Clear,Clear,codex,normalized_codex_label
+12314,Clear,Clear,codex,normalized_codex_label
+12315,Clear,Clear,codex,normalized_codex_label
+12316,Clear,Clear,codex,normalized_codex_label
+12317,N/A,,stage2_filter,evidence_status_not_yes
+12318,Clear,Clear,codex,normalized_codex_label
+12319,Clear,Clear,codex,normalized_codex_label
+12320,Clear,Clear,codex,normalized_codex_label
+12321,N/A,,stage2_filter,evidence_status_not_yes
+12322,Not Clear,Not Clear,codex,normalized_codex_label
+12323,N/A,,stage2_filter,evidence_status_not_yes
+12324,Not Clear,Not Clear,codex,normalized_codex_label
+12325,N/A,,stage2_filter,evidence_status_not_yes
+12326,Clear,Clear,codex,normalized_codex_label
+12327,N/A,,stage2_filter,evidence_status_not_yes
+12328,Clear,Clear,codex,normalized_codex_label
+12329,Clear,Clear,codex,normalized_codex_label
+12330,Clear,Clear,codex,normalized_codex_label
+12331,Not Clear,Not Clear,codex,normalized_codex_label
+12332,N/A,,stage2_filter,evidence_status_not_yes
+12333,N/A,,stage2_filter,evidence_status_not_yes
+12334,Clear,Clear,codex,normalized_codex_label
+12335,Clear,Clear,codex,normalized_codex_label
+12336,Clear,Clear,codex,normalized_codex_label
+12337,Clear,Clear,codex,normalized_codex_label
+12338,Clear,Clear,codex,normalized_codex_label
+12339,Clear,Clear,codex,normalized_codex_label
+12340,Clear,Clear,codex,normalized_codex_label
+12341,Clear,Clear,codex,normalized_codex_label
+12342,Clear,Clear,codex,normalized_codex_label
+12343,Clear,Clear,codex,normalized_codex_label
+12344,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12345,Clear,Clear,codex,normalized_codex_label
+12346,Clear,Clear,codex,normalized_codex_label
+12347,Clear,Clear,codex,normalized_codex_label
+12348,N/A,,stage2_filter,evidence_status_not_yes
+12349,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12350,Clear,Clear,codex,normalized_codex_label
+12351,N/A,,stage2_filter,evidence_status_not_yes
+12352,N/A,,stage2_filter,evidence_status_not_yes
+12353,N/A,,stage2_filter,evidence_status_not_yes
+12354,Clear,Clear,codex,normalized_codex_label
+12355,N/A,,stage2_filter,evidence_status_not_yes
+12356,Clear,Clear,codex,normalized_codex_label
+12357,Not Clear,Not Clear,codex,normalized_codex_label
+12358,N/A,,stage2_filter,evidence_status_not_yes
+12359,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12360,Clear,Clear,codex,normalized_codex_label
+12361,Clear,Clear,codex,normalized_codex_label
+12362,Clear,Clear,codex,normalized_codex_label
+12363,N/A,,stage2_filter,evidence_status_not_yes
+12364,Clear,Clear,codex,normalized_codex_label
+12365,Clear,Clear,codex,normalized_codex_label
+12366,Clear,Clear,codex,normalized_codex_label
+12367,Clear,Clear,codex,normalized_codex_label
+12368,N/A,,stage2_filter,evidence_status_not_yes
+12369,N/A,,stage2_filter,evidence_status_not_yes
+12370,N/A,,stage2_filter,evidence_status_not_yes
+12371,Clear,Clear,codex,normalized_codex_label
+12372,Clear,Clear,codex,normalized_codex_label
+12373,Clear,Clear,codex,normalized_codex_label
+12374,Clear,Clear,codex,normalized_codex_label
+12375,Clear,Clear,codex,normalized_codex_label
+12376,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12377,Clear,Clear,codex,normalized_codex_label
+12378,Clear,Clear,codex,normalized_codex_label
+12379,Clear,Clear,codex,normalized_codex_label
+12380,Clear,Clear,codex,normalized_codex_label
+12381,Clear,Clear,codex,normalized_codex_label
+12382,Clear,Clear,codex,normalized_codex_label
+12383,N/A,,stage2_filter,evidence_status_not_yes
+12384,N/A,,stage2_filter,evidence_status_not_yes
+12385,N/A,,stage2_filter,evidence_status_not_yes
+12386,N/A,,stage2_filter,evidence_status_not_yes
+12387,Clear,Clear,codex,normalized_codex_label
+12388,Clear,Clear,codex,normalized_codex_label
+12389,Not Clear,Not Clear,codex,normalized_codex_label
+12390,N/A,,stage2_filter,evidence_status_not_yes
+12391,Clear,Clear,codex,normalized_codex_label
+12392,Clear,Clear,codex,normalized_codex_label
+12393,Clear,Clear,codex,normalized_codex_label
+12394,Clear,Clear,codex,normalized_codex_label
+12395,Not Clear,Not Clear,codex,normalized_codex_label
+12396,Clear,Clear,codex,normalized_codex_label
+12397,Clear,Clear,codex,normalized_codex_label
+12398,Clear,Clear,codex,normalized_codex_label
+12399,Clear,Clear,codex,normalized_codex_label
+12400,Clear,Clear,codex,normalized_codex_label
+12401,Clear,Clear,codex,normalized_codex_label
+12402,Clear,Clear,codex,normalized_codex_label
+12403,Clear,Clear,codex,normalized_codex_label
+12404,Clear,Clear,codex,normalized_codex_label
+12405,N/A,,stage2_filter,evidence_status_not_yes
+12406,Not Clear,Not Clear,codex,normalized_codex_label
+12407,Clear,Clear,codex,normalized_codex_label
+12408,Clear,Clear,codex,normalized_codex_label
+12409,Clear,Clear,codex,normalized_codex_label
+12410,Clear,Clear,codex,normalized_codex_label
+12411,Clear,Clear,codex,normalized_codex_label
+12412,Not Clear,Not Clear,codex,normalized_codex_label
+12413,Not Clear,Not Clear,codex,normalized_codex_label
+12414,Clear,Clear,codex,normalized_codex_label
+12415,Clear,Clear,codex,normalized_codex_label
+12416,N/A,,stage2_filter,evidence_status_not_yes
+12417,Clear,Clear,codex,normalized_codex_label
+12418,Clear,Clear,codex,normalized_codex_label
+12419,Clear,Clear,codex,normalized_codex_label
+12420,Clear,Clear,codex,normalized_codex_label
+12421,Clear,Clear,codex,normalized_codex_label
+12422,Clear,Clear,codex,normalized_codex_label
+12423,Not Clear,Not Clear,codex,normalized_codex_label
+12424,Clear,Clear,codex,normalized_codex_label
+12425,Not Clear,Not Clear,codex,normalized_codex_label
+12426,Clear,Clear,codex,normalized_codex_label
+12427,Not Clear,Not Clear,codex,normalized_codex_label
+12428,Clear,Clear,codex,normalized_codex_label
+12429,Clear,Clear,codex,normalized_codex_label
+12430,Clear,Clear,codex,normalized_codex_label
+12431,Clear,Clear,codex,normalized_codex_label
+12432,Clear,Clear,codex,normalized_codex_label
+12433,Not Clear,Not Clear,codex,normalized_codex_label
+12434,Clear,Clear,codex,normalized_codex_label
+12435,N/A,,stage2_filter,evidence_status_not_yes
+12436,Not Clear,Not Clear,codex,normalized_codex_label
+12437,Clear,Clear,codex,normalized_codex_label
+12438,Clear,Clear,codex,normalized_codex_label
+12439,Clear,Clear,codex,normalized_codex_label
+12440,Clear,Clear,codex,normalized_codex_label
+12441,N/A,,stage2_filter,evidence_status_not_yes
+12442,Clear,Clear,codex,normalized_codex_label
+12443,Not Clear,Not Clear,codex,normalized_codex_label
+12444,Clear,Clear,codex,normalized_codex_label
+12445,N/A,,stage2_filter,evidence_status_not_yes
+12446,Not Clear,Not Clear,codex,normalized_codex_label
+12447,Clear,Clear,codex,normalized_codex_label
+12448,Clear,Clear,codex,normalized_codex_label
+12449,Clear,Clear,codex,normalized_codex_label
+12450,N/A,,stage2_filter,evidence_status_not_yes
+12451,N/A,,stage2_filter,evidence_status_not_yes
+12452,Clear,Clear,codex,normalized_codex_label
+12453,Not Clear,Not Clear,codex,normalized_codex_label
+12454,Clear,Clear,codex,normalized_codex_label
+12455,Clear,Clear,codex,normalized_codex_label
+12456,Not Clear,Not Clear,codex,normalized_codex_label
+12457,Clear,Clear,codex,normalized_codex_label
+12458,Clear,Clear,codex,normalized_codex_label
+12459,Clear,Clear,codex,normalized_codex_label
+12460,Clear,Clear,codex,normalized_codex_label
+12461,Clear,Clear,codex,normalized_codex_label
+12462,Clear,Clear,codex,normalized_codex_label
+12463,Clear,Clear,codex,normalized_codex_label
+12464,Clear,Clear,codex,normalized_codex_label
+12465,N/A,,stage2_filter,evidence_status_not_yes
+12466,N/A,,stage2_filter,evidence_status_not_yes
+12467,Clear,Clear,codex,normalized_codex_label
+12468,Not Clear,Not Clear,codex,normalized_codex_label
+12469,Clear,Clear,codex,normalized_codex_label
+12470,N/A,,stage2_filter,evidence_status_not_yes
+12471,Clear,Clear,codex,normalized_codex_label
+12472,Clear,Clear,codex,normalized_codex_label
+12473,Clear,Clear,codex,normalized_codex_label
+12474,Clear,Clear,codex,normalized_codex_label
+12475,Clear,Clear,codex,normalized_codex_label
+12476,Clear,Clear,codex,normalized_codex_label
+12477,Clear,Clear,codex,normalized_codex_label
+12478,N/A,,stage2_filter,evidence_status_not_yes
+12479,Clear,Clear,codex,normalized_codex_label
+12480,Clear,Clear,codex,normalized_codex_label
+12481,Clear,Clear,codex,normalized_codex_label
+12482,N/A,,stage2_filter,evidence_status_not_yes
+12483,Clear,Clear,codex,normalized_codex_label
+12484,Clear,Clear,codex,normalized_codex_label
+12485,Clear,Clear,codex,normalized_codex_label
+12486,N/A,,stage2_filter,evidence_status_not_yes
+12487,Clear,Clear,codex,normalized_codex_label
+12488,Clear,Clear,codex,normalized_codex_label
+12489,Clear,Clear,codex,normalized_codex_label
+12490,N/A,,stage2_filter,evidence_status_not_yes
+12491,N/A,,codex,codex_error:ValueError
+12492,Clear,Clear,codex,normalized_codex_label
+12493,Not Clear,Not Clear,codex,normalized_codex_label
+12494,N/A,,stage2_filter,evidence_status_not_yes
+12495,Not Clear,Not Clear,codex,normalized_codex_label
+12496,Clear,Clear,codex,normalized_codex_label
+12497,N/A,,stage2_filter,evidence_status_not_yes
+12498,Clear,Clear,codex,normalized_codex_label
+12499,Clear,Clear,codex,normalized_codex_label
+12500,N/A,,stage2_filter,evidence_status_not_yes
+12501,Clear,Clear,codex,normalized_codex_label
+12502,Clear,Clear,codex,normalized_codex_label
+12503,Clear,Clear,codex,normalized_codex_label
+12504,Clear,Clear,codex,normalized_codex_label
+12505,Clear,Clear,codex,normalized_codex_label
+12506,N/A,,stage2_filter,evidence_status_not_yes
+12507,Clear,Clear,codex,normalized_codex_label
+12508,Clear,Clear,codex,normalized_codex_label
+12509,Clear,Clear,codex,normalized_codex_label
+12510,N/A,,stage2_filter,evidence_status_not_yes
+12511,N/A,,stage2_filter,evidence_status_not_yes
+12512,N/A,,stage2_filter,evidence_status_not_yes
+12513,N/A,,stage2_filter,evidence_status_not_yes
+12514,Clear,Clear,codex,normalized_codex_label
+12515,Clear,Clear,codex,normalized_codex_label
+12516,Clear,Clear,codex,normalized_codex_label
+12517,N/A,,stage2_filter,evidence_status_not_yes
+12518,N/A,,stage2_filter,evidence_status_not_yes
+12519,Clear,Clear,codex,normalized_codex_label
+12520,Clear,Clear,codex,normalized_codex_label
+12521,Clear,Clear,codex,normalized_codex_label
+12522,Clear,Clear,codex,normalized_codex_label
+12523,N/A,,stage2_filter,evidence_status_not_yes
+12524,N/A,,stage2_filter,evidence_status_not_yes
+12525,Clear,Clear,codex,normalized_codex_label
+12526,N/A,,stage2_filter,evidence_status_not_yes
+12527,N/A,,stage2_filter,evidence_status_not_yes
+12528,Clear,Clear,codex,normalized_codex_label
+12529,N/A,,stage2_filter,evidence_status_not_yes
+12530,N/A,,stage2_filter,evidence_status_not_yes
+12531,Clear,Clear,codex,normalized_codex_label
+12532,Clear,Clear,codex,normalized_codex_label
+12533,N/A,,stage2_filter,evidence_status_not_yes
+12534,Clear,Clear,codex,normalized_codex_label
+12535,N/A,,stage2_filter,evidence_status_not_yes
+12536,N/A,,stage2_filter,evidence_status_not_yes
+12537,Clear,Clear,codex,normalized_codex_label
+12538,N/A,,stage2_filter,evidence_status_not_yes
+12539,Clear,Clear,codex,normalized_codex_label
+12540,N/A,,stage2_filter,evidence_status_not_yes
+12541,Clear,Clear,codex,normalized_codex_label
+12542,N/A,,stage2_filter,evidence_status_not_yes
+12543,Clear,Clear,codex,normalized_codex_label
+12544,N/A,,stage2_filter,evidence_status_not_yes
+12545,N/A,,stage2_filter,evidence_status_not_yes
+12546,Clear,Clear,codex,normalized_codex_label
+12547,N/A,,stage2_filter,evidence_status_not_yes
+12548,Clear,Clear,codex,normalized_codex_label
+12549,Clear,Clear,codex,normalized_codex_label
+12550,N/A,,stage2_filter,evidence_status_not_yes
+12551,Clear,Clear,codex,normalized_codex_label
+12552,Clear,Clear,codex,normalized_codex_label
+12553,Clear,Clear,codex,normalized_codex_label
+12554,Not Clear,Not Clear,codex,normalized_codex_label
+12555,Clear,Clear,codex,normalized_codex_label
+12556,N/A,,stage2_filter,evidence_status_not_yes
+12557,N/A,,stage2_filter,evidence_status_not_yes
+12558,Clear,Clear,codex,normalized_codex_label
+12559,Not Clear,Not Clear,codex,normalized_codex_label
+12560,Not Clear,Not Clear,codex,normalized_codex_label
+12561,N/A,,stage2_filter,evidence_status_not_yes
+12562,Not Clear,Not Clear,codex,normalized_codex_label
+12563,Clear,Clear,codex,normalized_codex_label
+12564,Clear,Clear,codex,normalized_codex_label
+12565,Clear,Clear,codex,normalized_codex_label
+12566,Clear,Clear,codex,normalized_codex_label
+12567,Not Clear,Not Clear,codex,normalized_codex_label
+12568,N/A,,stage2_filter,evidence_status_not_yes
+12569,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12570,Clear,Clear,codex,normalized_codex_label
+12571,Not Clear,Not Clear,codex,normalized_codex_label
+12572,N/A,,stage2_filter,evidence_status_not_yes
+12573,Not Clear,Not Clear,codex,normalized_codex_label
+12574,N/A,,stage2_filter,evidence_status_not_yes
+12575,Clear,Clear,codex,normalized_codex_label
+12576,Not Clear,Not Clear,codex,normalized_codex_label
+12577,Clear,Clear,codex,normalized_codex_label
+12578,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12579,Clear,Clear,codex,normalized_codex_label
+12580,Not Clear,Not Clear,codex,normalized_codex_label
+12581,Not Clear,Not Clear,codex,normalized_codex_label
+12582,Clear,Clear,codex,normalized_codex_label
+12583,Clear,Clear,codex,normalized_codex_label
+12584,Clear,Clear,codex,normalized_codex_label
+12585,Clear,Clear,codex,normalized_codex_label
+12586,Clear,Clear,codex,normalized_codex_label
+12587,Clear,Clear,codex,normalized_codex_label
+12588,Clear,Clear,codex,normalized_codex_label
+12589,N/A,,stage2_filter,evidence_status_not_yes
+12590,Not Clear,Not Clear,codex,normalized_codex_label
+12591,N/A,,stage2_filter,evidence_status_not_yes
+12592,N/A,,stage2_filter,evidence_status_not_yes
+12593,Clear,Clear,codex,normalized_codex_label
+12594,N/A,,stage2_filter,evidence_status_not_yes
+12595,Not Clear,Not Clear,codex,normalized_codex_label
+12596,Clear,Clear,codex,normalized_codex_label
+12597,N/A,,stage2_filter,evidence_status_not_yes
+12598,Clear,Clear,codex,normalized_codex_label
+12599,Clear,Clear,codex,normalized_codex_label
+12600,Clear,Clear,codex,normalized_codex_label
+12601,N/A,,stage2_filter,evidence_status_not_yes
+12602,Clear,Clear,codex,normalized_codex_label
+12603,Clear,Clear,codex,normalized_codex_label
+12604,Clear,Clear,codex,normalized_codex_label
+12605,N/A,,stage2_filter,evidence_status_not_yes
+12606,Not Clear,Not Clear,codex,normalized_codex_label
+12607,Clear,Clear,codex,normalized_codex_label
+12608,Not Clear,Not Clear,codex,normalized_codex_label
+12609,Clear,Clear,codex,normalized_codex_label
+12610,Clear,Clear,codex,normalized_codex_label
+12611,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12612,N/A,,stage2_filter,evidence_status_not_yes
+12613,Clear,Clear,codex,normalized_codex_label
+12614,Clear,Clear,codex,normalized_codex_label
+12615,Clear,Clear,codex,normalized_codex_label
+12616,N/A,,stage2_filter,evidence_status_not_yes
+12617,Clear,Clear,codex,normalized_codex_label
+12618,N/A,,stage2_filter,evidence_status_not_yes
+12619,Clear,Clear,codex,normalized_codex_label
+12620,Clear,Clear,codex,normalized_codex_label
+12621,N/A,,stage2_filter,evidence_status_not_yes
+12622,N/A,,stage2_filter,evidence_status_not_yes
+12623,Not Clear,Not Clear,codex,normalized_codex_label
+12624,Clear,Clear,codex,normalized_codex_label
+12625,N/A,,stage2_filter,evidence_status_not_yes
+12626,N/A,,stage2_filter,evidence_status_not_yes
+12627,Clear,Clear,codex,normalized_codex_label
+12628,Clear,Clear,codex,normalized_codex_label
+12629,Clear,Clear,codex,normalized_codex_label
+12630,Clear,Clear,codex,normalized_codex_label
+12631,Not Clear,Not Clear,codex,normalized_codex_label
+12632,Clear,Clear,codex,normalized_codex_label
+12633,Clear,Clear,codex,normalized_codex_label
+12634,Clear,Clear,codex,normalized_codex_label
+12635,Not Clear,Not Clear,codex,normalized_codex_label
+12636,Clear,Clear,codex,normalized_codex_label
+12637,N/A,,stage2_filter,evidence_status_not_yes
+12638,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12639,Clear,Clear,codex,normalized_codex_label
+12640,N/A,,stage2_filter,evidence_status_not_yes
+12641,Clear,Clear,codex,normalized_codex_label
+12642,Clear,Clear,codex,normalized_codex_label
+12643,Clear,Clear,codex,normalized_codex_label
+12644,Clear,Clear,codex,normalized_codex_label
+12645,Clear,Clear,codex,normalized_codex_label
+12646,N/A,,stage2_filter,evidence_status_not_yes
+12647,N/A,,stage2_filter,evidence_status_not_yes
+12648,Clear,Clear,codex,normalized_codex_label
+12649,Not Clear,Not Clear,codex,normalized_codex_label
+12650,Not Clear,Not Clear,codex,normalized_codex_label
+12651,Clear,Clear,codex,normalized_codex_label
+12652,N/A,,stage2_filter,evidence_status_not_yes
+12653,Clear,Clear,codex,normalized_codex_label
+12654,Clear,Clear,codex,normalized_codex_label
+12655,Clear,Clear,codex,normalized_codex_label
+12656,Not Clear,Not Clear,codex,normalized_codex_label
+12657,Clear,Clear,codex,normalized_codex_label
+12658,Clear,Clear,codex,normalized_codex_label
+12659,N/A,,stage2_filter,evidence_status_not_yes
+12660,Clear,Clear,codex,normalized_codex_label
+12661,Not Clear,Not Clear,codex,normalized_codex_label
+12662,N/A,,stage2_filter,evidence_status_not_yes
+12663,Clear,Clear,codex,normalized_codex_label
+12664,N/A,,stage2_filter,evidence_status_not_yes
+12665,Not Clear,Not Clear,codex,normalized_codex_label
+12666,N/A,,stage2_filter,evidence_status_not_yes
+12667,N/A,,stage2_filter,evidence_status_not_yes
+12668,Not Clear,Not Clear,codex,normalized_codex_label
+12669,N/A,,stage2_filter,evidence_status_not_yes
+12670,Clear,Clear,codex,normalized_codex_label
+12671,Clear,Clear,codex,normalized_codex_label
+12672,Not Clear,Not Clear,codex,normalized_codex_label
+12673,N/A,,stage2_filter,evidence_status_not_yes
+12674,Clear,Clear,codex,normalized_codex_label
+12675,Clear,Clear,codex,normalized_codex_label
+12676,Clear,Clear,codex,normalized_codex_label
+12677,Clear,Clear,codex,normalized_codex_label
+12678,Clear,Clear,codex,normalized_codex_label
+12679,Clear,Clear,codex,normalized_codex_label
+12680,Clear,Clear,codex,normalized_codex_label
+12681,Not Clear,Not Clear,codex,normalized_codex_label
+12682,N/A,,stage2_filter,evidence_status_not_yes
+12683,Clear,Clear,codex,normalized_codex_label
+12684,Clear,Clear,codex,normalized_codex_label
+12685,N/A,,stage2_filter,evidence_status_not_yes
+12686,Not Clear,Not Clear,codex,normalized_codex_label
+12687,Clear,Clear,codex,normalized_codex_label
+12688,Clear,Clear,codex,normalized_codex_label
+12689,N/A,,stage2_filter,evidence_status_not_yes
+12690,Clear,Clear,codex,normalized_codex_label
+12691,Not Clear,Not Clear,codex,normalized_codex_label
+12692,Clear,Clear,codex,normalized_codex_label
+12693,Clear,Clear,codex,normalized_codex_label
+12694,Not Clear,Not Clear,codex,normalized_codex_label
+12695,Not Clear,Not Clear,codex,normalized_codex_label
+12696,Not Clear,Not Clear,codex,normalized_codex_label
+12697,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12698,Clear,Clear,codex,normalized_codex_label
+12699,Clear,Clear,codex,normalized_codex_label
+12700,Clear,Clear,codex,normalized_codex_label
+12701,Clear,Clear,codex,normalized_codex_label
+12702,N/A,,stage2_filter,evidence_status_not_yes
+12703,N/A,,stage2_filter,evidence_status_not_yes
+12704,Clear,Clear,codex,normalized_codex_label
+12705,Clear,Clear,codex,normalized_codex_label
+12706,Clear,Clear,codex,normalized_codex_label
+12707,Clear,Clear,codex,normalized_codex_label
+12708,Clear,Clear,codex,normalized_codex_label
+12709,Not Clear,Not Clear,codex,normalized_codex_label
+12710,Clear,Clear,codex,normalized_codex_label
+12711,Not Clear,Not Clear,codex,normalized_codex_label
+12712,Clear,Clear,codex,normalized_codex_label
+12713,N/A,,stage2_filter,evidence_status_not_yes
+12714,Not Clear,Not Clear,codex,normalized_codex_label
+12715,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12716,N/A,,stage2_filter,evidence_status_not_yes
+12717,N/A,,stage2_filter,evidence_status_not_yes
+12718,Clear,Clear,codex,normalized_codex_label
+12719,Clear,Clear,codex,normalized_codex_label
+12720,Clear,Clear,codex,normalized_codex_label
+12721,Clear,Clear,codex,normalized_codex_label
+12722,Clear,Clear,codex,normalized_codex_label
+12723,N/A,,stage2_filter,evidence_status_not_yes
+12724,Clear,Clear,codex,normalized_codex_label
+12725,Clear,Clear,codex,normalized_codex_label
+12726,Not Clear,Not Clear,codex,normalized_codex_label
+12727,N/A,,stage2_filter,evidence_status_not_yes
+12728,Clear,Clear,codex,normalized_codex_label
+12729,Not Clear,Not Clear,codex,normalized_codex_label
+12730,Clear,Clear,codex,normalized_codex_label
+12731,Clear,Clear,codex,normalized_codex_label
+12732,N/A,,stage2_filter,evidence_status_not_yes
+12733,N/A,,stage2_filter,evidence_status_not_yes
+12734,Clear,Clear,codex,normalized_codex_label
+12735,N/A,,stage2_filter,evidence_status_not_yes
+12736,Clear,Clear,codex,normalized_codex_label
+12737,Clear,Clear,codex,normalized_codex_label
+12738,Clear,Clear,codex,normalized_codex_label
+12739,N/A,,stage2_filter,evidence_status_not_yes
+12740,Clear,Clear,codex,normalized_codex_label
+12741,Clear,Clear,codex,normalized_codex_label
+12742,N/A,,stage2_filter,evidence_status_not_yes
+12743,Not Clear,Not Clear,codex,normalized_codex_label
+12744,Clear,Clear,codex,normalized_codex_label
+12745,Not Clear,Not Clear,codex,normalized_codex_label
+12746,N/A,,stage2_filter,evidence_status_not_yes
+12747,Clear,Clear,codex,normalized_codex_label
+12748,Clear,Clear,codex,normalized_codex_label
+12749,N/A,,stage2_filter,evidence_status_not_yes
+12750,Clear,Clear,codex,normalized_codex_label
+12751,Clear,Clear,codex,normalized_codex_label
+12752,Clear,Clear,codex,normalized_codex_label
+12753,N/A,,stage2_filter,evidence_status_not_yes
+12754,Clear,Clear,codex,normalized_codex_label
+12755,Clear,Clear,codex,normalized_codex_label
+12756,Clear,Clear,codex,normalized_codex_label
+12757,N/A,,stage2_filter,evidence_status_not_yes
+12758,Clear,Clear,codex,normalized_codex_label
+12759,N/A,,stage2_filter,evidence_status_not_yes
+12760,Clear,Clear,codex,normalized_codex_label
+12761,Clear,Clear,codex,normalized_codex_label
+12762,Not Clear,Not Clear,codex,normalized_codex_label
+12763,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12764,Not Clear,Not Clear,codex,normalized_codex_label
+12765,N/A,,stage2_filter,evidence_status_not_yes
+12766,Clear,Clear,codex,normalized_codex_label
+12767,Clear,Clear,codex,normalized_codex_label
+12768,N/A,,stage2_filter,evidence_status_not_yes
+12769,N/A,,stage2_filter,evidence_status_not_yes
+12770,Clear,Clear,codex,normalized_codex_label
+12771,Not Clear,Not Clear,codex,normalized_codex_label
+12772,Clear,Clear,codex,normalized_codex_label
+12773,Not Clear,Not Clear,codex,normalized_codex_label
+12774,Clear,Clear,codex,normalized_codex_label
+12775,N/A,,stage2_filter,evidence_status_not_yes
+12776,Clear,Clear,codex,normalized_codex_label
+12777,Not Clear,Not Clear,codex,normalized_codex_label
+12778,Clear,Clear,codex,normalized_codex_label
+12779,Clear,Clear,codex,normalized_codex_label
+12780,N/A,,stage2_filter,evidence_status_not_yes
+12781,Not Clear,Not Clear,codex,normalized_codex_label
+12782,Clear,Clear,codex,normalized_codex_label
+12783,Clear,Clear,codex,normalized_codex_label
+12784,Clear,Clear,codex,normalized_codex_label
+12785,N/A,,stage2_filter,evidence_status_not_yes
+12786,Clear,Clear,codex,normalized_codex_label
+12787,Not Clear,Not Clear,codex,normalized_codex_label
+12788,N/A,,stage2_filter,evidence_status_not_yes
+12789,Clear,Clear,codex,normalized_codex_label
+12790,N/A,,stage2_filter,evidence_status_not_yes
+12791,Not Clear,Not Clear,codex,normalized_codex_label
+12792,Clear,Clear,codex,normalized_codex_label
+12793,N/A,,stage2_filter,evidence_status_not_yes
+12794,Clear,Clear,codex,normalized_codex_label
+12795,N/A,,stage2_filter,evidence_status_not_yes
+12796,Clear,Clear,codex,normalized_codex_label
+12797,N/A,,stage2_filter,evidence_status_not_yes
+12798,Clear,Clear,codex,normalized_codex_label
+12799,N/A,,stage2_filter,evidence_status_not_yes
+12800,Clear,Clear,codex,normalized_codex_label
+12801,N/A,,stage2_filter,evidence_status_not_yes
+12802,N/A,,stage2_filter,evidence_status_not_yes
+12803,Not Clear,Not Clear,codex,normalized_codex_label
+12804,Not Clear,Not Clear,codex,normalized_codex_label
+12805,Clear,Clear,codex,normalized_codex_label
+12806,N/A,,stage2_filter,evidence_status_not_yes
+12807,N/A,,stage2_filter,evidence_status_not_yes
+12808,N/A,,stage2_filter,evidence_status_not_yes
+12809,N/A,,stage2_filter,evidence_status_not_yes
+12810,Not Clear,Not Clear,codex,normalized_codex_label
+12811,Clear,Clear,codex,normalized_codex_label
+12812,Not Clear,Not Clear,codex,normalized_codex_label
+12813,N/A,,stage2_filter,evidence_status_not_yes
+12814,Clear,Clear,codex,normalized_codex_label
+12815,Not Clear,Not Clear,codex,normalized_codex_label
+12816,N/A,,stage2_filter,evidence_status_not_yes
+12817,Clear,Clear,codex,normalized_codex_label
+12818,Clear,Clear,codex,normalized_codex_label
+12819,Clear,Clear,codex,normalized_codex_label
+12820,N/A,,stage2_filter,evidence_status_not_yes
+12821,Clear,Clear,codex,normalized_codex_label
+12822,Clear,Clear,codex,normalized_codex_label
+12823,Clear,Clear,codex,normalized_codex_label
+12824,N/A,,stage2_filter,evidence_status_not_yes
+12825,Clear,Clear,codex,normalized_codex_label
+12826,Clear,Clear,codex,normalized_codex_label
+12827,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12828,Clear,Clear,codex,normalized_codex_label
+12829,Clear,Clear,codex,normalized_codex_label
+12830,Clear,Clear,codex,normalized_codex_label
+12831,Not Clear,Not Clear,codex,normalized_codex_label
+12832,Clear,Clear,codex,normalized_codex_label
+12833,N/A,,stage2_filter,evidence_status_not_yes
+12834,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12835,Not Clear,Not Clear,codex,normalized_codex_label
+12836,N/A,,stage2_filter,evidence_status_not_yes
+12837,Clear,Clear,codex,normalized_codex_label
+12838,N/A,,stage2_filter,evidence_status_not_yes
+12839,Clear,Clear,codex,normalized_codex_label
+12840,Clear,Clear,codex,normalized_codex_label
+12841,Clear,Clear,codex,normalized_codex_label
+12842,N/A,,stage2_filter,evidence_status_not_yes
+12843,Clear,Clear,codex,normalized_codex_label
+12844,N/A,,stage2_filter,evidence_status_not_yes
+12845,Clear,Clear,codex,normalized_codex_label
+12846,N/A,,stage2_filter,evidence_status_not_yes
+12847,Clear,Clear,codex,normalized_codex_label
+12848,Clear,Clear,codex,normalized_codex_label
+12849,Not Clear,Not Clear,codex,normalized_codex_label
+12850,N/A,,stage2_filter,evidence_status_not_yes
+12851,N/A,,stage2_filter,evidence_status_not_yes
+12852,Not Clear,Not Clear,codex,normalized_codex_label
+12853,Not Clear,Not Clear,codex,normalized_codex_label
+12854,Clear,Clear,codex,normalized_codex_label
+12855,Clear,Clear,codex,normalized_codex_label
+12856,Clear,Clear,codex,normalized_codex_label
+12857,Clear,Clear,codex,normalized_codex_label
+12858,Clear,Clear,codex,normalized_codex_label
+12859,N/A,,stage2_filter,evidence_status_not_yes
+12860,Clear,Clear,codex,normalized_codex_label
+12861,Clear,Clear,codex,normalized_codex_label
+12862,Not Clear,Not Clear,codex,normalized_codex_label
+12863,N/A,,stage2_filter,evidence_status_not_yes
+12864,N/A,,stage2_filter,evidence_status_not_yes
+12865,Clear,Clear,codex,normalized_codex_label
+12866,N/A,,stage2_filter,evidence_status_not_yes
+12867,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12868,N/A,,stage2_filter,evidence_status_not_yes
+12869,Clear,Clear,codex,normalized_codex_label
+12870,Not Clear,Not Clear,codex,normalized_codex_label
+12871,N/A,,stage2_filter,evidence_status_not_yes
+12872,Clear,Clear,codex,normalized_codex_label
+12873,N/A,,stage2_filter,evidence_status_not_yes
+12874,Clear,Clear,codex,normalized_codex_label
+12875,Not Clear,Not Clear,codex,normalized_codex_label
+12876,N/A,,stage2_filter,evidence_status_not_yes
+12877,Not Clear,Not Clear,codex,normalized_codex_label
+12878,Not Clear,Not Clear,codex,normalized_codex_label
+12879,Clear,Clear,codex,normalized_codex_label
+12880,Clear,Clear,codex,normalized_codex_label
+12881,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12882,Not Clear,Not Clear,codex,normalized_codex_label
+12883,Clear,Clear,codex,normalized_codex_label
+12884,Clear,Clear,codex,normalized_codex_label
+12885,Clear,Clear,codex,normalized_codex_label
+12886,Clear,Clear,codex,normalized_codex_label
+12887,Clear,Clear,codex_nafix,lowconf_nafix_codex
+12888,Clear,Clear,codex,normalized_codex_label
+12889,Clear,Clear,codex,normalized_codex_label
+12890,Clear,Clear,codex,normalized_codex_label
+12891,Clear,Clear,codex,normalized_codex_label
+12892,Clear,Clear,codex,normalized_codex_label
+12893,N/A,,stage2_filter,evidence_status_not_yes
+12894,N/A,,stage2_filter,evidence_status_not_yes
+12895,Clear,Clear,codex,normalized_codex_label
+12896,Clear,Clear,codex,normalized_codex_label
+12897,Clear,Clear,codex,normalized_codex_label
+12898,Clear,Clear,codex,normalized_codex_label
+12899,Clear,Clear,codex,normalized_codex_label
+12900,Not Clear,Not Clear,codex,normalized_codex_label
+12901,N/A,,stage2_filter,evidence_status_not_yes
+12902,Clear,Clear,codex,normalized_codex_label
+12903,Clear,Clear,codex,normalized_codex_label
+12904,Clear,Clear,codex,normalized_codex_label
+12905,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+12906,Clear,Clear,codex,normalized_codex_label
+12907,Clear,Clear,codex,normalized_codex_label
+12908,Clear,Clear,codex,normalized_codex_label
+12909,Clear,Clear,codex,normalized_codex_label
+12910,N/A,,stage2_filter,evidence_status_not_yes
+12911,N/A,,stage2_filter,evidence_status_not_yes
+12912,N/A,,stage2_filter,evidence_status_not_yes
+12913,Clear,Clear,codex,normalized_codex_label
+12914,Clear,Clear,codex,normalized_codex_label
+12915,Clear,Clear,codex,normalized_codex_label
+12916,Clear,Clear,codex,normalized_codex_label
+12917,Clear,Clear,codex,normalized_codex_label
+12918,Clear,Clear,codex,normalized_codex_label
+12919,Clear,Clear,codex,normalized_codex_label
+12920,Clear,Clear,codex,normalized_codex_label
+12921,N/A,,stage2_filter,evidence_status_not_yes
+12922,Clear,Clear,codex,normalized_codex_label
+12923,Clear,Clear,codex,normalized_codex_label
+12924,N/A,,stage2_filter,evidence_status_not_yes
+12925,Clear,Clear,codex,normalized_codex_label
+12926,N/A,,stage2_filter,evidence_status_not_yes
+12927,N/A,,stage2_filter,evidence_status_not_yes
+12928,Clear,Clear,codex,normalized_codex_label
+12929,Clear,Clear,codex,normalized_codex_label
+12930,N/A,,stage2_filter,evidence_status_not_yes
+12931,N/A,,stage2_filter,evidence_status_not_yes
+12932,Clear,Clear,codex,normalized_codex_label
+12933,Clear,Clear,codex,normalized_codex_label
+12934,Not Clear,Not Clear,codex,normalized_codex_label
+12935,Clear,Clear,codex,normalized_codex_label
+12936,Clear,Clear,codex,normalized_codex_label
+12937,Clear,Clear,codex,normalized_codex_label
+12938,Clear,Clear,codex,normalized_codex_label
+12939,Clear,Clear,codex,normalized_codex_label
+12940,N/A,,stage2_filter,evidence_status_not_yes
+12941,Clear,Clear,codex,normalized_codex_label
+12942,Not Clear,Not Clear,codex,normalized_codex_label
+12943,Clear,Clear,codex,normalized_codex_label
+12944,Clear,Clear,codex,normalized_codex_label
+12945,N/A,,stage2_filter,evidence_status_not_yes
+12946,Clear,Clear,codex,normalized_codex_label
+12947,Clear,Clear,codex,normalized_codex_label
+12948,Clear,Clear,codex,normalized_codex_label
+12949,Clear,Clear,codex,normalized_codex_label
+12950,Not Clear,Not Clear,codex,normalized_codex_label
+12951,N/A,,stage2_filter,evidence_status_not_yes
+12952,Clear,Clear,codex,normalized_codex_label
+12953,Clear,Clear,codex,normalized_codex_label
+12954,Clear,Clear,codex,normalized_codex_label
+12955,Clear,Clear,codex,normalized_codex_label
+12956,Clear,Clear,codex,normalized_codex_label
+12957,Clear,Clear,codex,normalized_codex_label
+12958,N/A,,stage2_filter,evidence_status_not_yes
+12959,Clear,Clear,codex,normalized_codex_label
+12960,N/A,,stage2_filter,evidence_status_not_yes
+12961,Not Clear,Not Clear,codex,normalized_codex_label
+12962,Clear,Clear,codex,normalized_codex_label
+12963,Not Clear,Not Clear,codex,normalized_codex_label
+12964,Clear,Clear,codex,normalized_codex_label
+12965,Not Clear,Not Clear,codex,normalized_codex_label
+12966,Clear,Clear,codex,normalized_codex_label
+12967,N/A,,stage2_filter,evidence_status_not_yes
+12968,Clear,Clear,codex,normalized_codex_label
+12969,N/A,,stage2_filter,evidence_status_not_yes
+12970,N/A,,stage2_filter,evidence_status_not_yes
+12971,Clear,Clear,codex,normalized_codex_label
+12972,Clear,Clear,codex,normalized_codex_label
+12973,N/A,,stage2_filter,evidence_status_not_yes
+12974,Clear,Clear,codex,normalized_codex_label
+12975,Not Clear,Not Clear,codex,normalized_codex_label
+12976,Clear,Clear,codex,normalized_codex_label
+12977,Clear,Clear,codex,normalized_codex_label
+12978,Not Clear,Not Clear,codex,normalized_codex_label
+12979,Clear,Clear,codex,normalized_codex_label
+12980,N/A,,stage2_filter,evidence_status_not_yes
+12981,Clear,Clear,codex,normalized_codex_label
+12982,Not Clear,Not Clear,codex,normalized_codex_label
+12983,Clear,Clear,codex,normalized_codex_label
+12984,Not Clear,Not Clear,codex,normalized_codex_label
+12985,Clear,Clear,codex,normalized_codex_label
+12986,Clear,Clear,codex,normalized_codex_label
+12987,N/A,,stage2_filter,evidence_status_not_yes
+12988,Clear,Clear,codex,normalized_codex_label
+12989,Clear,Clear,codex,normalized_codex_label
+12990,Not Clear,Not Clear,codex,normalized_codex_label
+12991,N/A,,stage2_filter,evidence_status_not_yes
+12992,Not Clear,Not Clear,codex,normalized_codex_label
+12993,N/A,,stage2_filter,evidence_status_not_yes
+12994,N/A,,stage2_filter,evidence_status_not_yes
+12995,Not Clear,Not Clear,codex,normalized_codex_label
+12996,Clear,Clear,codex,normalized_codex_label
+12997,Clear,Clear,codex,normalized_codex_label
+12998,Not Clear,Not Clear,codex,normalized_codex_label
+12999,Not Clear,Not Clear,codex,normalized_codex_label
+13000,Clear,Clear,codex,normalized_codex_label
+13001,Clear,Clear,codex,normalized_codex_label
+13002,Not Clear,Not Clear,codex,normalized_codex_label
+13003,N/A,,codex,codex_error:ValueError
+13004,N/A,,stage2_filter,evidence_status_not_yes
+13005,Clear,Clear,codex,normalized_codex_label
+13006,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13007,N/A,,stage2_filter,evidence_status_not_yes
+13008,Clear,Clear,codex,normalized_codex_label
+13009,N/A,,stage2_filter,evidence_status_not_yes
+13010,Not Clear,Not Clear,codex,normalized_codex_label
+13011,N/A,,stage2_filter,evidence_status_not_yes
+13012,N/A,,stage2_filter,evidence_status_not_yes
+13013,N/A,,stage2_filter,evidence_status_not_yes
+13014,Clear,Clear,codex,normalized_codex_label
+13015,Not Clear,Not Clear,codex,normalized_codex_label
+13016,N/A,,stage2_filter,evidence_status_not_yes
+13017,Clear,Clear,codex,normalized_codex_label
+13018,Clear,Clear,codex,normalized_codex_label
+13019,Not Clear,Not Clear,codex,normalized_codex_label
+13020,Clear,Clear,codex,normalized_codex_label
+13021,Clear,Clear,codex,normalized_codex_label
+13022,Clear,Clear,codex,normalized_codex_label
+13023,Clear,Clear,codex,normalized_codex_label
+13024,Not Clear,Not Clear,codex,normalized_codex_label
+13025,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13026,Clear,Clear,codex,normalized_codex_label
+13027,Not Clear,Not Clear,codex,normalized_codex_label
+13028,Clear,Clear,codex,normalized_codex_label
+13029,Clear,Clear,codex,normalized_codex_label
+13030,Clear,Clear,codex,normalized_codex_label
+13031,N/A,,stage2_filter,evidence_status_not_yes
+13032,N/A,,stage2_filter,evidence_status_not_yes
+13033,Clear,Clear,codex,normalized_codex_label
+13034,Clear,Clear,codex,normalized_codex_label
+13035,N/A,,stage2_filter,evidence_status_not_yes
+13036,Clear,Clear,codex,normalized_codex_label
+13037,Clear,Clear,codex,normalized_codex_label
+13038,N/A,,stage2_filter,evidence_status_not_yes
+13039,N/A,,stage2_filter,evidence_status_not_yes
+13040,N/A,,stage2_filter,evidence_status_not_yes
+13041,Clear,Clear,codex,normalized_codex_label
+13042,N/A,,stage2_filter,evidence_status_not_yes
+13043,Clear,Clear,codex,normalized_codex_label
+13044,Clear,Clear,codex,normalized_codex_label
+13045,Clear,Clear,codex,normalized_codex_label
+13046,Not Clear,Not Clear,codex,normalized_codex_label
+13047,N/A,,stage2_filter,evidence_status_not_yes
+13048,N/A,,stage2_filter,evidence_status_not_yes
+13049,N/A,,stage2_filter,evidence_status_not_yes
+13050,Clear,Clear,codex,normalized_codex_label
+13051,N/A,,stage2_filter,evidence_status_not_yes
+13052,Clear,Clear,codex,normalized_codex_label
+13053,N/A,,stage2_filter,evidence_status_not_yes
+13054,Clear,Clear,codex,normalized_codex_label
+13055,Clear,Clear,codex,normalized_codex_label
+13056,N/A,,stage2_filter,evidence_status_not_yes
+13057,N/A,,stage2_filter,evidence_status_not_yes
+13058,Clear,Clear,codex,normalized_codex_label
+13059,Clear,Clear,codex,normalized_codex_label
+13060,Clear,Clear,codex,normalized_codex_label
+13061,N/A,,stage2_filter,evidence_status_not_yes
+13062,Clear,Clear,codex,normalized_codex_label
+13063,N/A,,stage2_filter,evidence_status_not_yes
+13064,Not Clear,Not Clear,codex,normalized_codex_label
+13065,Clear,Clear,codex,normalized_codex_label
+13066,N/A,,stage2_filter,evidence_status_not_yes
+13067,N/A,,stage2_filter,evidence_status_not_yes
+13068,Clear,Clear,codex,normalized_codex_label
+13069,Clear,Clear,codex,normalized_codex_label
+13070,Not Clear,Not Clear,codex,normalized_codex_label
+13071,Clear,Clear,codex,normalized_codex_label
+13072,N/A,,stage2_filter,evidence_status_not_yes
+13073,N/A,,stage2_filter,evidence_status_not_yes
+13074,N/A,,stage2_filter,evidence_status_not_yes
+13075,Clear,Clear,codex,normalized_codex_label
+13076,Clear,Clear,codex,normalized_codex_label
+13077,Clear,Clear,codex,normalized_codex_label
+13078,Clear,Clear,codex,normalized_codex_label
+13079,Clear,Clear,codex,normalized_codex_label
+13080,N/A,,stage2_filter,evidence_status_not_yes
+13081,N/A,,stage2_filter,evidence_status_not_yes
+13082,Clear,Clear,codex,normalized_codex_label
+13083,N/A,,stage2_filter,evidence_status_not_yes
+13084,Clear,Clear,codex,normalized_codex_label
+13085,N/A,,stage2_filter,evidence_status_not_yes
+13086,Clear,Clear,codex,normalized_codex_label
+13087,N/A,,stage2_filter,evidence_status_not_yes
+13088,Clear,Clear,codex,normalized_codex_label
+13089,N/A,,stage2_filter,evidence_status_not_yes
+13090,Clear,Clear,codex,normalized_codex_label
+13091,N/A,,stage2_filter,evidence_status_not_yes
+13092,N/A,,stage2_filter,evidence_status_not_yes
+13093,Clear,Clear,codex,normalized_codex_label
+13094,N/A,,stage2_filter,evidence_status_not_yes
+13095,Clear,Clear,codex,normalized_codex_label
+13096,Clear,Clear,codex,normalized_codex_label
+13097,N/A,,stage2_filter,evidence_status_not_yes
+13098,Clear,Clear,codex,normalized_codex_label
+13099,Clear,Clear,codex,normalized_codex_label
+13100,N/A,,stage2_filter,evidence_status_not_yes
+13101,Clear,Clear,codex,normalized_codex_label
+13102,Not Clear,Not Clear,codex,normalized_codex_label
+13103,Not Clear,Not Clear,codex,normalized_codex_label
+13104,Clear,Clear,codex,normalized_codex_label
+13105,Clear,Clear,codex,normalized_codex_label
+13106,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13107,N/A,,stage2_filter,evidence_status_not_yes
+13108,N/A,,stage2_filter,evidence_status_not_yes
+13109,Clear,Clear,codex,normalized_codex_label
+13110,Clear,Clear,codex,normalized_codex_label
+13111,Clear,Clear,codex,normalized_codex_label
+13112,Clear,Clear,codex,normalized_codex_label
+13113,Clear,Clear,codex,normalized_codex_label
+13114,Clear,Clear,codex,normalized_codex_label
+13115,N/A,,stage2_filter,evidence_status_not_yes
+13116,N/A,,stage2_filter,evidence_status_not_yes
+13117,N/A,,stage2_filter,evidence_status_not_yes
+13118,Clear,Clear,codex,normalized_codex_label
+13119,Clear,Clear,codex,normalized_codex_label
+13120,N/A,,stage2_filter,evidence_status_not_yes
+13121,N/A,,stage2_filter,evidence_status_not_yes
+13122,Not Clear,Not Clear,codex,normalized_codex_label
+13123,Clear,Clear,codex,normalized_codex_label
+13124,N/A,,stage2_filter,evidence_status_not_yes
+13125,Clear,Clear,codex,normalized_codex_label
+13126,Clear,Clear,codex,normalized_codex_label
+13127,Clear,Clear,codex,normalized_codex_label
+13128,Clear,Clear,codex,normalized_codex_label
+13129,Clear,Clear,codex,normalized_codex_label
+13130,Clear,Clear,codex,normalized_codex_label
+13131,Clear,Clear,codex,normalized_codex_label
+13132,N/A,,stage2_filter,evidence_status_not_yes
+13133,N/A,,stage2_filter,evidence_status_not_yes
+13134,Clear,Clear,codex,normalized_codex_label
+13135,Clear,Clear,codex,normalized_codex_label
+13136,Clear,Clear,codex,normalized_codex_label
+13137,N/A,,stage2_filter,evidence_status_not_yes
+13138,Not Clear,Not Clear,codex,normalized_codex_label
+13139,Clear,Clear,codex,normalized_codex_label
+13140,Not Clear,Not Clear,codex,normalized_codex_label
+13141,N/A,,stage2_filter,evidence_status_not_yes
+13142,N/A,,stage2_filter,evidence_status_not_yes
+13143,Not Clear,Not Clear,codex,normalized_codex_label
+13144,N/A,,stage2_filter,evidence_status_not_yes
+13145,Clear,Clear,codex,normalized_codex_label
+13146,N/A,,stage2_filter,evidence_status_not_yes
+13147,Clear,Clear,codex,normalized_codex_label
+13148,Clear,Clear,codex,normalized_codex_label
+13149,N/A,,stage2_filter,evidence_status_not_yes
+13150,Clear,Clear,codex,normalized_codex_label
+13151,N/A,,stage2_filter,evidence_status_not_yes
+13152,N/A,,stage2_filter,evidence_status_not_yes
+13153,Clear,Clear,codex,normalized_codex_label
+13154,Not Clear,Not Clear,codex,normalized_codex_label
+13155,Clear,Clear,codex,normalized_codex_label
+13156,Clear,Clear,codex,normalized_codex_label
+13157,N/A,,stage2_filter,evidence_status_not_yes
+13158,Clear,Clear,codex,normalized_codex_label
+13159,Clear,Clear,codex,normalized_codex_label
+13160,N/A,,stage2_filter,evidence_status_not_yes
+13161,Clear,Clear,codex,normalized_codex_label
+13162,Not Clear,Not Clear,codex,normalized_codex_label
+13163,Clear,Clear,codex,normalized_codex_label
+13164,Clear,Clear,codex,normalized_codex_label
+13165,Not Clear,Not Clear,codex,normalized_codex_label
+13166,N/A,,stage2_filter,evidence_status_not_yes
+13167,N/A,,stage2_filter,evidence_status_not_yes
+13168,Clear,Clear,codex,normalized_codex_label
+13169,N/A,,stage2_filter,evidence_status_not_yes
+13170,Not Clear,Not Clear,codex,normalized_codex_label
+13171,N/A,,stage2_filter,evidence_status_not_yes
+13172,Not Clear,Not Clear,codex,normalized_codex_label
+13173,Not Clear,Not Clear,codex,normalized_codex_label
+13174,Clear,Clear,codex,normalized_codex_label
+13175,Not Clear,Not Clear,codex,normalized_codex_label
+13176,Clear,Clear,codex,normalized_codex_label
+13177,N/A,,stage2_filter,evidence_status_not_yes
+13178,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13179,N/A,,stage2_filter,evidence_status_not_yes
+13180,N/A,,stage2_filter,evidence_status_not_yes
+13181,Clear,Clear,codex,normalized_codex_label
+13182,Clear,Clear,codex,normalized_codex_label
+13183,N/A,,stage2_filter,evidence_status_not_yes
+13184,N/A,,stage2_filter,evidence_status_not_yes
+13185,Clear,Clear,codex,normalized_codex_label
+13186,Clear,Clear,codex,normalized_codex_label
+13187,N/A,,stage2_filter,evidence_status_not_yes
+13188,Not Clear,Not Clear,codex,normalized_codex_label
+13189,N/A,,stage2_filter,evidence_status_not_yes
+13190,N/A,,stage2_filter,evidence_status_not_yes
+13191,Clear,Clear,codex,normalized_codex_label
+13192,Clear,Clear,codex,normalized_codex_label
+13193,Clear,Clear,codex,normalized_codex_label
+13194,Not Clear,Not Clear,codex,normalized_codex_label
+13195,N/A,,stage2_filter,evidence_status_not_yes
+13196,Clear,Clear,codex,normalized_codex_label
+13197,Clear,Clear,codex,normalized_codex_label
+13198,Clear,Clear,codex,normalized_codex_label
+13199,Clear,Clear,codex,normalized_codex_label
+13200,Clear,Clear,codex,normalized_codex_label
+13201,Not Clear,Not Clear,codex,normalized_codex_label
+13202,Clear,Clear,codex,normalized_codex_label
+13203,Clear,Clear,codex,normalized_codex_label
+13204,Clear,Clear,codex,normalized_codex_label
+13205,N/A,,stage2_filter,evidence_status_not_yes
+13206,Clear,Clear,codex,normalized_codex_label
+13207,Clear,Clear,codex,normalized_codex_label
+13208,N/A,,stage2_filter,evidence_status_not_yes
+13209,N/A,,stage2_filter,evidence_status_not_yes
+13210,N/A,,stage2_filter,evidence_status_not_yes
+13211,Clear,Clear,codex,normalized_codex_label
+13212,Clear,Clear,codex,normalized_codex_label
+13213,Clear,Clear,codex,normalized_codex_label
+13214,Clear,Clear,codex,normalized_codex_label
+13215,Clear,Clear,codex,normalized_codex_label
+13216,Clear,Clear,codex,normalized_codex_label
+13217,N/A,,stage2_filter,evidence_status_not_yes
+13218,Clear,Clear,codex,normalized_codex_label
+13219,N/A,,stage2_filter,evidence_status_not_yes
+13220,Clear,Clear,codex,normalized_codex_label
+13221,Clear,Clear,codex,normalized_codex_label
+13222,Clear,Clear,codex,normalized_codex_label
+13223,Clear,Clear,codex,normalized_codex_label
+13224,Clear,Clear,codex,normalized_codex_label
+13225,Clear,Clear,codex,normalized_codex_label
+13226,Not Clear,Not Clear,codex,normalized_codex_label
+13227,N/A,,stage2_filter,evidence_status_not_yes
+13228,Clear,Clear,codex,normalized_codex_label
+13229,N/A,,stage2_filter,evidence_status_not_yes
+13230,Not Clear,Not Clear,codex,normalized_codex_label
+13231,Clear,Clear,codex,normalized_codex_label
+13232,N/A,,stage2_filter,evidence_status_not_yes
+13233,N/A,,stage2_filter,evidence_status_not_yes
+13234,Clear,Clear,codex,normalized_codex_label
+13235,Clear,Clear,codex,normalized_codex_label
+13236,Clear,Clear,codex,normalized_codex_label
+13237,Clear,Clear,codex,normalized_codex_label
+13238,Clear,Clear,codex,normalized_codex_label
+13239,Clear,Clear,codex,normalized_codex_label
+13240,Not Clear,Not Clear,codex,normalized_codex_label
+13241,Clear,Clear,codex,normalized_codex_label
+13242,Clear,Clear,codex,normalized_codex_label
+13243,Not Clear,Not Clear,codex,normalized_codex_label
+13244,Not Clear,Not Clear,codex,normalized_codex_label
+13245,Clear,Clear,codex,normalized_codex_label
+13246,Clear,Clear,codex,normalized_codex_label
+13247,Clear,Clear,codex,normalized_codex_label
+13248,Clear,Clear,codex,normalized_codex_label
+13249,N/A,,stage2_filter,evidence_status_not_yes
+13250,N/A,,stage2_filter,evidence_status_not_yes
+13251,N/A,,stage2_filter,evidence_status_not_yes
+13252,N/A,,stage2_filter,evidence_status_not_yes
+13253,Clear,Clear,codex,normalized_codex_label
+13254,Not Clear,Not Clear,codex,normalized_codex_label
+13255,Not Clear,Not Clear,codex,normalized_codex_label
+13256,Clear,Clear,codex,normalized_codex_label
+13257,Clear,Clear,codex,normalized_codex_label
+13258,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13259,Clear,Clear,codex,normalized_codex_label
+13260,Not Clear,Not Clear,codex,normalized_codex_label
+13261,N/A,,stage2_filter,evidence_status_not_yes
+13262,N/A,,stage2_filter,evidence_status_not_yes
+13263,N/A,,stage2_filter,evidence_status_not_yes
+13264,Not Clear,Not Clear,codex,normalized_codex_label
+13265,Clear,Clear,codex,normalized_codex_label
+13266,Clear,Clear,codex,normalized_codex_label
+13267,Clear,Clear,codex,normalized_codex_label
+13268,Clear,Clear,codex,normalized_codex_label
+13269,N/A,,stage2_filter,evidence_status_not_yes
+13270,Clear,Clear,codex,normalized_codex_label
+13271,N/A,,stage2_filter,evidence_status_not_yes
+13272,Clear,Clear,codex,normalized_codex_label
+13273,Not Clear,Not Clear,codex,normalized_codex_label
+13274,Clear,Clear,codex,normalized_codex_label
+13275,N/A,,stage2_filter,evidence_status_not_yes
+13276,Clear,Clear,codex,normalized_codex_label
+13277,Clear,Clear,codex,normalized_codex_label
+13278,Clear,Clear,codex,normalized_codex_label
+13279,N/A,,stage2_filter,evidence_status_not_yes
+13280,Clear,Clear,codex,normalized_codex_label
+13281,N/A,,stage2_filter,evidence_status_not_yes
+13282,Clear,Clear,codex,normalized_codex_label
+13283,N/A,,stage2_filter,evidence_status_not_yes
+13284,Clear,Clear,codex,normalized_codex_label
+13285,Not Clear,Not Clear,codex,normalized_codex_label
+13286,Not Clear,Not Clear,codex,normalized_codex_label
+13287,Clear,Clear,codex,normalized_codex_label
+13288,N/A,,stage2_filter,evidence_status_not_yes
+13289,N/A,,stage2_filter,evidence_status_not_yes
+13290,Clear,Clear,codex,normalized_codex_label
+13291,Not Clear,Not Clear,codex,normalized_codex_label
+13292,Not Clear,Not Clear,codex,normalized_codex_label
+13293,Clear,Clear,codex,normalized_codex_label
+13294,Clear,Clear,codex,normalized_codex_label
+13295,Clear,Clear,codex,normalized_codex_label
+13296,N/A,,stage2_filter,evidence_status_not_yes
+13297,Clear,Clear,codex,normalized_codex_label
+13298,Clear,Clear,codex,normalized_codex_label
+13299,Clear,Clear,codex,normalized_codex_label
+13300,N/A,,stage2_filter,evidence_status_not_yes
+13301,Clear,Clear,codex,normalized_codex_label
+13302,N/A,,stage2_filter,evidence_status_not_yes
+13303,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13304,Clear,Clear,codex,normalized_codex_label
+13305,Clear,Clear,codex,normalized_codex_label
+13306,Clear,Clear,codex,normalized_codex_label
+13307,N/A,,stage2_filter,evidence_status_not_yes
+13308,Clear,Clear,codex,normalized_codex_label
+13309,Clear,Clear,codex,normalized_codex_label
+13310,Clear,Clear,codex,normalized_codex_label
+13311,Clear,Clear,codex,normalized_codex_label
+13312,Clear,Clear,codex,normalized_codex_label
+13313,Clear,Clear,codex,normalized_codex_label
+13314,Not Clear,Not Clear,codex,normalized_codex_label
+13315,Not Clear,Not Clear,codex,normalized_codex_label
+13316,Clear,Clear,codex,normalized_codex_label
+13317,N/A,,stage2_filter,evidence_status_not_yes
+13318,N/A,,stage2_filter,evidence_status_not_yes
+13319,N/A,,stage2_filter,evidence_status_not_yes
+13320,N/A,,stage2_filter,evidence_status_not_yes
+13321,Clear,Clear,codex,normalized_codex_label
+13322,Clear,Clear,codex,normalized_codex_label
+13323,Clear,Clear,codex,normalized_codex_label
+13324,Clear,Clear,codex,normalized_codex_label
+13325,Clear,Clear,codex,normalized_codex_label
+13326,Clear,Clear,codex,normalized_codex_label
+13327,N/A,,stage2_filter,evidence_status_not_yes
+13328,Clear,Clear,codex,normalized_codex_label
+13329,Not Clear,Not Clear,codex,normalized_codex_label
+13330,Clear,Clear,codex,normalized_codex_label
+13331,Not Clear,Not Clear,codex,normalized_codex_label
+13332,N/A,,stage2_filter,evidence_status_not_yes
+13333,Clear,Clear,codex,normalized_codex_label
+13334,N/A,,stage2_filter,evidence_status_not_yes
+13335,N/A,,stage2_filter,evidence_status_not_yes
+13336,N/A,,stage2_filter,evidence_status_not_yes
+13337,Clear,Clear,codex,normalized_codex_label
+13338,N/A,,stage2_filter,evidence_status_not_yes
+13339,N/A,,stage2_filter,evidence_status_not_yes
+13340,Clear,Clear,codex,normalized_codex_label
+13341,Clear,Clear,codex,normalized_codex_label
+13342,Clear,Clear,codex,normalized_codex_label
+13343,Clear,Clear,codex,normalized_codex_label
+13344,Clear,Clear,codex,normalized_codex_label
+13345,Clear,Clear,codex,normalized_codex_label
+13346,N/A,,stage2_filter,evidence_status_not_yes
+13347,Clear,Clear,codex,normalized_codex_label
+13348,Clear,Clear,codex,normalized_codex_label
+13349,Not Clear,Not Clear,codex,normalized_codex_label
+13350,Clear,Clear,codex,normalized_codex_label
+13351,Clear,Clear,codex,normalized_codex_label
+13352,Clear,Clear,codex,normalized_codex_label
+13353,Clear,Clear,codex,normalized_codex_label
+13354,Clear,Clear,codex,normalized_codex_label
+13355,N/A,,stage2_filter,evidence_status_not_yes
+13356,Clear,Clear,codex,normalized_codex_label
+13357,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13358,N/A,,stage2_filter,evidence_status_not_yes
+13359,N/A,,stage2_filter,evidence_status_not_yes
+13360,Clear,Clear,codex,normalized_codex_label
+13361,N/A,,stage2_filter,evidence_status_not_yes
+13362,Clear,Clear,codex,normalized_codex_label
+13363,N/A,,stage2_filter,evidence_status_not_yes
+13364,Clear,Clear,codex,normalized_codex_label
+13365,Not Clear,Not Clear,codex,normalized_codex_label
+13366,Not Clear,Not Clear,codex,normalized_codex_label
+13367,Clear,Clear,codex,normalized_codex_label
+13368,Clear,Clear,codex,normalized_codex_label
+13369,Clear,Clear,codex,normalized_codex_label
+13370,Clear,Clear,codex,normalized_codex_label
+13371,Clear,Clear,codex,normalized_codex_label
+13372,N/A,,stage2_filter,evidence_status_not_yes
+13373,N/A,,stage2_filter,evidence_status_not_yes
+13374,Clear,Clear,codex,normalized_codex_label
+13375,Clear,Clear,codex,normalized_codex_label
+13376,Clear,Clear,codex,normalized_codex_label
+13377,Clear,Clear,codex,normalized_codex_label
+13378,Clear,Clear,codex,normalized_codex_label
+13379,Clear,Clear,codex,normalized_codex_label
+13380,Clear,Clear,codex,normalized_codex_label
+13381,Clear,Clear,codex,normalized_codex_label
+13382,Clear,Clear,codex,normalized_codex_label
+13383,Clear,Clear,codex,normalized_codex_label
+13384,Clear,Clear,codex,normalized_codex_label
+13385,N/A,,stage2_filter,evidence_status_not_yes
+13386,N/A,,stage2_filter,evidence_status_not_yes
+13387,Clear,Clear,codex,normalized_codex_label
+13388,N/A,,stage2_filter,evidence_status_not_yes
+13389,N/A,,stage2_filter,evidence_status_not_yes
+13390,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13391,Clear,Clear,codex,normalized_codex_label
+13392,Not Clear,Not Clear,codex,normalized_codex_label
+13393,Clear,Clear,codex,normalized_codex_label
+13394,Not Clear,Not Clear,codex,normalized_codex_label
+13395,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13396,N/A,,stage2_filter,evidence_status_not_yes
+13397,Clear,Clear,codex,normalized_codex_label
+13398,Clear,Clear,codex,normalized_codex_label
+13399,N/A,,stage2_filter,evidence_status_not_yes
+13400,Clear,Clear,codex,normalized_codex_label
+13401,N/A,,stage2_filter,evidence_status_not_yes
+13402,N/A,,stage2_filter,evidence_status_not_yes
+13403,Clear,Clear,codex,normalized_codex_label
+13404,Not Clear,Not Clear,codex,normalized_codex_label
+13405,Clear,Clear,codex,normalized_codex_label
+13406,N/A,,stage2_filter,evidence_status_not_yes
+13407,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13408,Not Clear,Not Clear,codex,normalized_codex_label
+13409,N/A,,stage2_filter,evidence_status_not_yes
+13410,Clear,Clear,codex,normalized_codex_label
+13411,N/A,,stage2_filter,evidence_status_not_yes
+13412,Clear,Clear,codex,normalized_codex_label
+13413,Clear,Clear,codex,normalized_codex_label
+13414,N/A,,stage2_filter,evidence_status_not_yes
+13415,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13416,Clear,Clear,codex,normalized_codex_label
+13417,N/A,,stage2_filter,evidence_status_not_yes
+13418,N/A,,stage2_filter,evidence_status_not_yes
+13419,N/A,,stage2_filter,evidence_status_not_yes
+13420,Not Clear,Not Clear,codex,normalized_codex_label
+13421,Clear,Clear,codex,normalized_codex_label
+13422,Not Clear,Not Clear,codex,normalized_codex_label
+13423,Clear,Clear,codex,normalized_codex_label
+13424,Clear,Clear,codex,normalized_codex_label
+13425,Clear,Clear,codex,normalized_codex_label
+13426,N/A,,stage2_filter,evidence_status_not_yes
+13427,Clear,Clear,codex,normalized_codex_label
+13428,Clear,Clear,codex,normalized_codex_label
+13429,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13430,Not Clear,Not Clear,codex,normalized_codex_label
+13431,Clear,Clear,codex,normalized_codex_label
+13432,Clear,Clear,codex,normalized_codex_label
+13433,Clear,Clear,codex,normalized_codex_label
+13434,Clear,Clear,codex,normalized_codex_label
+13435,Clear,Clear,codex,normalized_codex_label
+13436,Not Clear,Not Clear,codex,normalized_codex_label
+13437,N/A,,stage2_filter,evidence_status_not_yes
+13438,N/A,,stage2_filter,evidence_status_not_yes
+13439,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13440,Not Clear,Not Clear,codex,normalized_codex_label
+13441,Not Clear,Not Clear,codex,normalized_codex_label
+13442,N/A,,stage2_filter,evidence_status_not_yes
+13443,Not Clear,Not Clear,codex,normalized_codex_label
+13444,N/A,,stage2_filter,evidence_status_not_yes
+13445,Not Clear,Not Clear,codex,normalized_codex_label
+13446,Clear,Clear,codex,normalized_codex_label
+13447,Clear,Clear,codex,normalized_codex_label
+13448,Clear,Clear,codex,normalized_codex_label
+13449,N/A,,stage2_filter,evidence_status_not_yes
+13450,Clear,Clear,codex,normalized_codex_label
+13451,Clear,Clear,codex,normalized_codex_label
+13452,N/A,,stage2_filter,evidence_status_not_yes
+13453,Clear,Clear,codex,normalized_codex_label
+13454,Clear,Clear,codex,normalized_codex_label
+13455,N/A,,stage2_filter,evidence_status_not_yes
+13456,N/A,,stage2_filter,evidence_status_not_yes
+13457,Clear,Clear,codex,normalized_codex_label
+13458,N/A,,stage2_filter,evidence_status_not_yes
+13459,Clear,Clear,codex,normalized_codex_label
+13460,N/A,,stage2_filter,evidence_status_not_yes
+13461,N/A,,stage2_filter,evidence_status_not_yes
+13462,N/A,,stage2_filter,evidence_status_not_yes
+13463,Clear,Clear,codex,normalized_codex_label
+13464,Clear,Clear,codex,normalized_codex_label
+13465,N/A,,stage2_filter,evidence_status_not_yes
+13466,Clear,Clear,codex,normalized_codex_label
+13467,N/A,,stage2_filter,evidence_status_not_yes
+13468,Clear,Clear,codex,normalized_codex_label
+13469,Clear,Clear,codex,normalized_codex_label
+13470,Clear,Clear,codex,normalized_codex_label
+13471,N/A,,stage2_filter,evidence_status_not_yes
+13472,Clear,Clear,codex,normalized_codex_label
+13473,N/A,,stage2_filter,evidence_status_not_yes
+13474,N/A,,stage2_filter,evidence_status_not_yes
+13475,Not Clear,Not Clear,codex,normalized_codex_label
+13476,Clear,Clear,codex,normalized_codex_label
+13477,Clear,Clear,codex,normalized_codex_label
+13478,Clear,Clear,codex,normalized_codex_label
+13479,Not Clear,Not Clear,codex,normalized_codex_label
+13480,N/A,,stage2_filter,evidence_status_not_yes
+13481,Clear,Clear,codex,normalized_codex_label
+13482,Clear,Clear,codex,normalized_codex_label
+13483,N/A,,stage2_filter,evidence_status_not_yes
+13484,Clear,Clear,codex,normalized_codex_label
+13485,Clear,Clear,codex,normalized_codex_label
+13486,N/A,,stage2_filter,evidence_status_not_yes
+13487,Clear,Clear,codex,normalized_codex_label
+13488,N/A,,stage2_filter,evidence_status_not_yes
+13489,Not Clear,Not Clear,codex,normalized_codex_label
+13490,Clear,Clear,codex,normalized_codex_label
+13491,N/A,,stage2_filter,evidence_status_not_yes
+13492,Clear,Clear,codex,normalized_codex_label
+13493,Clear,Clear,codex,normalized_codex_label
+13494,Clear,Clear,codex,normalized_codex_label
+13495,Clear,Clear,codex,normalized_codex_label
+13496,Clear,Clear,codex,normalized_codex_label
+13497,Clear,Clear,codex,normalized_codex_label
+13498,Clear,Clear,codex,normalized_codex_label
+13499,N/A,,stage2_filter,evidence_status_not_yes
+13500,N/A,,stage2_filter,evidence_status_not_yes
+13501,Clear,Clear,codex,normalized_codex_label
+13502,N/A,,stage2_filter,evidence_status_not_yes
+13503,N/A,,stage2_filter,evidence_status_not_yes
+13504,Clear,Clear,codex,normalized_codex_label
+13505,Clear,Clear,codex,normalized_codex_label
+13506,Clear,Clear,codex,normalized_codex_label
+13507,Clear,Clear,codex,normalized_codex_label
+13508,N/A,,stage2_filter,evidence_status_not_yes
+13509,Clear,Clear,codex,normalized_codex_label
+13510,Clear,Clear,codex,normalized_codex_label
+13511,Not Clear,Not Clear,codex,normalized_codex_label
+13512,Clear,Clear,codex,normalized_codex_label
+13513,Clear,Clear,codex,normalized_codex_label
+13514,Clear,Clear,codex,normalized_codex_label
+13515,Clear,Clear,codex,normalized_codex_label
+13516,Clear,Clear,codex,normalized_codex_label
+13517,Clear,Clear,codex,normalized_codex_label
+13518,Clear,Clear,codex,normalized_codex_label
+13519,Clear,Clear,codex,normalized_codex_label
+13520,Clear,Clear,codex,normalized_codex_label
+13521,N/A,,stage2_filter,evidence_status_not_yes
+13522,Not Clear,Not Clear,codex,normalized_codex_label
+13523,Clear,Clear,codex,normalized_codex_label
+13524,Clear,Clear,codex,normalized_codex_label
+13525,N/A,,stage2_filter,evidence_status_not_yes
+13526,N/A,,stage2_filter,evidence_status_not_yes
+13527,Clear,Clear,codex,normalized_codex_label
+13528,Clear,Clear,codex,normalized_codex_label
+13529,Not Clear,Not Clear,codex,normalized_codex_label
+13530,Not Clear,Not Clear,codex,normalized_codex_label
+13531,Clear,Clear,codex,normalized_codex_label
+13532,Clear,Clear,codex,normalized_codex_label
+13533,Clear,Clear,codex,normalized_codex_label
+13534,Clear,Clear,codex,normalized_codex_label
+13535,N/A,,stage2_filter,evidence_status_not_yes
+13536,N/A,,stage2_filter,evidence_status_not_yes
+13537,N/A,,stage2_filter,evidence_status_not_yes
+13538,Clear,Clear,codex,normalized_codex_label
+13539,N/A,,stage2_filter,evidence_status_not_yes
+13540,N/A,,stage2_filter,evidence_status_not_yes
+13541,Clear,Clear,codex,normalized_codex_label
+13542,Clear,Clear,codex,normalized_codex_label
+13543,Clear,Clear,codex,normalized_codex_label
+13544,Not Clear,Not Clear,codex,normalized_codex_label
+13545,N/A,,stage2_filter,evidence_status_not_yes
+13546,Clear,Clear,codex,normalized_codex_label
+13547,Clear,Clear,codex,normalized_codex_label
+13548,Clear,Clear,codex,normalized_codex_label
+13549,N/A,,stage2_filter,evidence_status_not_yes
+13550,Clear,Clear,codex,normalized_codex_label
+13551,Clear,Clear,codex,normalized_codex_label
+13552,N/A,,stage2_filter,evidence_status_not_yes
+13553,Not Clear,Not Clear,codex,normalized_codex_label
+13554,Clear,Clear,codex,normalized_codex_label
+13555,Clear,Clear,codex,normalized_codex_label
+13556,Clear,Clear,codex,normalized_codex_label
+13557,Clear,Clear,codex,normalized_codex_label
+13558,Clear,Clear,codex,normalized_codex_label
+13559,Clear,Clear,codex,normalized_codex_label
+13560,N/A,,stage2_filter,evidence_status_not_yes
+13561,Clear,Clear,codex,normalized_codex_label
+13562,Clear,Clear,codex,normalized_codex_label
+13563,Clear,Clear,codex,normalized_codex_label
+13564,N/A,,stage2_filter,evidence_status_not_yes
+13565,Clear,Clear,codex,normalized_codex_label
+13566,Not Clear,Not Clear,codex,normalized_codex_label
+13567,Clear,Clear,codex,normalized_codex_label
+13568,Clear,Clear,codex,normalized_codex_label
+13569,Clear,Clear,codex,normalized_codex_label
+13570,N/A,,stage2_filter,evidence_status_not_yes
+13571,N/A,,stage2_filter,evidence_status_not_yes
+13572,Clear,Clear,codex,normalized_codex_label
+13573,N/A,,stage2_filter,evidence_status_not_yes
+13574,Clear,Clear,codex,normalized_codex_label
+13575,Clear,Clear,codex,normalized_codex_label
+13576,Clear,Clear,codex,normalized_codex_label
+13577,Clear,Clear,codex,normalized_codex_label
+13578,Clear,Clear,codex,normalized_codex_label
+13579,Clear,Clear,codex,normalized_codex_label
+13580,Not Clear,Not Clear,codex,normalized_codex_label
+13581,Clear,Clear,codex,normalized_codex_label
+13582,N/A,,stage2_filter,evidence_status_not_yes
+13583,N/A,,stage2_filter,evidence_status_not_yes
+13584,N/A,,stage2_filter,evidence_status_not_yes
+13585,Clear,Clear,codex,normalized_codex_label
+13586,N/A,,stage2_filter,evidence_status_not_yes
+13587,Clear,Clear,codex,normalized_codex_label
+13588,Clear,Clear,codex,normalized_codex_label
+13589,Clear,Clear,codex,normalized_codex_label
+13590,Clear,Clear,codex,normalized_codex_label
+13591,Clear,Clear,codex,normalized_codex_label
+13592,Not Clear,Not Clear,codex,normalized_codex_label
+13593,Clear,Clear,codex,normalized_codex_label
+13594,Clear,Clear,codex,normalized_codex_label
+13595,N/A,,stage2_filter,evidence_status_not_yes
+13596,Clear,Clear,codex,normalized_codex_label
+13597,Clear,Clear,codex,normalized_codex_label
+13598,Clear,Clear,codex,normalized_codex_label
+13599,N/A,,stage2_filter,evidence_status_not_yes
+13600,Clear,Clear,codex,normalized_codex_label
+13601,Not Clear,Not Clear,codex,normalized_codex_label
+13602,Not Clear,Not Clear,codex,normalized_codex_label
+13603,Clear,Clear,codex,normalized_codex_label
+13604,Clear,Clear,codex,normalized_codex_label
+13605,Clear,Clear,codex,normalized_codex_label
+13606,Clear,Clear,codex,normalized_codex_label
+13607,Not Clear,Not Clear,codex,normalized_codex_label
+13608,Clear,Clear,codex,normalized_codex_label
+13609,Clear,Clear,codex,normalized_codex_label
+13610,Clear,Clear,codex,normalized_codex_label
+13611,Not Clear,Not Clear,codex,normalized_codex_label
+13612,Clear,Clear,codex,normalized_codex_label
+13613,Not Clear,Not Clear,codex,normalized_codex_label
+13614,Not Clear,Not Clear,codex,normalized_codex_label
+13615,Clear,Clear,codex,normalized_codex_label
+13616,Clear,Clear,codex,normalized_codex_label
+13617,Clear,Clear,codex,normalized_codex_label
+13618,Clear,Clear,codex,normalized_codex_label
+13619,Clear,Clear,codex,normalized_codex_label
+13620,Clear,Clear,codex,normalized_codex_label
+13621,N/A,,stage2_filter,evidence_status_not_yes
+13622,Clear,Clear,codex,normalized_codex_label
+13623,Clear,Clear,codex,normalized_codex_label
+13624,N/A,,stage2_filter,evidence_status_not_yes
+13625,N/A,,stage2_filter,evidence_status_not_yes
+13626,Clear,Clear,codex,normalized_codex_label
+13627,N/A,,stage2_filter,evidence_status_not_yes
+13628,Clear,Clear,codex,normalized_codex_label
+13629,Clear,Clear,codex,normalized_codex_label
+13630,Clear,Clear,codex,normalized_codex_label
+13631,N/A,,stage2_filter,evidence_status_not_yes
+13632,Not Clear,Not Clear,codex,normalized_codex_label
+13633,N/A,,stage2_filter,evidence_status_not_yes
+13634,N/A,,stage2_filter,evidence_status_not_yes
+13635,Clear,Clear,codex,normalized_codex_label
+13636,Clear,Clear,codex,normalized_codex_label
+13637,Clear,Clear,codex,normalized_codex_label
+13638,N/A,,stage2_filter,evidence_status_not_yes
+13639,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13640,Not Clear,Not Clear,codex,normalized_codex_label
+13641,Clear,Clear,codex,normalized_codex_label
+13642,Clear,Clear,codex,normalized_codex_label
+13643,Clear,Clear,codex,normalized_codex_label
+13644,N/A,,stage2_filter,evidence_status_not_yes
+13645,Clear,Clear,codex,normalized_codex_label
+13646,Not Clear,Not Clear,codex,normalized_codex_label
+13647,Clear,Clear,codex,normalized_codex_label
+13648,Clear,Clear,codex,normalized_codex_label
+13649,Not Clear,Not Clear,codex,normalized_codex_label
+13650,Clear,Clear,codex,normalized_codex_label
+13651,Clear,Clear,codex,normalized_codex_label
+13652,Clear,Clear,codex,normalized_codex_label
+13653,N/A,,stage2_filter,evidence_status_not_yes
+13654,N/A,,stage2_filter,evidence_status_not_yes
+13655,Not Clear,Not Clear,codex,normalized_codex_label
+13656,Not Clear,Not Clear,codex,normalized_codex_label
+13657,Clear,Clear,codex,normalized_codex_label
+13658,Clear,Clear,codex,normalized_codex_label
+13659,N/A,,stage2_filter,evidence_status_not_yes
+13660,Clear,Clear,codex,normalized_codex_label
+13661,N/A,,stage2_filter,evidence_status_not_yes
+13662,Clear,Clear,codex,normalized_codex_label
+13663,Clear,Clear,codex,normalized_codex_label
+13664,Not Clear,Not Clear,codex,normalized_codex_label
+13665,Clear,Clear,codex,normalized_codex_label
+13666,N/A,,stage2_filter,evidence_status_not_yes
+13667,Clear,Clear,codex,normalized_codex_label
+13668,N/A,,stage2_filter,evidence_status_not_yes
+13669,Not Clear,Not Clear,codex,normalized_codex_label
+13670,Clear,Clear,codex,normalized_codex_label
+13671,Clear,Clear,codex,normalized_codex_label
+13672,Clear,Clear,codex,normalized_codex_label
+13673,Not Clear,Not Clear,codex,normalized_codex_label
+13674,Not Clear,Not Clear,codex,normalized_codex_label
+13675,N/A,,stage2_filter,evidence_status_not_yes
+13676,Clear,Clear,codex,normalized_codex_label
+13677,N/A,,stage2_filter,evidence_status_not_yes
+13678,Not Clear,Not Clear,codex,normalized_codex_label
+13679,Clear,Clear,codex,normalized_codex_label
+13680,Clear,Clear,codex,normalized_codex_label
+13681,Clear,Clear,codex,normalized_codex_label
+13682,Clear,Clear,codex,normalized_codex_label
+13683,N/A,,stage2_filter,evidence_status_not_yes
+13684,N/A,,stage2_filter,evidence_status_not_yes
+13685,Not Clear,Not Clear,codex,normalized_codex_label
+13686,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13687,Clear,Clear,codex,normalized_codex_label
+13688,Clear,Clear,codex,normalized_codex_label
+13689,Clear,Clear,codex,normalized_codex_label
+13690,Clear,Clear,codex,normalized_codex_label
+13691,N/A,,stage2_filter,evidence_status_not_yes
+13692,Clear,Clear,codex,normalized_codex_label
+13693,Clear,Clear,codex,normalized_codex_label
+13694,Clear,Clear,codex,normalized_codex_label
+13695,N/A,,stage2_filter,evidence_status_not_yes
+13696,Clear,Clear,codex,normalized_codex_label
+13697,Clear,Clear,codex,normalized_codex_label
+13698,N/A,,stage2_filter,evidence_status_not_yes
+13699,Clear,Clear,codex,normalized_codex_label
+13700,Clear,Clear,codex,normalized_codex_label
+13701,N/A,,stage2_filter,evidence_status_not_yes
+13702,Clear,Clear,codex,normalized_codex_label
+13703,N/A,,stage2_filter,evidence_status_not_yes
+13704,Clear,Clear,codex,normalized_codex_label
+13705,N/A,,stage2_filter,evidence_status_not_yes
+13706,Clear,Clear,codex,normalized_codex_label
+13707,Clear,Clear,codex,normalized_codex_label
+13708,N/A,,stage2_filter,evidence_status_not_yes
+13709,Not Clear,Not Clear,codex,normalized_codex_label
+13710,N/A,,stage2_filter,evidence_status_not_yes
+13711,Clear,Clear,codex,normalized_codex_label
+13712,Not Clear,Not Clear,codex,normalized_codex_label
+13713,Clear,Clear,codex,normalized_codex_label
+13714,Not Clear,Not Clear,codex,normalized_codex_label
+13715,Clear,Clear,codex,normalized_codex_label
+13716,N/A,,stage2_filter,evidence_status_not_yes
+13717,Clear,Clear,codex,normalized_codex_label
+13718,Clear,Clear,codex,normalized_codex_label
+13719,Clear,Clear,codex,normalized_codex_label
+13720,N/A,,stage2_filter,evidence_status_not_yes
+13721,Clear,Clear,codex,normalized_codex_label
+13722,Clear,Clear,codex,normalized_codex_label
+13723,Clear,Clear,codex,normalized_codex_label
+13724,Not Clear,Not Clear,codex,normalized_codex_label
+13725,Clear,Clear,codex,normalized_codex_label
+13726,Clear,Clear,codex,normalized_codex_label
+13727,N/A,,stage2_filter,evidence_status_not_yes
+13728,Clear,Clear,codex,normalized_codex_label
+13729,Clear,Clear,codex,normalized_codex_label
+13730,N/A,,stage2_filter,evidence_status_not_yes
+13731,Clear,Clear,codex,normalized_codex_label
+13732,Clear,Clear,codex,normalized_codex_label
+13733,Clear,Clear,codex,normalized_codex_label
+13734,Clear,Clear,codex,normalized_codex_label
+13735,N/A,,stage2_filter,evidence_status_not_yes
+13736,Clear,Clear,codex,normalized_codex_label
+13737,Clear,Clear,codex,normalized_codex_label
+13738,Clear,Clear,codex,normalized_codex_label
+13739,Clear,Clear,codex,normalized_codex_label
+13740,Clear,Clear,codex,normalized_codex_label
+13741,Clear,Clear,codex,normalized_codex_label
+13742,Clear,Clear,codex,normalized_codex_label
+13743,Clear,Clear,codex,normalized_codex_label
+13744,Not Clear,Not Clear,codex,normalized_codex_label
+13745,Clear,Clear,codex,normalized_codex_label
+13746,Clear,Clear,codex,normalized_codex_label
+13747,N/A,,stage2_filter,evidence_status_not_yes
+13748,Not Clear,Not Clear,codex,normalized_codex_label
+13749,N/A,,stage2_filter,evidence_status_not_yes
+13750,N/A,,stage2_filter,evidence_status_not_yes
+13751,N/A,,stage2_filter,evidence_status_not_yes
+13752,Clear,Clear,codex,normalized_codex_label
+13753,Clear,Clear,codex,normalized_codex_label
+13754,Clear,Clear,codex,normalized_codex_label
+13755,Not Clear,Not Clear,codex,normalized_codex_label
+13756,Clear,Clear,codex,normalized_codex_label
+13757,Not Clear,Not Clear,codex,normalized_codex_label
+13758,N/A,,stage2_filter,evidence_status_not_yes
+13759,N/A,,stage2_filter,evidence_status_not_yes
+13760,Clear,Clear,codex,normalized_codex_label
+13761,Clear,Clear,codex,normalized_codex_label
+13762,Not Clear,Not Clear,codex,normalized_codex_label
+13763,Clear,Clear,codex,normalized_codex_label
+13764,Clear,Clear,codex,normalized_codex_label
+13765,Clear,Clear,codex,normalized_codex_label
+13766,N/A,,stage2_filter,evidence_status_not_yes
+13767,N/A,,stage2_filter,evidence_status_not_yes
+13768,Clear,Clear,codex,normalized_codex_label
+13769,N/A,,stage2_filter,evidence_status_not_yes
+13770,Clear,Clear,codex,normalized_codex_label
+13771,Clear,Clear,codex,normalized_codex_label
+13772,Clear,Clear,codex,normalized_codex_label
+13773,N/A,,stage2_filter,evidence_status_not_yes
+13774,Not Clear,Not Clear,codex,normalized_codex_label
+13775,N/A,,stage2_filter,evidence_status_not_yes
+13776,N/A,,stage2_filter,evidence_status_not_yes
+13777,N/A,,stage2_filter,evidence_status_not_yes
+13778,Clear,Clear,codex,normalized_codex_label
+13779,Clear,Clear,codex,normalized_codex_label
+13780,N/A,,stage2_filter,evidence_status_not_yes
+13781,Clear,Clear,codex,normalized_codex_label
+13782,Clear,Clear,codex,normalized_codex_label
+13783,N/A,,stage2_filter,evidence_status_not_yes
+13784,N/A,,stage2_filter,evidence_status_not_yes
+13785,Clear,Clear,codex,normalized_codex_label
+13786,N/A,,stage2_filter,evidence_status_not_yes
+13787,Clear,Clear,codex,normalized_codex_label
+13788,Clear,Clear,codex,normalized_codex_label
+13789,Not Clear,Not Clear,codex,normalized_codex_label
+13790,Clear,Clear,codex,normalized_codex_label
+13791,N/A,,stage2_filter,evidence_status_not_yes
+13792,Clear,Clear,codex,normalized_codex_label
+13793,Not Clear,Not Clear,codex,normalized_codex_label
+13794,Clear,Clear,codex,normalized_codex_label
+13795,Clear,Clear,codex,normalized_codex_label
+13796,Clear,Clear,codex,normalized_codex_label
+13797,Clear,Clear,codex,normalized_codex_label
+13798,Clear,Clear,codex,normalized_codex_label
+13799,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13800,Clear,Clear,codex,normalized_codex_label
+13801,Clear,Clear,codex,normalized_codex_label
+13802,Clear,Clear,codex,normalized_codex_label
+13803,Not Clear,Not Clear,codex,normalized_codex_label
+13804,N/A,,stage2_filter,evidence_status_not_yes
+13805,N/A,,stage2_filter,evidence_status_not_yes
+13806,Clear,Clear,codex,normalized_codex_label
+13807,Clear,Clear,codex,normalized_codex_label
+13808,Clear,Clear,codex,normalized_codex_label
+13809,N/A,,stage2_filter,evidence_status_not_yes
+13810,N/A,,stage2_filter,evidence_status_not_yes
+13811,N/A,,stage2_filter,evidence_status_not_yes
+13812,N/A,,stage2_filter,evidence_status_not_yes
+13813,N/A,,stage2_filter,evidence_status_not_yes
+13814,Clear,Clear,codex,normalized_codex_label
+13815,Clear,Clear,codex,normalized_codex_label
+13816,Clear,Clear,codex,normalized_codex_label
+13817,Clear,Clear,codex,normalized_codex_label
+13818,Clear,Clear,codex,normalized_codex_label
+13819,N/A,,stage2_filter,evidence_status_not_yes
+13820,Not Clear,Not Clear,codex,normalized_codex_label
+13821,Clear,Clear,codex,normalized_codex_label
+13822,Clear,Clear,codex,normalized_codex_label
+13823,N/A,,stage2_filter,evidence_status_not_yes
+13824,Clear,Clear,codex,normalized_codex_label
+13825,Clear,Clear,codex,normalized_codex_label
+13826,Clear,Clear,codex,normalized_codex_label
+13827,Not Clear,Not Clear,codex,normalized_codex_label
+13828,Clear,Clear,codex,normalized_codex_label
+13829,N/A,,stage2_filter,evidence_status_not_yes
+13830,N/A,,stage2_filter,evidence_status_not_yes
+13831,Clear,Clear,codex,normalized_codex_label
+13832,N/A,,stage2_filter,evidence_status_not_yes
+13833,Clear,Clear,codex,normalized_codex_label
+13834,Clear,Clear,codex,normalized_codex_label
+13835,Not Clear,Not Clear,codex,normalized_codex_label
+13836,Clear,Clear,codex,normalized_codex_label
+13837,Clear,Clear,codex,normalized_codex_label
+13838,Clear,Clear,codex,normalized_codex_label
+13839,N/A,,stage2_filter,evidence_status_not_yes
+13840,Clear,Clear,codex,normalized_codex_label
+13841,Not Clear,Not Clear,codex,normalized_codex_label
+13842,Clear,Clear,codex,normalized_codex_label
+13843,Clear,Clear,codex,normalized_codex_label
+13844,Clear,Clear,codex,normalized_codex_label
+13845,N/A,,stage2_filter,evidence_status_not_yes
+13846,Clear,Clear,codex,normalized_codex_label
+13847,N/A,,stage2_filter,evidence_status_not_yes
+13848,N/A,,stage2_filter,evidence_status_not_yes
+13849,Clear,Clear,codex,normalized_codex_label
+13850,Clear,Clear,codex,normalized_codex_label
+13851,Clear,Clear,codex,normalized_codex_label
+13852,Clear,Clear,codex,normalized_codex_label
+13853,N/A,,stage2_filter,evidence_status_not_yes
+13854,N/A,,stage2_filter,evidence_status_not_yes
+13855,Not Clear,Not Clear,codex,normalized_codex_label
+13856,Clear,Clear,codex,normalized_codex_label
+13857,Clear,Clear,codex,normalized_codex_label
+13858,Clear,Clear,codex,normalized_codex_label
+13859,N/A,,stage2_filter,evidence_status_not_yes
+13860,N/A,,stage2_filter,evidence_status_not_yes
+13861,Clear,Clear,codex,normalized_codex_label
+13862,Clear,Clear,codex,normalized_codex_label
+13863,N/A,,stage2_filter,evidence_status_not_yes
+13864,N/A,,stage2_filter,evidence_status_not_yes
+13865,Clear,Clear,codex,normalized_codex_label
+13866,N/A,,stage2_filter,evidence_status_not_yes
+13867,Clear,Clear,codex,normalized_codex_label
+13868,N/A,,stage2_filter,evidence_status_not_yes
+13869,Clear,Clear,codex,normalized_codex_label
+13870,Clear,Clear,codex,normalized_codex_label
+13871,Clear,Clear,codex,normalized_codex_label
+13872,N/A,,stage2_filter,evidence_status_not_yes
+13873,Not Clear,Not Clear,codex,normalized_codex_label
+13874,N/A,,stage2_filter,evidence_status_not_yes
+13875,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13876,N/A,,stage2_filter,evidence_status_not_yes
+13877,N/A,,stage2_filter,evidence_status_not_yes
+13878,Not Clear,Not Clear,codex,normalized_codex_label
+13879,Not Clear,Not Clear,codex,normalized_codex_label
+13880,Not Clear,Not Clear,codex,normalized_codex_label
+13881,Clear,Clear,codex,normalized_codex_label
+13882,N/A,,stage2_filter,evidence_status_not_yes
+13883,Clear,Clear,codex,normalized_codex_label
+13884,Clear,Clear,codex,normalized_codex_label
+13885,Clear,Clear,codex,normalized_codex_label
+13886,Clear,Clear,codex,normalized_codex_label
+13887,N/A,,stage2_filter,evidence_status_not_yes
+13888,Not Clear,Not Clear,codex,normalized_codex_label
+13889,Not Clear,Not Clear,codex,normalized_codex_label
+13890,Clear,Clear,codex,normalized_codex_label
+13891,Clear,Clear,codex,normalized_codex_label
+13892,Clear,Clear,codex,normalized_codex_label
+13893,N/A,,stage2_filter,evidence_status_not_yes
+13894,N/A,,stage2_filter,evidence_status_not_yes
+13895,Clear,Clear,codex,normalized_codex_label
+13896,Clear,Clear,codex,normalized_codex_label
+13897,Not Clear,Not Clear,codex_nafix,lowconf_nafix_codex
+13898,Not Clear,Not Clear,codex,normalized_codex_label
+13899,N/A,,stage2_filter,evidence_status_not_yes
+13900,N/A,,stage2_filter,evidence_status_not_yes
+13901,Clear,Clear,codex,normalized_codex_label
+13902,N/A,,stage2_filter,evidence_status_not_yes
+13903,Not Clear,Not Clear,codex,normalized_codex_label
+13904,Clear,Clear,codex,normalized_codex_label
+13905,N/A,,stage2_filter,evidence_status_not_yes
+13906,Clear,Clear,codex,normalized_codex_label
+13907,Clear,Clear,codex,normalized_codex_label
+13908,Clear,Clear,codex,normalized_codex_label
+13909,Clear,Clear,codex,normalized_codex_label
+13910,Clear,Clear,codex,normalized_codex_label
+13911,Clear,Clear,codex,normalized_codex_label
+13912,Clear,Clear,codex,normalized_codex_label
+13913,Clear,Clear,codex,normalized_codex_label
+13914,Not Clear,Not Clear,codex,normalized_codex_label
+13915,Clear,Clear,codex,normalized_codex_label
+13916,N/A,,stage2_filter,evidence_status_not_yes
+13917,Clear,Clear,codex,normalized_codex_label
+13918,N/A,,stage2_filter,evidence_status_not_yes
+13919,Clear,Clear,codex,normalized_codex_label
+13920,Clear,Clear,codex,normalized_codex_label
+13921,Clear,Clear,codex,normalized_codex_label
+13922,Clear,Clear,codex,normalized_codex_label
+13923,Clear,Clear,codex,normalized_codex_label
+13924,Clear,Clear,codex,normalized_codex_label
+13925,N/A,,stage2_filter,evidence_status_not_yes
+13926,N/A,,stage2_filter,evidence_status_not_yes
+13927,Clear,Clear,codex,normalized_codex_label
+13928,Clear,Clear,codex,normalized_codex_label
+13929,N/A,,stage2_filter,evidence_status_not_yes
+13930,Clear,Clear,codex,normalized_codex_label
+13931,Clear,Clear,codex,normalized_codex_label
+13932,N/A,,stage2_filter,evidence_status_not_yes
+13933,N/A,,stage2_filter,evidence_status_not_yes
+13934,Clear,Clear,codex,normalized_codex_label
+13935,Not Clear,Not Clear,codex,normalized_codex_label
+13936,N/A,,stage2_filter,evidence_status_not_yes
+13937,Clear,Clear,codex,normalized_codex_label
+13938,Clear,Clear,codex,normalized_codex_label
+13939,Not Clear,Not Clear,codex,normalized_codex_label
+13940,Clear,Clear,codex,normalized_codex_label
+13941,N/A,,stage2_filter,evidence_status_not_yes
+13942,Not Clear,Not Clear,codex,normalized_codex_label
+13943,Not Clear,Not Clear,codex,normalized_codex_label
+13944,Clear,Clear,codex,normalized_codex_label
+13945,Not Clear,Not Clear,codex,normalized_codex_label
+13946,Clear,Clear,codex,normalized_codex_label
+13947,Clear,Clear,codex,normalized_codex_label
+13948,Clear,Clear,codex,normalized_codex_label
+13949,Not Clear,Not Clear,codex,normalized_codex_label
+13950,Clear,Clear,codex,normalized_codex_label
+13951,Clear,Clear,codex,normalized_codex_label
+13952,Not Clear,Not Clear,codex,normalized_codex_label
+13953,Clear,Clear,codex,normalized_codex_label
+13954,Not Clear,Not Clear,codex,normalized_codex_label
+13955,N/A,,stage2_filter,evidence_status_not_yes
+13956,Clear,Clear,codex,normalized_codex_label
+13957,N/A,,stage2_filter,evidence_status_not_yes
+13958,N/A,,stage2_filter,evidence_status_not_yes
+13959,Clear,Clear,codex,normalized_codex_label
+13960,Clear,Clear,codex,normalized_codex_label
+13961,N/A,,stage2_filter,evidence_status_not_yes
+13962,Clear,Clear,codex,normalized_codex_label
+13963,Clear,Clear,codex,normalized_codex_label
+13964,Clear,Clear,codex,normalized_codex_label
+13965,Clear,Clear,codex,normalized_codex_label
+13966,N/A,,stage2_filter,evidence_status_not_yes
+13967,N/A,,stage2_filter,evidence_status_not_yes
+13968,N/A,,stage2_filter,evidence_status_not_yes
+13969,Not Clear,Not Clear,codex,normalized_codex_label
+13970,N/A,,stage2_filter,evidence_status_not_yes
+13971,Clear,Clear,codex,normalized_codex_label
+13972,N/A,,stage2_filter,evidence_status_not_yes
+13973,Clear,Clear,codex,normalized_codex_label
+13974,Clear,Clear,codex,normalized_codex_label
+13975,Clear,Clear,codex,normalized_codex_label
+13976,Not Clear,Not Clear,codex,normalized_codex_label
+13977,Clear,Clear,codex_nafix,lowconf_nafix_codex
+13978,N/A,,stage2_filter,evidence_status_not_yes
+13979,Not Clear,Not Clear,codex,normalized_codex_label
+13980,N/A,,stage2_filter,evidence_status_not_yes
+13981,Clear,Clear,codex,normalized_codex_label
+13982,Not Clear,Not Clear,codex,normalized_codex_label
+13983,N/A,,stage2_filter,evidence_status_not_yes
+13984,Clear,Clear,codex,normalized_codex_label
+13985,Clear,Clear,codex,normalized_codex_label
+13986,Clear,Clear,codex,normalized_codex_label
+13987,Clear,Clear,codex,normalized_codex_label
+13988,Clear,Clear,codex,normalized_codex_label
+13989,Not Clear,Not Clear,codex,normalized_codex_label
+13990,Not Clear,Not Clear,codex,normalized_codex_label
+13991,Clear,Clear,codex,normalized_codex_label
+13992,Not Clear,Not Clear,codex,normalized_codex_label
+13993,N/A,,stage2_filter,evidence_status_not_yes
+13994,Clear,Clear,codex,normalized_codex_label
+13995,Clear,Clear,codex,normalized_codex_label
+13996,Clear,Clear,codex,normalized_codex_label
+13997,Clear,Clear,codex,normalized_codex_label
+13998,Clear,Clear,codex,normalized_codex_label
+13999,Clear,Clear,codex,normalized_codex_label
+14000,Clear,Clear,codex,normalized_codex_label

@@ -1,0 +1,27 @@
+{
+  "benchmark": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/data/val_yes.100.json",
+  "pred": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/test_add_context/stage4/preds/codex/vanilla_100_codex.csv",
+  "n_scored": 99,
+  "missing_pred": 0,
+  "invalid_pred": 0,
+  "macro_f1": 0.644,
+  "accuracy": 0.5455,
+  "per_class_f1": {
+    "already": 0.5783,
+    "within_2_years": 1.0,
+    "between_2_and_5_years": 0.5128,
+    "more_than_5_years": 0.4848
+  },
+  "gt_dist": {
+    "already": 46,
+    "more_than_5_years": 22,
+    "between_2_and_5_years": 29,
+    "within_2_years": 2
+  },
+  "pred_dist": {
+    "already": 37,
+    "between_2_and_5_years": 49,
+    "more_than_5_years": 11,
+    "within_2_years": 2
+  }
+}

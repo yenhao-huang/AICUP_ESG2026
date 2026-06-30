@@ -1,0 +1,282 @@
+threshold(tau)=0.90  total=2000  keep_bert=1746  escalate=254  rows_without_score=0  backend=local_norag
+[local Gemma] loading base=/models/unsloth-gemma-4-12b adapter=/models/gemma4_st12_mix device=cuda
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   0%|          | 1/677 [00:00<02:43,  4.12it/s]Loading weights:   0%|          | 3/677 [00:03<12:26,  1.11s/it]Loading weights:   1%|          | 8/677 [00:03<03:36,  3.09it/s]Loading weights:   3%|▎         | 21/677 [00:03<01:01, 10.60it/s]Loading weights:   5%|▌         | 34/677 [00:03<00:33, 19.39it/s]Loading weights:   6%|▌         | 41/677 [00:03<00:34, 18.22it/s]Loading weights:   7%|▋         | 47/677 [00:04<00:29, 21.69it/s]Loading weights:   8%|▊         | 52/677 [00:04<00:40, 15.45it/s]Loading weights:   9%|▊         | 58/677 [00:04<00:32, 18.81it/s]Loading weights:   9%|▉         | 62/677 [00:05<00:33, 18.23it/s]Loading weights:  10%|▉         | 66/677 [00:05<00:39, 15.32it/s]Loading weights:  11%|█         | 72/677 [00:05<00:30, 19.80it/s]Loading weights:  11%|█         | 76/677 [00:05<00:30, 19.48it/s]Loading weights:  12%|█▏        | 79/677 [00:06<00:40, 14.92it/s]Loading weights:  12%|█▏        | 84/677 [00:06<00:31, 18.91it/s]Loading weights:  13%|█▎        | 87/677 [00:06<00:28, 20.40it/s]Loading weights:  13%|█▎        | 90/677 [00:06<00:39, 14.92it/s]Loading weights:  14%|█▎        | 93/677 [00:06<00:39, 14.70it/s]Loading weights:  15%|█▍        | 99/677 [00:07<00:28, 20.08it/s]Loading weights:  15%|█▌        | 103/677 [00:07<00:29, 19.38it/s]Loading weights:  16%|█▌        | 106/677 [00:07<00:39, 14.63it/s]Loading weights:  17%|█▋        | 113/677 [00:07<00:26, 21.46it/s]Loading weights:  17%|█▋        | 117/677 [00:08<00:27, 20.53it/s]Loading weights:  18%|█▊        | 120/677 [00:08<00:38, 14.39it/s]Loading weights:  19%|█▉        | 127/677 [00:08<00:26, 20.62it/s]Loading weights:  19%|█▉        | 131/677 [00:08<00:28, 19.39it/s]Loading weights:  20%|█▉        | 134/677 [00:09<00:38, 13.95it/s]Loading weights:  21%|██        | 141/677 [00:09<00:27, 19.84it/s]Loading weights:  21%|██▏       | 145/677 [00:09<00:28, 18.65it/s]Loading weights:  22%|██▏       | 148/677 [00:10<00:38, 13.62it/s]Loading weights:  23%|██▎       | 155/677 [00:10<00:26, 19.60it/s]Loading weights:  23%|██▎       | 159/677 [00:10<00:24, 20.95it/s]Loading weights:  24%|██▍       | 162/677 [00:10<00:35, 14.49it/s]Loading weights:  25%|██▍       | 167/677 [00:11<00:27, 18.43it/s]Loading weights:  25%|██▌       | 170/677 [00:11<00:26, 19.37it/s]Loading weights:  26%|██▌       | 173/677 [00:11<00:38, 13.22it/s]Loading weights:  26%|██▌       | 176/677 [00:11<00:37, 13.47it/s]Loading weights:  27%|██▋       | 182/677 [00:11<00:25, 19.38it/s]Loading weights:  27%|██▋       | 186/677 [00:12<00:22, 22.30it/s]Loading weights:  28%|██▊       | 189/677 [00:12<00:30, 15.98it/s]Loading weights:  29%|██▉       | 196/677 [00:12<00:21, 22.63it/s]Loading weights:  30%|██▉       | 200/677 [00:12<00:23, 20.29it/s]Loading weights:  30%|██▉       | 203/677 [00:13<00:32, 14.37it/s]Loading weights:  31%|███       | 210/677 [00:13<00:22, 20.35it/s]Loading weights:  32%|███▏      | 214/677 [00:13<00:24, 19.11it/s]Loading weights:  32%|███▏      | 217/677 [00:14<00:32, 14.05it/s]Loading weights:  33%|███▎      | 224/677 [00:14<00:22, 19.87it/s]Loading weights:  34%|███▎      | 228/677 [00:14<00:24, 18.65it/s]Loading weights:  34%|███▍      | 231/677 [00:14<00:32, 13.70it/s]Loading weights:  35%|███▌      | 238/677 [00:15<00:22, 19.34it/s]Loading weights:  36%|███▌      | 242/677 [00:15<00:23, 18.76it/s]Loading weights:  36%|███▌      | 245/677 [00:15<00:31, 13.55it/s]Loading weights:  37%|███▋      | 250/677 [00:15<00:24, 17.73it/s]Loading weights:  38%|███▊      | 255/677 [00:16<00:23, 17.78it/s]Loading weights:  38%|███▊      | 258/677 [00:16<00:29, 14.09it/s]Loading weights:  39%|███▉      | 265/677 [00:16<00:20, 20.48it/s]Loading weights:  40%|███▉      | 269/677 [00:16<00:18, 22.23it/s]Loading weights:  41%|████      | 279/677 [00:16<00:11, 35.33it/s]Loading weights:  42%|████▏     | 285/677 [00:16<00:10, 38.90it/s]Loading weights:  44%|████▍     | 298/677 [00:17<00:06, 57.59it/s]Loading weights:  46%|████▌     | 311/677 [00:17<00:04, 73.52it/s]Loading weights:  48%|████▊     | 322/677 [00:17<00:04, 81.56it/s]Loading weights:  49%|████▉     | 332/677 [00:17<00:04, 83.68it/s]Loading weights:  51%|█████     | 342/677 [00:17<00:04, 77.64it/s]Loading weights:  52%|█████▏    | 353/677 [00:17<00:03, 84.79it/s]Loading weights:  54%|█████▍    | 366/677 [00:17<00:03, 95.40it/s]Loading weights:  56%|█████▌    | 377/677 [00:17<00:03, 98.17it/s]Loading weights:  57%|█████▋    | 388/677 [00:17<00:03, 94.65it/s]Loading weights:  59%|█████▉    | 398/677 [00:18<00:03, 89.84it/s]Loading weights:  60%|██████    | 409/677 [00:18<00:02, 93.99it/s]Loading weights:  62%|██████▏   | 421/677 [00:18<00:02, 96.99it/s]Loading weights:  64%|██████▍   | 432/677 [00:18<00:02, 99.20it/s]Loading weights:  65%|██████▌   | 443/677 [00:18<00:02, 95.28it/s]Loading weights:  67%|██████▋   | 453/677 [00:18<00:02, 90.35it/s]Loading weights:  69%|██████▊   | 464/677 [00:18<00:02, 94.41it/s]Loading weights:  70%|███████   | 477/677 [00:18<00:01, 102.71it/s]Loading weights:  72%|███████▏  | 488/677 [00:18<00:01, 103.42it/s]Loading weights:  74%|███████▎  | 499/677 [00:19<00:01, 96.60it/s] Loading weights:  75%|███████▌  | 509/677 [00:19<00:01, 90.11it/s]Loading weights:  77%|███████▋  | 519/677 [00:19<00:01, 91.68it/s]Loading weights:  79%|███████▊  | 532/677 [00:19<00:01, 100.75it/s]Loading weights:  80%|████████  | 543/677 [00:19<00:01, 102.03it/s]Loading weights:  82%|████████▏ | 554/677 [00:19<00:01, 97.13it/s] Loading weights:  83%|████████▎ | 564/677 [00:19<00:01, 91.46it/s]Loading weights:  85%|████████▍ | 575/677 [00:19<00:01, 95.22it/s]Loading weights:  87%|████████▋ | 587/677 [00:20<00:00, 97.86it/s]Loading weights:  88%|████████▊ | 598/677 [00:20<00:00, 99.85it/s]Loading weights:  90%|████████▉ | 609/677 [00:20<00:00, 95.76it/s]Loading weights:  91%|█████████▏| 619/677 [00:20<00:00, 90.56it/s]Loading weights:  93%|█████████▎| 630/677 [00:20<00:00, 94.57it/s]Loading weights:  95%|█████████▍| 643/677 [00:20<00:00, 102.88it/s]Loading weights:  97%|█████████▋| 654/677 [00:20<00:00, 103.50it/s]Loading weights:  98%|█████████▊| 665/677 [00:20<00:00, 96.55it/s] Loading weights: 100%|██████████| 677/677 [00:20<00:00, 32.44it/s]
+/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+[1/254] id=12009  bert=No->llm=Yes  conf=0.7739  CHANGED
+[2/254] id=12016  bert=Yes->llm=No  conf=0.7298  CHANGED
+[3/254] id=12026  bert=No->llm=Yes  conf=0.7859  CHANGED
+[4/254] id=12029  bert=No->llm=Yes  conf=0.6998  CHANGED
+[5/254] id=12030  bert=Yes->llm=No  conf=0.8052  CHANGED
+[6/254] id=12042  bert=Yes->llm=Yes  conf=0.6642  same
+[7/254] id=12043  bert=No->llm=No  conf=0.8586  same
+[8/254] id=12044  bert=Yes->llm=Yes  conf=0.7923  same
+[9/254] id=12045  bert=No->llm=Yes  conf=0.5831  CHANGED
+[10/254] id=12063  bert=Yes->llm=No  conf=0.8956  CHANGED
+[11/254] id=12072  bert=Yes->llm=Yes  conf=0.7248  same
+[12/254] id=12085  bert=No->llm=Yes  conf=0.5459  CHANGED
+[13/254] id=12091  bert=Yes->llm=Yes  conf=0.8997  same
+[14/254] id=12092  bert=No->llm=No  conf=0.7749  same
+[15/254] id=12095  bert=Yes->llm=No  conf=0.6310  CHANGED
+[16/254] id=12107  bert=Yes->llm=Yes  conf=0.5936  same
+[17/254] id=12115  bert=Yes->llm=No  conf=0.7466  CHANGED
+[18/254] id=12121  bert=Yes->llm=Yes  conf=0.8181  same
+[19/254] id=12135  bert=No->llm=Yes  conf=0.5577  CHANGED
+[20/254] id=12142  bert=Yes->llm=Yes  conf=0.6582  same
+[21/254] id=12151  bert=Yes->llm=No  conf=0.7580  CHANGED
+[22/254] id=12152  bert=Yes->llm=No  conf=0.5341  CHANGED
+[23/254] id=12207  bert=No->llm=No  conf=0.7980  same
+[24/254] id=12208  bert=Yes->llm=Yes  conf=0.7109  same
+[25/254] id=12220  bert=No->llm=Yes  conf=0.7432  CHANGED
+[26/254] id=12226  bert=Yes->llm=No  conf=0.7552  CHANGED
+[27/254] id=12230  bert=Yes->llm=No  conf=0.6679  CHANGED
+[28/254] id=12244  bert=No->llm=Yes  conf=0.8988  CHANGED
+[29/254] id=12254  bert=Yes->llm=No  conf=0.6029  CHANGED
+[30/254] id=12267  bert=No->llm=No  conf=0.8056  same
+[31/254] id=12272  bert=Yes->llm=Yes  conf=0.8840  same
+[32/254] id=12281  bert=Yes->llm=Yes  conf=0.5690  same
+[33/254] id=12287  bert=No->llm=Yes  conf=0.5433  CHANGED
+[34/254] id=12293  bert=Yes->llm=Yes  conf=0.7685  same
+[35/254] id=12301  bert=No->llm=Yes  conf=0.5988  CHANGED
+[36/254] id=12309  bert=Yes->llm=Yes  conf=0.7936  same
+[37/254] id=12320  bert=Yes->llm=Yes  conf=0.7073  same
+[38/254] id=12323  bert=Yes->llm=No  conf=0.8728  CHANGED
+[39/254] id=12332  bert=No->llm=Yes  conf=0.5466  CHANGED
+[40/254] id=12335  bert=Yes->llm=Yes  conf=0.5601  same
+[41/254] id=12357  bert=Yes->llm=Yes  conf=0.6054  same
+[42/254] id=12359  bert=No->llm=Yes  conf=0.5157  CHANGED
+[43/254] id=12369  bert=Yes->llm=No  conf=0.7717  CHANGED
+[44/254] id=12370  bert=No->llm=No  conf=0.7447  same
+[45/254] id=12394  bert=Yes->llm=Yes  conf=0.6537  same
+[46/254] id=12399  bert=Yes->llm=Yes  conf=0.5077  same
+[47/254] id=12407  bert=Yes->llm=Yes  conf=0.5288  same
+[48/254] id=12408  bert=Yes->llm=Yes  conf=0.7029  same
+[49/254] id=12413  bert=Yes->llm=Yes  conf=0.8111  same
+[50/254] id=12419  bert=Yes->llm=No  conf=0.8092  CHANGED
+[51/254] id=12452  bert=Yes->llm=Yes  conf=0.5030  same
+[52/254] id=12456  bert=Yes->llm=No  conf=0.7679  CHANGED
+[53/254] id=12482  bert=Yes->llm=No  conf=0.7101  CHANGED
+[54/254] id=12484  bert=Yes->llm=No  conf=0.7103  CHANGED
+[55/254] id=12487  bert=Yes->llm=Yes  conf=0.7781  same
+[56/254] id=12490  bert=No->llm=No  conf=0.5463  same
+[57/254] id=12532  bert=Yes->llm=Yes  conf=0.8165  same
+[58/254] id=12544  bert=No->llm=Yes  conf=0.7463  CHANGED
+[59/254] id=12551  bert=Yes->llm=Yes  conf=0.8350  same
+[60/254] id=12559  bert=Yes->llm=No  conf=0.5843  CHANGED
+[61/254] id=12569  bert=No->llm=Yes  conf=0.5476  CHANGED
+[62/254] id=12576  bert=Yes->llm=Yes  conf=0.7504  same
+[63/254] id=12594  bert=No->llm=No  conf=0.8418  same
+[64/254] id=12608  bert=Yes->llm=No  conf=0.5914  CHANGED
+[65/254] id=12626  bert=No->llm=No  conf=0.6734  same
+[66/254] id=12635  bert=Yes->llm=No  conf=0.8293  CHANGED
+[67/254] id=12637  bert=No->llm=No  conf=0.8701  same
+[68/254] id=12643  bert=Yes->llm=Yes  conf=0.6166  same
+[69/254] id=12646  bert=No->llm=No  conf=0.5847  same
+[70/254] id=12659  bert=No->llm=No  conf=0.7653  same
+[71/254] id=12662  bert=No->llm=No  conf=0.7925  same
+[72/254] id=12666  bert=Yes->llm=No  conf=0.5145  CHANGED
+[73/254] id=12683  bert=Yes->llm=Yes  conf=0.6991  same
+[74/254] id=12694  bert=Yes->llm=Yes  conf=0.8009  same
+[75/254] id=12697  bert=Yes->llm=No  conf=0.8266  CHANGED
+[76/254] id=12709  bert=Yes->llm=No  conf=0.6522  CHANGED
+[77/254] id=12713  bert=No->llm=Yes  conf=0.5265  CHANGED
+[78/254] id=12732  bert=No->llm=No  conf=0.6684  same
+[79/254] id=12733  bert=Yes->llm=No  conf=0.6503  CHANGED
+[80/254] id=12741  bert=Yes->llm=Yes  conf=0.8274  same
+[81/254] id=12743  bert=Yes->llm=Yes  conf=0.8820  same
+[82/254] id=12749  bert=Yes->llm=No  conf=0.5948  CHANGED
+[83/254] id=12750  bert=Yes->llm=Yes  conf=0.8532  same
+[84/254] id=12764  bert=Yes->llm=Yes  conf=0.7152  same
+[85/254] id=12767  bert=Yes->llm=Yes  conf=0.5732  same
+[86/254] id=12781  bert=Yes->llm=Yes  conf=0.6871  same
+[87/254] id=12783  bert=Yes->llm=Yes  conf=0.8580  same
+[88/254] id=12790  bert=No->llm=No  conf=0.8079  same
+[89/254] id=12799  bert=No->llm=Yes  conf=0.8387  CHANGED
+[90/254] id=12808  bert=No->llm=Yes  conf=0.8868  CHANGED
+[91/254] id=12816  bert=Yes->llm=Yes  conf=0.5899  same
+[92/254] id=12827  bert=No->llm=Yes  conf=0.5967  CHANGED
+[93/254] id=12833  bert=No->llm=Yes  conf=0.8038  CHANGED
+[94/254] id=12834  bert=No->llm=No  conf=0.6027  same
+[95/254] id=12838  bert=No->llm=Yes  conf=0.6083  CHANGED
+[96/254] id=12840  bert=Yes->llm=Yes  conf=0.7284  same
+[97/254] id=12842  bert=No->llm=Yes  conf=0.5687  CHANGED
+[98/254] id=12844  bert=No->llm=Yes  conf=0.6781  CHANGED
+[99/254] id=12847  bert=Yes->llm=Yes  conf=0.8006  same
+[100/254] id=12851  bert=No->llm=No  conf=0.6182  same
+[101/254] id=12862  bert=Yes->llm=No  conf=0.8051  CHANGED
+[102/254] id=12868  bert=Yes->llm=No  conf=0.7970  CHANGED
+[103/254] id=12873  bert=No->llm=No  conf=0.7373  same
+[104/254] id=12882  bert=Yes->llm=Yes  conf=0.6951  same
+[105/254] id=12887  bert=No->llm=Yes  conf=0.8008  CHANGED
+[106/254] id=12905  bert=Yes->llm=No  conf=0.8289  CHANGED
+[107/254] id=12907  bert=Yes->llm=No  conf=0.7850  CHANGED
+[108/254] id=12910  bert=No->llm=No  conf=0.7842  same
+[109/254] id=12911  bert=Yes->llm=No  conf=0.6185  CHANGED
+[110/254] id=12914  bert=Yes->llm=Yes  conf=0.8906  same
+[111/254] id=12921  bert=No->llm=Yes  conf=0.8779  CHANGED
+[112/254] id=12927  bert=No->llm=No  conf=0.5415  same
+[113/254] id=12932  bert=Yes->llm=Yes  conf=0.8755  same
+[114/254] id=12935  bert=Yes->llm=Yes  conf=0.6904  same
+[115/254] id=12940  bert=No->llm=Yes  conf=0.5962  CHANGED
+[116/254] id=12942  bert=Yes->llm=No  conf=0.7573  CHANGED
+[117/254] id=12952  bert=Yes->llm=Yes  conf=0.8155  same
+[118/254] id=12961  bert=Yes->llm=No  conf=0.6540  CHANGED
+[119/254] id=12963  bert=Yes->llm=Yes  conf=0.8744  same
+[120/254] id=12991  bert=No->llm=Yes  conf=0.6205  CHANGED
+[121/254] id=12995  bert=Yes->llm=Yes  conf=0.8022  same
+[122/254] id=13009  bert=No->llm=No  conf=0.8529  same
+[123/254] id=13012  bert=No->llm=No  conf=0.5948  same
+[124/254] id=13019  bert=Yes->llm=Yes  conf=0.7997  same
+[125/254] id=13027  bert=Yes->llm=No  conf=0.6226  CHANGED
+[126/254] id=13028  bert=Yes->llm=Yes  conf=0.8857  same
+[127/254] id=13029  bert=Yes->llm=No  conf=0.6954  CHANGED
+[128/254] id=13035  bert=Yes->llm=No  conf=0.8425  CHANGED
+[129/254] id=13042  bert=Yes->llm=No  conf=0.7509  CHANGED
+[130/254] id=13049  bert=No->llm=No  conf=0.8142  same
+[131/254] id=13053  bert=No->llm=No  conf=0.6492  same
+[132/254] id=13064  bert=Yes->llm=Yes  conf=0.5800  same
+[133/254] id=13066  bert=No->llm=No  conf=0.8034  same
+[134/254] id=13067  bert=No->llm=No  conf=0.8177  same
+[135/254] id=13081  bert=Yes->llm=No  conf=0.5254  CHANGED
+[136/254] id=13083  bert=Yes->llm=No  conf=0.8988  CHANGED
+[137/254] id=13106  bert=No->llm=No  conf=0.7644  same
+[138/254] id=13137  bert=No->llm=No  conf=0.5847  same
+[139/254] id=13142  bert=No->llm=No  conf=0.8910  same
+[140/254] id=13144  bert=Yes->llm=No  conf=0.7930  CHANGED
+[141/254] id=13146  bert=Yes->llm=No  conf=0.5707  CHANGED
+[142/254] id=13149  bert=No->llm=No  conf=0.8362  same
+[143/254] id=13154  bert=Yes->llm=Yes  conf=0.6113  same
+[144/254] id=13162  bert=Yes->llm=Yes  conf=0.8080  same
+[145/254] id=13165  bert=Yes->llm=No  conf=0.8045  CHANGED
+[146/254] id=13172  bert=Yes->llm=Yes  conf=0.7781  same
+[147/254] id=13173  bert=Yes->llm=No  conf=0.5808  CHANGED
+[148/254] id=13188  bert=Yes->llm=Yes  conf=0.8722  same
+[149/254] id=13198  bert=Yes->llm=Yes  conf=0.8968  same
+[150/254] id=13202  bert=Yes->llm=Yes  conf=0.7689  same
+[151/254] id=13208  bert=No->llm=No  conf=0.6768  same
+[152/254] id=13217  bert=No->llm=No  conf=0.8214  same
+[153/254] id=13219  bert=No->llm=No  conf=0.8809  same
+[154/254] id=13226  bert=Yes->llm=No  conf=0.6319  CHANGED
+[155/254] id=13233  bert=No->llm=No  conf=0.5826  same
+[156/254] id=13244  bert=Yes->llm=Yes  conf=0.7137  same
+[157/254] id=13249  bert=No->llm=Yes  conf=0.5568  CHANGED
+[158/254] id=13251  bert=No->llm=No  conf=0.5421  same
+[159/254] id=13258  bert=No->llm=Yes  conf=0.7530  CHANGED
+[160/254] id=13269  bert=No->llm=Yes  conf=0.6851  CHANGED
+[161/254] id=13271  bert=Yes->llm=No  conf=0.8461  CHANGED
+[162/254] id=13272  bert=Yes->llm=Yes  conf=0.6675  same
+[163/254] id=13279  bert=Yes->llm=No  conf=0.8882  CHANGED
+[164/254] id=13292  bert=Yes->llm=Yes  conf=0.5866  same
+[165/254] id=13307  bert=No->llm=No  conf=0.5699  same
+[166/254] id=13315  bert=Yes->llm=Yes  conf=0.6373  same
+[167/254] id=13317  bert=Yes->llm=No  conf=0.6797  CHANGED
+[168/254] id=13319  bert=No->llm=No  conf=0.8046  same
+[169/254] id=13320  bert=Yes->llm=No  conf=0.8077  CHANGED
+[170/254] id=13327  bert=No->llm=No  conf=0.7258  same
+[171/254] id=13334  bert=Yes->llm=No  conf=0.7597  CHANGED
+[172/254] id=13336  bert=No->llm=Yes  conf=0.5938  CHANGED
+[173/254] id=13339  bert=No->llm=Yes  conf=0.5938  CHANGED
+[174/254] id=13343  bert=Yes->llm=Yes  conf=0.8605  same
+[175/254] id=13347  bert=Yes->llm=No  conf=0.8317  CHANGED
+[176/254] id=13353  bert=Yes->llm=Yes  conf=0.5748  same
+[177/254] id=13359  bert=No->llm=Yes  conf=0.7848  CHANGED
+[178/254] id=13363  bert=No->llm=No  conf=0.6040  same
+[179/254] id=13365  bert=Yes->llm=No  conf=0.8058  CHANGED
+[180/254] id=13373  bert=No->llm=No  conf=0.5247  same
+[181/254] id=13388  bert=No->llm=Yes  conf=0.7284  CHANGED
+[182/254] id=13390  bert=No->llm=Yes  conf=0.5423  CHANGED
+[183/254] id=13393  bert=Yes->llm=No  conf=0.6069  CHANGED
+[184/254] id=13395  bert=No->llm=Yes  conf=0.5767  CHANGED
+[185/254] id=13401  bert=Yes->llm=No  conf=0.7780  CHANGED
+[186/254] id=13407  bert=No->llm=No  conf=0.5301  same
+[187/254] id=13409  bert=No->llm=Yes  conf=0.5978  CHANGED
+[188/254] id=13415  bert=No->llm=No  conf=0.7032  same
+[189/254] id=13419  bert=No->llm=No  conf=0.8752  same
+[190/254] id=13426  bert=Yes->llm=No  conf=0.5766  CHANGED
+[191/254] id=13430  bert=Yes->llm=No  conf=0.5935  CHANGED
+[192/254] id=13435  bert=Yes->llm=No  conf=0.8530  CHANGED
+[193/254] id=13436  bert=Yes->llm=No  conf=0.6579  CHANGED
+[194/254] id=13437  bert=No->llm=No  conf=0.6868  same
+[195/254] id=13440  bert=Yes->llm=No  conf=0.8764  CHANGED
+[196/254] id=13441  bert=Yes->llm=No  conf=0.6421  CHANGED
+[197/254] id=13444  bert=No->llm=Yes  conf=0.6725  CHANGED
+[198/254] id=13453  bert=Yes->llm=No  conf=0.7421  CHANGED
+[199/254] id=13455  bert=Yes->llm=No  conf=0.5900  CHANGED
+[200/254] id=13462  bert=No->llm=No  conf=0.5832  same
+[201/254] id=13475  bert=Yes->llm=Yes  conf=0.6653  same
+[202/254] id=13479  bert=Yes->llm=Yes  conf=0.6256  same
+[203/254] id=13483  bert=No->llm=No  conf=0.8908  same
+[204/254] id=13490  bert=Yes->llm=No  conf=0.5226  CHANGED
+[205/254] id=13501  bert=Yes->llm=Yes  conf=0.8701  same
+[206/254] id=13522  bert=Yes->llm=No  conf=0.6041  CHANGED
+[207/254] id=13526  bert=No->llm=No  conf=0.8211  same
+[208/254] id=13527  bert=Yes->llm=Yes  conf=0.6604  same
+[209/254] id=13535  bert=No->llm=No  conf=0.6085  same
+[210/254] id=13536  bert=No->llm=Yes  conf=0.6711  CHANGED
+[211/254] id=13539  bert=No->llm=No  conf=0.6413  same
+[212/254] id=13547  bert=Yes->llm=Yes  conf=0.6041  same
+[213/254] id=13560  bert=Yes->llm=No  conf=0.7029  CHANGED
+[214/254] id=13566  bert=Yes->llm=Yes  conf=0.7871  same
+[215/254] id=13571  bert=No->llm=Yes  conf=0.6177  CHANGED
+[216/254] id=13582  bert=Yes->llm=No  conf=0.6694  CHANGED
+[217/254] id=13585  bert=Yes->llm=Yes  conf=0.7616  same
+[218/254] id=13604  bert=Yes->llm=No  conf=0.8309  CHANGED
+[219/254] id=13608  bert=Yes->llm=Yes  conf=0.7465  same
+[220/254] id=13674  bert=Yes->llm=No  conf=0.5070  CHANGED
+[221/254] id=13679  bert=Yes->llm=No  conf=0.8049  CHANGED
+[222/254] id=13686  bert=No->llm=Yes  conf=0.7028  CHANGED
+[223/254] id=13698  bert=Yes->llm=No  conf=0.5735  CHANGED
+[224/254] id=13709  bert=Yes->llm=No  conf=0.8648  CHANGED
+[225/254] id=13724  bert=Yes->llm=No  conf=0.6846  CHANGED
+[226/254] id=13755  bert=Yes->llm=No  conf=0.5447  CHANGED
+[227/254] id=13757  bert=Yes->llm=Yes  conf=0.6190  same
+[228/254] id=13758  bert=No->llm=No  conf=0.8042  same
+[229/254] id=13766  bert=No->llm=Yes  conf=0.5937  CHANGED
+[230/254] id=13773  bert=No->llm=No  conf=0.7678  same
+[231/254] id=13791  bert=No->llm=No  conf=0.6403  same
+[232/254] id=13799  bert=Yes->llm=No  conf=0.8912  CHANGED
+[233/254] id=13809  bert=No->llm=Yes  conf=0.8787  CHANGED
+[234/254] id=13812  bert=No->llm=No  conf=0.7489  same
+[235/254] id=13829  bert=No->llm=No  conf=0.6461  same
+[236/254] id=13835  bert=Yes->llm=Yes  conf=0.6521  same
+[237/254] id=13838  bert=Yes->llm=Yes  conf=0.8824  same
+[238/254] id=13841  bert=Yes->llm=Yes  conf=0.8402  same
+[239/254] id=13847  bert=Yes->llm=No  conf=0.7025  CHANGED
+[240/254] id=13855  bert=Yes->llm=No  conf=0.7397  CHANGED
+[241/254] id=13874  bert=No->llm=Yes  conf=0.8661  CHANGED
+[242/254] id=13876  bert=No->llm=No  conf=0.5855  same
+[243/254] id=13880  bert=Yes->llm=No  conf=0.5940  CHANGED
+[244/254] id=13889  bert=Yes->llm=No  conf=0.7583  CHANGED
+[245/254] id=13905  bert=No->llm=No  conf=0.8562  same
+[246/254] id=13916  bert=No->llm=No  conf=0.5703  same
+[247/254] id=13929  bert=No->llm=No  conf=0.8664  same
+[248/254] id=13935  bert=Yes->llm=No  conf=0.6422  CHANGED
+[249/254] id=13936  bert=Yes->llm=No  conf=0.7849  CHANGED
+[250/254] id=13938  bert=Yes->llm=Yes  conf=0.6766  same
+[251/254] id=13952  bert=Yes->llm=No  conf=0.7593  CHANGED
+[252/254] id=13966  bert=No->llm=Yes  conf=0.6043  CHANGED
+[253/254] id=13974  bert=Yes->llm=Yes  conf=0.6880  same
+[254/254] id=13995  bert=Yes->llm=Yes  conf=0.7438  same
+{
+  "run_id": "submit_13_stage2",
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage2/tmp/bert_gemma_raw.csv",
+  "bert_csv": "/workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage2/tmp/softvote_raw.csv",
+  "threshold": 0.9,
+  "backend": "local",
+  "rag": false,
+  "top_k": 0,
+  "gemma_base": "/models/unsloth-gemma-4-12b",
+  "gemma_adapter": "/models/gemma4_st12_mix",
+  "llm_used": true,
+  "embedding_model": null,
+  "train_data": null,
+  "total_rows": 2000,
+  "kept_bert_rows": 1746,
+  "escalated_rows": 254,
+  "rows_without_score": 0,
+  "changed_by_llm": 122,
+  "llm_errors": 0
+}

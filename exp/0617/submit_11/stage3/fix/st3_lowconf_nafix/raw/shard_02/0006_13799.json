@@ -1,0 +1,65 @@
+{
+  "id": "13799",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpmfmm2xpt",
+      "你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：奇鋐若因重大營運變化而中止雇用關係時，亦將依法提前預告，依當地法令給付資遣費及預告工資，以維護勞工權益，2024年各據點並無因營運變化大量中止僱用關係之情形。\n\n同頁內容：\n董事長的話 永續發展 公司治理 永續供應鏈 永續環境 員工關係 附錄 員工過渡協助政策 台灣廠區依據勞動基準法及勞工退休金條例之相關規定，訂定『退休管理辦法』並成立『勞工退休準備金監督委員會』。成立以來，公司委請精算師精算後，依法提撥職工退休準備金，存儲於台灣銀行之退休基金專戶。並依勞基法規定，辦理員工退休金申請與審核及支付。於94年7月1日以後選擇適用勞工退休金條例者，其退休金本公司依政府規定之工資分級表，按月提繳員工每月工資之6%至勞保局員工個人退休金專戶，員工並可依其個人需求及意願另外個人提繳最高6%之退休金。其餘營運據點皆依當地政府法令規定制定員工退休相關計畫。 人力資源單位定期檢視屆齡退休之員工名單，提早通知主管符合退休資格人員，預先了解員工退休意願，幫助員工瞭解退休生活可能面臨的問題，並給予退休人員退休後生活關切及提供可申請退休金之相關資訊，協助員工提早做好退休的準備，規劃退休生活。 若員工發生無法適任，奇銳以輔導計劃或協助轉調至適任的單位，若仍未能滿足企業與員工的合作關係，則根據相關法令規定，給予適當的預告期與資遣費用，並依法給予相關的證明文件，協助提供求職管道、求職資訊、申請相關失業給付或職業訓練補助，確保員工權益。 奇銳若因重大營運變化而中止雇用關係時，亦將依法提前預告，依當地法令給付資遣費及預告工資，以維護勞工權益，2024年各據點並無因營運變化大量中止僱用關係之情形。 Asia Vital Components Co., Ltd. | 99 董事長的話 永續發展 公司治理 永續供應鏈 永續環境 員工關係 附錄 5.4 勞工權利與勞資關係 人權政策 公司承諾尊重人權，遵守責任商業聯盟(Responsible Business Alliance，簡稱RBA)行為準則，國際勞工組織(ILO)《關於工作中的基本原則和權利宣言》，聯合國《世界人權宣言》，並按照所在國家地區的法律和法規開展業務，當國家法律與國際標準相衝突時我們遵守較高標準。公司依照相關法規及國際人權公約，制定相關之管理政策與程序，除依法令規定制訂『工作規則』並向主管機關報備外，且不定時針對各部門主管及管理幹部舉辦勞動法規之教育訓練課程。公司響應《聯合國全球契約》、《聯合國工商業與人權指導原則》(UNGP)、《經合組織(OECD)跨國企業準則》、《聯合國兒童權利公約》(UNCRC)和《聯合國禁止販運人口議定書》，並制訂與實施勞工與人權相關的管理程序，塑造多元、公平和包容(Diversity, Equity and Inclusion，簡稱DEI)的職場環境，以促進企業的可持續發展。 上述承諾及公司ESG報告正式發佈於公司官方網站，面向全球員工及利益相關方實現透明化信息溝通。 Asia Vital Components Co., Ltd. | 100\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpmfmm2xpt '你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：奇鋐若因重大營運變化而中止雇用關係時，亦將依法提前預告，依當地法令給付資遣費及預告工資，以維護勞工權益，2024年各據點並無因營運變化大量中止僱用關係之情形。\n\n同頁內容：\n董事長的話 永續發展 公司治理 永續供應鏈 永續環境 員工關係 附錄 員工過渡協助政策 台灣廠區依據勞動基準法及勞工退休金條例之相關規定，訂定『退休管理辦法』並成立『勞工退休準備金監督委員會』。成立以來，公司委請精算師精算後，依法提撥職工退休準備金，存儲於台灣銀行之退休基金專戶。並依勞基法規定，辦理員工退休金申請與審核及支付。於94年7月1日以後選擇適用勞工退休金條例者，其退休金本公司依政府規定之工資分級表，按月提繳員工每月工資之6%至勞保局員工個人退休金專戶，員工並可依其個人需求及意願另外個人提繳最高6%之退休金。其餘營運據點皆依當地政府法令規定制定員工退休相關計畫。 人力資源單位定期檢視屆齡退休之員工名單，提早通知主管符合退休資格人員，預先了解員工退休意願，幫助員工瞭解退休生活可能面臨的問題，並給予退休人員退休後生活關切及提供可申請退休金之相關資訊，協助員工提早做好退休的準備，規劃退休生活。 若員工發生無法適任，奇銳以輔導計劃或協助轉調至適任的單位，若仍未能滿足企業與員工的合作關係，則根據相關法令規定，給予適當的預告期與資遣費用，並依法給予相關的證明文件，協助提供求職管道、求職資訊、申請相關失業給付或職業訓練補助，確保員工權益。 奇銳若因重大營運變化而中止雇用關係時，亦將依法提前預告，依當地法令給付資遣費及預告工資，以維護勞工權益，2024年各據點並無因營運變化大量中止僱用關係之情形。 Asia Vital Components Co., Ltd. | 99 董事長的話 永續發展 公司治理 永續供應鏈 永續環境 員工關係 附錄 5.4 勞工權利與勞資關係 人權政策 公司承諾尊重人權，遵守責任商業聯盟(Responsible Business Alliance，簡稱RBA)行為準則，國際勞工組織(ILO)《關於工作中的基本原則和權利宣言》，聯合國《世界人權宣言》，並按照所在國家地區的法律和法規開展業務，當國家法律與國際標準相衝突時我們遵守較高標準。公司依照相關法規及國際人權公約，制定相關之管理政策與程序，除依法令規定制訂『工作規則』並向主管機關報備外，且不定時針對各部門主管及管理幹部舉辦勞動法規之教育訓練課程。公司響應《聯合國全球契約》、《聯合國工商業與人權指導原則》(UNGP)、《經合組織(OECD)跨國企業準則》、《聯合國兒童權利公約》(UNCRC)和《聯合國禁止販運人口議定書》，並制訂與實施勞工與人權相關的管理程序，塑造多元、公平和包容(Diversity, Equity and Inclusion，簡稱DEI)的職場環境，以促進企業的可持續發展。 上述承諾及公司ESG報告正式發佈於公司官方網站，面向全球員工及利益相關方實現透明化信息溝通。 Asia Vital Components Co., Ltd. | 100\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019ed62c-5a88-7f21-b144-2730bcaeaf94",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "message": "Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b7dbb7f4a86-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b816cf24a8a-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b8a7a094a3c-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b97cd83826b-TPE)",
+        "type": "error"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "Clear",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 14208,
+          "input_tokens": 17099,
+          "output_tokens": 45,
+          "reasoning_output_tokens": 38
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n2026-06-17T15:21:34.907208Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-17T15:21:35.420592Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-17T15:21:35.842936Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-17T15:21:36.855431Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-17T15:21:38.091289Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-17T15:21:39.999931Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019ed62c-5a88-7f21-b144-2730bcaeaf94\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b7dbb7f4a86-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b816cf24a8a-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b8a7a094a3c-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0d30b97cd83826b-TPE)\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"Clear\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":17099,\"cached_input_tokens\":14208,\"output_tokens\":45,\"reasoning_output_tokens\":38}}\n",
+    "returncode": 0
+  },
+  "raw_prediction": "Clear",
+  "run_id": "st3_lowconf_nafix_shard_02"
+}

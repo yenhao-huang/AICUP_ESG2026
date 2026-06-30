@@ -1,0 +1,12 @@
+# Qwen VLM — attach the same report page's rendered image (vision-language).
+# Image comes from raw_page_table.jsonl (image_path). Pages without an image
+# fall back to text-only context.
+#   python core/vlm_pred.py --config ../configs/qwen_image.yaml
+data: ../data/val_ctxhit.json
+output: ../preds/st3_qwen_image.csv
+prompt_path: ../prompts/clear_notclear_with_context_scoped.txt
+backend: qwen
+logprobs: true
+add_context: true
+context_mode: all
+add_image: true

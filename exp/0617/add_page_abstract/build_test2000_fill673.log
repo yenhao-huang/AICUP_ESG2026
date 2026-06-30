@@ -1,0 +1,23 @@
+rows=2000  matched=2000  miss=0  unique_pages=1598  -> 1598 LLM calls
+resume: 1153 cached, 445 to summarize  (cache=/workspace/esg_contest/exp/integrated_stage_predictions/0617/add_page_abstract/test2000/page_abstracts.cache.jsonl)
+  [1175/1598] 18s
+  [1200/1598] 39s
+  [1225/1598] 59s
+  [1250/1598] 78s
+  [1275/1598] 97s
+  [1300/1598] 117s
+  [1325/1598] 137s
+  [1350/1598] 156s
+  [1375/1598] 175s
+  [1400/1598] 195s
+  [1425/1598] 214s
+  [1450/1598] 235s
+  [1475/1598] 255s
+  [1500/1598] 276s
+  [1525/1598] 296s
+  [1550/1598] 316s
+  [1575/1598] 336s
+  [1598/1598] 354s
+unique pages: 1598  empty abstracts: 0
+page abstracts -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/add_page_abstract/test2000/page_abstracts.jsonl
+rows joined    -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/add_page_abstract/test2000/val_with_page_abstract.jsonl

@@ -1,0 +1,146 @@
+threshold(tau)=0.70  total=2000  keep_bert=1882  escalate=118  rows_without_score=0  backend=local_norag
+[local Gemma] loading base=/models/unsloth-gemma-4-12b adapter=/models/gemma4_st12_mix device=cuda
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   0%|          | 3/677 [00:00<00:46, 14.43it/s]Loading weights:   5%|▌         | 34/677 [00:00<00:04, 131.90it/s]Loading weights:   9%|▉         | 63/677 [00:00<00:03, 186.69it/s]Loading weights:  14%|█▍        | 97/677 [00:00<00:02, 237.99it/s]Loading weights:  19%|█▉        | 132/677 [00:00<00:02, 271.67it/s]Loading weights:  25%|██▍       | 169/677 [00:00<00:01, 297.63it/s]Loading weights:  30%|██▉       | 201/677 [00:00<00:01, 292.96it/s]Loading weights:  35%|███▍      | 235/677 [00:00<00:01, 305.75it/s]Loading weights:  40%|███▉      | 269/677 [00:01<00:01, 309.25it/s]Loading weights:  44%|████▍     | 301/677 [00:01<00:01, 302.25it/s]Loading weights:  50%|████▉     | 338/677 [00:01<00:01, 313.42it/s]Loading weights:  55%|█████▍    | 370/677 [00:01<00:01, 306.57it/s]Loading weights:  60%|██████    | 408/677 [00:01<00:00, 318.21it/s]Loading weights:  65%|██████▍   | 440/677 [00:01<00:00, 304.42it/s]Loading weights:  70%|██████▉   | 473/677 [00:01<00:00, 311.11it/s]Loading weights:  75%|███████▍  | 505/677 [00:01<00:00, 301.74it/s]Loading weights:  79%|███████▉  | 536/677 [00:01<00:00, 303.85it/s]Loading weights:  85%|████████▍ | 574/677 [00:02<00:00, 317.97it/s]Loading weights:  90%|████████▉ | 606/677 [00:02<00:00, 305.14it/s]Loading weights:  95%|█████████▍| 643/677 [00:02<00:00, 312.95it/s]Loading weights: 100%|██████████| 677/677 [00:02<00:00, 289.16it/s]
+/workspace/esg_contest/.venv/lib/python3.11/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+[1/118] id=12029  bert=No->llm=Yes  conf=0.6998  CHANGED
+[2/118] id=12042  bert=Yes->llm=Yes  conf=0.6642  same
+[3/118] id=12045  bert=No->llm=Yes  conf=0.5831  CHANGED
+[4/118] id=12085  bert=No->llm=Yes  conf=0.5459  CHANGED
+[5/118] id=12095  bert=Yes->llm=No  conf=0.6310  CHANGED
+[6/118] id=12107  bert=Yes->llm=Yes  conf=0.5936  same
+[7/118] id=12135  bert=No->llm=Yes  conf=0.5577  CHANGED
+[8/118] id=12142  bert=Yes->llm=Yes  conf=0.6582  same
+[9/118] id=12152  bert=Yes->llm=No  conf=0.5341  CHANGED
+[10/118] id=12230  bert=Yes->llm=No  conf=0.6679  CHANGED
+[11/118] id=12254  bert=Yes->llm=No  conf=0.6029  CHANGED
+[12/118] id=12281  bert=Yes->llm=Yes  conf=0.5690  same
+[13/118] id=12287  bert=No->llm=Yes  conf=0.5433  CHANGED
+[14/118] id=12301  bert=No->llm=Yes  conf=0.5988  CHANGED
+[15/118] id=12332  bert=No->llm=Yes  conf=0.5466  CHANGED
+[16/118] id=12335  bert=Yes->llm=Yes  conf=0.5601  same
+[17/118] id=12357  bert=Yes->llm=Yes  conf=0.6054  same
+[18/118] id=12359  bert=No->llm=Yes  conf=0.5157  CHANGED
+[19/118] id=12394  bert=Yes->llm=Yes  conf=0.6537  same
+[20/118] id=12399  bert=Yes->llm=Yes  conf=0.5077  same
+[21/118] id=12407  bert=Yes->llm=Yes  conf=0.5288  same
+[22/118] id=12452  bert=Yes->llm=Yes  conf=0.5030  same
+[23/118] id=12490  bert=No->llm=No  conf=0.5463  same
+[24/118] id=12559  bert=Yes->llm=No  conf=0.5843  CHANGED
+[25/118] id=12569  bert=No->llm=Yes  conf=0.5476  CHANGED
+[26/118] id=12608  bert=Yes->llm=No  conf=0.5914  CHANGED
+[27/118] id=12626  bert=No->llm=No  conf=0.6734  same
+[28/118] id=12643  bert=Yes->llm=Yes  conf=0.6166  same
+[29/118] id=12646  bert=No->llm=No  conf=0.5847  same
+[30/118] id=12666  bert=Yes->llm=No  conf=0.5145  CHANGED
+[31/118] id=12683  bert=Yes->llm=Yes  conf=0.6991  same
+[32/118] id=12709  bert=Yes->llm=No  conf=0.6522  CHANGED
+[33/118] id=12713  bert=No->llm=Yes  conf=0.5265  CHANGED
+[34/118] id=12732  bert=No->llm=No  conf=0.6684  same
+[35/118] id=12733  bert=Yes->llm=No  conf=0.6503  CHANGED
+[36/118] id=12749  bert=Yes->llm=No  conf=0.5948  CHANGED
+[37/118] id=12767  bert=Yes->llm=Yes  conf=0.5732  same
+[38/118] id=12781  bert=Yes->llm=Yes  conf=0.6871  same
+[39/118] id=12816  bert=Yes->llm=Yes  conf=0.5899  same
+[40/118] id=12827  bert=No->llm=Yes  conf=0.5967  CHANGED
+[41/118] id=12834  bert=No->llm=No  conf=0.6027  same
+[42/118] id=12838  bert=No->llm=Yes  conf=0.6083  CHANGED
+[43/118] id=12842  bert=No->llm=Yes  conf=0.5687  CHANGED
+[44/118] id=12844  bert=No->llm=Yes  conf=0.6781  CHANGED
+[45/118] id=12851  bert=No->llm=No  conf=0.6182  same
+[46/118] id=12882  bert=Yes->llm=Yes  conf=0.6951  same
+[47/118] id=12911  bert=Yes->llm=No  conf=0.6185  CHANGED
+[48/118] id=12927  bert=No->llm=No  conf=0.5415  same
+[49/118] id=12935  bert=Yes->llm=Yes  conf=0.6904  same
+[50/118] id=12940  bert=No->llm=Yes  conf=0.5962  CHANGED
+[51/118] id=12961  bert=Yes->llm=No  conf=0.6540  CHANGED
+[52/118] id=12991  bert=No->llm=Yes  conf=0.6205  CHANGED
+[53/118] id=13012  bert=No->llm=No  conf=0.5948  same
+[54/118] id=13027  bert=Yes->llm=No  conf=0.6226  CHANGED
+[55/118] id=13029  bert=Yes->llm=No  conf=0.6954  CHANGED
+[56/118] id=13053  bert=No->llm=No  conf=0.6492  same
+[57/118] id=13064  bert=Yes->llm=Yes  conf=0.5800  same
+[58/118] id=13081  bert=Yes->llm=No  conf=0.5254  CHANGED
+[59/118] id=13137  bert=No->llm=No  conf=0.5847  same
+[60/118] id=13146  bert=Yes->llm=No  conf=0.5707  CHANGED
+[61/118] id=13154  bert=Yes->llm=Yes  conf=0.6113  same
+[62/118] id=13173  bert=Yes->llm=No  conf=0.5808  CHANGED
+[63/118] id=13208  bert=No->llm=No  conf=0.6768  same
+[64/118] id=13226  bert=Yes->llm=No  conf=0.6319  CHANGED
+[65/118] id=13233  bert=No->llm=No  conf=0.5826  same
+[66/118] id=13249  bert=No->llm=Yes  conf=0.5568  CHANGED
+[67/118] id=13251  bert=No->llm=No  conf=0.5421  same
+[68/118] id=13269  bert=No->llm=Yes  conf=0.6851  CHANGED
+[69/118] id=13272  bert=Yes->llm=Yes  conf=0.6675  same
+[70/118] id=13292  bert=Yes->llm=Yes  conf=0.5866  same
+[71/118] id=13307  bert=No->llm=No  conf=0.5699  same
+[72/118] id=13315  bert=Yes->llm=Yes  conf=0.6373  same
+[73/118] id=13317  bert=Yes->llm=No  conf=0.6797  CHANGED
+[74/118] id=13336  bert=No->llm=Yes  conf=0.5938  CHANGED
+[75/118] id=13339  bert=No->llm=Yes  conf=0.5938  CHANGED
+[76/118] id=13353  bert=Yes->llm=Yes  conf=0.5748  same
+[77/118] id=13363  bert=No->llm=No  conf=0.6040  same
+[78/118] id=13373  bert=No->llm=No  conf=0.5247  same
+[79/118] id=13390  bert=No->llm=Yes  conf=0.5423  CHANGED
+[80/118] id=13393  bert=Yes->llm=No  conf=0.6069  CHANGED
+[81/118] id=13395  bert=No->llm=Yes  conf=0.5767  CHANGED
+[82/118] id=13407  bert=No->llm=No  conf=0.5301  same
+[83/118] id=13409  bert=No->llm=Yes  conf=0.5978  CHANGED
+[84/118] id=13426  bert=Yes->llm=No  conf=0.5766  CHANGED
+[85/118] id=13430  bert=Yes->llm=No  conf=0.5935  CHANGED
+[86/118] id=13436  bert=Yes->llm=No  conf=0.6579  CHANGED
+[87/118] id=13437  bert=No->llm=No  conf=0.6868  same
+[88/118] id=13441  bert=Yes->llm=No  conf=0.6421  CHANGED
+[89/118] id=13444  bert=No->llm=Yes  conf=0.6725  CHANGED
+[90/118] id=13455  bert=Yes->llm=No  conf=0.5900  CHANGED
+[91/118] id=13462  bert=No->llm=No  conf=0.5832  same
+[92/118] id=13475  bert=Yes->llm=Yes  conf=0.6653  same
+[93/118] id=13479  bert=Yes->llm=Yes  conf=0.6256  same
+[94/118] id=13490  bert=Yes->llm=No  conf=0.5226  CHANGED
+[95/118] id=13522  bert=Yes->llm=No  conf=0.6041  CHANGED
+[96/118] id=13527  bert=Yes->llm=Yes  conf=0.6604  same
+[97/118] id=13535  bert=No->llm=No  conf=0.6085  same
+[98/118] id=13536  bert=No->llm=Yes  conf=0.6711  CHANGED
+[99/118] id=13539  bert=No->llm=No  conf=0.6413  same
+[100/118] id=13547  bert=Yes->llm=Yes  conf=0.6041  same
+[101/118] id=13571  bert=No->llm=Yes  conf=0.6177  CHANGED
+[102/118] id=13582  bert=Yes->llm=No  conf=0.6694  CHANGED
+[103/118] id=13674  bert=Yes->llm=No  conf=0.5070  CHANGED
+[104/118] id=13698  bert=Yes->llm=No  conf=0.5735  CHANGED
+[105/118] id=13724  bert=Yes->llm=No  conf=0.6846  CHANGED
+[106/118] id=13755  bert=Yes->llm=No  conf=0.5447  CHANGED
+[107/118] id=13757  bert=Yes->llm=Yes  conf=0.6190  same
+[108/118] id=13766  bert=No->llm=Yes  conf=0.5937  CHANGED
+[109/118] id=13791  bert=No->llm=No  conf=0.6403  same
+[110/118] id=13829  bert=No->llm=No  conf=0.6461  same
+[111/118] id=13835  bert=Yes->llm=Yes  conf=0.6521  same
+[112/118] id=13876  bert=No->llm=No  conf=0.5855  same
+[113/118] id=13880  bert=Yes->llm=No  conf=0.5940  CHANGED
+[114/118] id=13916  bert=No->llm=No  conf=0.5703  same
+[115/118] id=13935  bert=Yes->llm=No  conf=0.6422  CHANGED
+[116/118] id=13938  bert=Yes->llm=Yes  conf=0.6766  same
+[117/118] id=13966  bert=No->llm=Yes  conf=0.6043  CHANGED
+[118/118] id=13974  bert=Yes->llm=Yes  conf=0.6880  same
+{
+  "run_id": "submit_9_stage2",
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/submit_9/stage2/tmp/bert_gemma_raw.csv",
+  "bert_csv": "/workspace/esg_contest/exp/integrated_stage_predictions/0617/submit_9/stage2/tmp/softvote_raw.csv",
+  "threshold": 0.7,
+  "backend": "local",
+  "rag": false,
+  "top_k": 0,
+  "gemma_base": "/models/unsloth-gemma-4-12b",
+  "gemma_adapter": "/models/gemma4_st12_mix",
+  "llm_used": true,
+  "embedding_model": null,
+  "train_data": null,
+  "total_rows": 2000,
+  "kept_bert_rows": 1882,
+  "escalated_rows": 118,
+  "rows_without_score": 0,
+  "changed_by_llm": 62,
+  "llm_errors": 0
+}

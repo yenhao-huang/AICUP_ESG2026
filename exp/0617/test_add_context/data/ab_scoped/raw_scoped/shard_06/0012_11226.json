@@ -1,0 +1,65 @@
+{
+  "id": "11226",
+  "metadata": {
+    "codex_command": [
+      "codex",
+      "exec",
+      "--json",
+      "--dangerously-bypass-approvals-and-sandbox",
+      "--model",
+      "gpt-5.5",
+      "--skip-git-repo-check",
+      "--output-last-message",
+      "/tmp/tmpnw5yue5p",
+      "你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：運用最新仿生薄膜AeroSHARK技術，達到節油減碳目的。亞洲第一家引進最新仿生薄膜AeroSHARK技術的航空公司，仿生薄膜黏貼至波音777F貨機外層上，具有自清潔、抗附著及減阻效果的特性，可優化飛機表面相關區域空氣動力的效能，可降低1%燃油消耗。經由此項技術引進，可優化氣流減少阻力，進而達到節能減碳目的。以長榮航空9架777F貨機營運狀況計算，每年預期可節省至少2,500噸航空燃油，減少超過7,800噸碳排放量。\n\n同頁內容：\n04 打造企業韌性 78 亞洲第一家引進最新仿生薄膜AeroSHARK技術的航空公司 ， 仿生薄膜黏貼至波音 777F貨機外層上 ， 具有自清潔 、 抗附著及減阻效果的特性， 可優化飛機表面相關區 域空氣動力學的效能 ， 可降低1%燃油消耗 。 Highlights 成果 經由此項技術引進 ， 可優化氣流減少阻力 ， 進而達到節能減碳目的 。 目標 首架貨機黏貼AeroSHARK是由長榮航太施作 ， 漢莎技術公司特別派遣工程師前來 台灣技術交流 ， 將有助於未來在提供航機維修的同時 ， 可增加此項服務項目 ， 以利未 來將此技術拓展至777F全機隊 ， 擴大運用科技節油 。 內容 以長榮航空9架777F貨機營運狀況計算 ， 每年預期可節省至少2,500噸航空燃油 ， 減 少超過7,800噸碳排放量 。 績效 運用最新仿生薄膜AeroSHARK技術 ， 達到節油減碳目的 。 與供應商共同成長 安衛家族 由長榮航空擔任核心企業 ， 邀集航空系統公司及相關承攬商等共19家公司(包含5家關鍵供應商)組成 家族成員 ， 更是國內航空業界首創 。 以 「安衛守護始於心 職安落實要用心」 作為職安衛指引 ， 建構全面性 的風險管控機制 ， 積極落實各項職場安全及健康保健措施 ， 以確保員工福祉 ， 並將職安衛相關推行經驗 與家族成員相互交流 。 安衛家族2024年度共主辦4場職安衛相關主題講座 ， 並於2024年10月獲桃園市 政府 「推行職業安全衛生優良家族」 和 「母性健康守護聯盟模範事業單位」 雙項肯定 。 01 關於長榮航空 前言 02 03 04 實踐永續管理 創新飛航體驗 打造企業韌性 附錄 05 06 07 搭造幸福職場 領航淨零行動 邁向社會共融 2024 長榮航空永續報告書 SustainabilityReport EVA Air 風險與機會管理 飛航安全 資訊安全與隱私保護 永續供應鏈管理 01 關於長榮航空 前言 02 03 04 05 實踐永續管理 創新飛航體驗 打造企業韌性 搭造幸福職場 附錄 06 07 領航淨零行動 邁向社會共融 2024 長榮航空永續報告書 SustainabilityReport EVA Air 人才吸引與留任 人才發展與培育 勞資關係與人權維護 工作安全與健康管理 搭建幸福職場 79 搭建幸福職場 Workplace Safety 05 CHAPTER Build a Happy Workplace 人才吸引與留任 人才發展與培育 勞資關係與人權維護 工作安全與健康管理\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。"
+    ],
+    "command": "cd /tmp && codex exec --json --dangerously-bypass-approvals-and-sandbox --model gpt-5.5 --skip-git-repo-check --output-last-message /tmp/tmpnw5yue5p '你是一位 ESG 永續報告的承諾清晰度分類器。\n任務：判斷「承諾句」本身是否清楚、可驗證。\n\n若 DATA 中包含「同頁內容：」區塊，請先完整閱讀同頁內容。但同頁內容**只能用來理解承諾句在講什麼、指涉哪個對象或背景**，**不可**作為承諾句是否量化、是否有年份/方法/查證的依據。判斷的唯一主體是「承諾句：」後面那一句承諾本身。同頁內容可能含 OCR 雜訊、斷字或無關段落，出現在同頁內容（而非承諾句）裡的數字、年份、方法名、查證機制，**一律不計入**量化錨點。\n\n只允許輸出以下 label 之一：\n- Clear\n- Not Clear\n\n（本任務不判斷 Misleading；任何疑似誤導/過度宣稱的模糊語句一律歸為 Not Clear。）\n\n═══════════════════════════════════════════════\n判斷步驟（依序執行）\n═══════════════════════════════════════════════\n\n步驟一：量化具體性檢查（Specificity Test）\n  只檢查「承諾句」本身。若「承諾句」中出現以下任一項，記為「有量化錨點」：\n  - 具體數字目標（百分比、減少量、件數、噸數、千瓦小時等）\n  - 具名年份期限（如 2025年、2030年、2050年）\n  - 具體技術/方法名稱（ISO系列認證、GRI準則、SBTi、TCFD等）\n  - 第三方查證或外部稽核機制（由第三方驗證、由外部查核等）\n  注意：若這些錨點只出現在「同頁內容」而不在承諾句裡，**不算**有量化錨點。\n\n步驟二：模糊動詞陷阱（Vague-Verb Trap）\n  若「承諾句」只含以下動詞且承諾句本身無步驟一的量化錨點，記為「純模糊語句」：\n  持續、強化、致力、推動、提升、打造、推廣、邁向、強調、重視、\n  深化、落實、優化、積極、努力、加強、擴大、促進、建立\n\n步驟三：輸出決策（Output Decision）\n  1. 若步驟一（承諾句本身）有量化錨點 → 輸出 Clear\n  2. 若步驟二純模糊語句（承諾句本身無量化錨點）→ 輸出 Not Clear\n  3. 若僅有概略時間框架（「近年」、「中長期」、「未來」）但無具名年份 → 輸出 Not Clear\n  4. 若為絕對化宣稱（完全、零污染、100%、全面達成）但未提供任何量化佐證或查證 → 輸出 Not Clear\n  5. 抽象願景包裝為確定成果（把「我們重視 X」寫成「我們已實現 X」）但無可驗證條件 → 輸出 Not Clear\n  6. 其他模糊情況（部分具體但無驗證條件）→ 輸出 Not Clear\n\n═══════════════════════════════════════════════\n邊界案例範例（Few-Shot Examples）\n═══════════════════════════════════════════════\n\n範例一（Clear — 承諾句本身含量化目標＋具名年份）：\n承諾句：達和航運積極響應國際海事組織(IMO)減排策略，目標2030年減碳40%，2025年啟用環保水泥船「達循輪」，導入智能船管系統、封閉式裝卸技術，相較能源效率設計指數第一階段(EEDI Phase I)預估減碳23.7%。\nlabel：Clear\n理由：承諾句本身具備具名年份（2030年、2025年）與量化減碳目標（40%、23.7%），可追蹤、可驗證。\n\n範例二（Clear — 承諾句本身含第三方查證機制）：\n承諾句：自 2005 年起陸續展開溫室氣體盤查作業，並通過第三方 ISO 14064 查證，2024 年溫室氣體相較前一年度下降 3.2%。\nlabel：Clear\n理由：承諾句本身就有第三方查證（ISO 14064）與量化進展（3.2%下降）。\n\n範例三（Not Clear — 承諾句純模糊動詞，同頁內容有數字也不算）：\n承諾句：在與供應商攜手邁向永續發展的過程中，台泥致力於建立一套以合作為基礎的價值體系，推動供應鏈的低碳轉型。\n同頁內容：…2024 年供應商稽核 312 家，減碳 18%，導入 ISO 14064…\nlabel：Not Clear\n理由：承諾句本身只有「致力」、「推動」等模糊動詞，無量化錨點。同頁內容雖有數字與 ISO，但那不屬於這句承諾，依規定不計入，故維持 Not Clear。\n\n範例四（Not Clear — 僅概略時間框架）：\n承諾句：大立光規劃評估「內部碳定價」機制，面對氣候變遷議題對環境管理各項訂定短中長期指標。\nlabel：Not Clear\n理由：承諾句只有「短中長期」框架，無具名年份、無量化目標數字。\n\n範例五（Not Clear — 抽象願景包裝為確定成果）：\n承諾句：統一企業致力於穩健經營，確保公司財務穩定與持續成長，維持高標準的財務透明度與公司治理。\nlabel：Not Clear\n理由：承諾句把抽象願景包裝為確定承諾，但無任何量化標準或可驗證條件。\n\n═══════════════════════════════════════════════\n重要提醒\n═══════════════════════════════════════════════\n- 判斷主體只有「承諾句」；同頁內容只用來理解承諾的指涉與背景。\n- 出現在同頁內容（非承諾句）的數字／年份／方法／查證，一律不算量化錨點。\n- 只輸出 Clear 或 Not Clear，絕不輸出 Misleading。\n- 不要輸出 N/A（N/A 只適用於非承諾句，由上游系統決定）。\n- 不要解釋，不要使用 markdown，不要輸出多個 label。\n\nDATA:\n承諾句：運用最新仿生薄膜AeroSHARK技術，達到節油減碳目的。亞洲第一家引進最新仿生薄膜AeroSHARK技術的航空公司，仿生薄膜黏貼至波音777F貨機外層上，具有自清潔、抗附著及減阻效果的特性，可優化飛機表面相關區域空氣動力的效能，可降低1%燃油消耗。經由此項技術引進，可優化氣流減少阻力，進而達到節能減碳目的。以長榮航空9架777F貨機營運狀況計算，每年預期可節省至少2,500噸航空燃油，減少超過7,800噸碳排放量。\n\n同頁內容：\n04 打造企業韌性 78 亞洲第一家引進最新仿生薄膜AeroSHARK技術的航空公司 ， 仿生薄膜黏貼至波音 777F貨機外層上 ， 具有自清潔 、 抗附著及減阻效果的特性， 可優化飛機表面相關區 域空氣動力學的效能 ， 可降低1%燃油消耗 。 Highlights 成果 經由此項技術引進 ， 可優化氣流減少阻力 ， 進而達到節能減碳目的 。 目標 首架貨機黏貼AeroSHARK是由長榮航太施作 ， 漢莎技術公司特別派遣工程師前來 台灣技術交流 ， 將有助於未來在提供航機維修的同時 ， 可增加此項服務項目 ， 以利未 來將此技術拓展至777F全機隊 ， 擴大運用科技節油 。 內容 以長榮航空9架777F貨機營運狀況計算 ， 每年預期可節省至少2,500噸航空燃油 ， 減 少超過7,800噸碳排放量 。 績效 運用最新仿生薄膜AeroSHARK技術 ， 達到節油減碳目的 。 與供應商共同成長 安衛家族 由長榮航空擔任核心企業 ， 邀集航空系統公司及相關承攬商等共19家公司(包含5家關鍵供應商)組成 家族成員 ， 更是國內航空業界首創 。 以 「安衛守護始於心 職安落實要用心」 作為職安衛指引 ， 建構全面性 的風險管控機制 ， 積極落實各項職場安全及健康保健措施 ， 以確保員工福祉 ， 並將職安衛相關推行經驗 與家族成員相互交流 。 安衛家族2024年度共主辦4場職安衛相關主題講座 ， 並於2024年10月獲桃園市 政府 「推行職業安全衛生優良家族」 和 「母性健康守護聯盟模範事業單位」 雙項肯定 。 01 關於長榮航空 前言 02 03 04 實踐永續管理 創新飛航體驗 打造企業韌性 附錄 05 06 07 搭造幸福職場 領航淨零行動 邁向社會共融 2024 長榮航空永續報告書 SustainabilityReport EVA Air 風險與機會管理 飛航安全 資訊安全與隱私保護 永續供應鏈管理 01 關於長榮航空 前言 02 03 04 05 實踐永續管理 創新飛航體驗 打造企業韌性 搭造幸福職場 附錄 06 07 領航淨零行動 邁向社會共融 2024 長榮航空永續報告書 SustainabilityReport EVA Air 人才吸引與留任 人才發展與培育 勞資關係與人權維護 工作安全與健康管理 搭建幸福職場 79 搭建幸福職場 Workplace Safety 05 CHAPTER Build a Happy Workplace 人才吸引與留任 人才發展與培育 勞資關係與人權維護 工作安全與健康管理\n\n只輸出 Clear 或 Not Clear。不要解釋，不要使用 markdown。'",
+    "events": [
+      {
+        "thread_id": "019ed0ca-c4af-7d62-a4cc-4ee59ad0d18f",
+        "type": "thread.started"
+      },
+      {
+        "type": "turn.started"
+      },
+      {
+        "message": "Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f5e287c4a33-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f648f876a9e-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f6cd9f64a52-TPE)",
+        "type": "error"
+      },
+      {
+        "message": "Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f7a2ebf6e87-TPE)",
+        "type": "error"
+      },
+      {
+        "item": {
+          "id": "item_0",
+          "text": "Clear",
+          "type": "agent_message"
+        },
+        "type": "item.completed"
+      },
+      {
+        "type": "turn.completed",
+        "usage": {
+          "cached_input_tokens": 14208,
+          "input_tokens": 17066,
+          "output_tokens": 41,
+          "reasoning_output_tokens": 34
+        }
+      }
+    ],
+    "raw_stderr": "Reading additional input from stdin...\n2026-06-16T14:16:53.836910Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:54.531878Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:55.330331Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:56.329781Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:57.728886Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:16:59.868122Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n2026-06-16T14:17:03.591250Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 403 Forbidden, url: wss://chatgpt.com/backend-api/codex/responses\n",
+    "raw_stdout": "{\"type\":\"thread.started\",\"thread_id\":\"019ed0ca-c4af-7d62-a4cc-4ee59ad0d18f\"}\n{\"type\":\"turn.started\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 2/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f5e287c4a33-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 3/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f648f876a9e-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 4/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f6cd9f64a52-TPE)\"}\n{\"type\":\"error\",\"message\":\"Reconnecting... 5/5 (unexpected status 403 Forbidden: Unknown error, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a0ca6f7a2ebf6e87-TPE)\"}\n{\"type\":\"item.completed\",\"item\":{\"id\":\"item_0\",\"type\":\"agent_message\",\"text\":\"Clear\"}}\n{\"type\":\"turn.completed\",\"usage\":{\"input_tokens\":17066,\"cached_input_tokens\":14208,\"output_tokens\":41,\"reasoning_output_tokens\":34}}\n",
+    "returncode": 0
+  },
+  "raw_prediction": "Clear",
+  "run_id": "ab_scoped_06"
+}

@@ -1,0 +1,45 @@
+{
+  "ranking": [
+    {
+      "method": "m6_data_only",
+      "gtgated_2cls_macro_f1": 0.6927,
+      "full_coverage_macro_f1": 0.3513,
+      "f1_clear": 0.7683,
+      "f1_not_clear": 0.2857,
+      "n_2cls": 397,
+      "missing_pred": 0
+    },
+    {
+      "method": "m6_context_image",
+      "gtgated_2cls_macro_f1": 0.677,
+      "full_coverage_macro_f1": 0.3482,
+      "f1_clear": 0.752,
+      "f1_not_clear": 0.2927,
+      "n_2cls": 397,
+      "missing_pred": 0
+    },
+    {
+      "method": "m6_add_image",
+      "gtgated_2cls_macro_f1": 0.6596,
+      "full_coverage_macro_f1": 0.3373,
+      "f1_clear": 0.7592,
+      "f1_not_clear": 0.2527,
+      "n_2cls": 397,
+      "missing_pred": 0
+    },
+    {
+      "method": "m6_add_context",
+      "gtgated_2cls_macro_f1": 0.658,
+      "full_coverage_macro_f1": 0.3415,
+      "f1_clear": 0.7325,
+      "f1_not_clear": 0.2921,
+      "n_2cls": 397,
+      "missing_pred": 0
+    }
+  ],
+  "top3": [
+    "m6_data_only",
+    "m6_context_image",
+    "m6_add_image"
+  ]
+}

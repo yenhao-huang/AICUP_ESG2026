@@ -1,0 +1,5 @@
+Stage1 No ids      : 406
+Stage2 non-Yes ids : 657
+Gated ids (union)  : 657
+Patched rows       : 657
+Output             : /workspace/esg_contest/exp/integrated_stage_predictions/0618/submission_13/stage3/softvote_gated.csv

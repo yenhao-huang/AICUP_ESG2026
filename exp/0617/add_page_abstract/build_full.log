@@ -1,0 +1,27 @@
+rows=600  matched=600  miss=0  unique_pages=551  -> 551 LLM calls
+  [25/551] 22s
+  [50/551] 42s
+  [75/551] 64s
+  [100/551] 85s
+  [125/551] 106s
+  [150/551] 126s
+  [175/551] 147s
+  [200/551] 168s
+  [225/551] 189s
+  [250/551] 212s
+  [275/551] 232s
+  [300/551] 253s
+  [325/551] 274s
+  [350/551] 296s
+  [375/551] 316s
+  [400/551] 337s
+  [425/551] 357s
+  [450/551] 377s
+  [475/551] 397s
+  [500/551] 417s
+  [525/551] 437s
+  [550/551] 457s
+  [551/551] 458s
+unique pages: 551  empty abstracts: 0
+page abstracts -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/add_page_abstract/page_abstracts.jsonl
+rows joined    -> /workspace/esg_contest/exp/integrated_stage_predictions/0617/add_page_abstract/val_with_page_abstract.jsonl

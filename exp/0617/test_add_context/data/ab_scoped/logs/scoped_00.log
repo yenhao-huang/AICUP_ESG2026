@@ -1,0 +1,25 @@
+[1/13] 11003 -> Clear
+[2/13] 11022 -> Clear
+[3/13] 11056 -> Clear
+[4/13] 11079 -> Clear
+[5/13] 11101 -> Clear
+[6/13] 11122 -> Clear
+[7/13] 11136 -> Clear
+[8/13] 11155 -> Clear
+[9/13] 11169 -> Clear
+[10/13] 11185 -> Clear
+[11/13] 11195 -> Clear
+[12/13] 11210 -> Not Clear
+[13/13] 11237 -> Clear
+{
+  "output": "/workspace/esg_contest/exp/integrated_stage_predictions/0616/test_add_context/stage3/data/ab_scoped/out_scoped/shard_00.csv",
+  "rows": 13,
+  "filtered_rows": 0,
+  "predicted_rows": 13,
+  "resumed_rows": 0,
+  "errors": 0,
+  "flow": "filter_pred_by_codex",
+  "model": "gpt-5.5",
+  "token_usage_output": "/workspace/esg_contest/exp/integrated_stage_predictions/0616/test_add_context/stage3/data/ab_scoped/out_scoped/usage_00.jsonl",
+  "raw_output_dir": "/workspace/esg_contest/exp/integrated_stage_predictions/0616/test_add_context/stage3/data/ab_scoped/raw_scoped/shard_00"
+}
