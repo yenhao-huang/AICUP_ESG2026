@@ -31,7 +31,7 @@ bash scripts/data/dowanload_data_model.sh
 ```
 
 The helper uses `gdown`, which is included in `requirements.txt`. It downloads
-the shared Google Drive folder, rebuilds the split zip shards
+the shared Google Drive folder (https://drive.google.com/drive/folders/16rutragKIhpiCORINme9-vNvRR8Z3nOt), rebuilds the split zip shards
 (`aicup_esg2026_submit_artifacts.zip.part-*`) when present, extracts the
 archive, and moves the restored artifacts into `data/` and `models/`. It
 refuses to run if either `data/` or `models/` already exists, so existing local
@@ -40,25 +40,15 @@ artifacts are never overwritten.
 Successful downloads are cached under
 `${XDG_CACHE_HOME:-$HOME/.cache}/aicup_esg2026/download_data_model/`, keyed by
 the Google Drive folder URL. Re-running the helper reuses the cached download
-and only repeats extraction/install. To force a fresh Google Drive download:
-
-```bash
-REFRESH_CACHE=1 bash scripts/data/dowanload_data_model.sh
-```
-
-Expected artifact sizes after following symlinks:
-
-```bash
-find -L data -type f | wc -l        # 8181
-du -shL data                        # ~7.7G
-du -shL models/submission           # ~17G
-```
+and only repeats extraction/install.
 
 Stage 3/4 GPT fallback prediction also requires an API key in the environment:
 
 ```bash
 export OPENAI_API_KEY="<your-api-key>"
 ```
+
+Note: In our submission, we use GPT-5.5-codex-max to predict them.
 
 ## Directory
 
